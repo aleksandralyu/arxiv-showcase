@@ -1,0 +1,5278 @@
+{
+  "fullData": [
+    {
+      "clusterId": 24,
+      "purity": 0.6638888888888889,
+      "entropy": 1.3984479428617191,
+      "dominantCategory": "quant-ph",
+      "nCategories": 74,
+      "size": 12600,
+      "topTerms": [
+        "entanglement",
+        "quantum",
+        "states",
+        "entropy",
+        "state",
+        "systems",
+        "non",
+        "information",
+        "local",
+        "field"
+      ]
+    },
+    {
+      "clusterId": 10,
+      "purity": 0.6070336391437309,
+      "entropy": 1.9560270467257743,
+      "dominantCategory": "cs.CV",
+      "nCategories": 137,
+      "size": 20274,
+      "topTerms": [
+        "object",
+        "objects",
+        "detection",
+        "image",
+        "based",
+        "method",
+        "dataset",
+        "images",
+        "segmentation",
+        "model"
+      ]
+    },
+    {
+      "clusterId": 12,
+      "purity": 0.6005067327127281,
+      "entropy": 2.0146154534709293,
+      "dominantCategory": "quant-ph",
+      "nCategories": 150,
+      "size": 70254,
+      "topTerms": [
+        "quantum",
+        "classical",
+        "states",
+        "state",
+        "systems",
+        "theory",
+        "time",
+        "information",
+        "non",
+        "measurement"
+      ]
+    },
+    {
+      "clusterId": 17,
+      "purity": 0.5896782646673461,
+      "entropy": 1.3842425349931353,
+      "dominantCategory": "hep-ph",
+      "nCategories": 35,
+      "size": 13738,
+      "topTerms": [
+        "quark",
+        "heavy",
+        "mass",
+        "masses",
+        "lattice",
+        "model",
+        "light",
+        "production",
+        "results",
+        "bar"
+      ]
+    },
+    {
+      "clusterId": 20,
+      "purity": 0.5835356688634524,
+      "entropy": 1.9678178418897576,
+      "dominantCategory": "cs.IT",
+      "nCategories": 121,
+      "size": 8649,
+      "topTerms": [
+        "codes",
+        "code",
+        "error",
+        "linear",
+        "distance",
+        "quantum",
+        "binary",
+        "length",
+        "construction",
+        "paper"
+      ]
+    },
+    {
+      "clusterId": 4,
+      "purity": 0.5595628415300546,
+      "entropy": 1.4818445404545317,
+      "dominantCategory": "cond-mat.mes-hall",
+      "nCategories": 59,
+      "size": 10980,
+      "topTerms": [
+        "graphene",
+        "electronic",
+        "electron",
+        "layer",
+        "energy",
+        "properties",
+        "band",
+        "transport",
+        "states",
+        "materials"
+      ]
+    },
+    {
+      "clusterId": 11,
+      "purity": 0.5531810671913788,
+      "entropy": 1.9027245114274476,
+      "dominantCategory": "cs.CV",
+      "nCategories": 143,
+      "size": 120447,
+      "topTerms": [
+        "image",
+        "images",
+        "training",
+        "model",
+        "methods",
+        "segmentation",
+        "based",
+        "method",
+        "neural",
+        "models"
+      ]
+    },
+    {
+      "clusterId": 6,
+      "purity": 0.5259420455846981,
+      "entropy": 2.0469454873712727,
+      "dominantCategory": "quant-ph",
+      "nCategories": 65,
+      "size": 8731,
+      "topTerms": [
+        "photon",
+        "quantum",
+        "single",
+        "optical",
+        "states",
+        "state",
+        "light",
+        "emission",
+        "mode",
+        "high"
+      ]
+    },
+    {
+      "clusterId": 1,
+      "purity": 0.5188857587664023,
+      "entropy": 1.9673507000747037,
+      "dominantCategory": "cs.CL",
+      "nCategories": 122,
+      "size": 53956,
+      "topTerms": [
+        "language",
+        "llms",
+        "models",
+        "language models",
+        "tasks",
+        "reasoning",
+        "large",
+        "model",
+        "performance",
+        "knowledge"
+      ]
+    },
+    {
+      "clusterId": 5,
+      "purity": 0.5178879648517182,
+      "entropy": 1.7383491374587061,
+      "dominantCategory": "hep-ph",
+      "nCategories": 37,
+      "size": 12746,
+      "topTerms": [
+        "neutrino",
+        "mass",
+        "nu",
+        "energy",
+        "masses",
+        "detector",
+        "model",
+        "decay",
+        "experiments",
+        "physics"
+      ]
+    },
+    {
+      "clusterId": 26,
+      "purity": 0.4924189948433772,
+      "entropy": 2.146684440491704,
+      "dominantCategory": "astro-ph.SR",
+      "nCategories": 90,
+      "size": 12993,
+      "topTerms": [
+        "solar",
+        "magnetic",
+        "observations",
+        "observed",
+        "flux",
+        "activity",
+        "energy",
+        "data",
+        "plasma",
+        "field"
+      ]
+    },
+    {
+      "clusterId": 16,
+      "purity": 0.48429972067562754,
+      "entropy": 2.0861922699928623,
+      "dominantCategory": "hep-ph",
+      "nCategories": 135,
+      "size": 53343,
+      "topTerms": [
+        "higgs",
+        "production",
+        "collisions",
+        "mass",
+        "model",
+        "gev",
+        "energy",
+        "decay",
+        "cross",
+        "bar"
+      ]
+    },
+    {
+      "clusterId": 18,
+      "purity": 0.4605131366052855,
+      "entropy": 1.7445360204284015,
+      "dominantCategory": "gr-qc",
+      "nCategories": 108,
+      "size": 25958,
+      "topTerms": [
+        "black",
+        "black hole",
+        "hole",
+        "holes",
+        "mass",
+        "gravitational",
+        "gravity",
+        "scalar",
+        "solutions",
+        "accretion"
+      ]
+    },
+    {
+      "clusterId": 36,
+      "purity": 0.37193089300596194,
+      "entropy": 2.606671845405252,
+      "dominantCategory": "cs.LG",
+      "nCategories": 136,
+      "size": 62396,
+      "topTerms": [
+        "learning",
+        "deep",
+        "deep learning",
+        "training",
+        "data",
+        "model",
+        "tasks",
+        "based",
+        "performance",
+        "task"
+      ]
+    },
+    {
+      "clusterId": 22,
+      "purity": 0.36802709709793424,
+      "entropy": 2.0452115592019373,
+      "dominantCategory": "hep-ph",
+      "nCategories": 81,
+      "size": 23914,
+      "topTerms": [
+        "dark",
+        "dark matter",
+        "matter",
+        "mass",
+        "energy",
+        "model",
+        "universe",
+        "cosmological",
+        "scalar",
+        "density"
+      ]
+    },
+    {
+      "clusterId": 33,
+      "purity": 0.36441981665201556,
+      "entropy": 1.781836265775629,
+      "dominantCategory": "astro-ph.GA",
+      "nCategories": 105,
+      "size": 63704,
+      "topTerms": [
+        "stars",
+        "galaxies",
+        "star",
+        "mass",
+        "stellar",
+        "galaxy",
+        "formation",
+        "cluster",
+        "clusters",
+        "gas"
+      ]
+    },
+    {
+      "clusterId": 44,
+      "purity": 0.3390257690676968,
+      "entropy": 2.946266958801359,
+      "dominantCategory": "math.CO",
+      "nCategories": 141,
+      "size": 42454,
+      "topTerms": [
+        "graph",
+        "graphs",
+        "number",
+        "edge",
+        "problem",
+        "connected",
+        "set",
+        "paper",
+        "degree",
+        "prove"
+      ]
+    },
+    {
+      "clusterId": 14,
+      "purity": 0.3276443930189953,
+      "entropy": 1.713757489152126,
+      "dominantCategory": "eess.AS",
+      "nCategories": 50,
+      "size": 10371,
+      "topTerms": [
+        "speech",
+        "recognition",
+        "model",
+        "models",
+        "language",
+        "training",
+        "text",
+        "data",
+        "based",
+        "end"
+      ]
+    },
+    {
+      "clusterId": 2,
+      "purity": 0.3152294783663567,
+      "entropy": 3.335706590649374,
+      "dominantCategory": "cs.LG",
+      "nCategories": 149,
+      "size": 39568,
+      "topTerms": [
+        "machine",
+        "machine learning",
+        "learning",
+        "data",
+        "models",
+        "model",
+        "based",
+        "methods",
+        "performance",
+        "training"
+      ]
+    },
+    {
+      "clusterId": 42,
+      "purity": 0.31302675490695175,
+      "entropy": 2.788848946868775,
+      "dominantCategory": "cs.CL",
+      "nCategories": 146,
+      "size": 17679,
+      "topTerms": [
+        "text",
+        "image",
+        "models",
+        "language",
+        "model",
+        "generation",
+        "based",
+        "data",
+        "task",
+        "images"
+      ]
+    },
+    {
+      "clusterId": 38,
+      "purity": 0.27784562336122987,
+      "entropy": 2.0693734151986987,
+      "dominantCategory": "astro-ph.HE",
+      "nCategories": 106,
+      "size": 55682,
+      "topTerms": [
+        "emission",
+        "ray",
+        "radio",
+        "observations",
+        "dust",
+        "gas",
+        "disk",
+        "line",
+        "sources",
+        "observed"
+      ]
+    },
+    {
+      "clusterId": 47,
+      "purity": 0.2706875191918764,
+      "entropy": 3.1672473429446066,
+      "dominantCategory": "math.AP",
+      "nCategories": 153,
+      "size": 94441,
+      "topTerms": [
+        "equations",
+        "equation",
+        "solutions",
+        "solution",
+        "differential",
+        "nonlinear",
+        "time",
+        "boundary",
+        "method",
+        "existence"
+      ]
+    },
+    {
+      "clusterId": 40,
+      "purity": 0.2507438719123412,
+      "entropy": 3.400981502755274,
+      "dominantCategory": "astro-ph.HE",
+      "nCategories": 137,
+      "size": 21173,
+      "topTerms": [
+        "gamma",
+        "ray",
+        "energy",
+        "emission",
+        "gev",
+        "high",
+        "fermi",
+        "data",
+        "sources",
+        "alpha"
+      ]
+    },
+    {
+      "clusterId": 13,
+      "purity": 0.24694276025074505,
+      "entropy": 3.3196374389944174,
+      "dominantCategory": "hep-ph",
+      "nCategories": 134,
+      "size": 9731,
+      "topTerms": [
+        "pi",
+        "decay",
+        "bar",
+        "sigma",
+        "gamma",
+        "pm",
+        "mass",
+        "data",
+        "gev",
+        "phi"
+      ]
+    },
+    {
+      "clusterId": 37,
+      "purity": 0.24521511532798954,
+      "entropy": 3.5556782421411577,
+      "dominantCategory": "math.AP",
+      "nCategories": 126,
+      "size": 12226,
+      "topTerms": [
+        "omega",
+        "mathbb",
+        "delta",
+        "partial",
+        "bounded",
+        "infty",
+        "frac",
+        "prove",
+        "boundary",
+        "subset"
+      ]
+    },
+    {
+      "clusterId": 41,
+      "purity": 0.23893163389549493,
+      "entropy": 2.6391296321096216,
+      "dominantCategory": "cond-mat.mes-hall",
+      "nCategories": 115,
+      "size": 38601,
+      "topTerms": [
+        "spin",
+        "magnetic",
+        "quantum",
+        "orbit",
+        "coupling",
+        "states",
+        "field",
+        "state",
+        "phase",
+        "electron"
+      ]
+    },
+    {
+      "clusterId": 19,
+      "purity": 0.23117769770529112,
+      "entropy": 3.399862861551358,
+      "dominantCategory": "cs.CV",
+      "nCategories": 145,
+      "size": 15819,
+      "topTerms": [
+        "domain",
+        "domains",
+        "target",
+        "data",
+        "source",
+        "model",
+        "learning",
+        "training",
+        "performance",
+        "method"
+      ]
+    },
+    {
+      "clusterId": 48,
+      "purity": 0.2295910780669145,
+      "entropy": 3.63820831722661,
+      "dominantCategory": "hep-ph",
+      "nCategories": 134,
+      "size": 6725,
+      "topTerms": [
+        "tau",
+        "nu",
+        "mu",
+        "time",
+        "decay",
+        "model",
+        "function",
+        "sigma",
+        "higgs",
+        "alpha"
+      ]
+    },
+    {
+      "clusterId": 32,
+      "purity": 0.22314294169872742,
+      "entropy": 2.666965193920991,
+      "dominantCategory": "math.RA",
+      "nCategories": 65,
+      "size": 10137,
+      "topTerms": [
+        "algebras",
+        "lie",
+        "algebra",
+        "finite",
+        "theory",
+        "dimensional",
+        "groups",
+        "prove",
+        "paper",
+        "type"
+      ]
+    },
+    {
+      "clusterId": 0,
+      "purity": 0.2123610559745931,
+      "entropy": 3.3837415933362887,
+      "dominantCategory": "math.GR",
+      "nCategories": 151,
+      "size": 40304,
+      "topTerms": [
+        "group",
+        "groups",
+        "finite",
+        "prove",
+        "lie",
+        "let",
+        "theory",
+        "action",
+        "class",
+        "representations"
+      ]
+    },
+    {
+      "clusterId": 30,
+      "purity": 0.21074529667149058,
+      "entropy": 2.7470486441132076,
+      "dominantCategory": "cs.AI",
+      "nCategories": 116,
+      "size": 11056,
+      "topTerms": [
+        "ai",
+        "human",
+        "research",
+        "systems",
+        "models",
+        "generative",
+        "data",
+        "challenges",
+        "learning",
+        "development"
+      ]
+    },
+    {
+      "clusterId": 35,
+      "purity": 0.19158195355795057,
+      "entropy": 3.1727847488919827,
+      "dominantCategory": "math.OC",
+      "nCategories": 147,
+      "size": 29413,
+      "topTerms": [
+        "control",
+        "optimal",
+        "systems",
+        "time",
+        "problem",
+        "based",
+        "model",
+        "proposed",
+        "paper",
+        "state"
+      ]
+    },
+    {
+      "clusterId": 7,
+      "purity": 0.18867775762832137,
+      "entropy": 3.262745294318611,
+      "dominantCategory": "astro-ph.GA",
+      "nCategories": 120,
+      "size": 12683,
+      "topTerms": [
+        "rm",
+        "sim",
+        "mass",
+        "pm",
+        "times",
+        "sigma",
+        "star",
+        "galaxies",
+        "alpha",
+        "model"
+      ]
+    },
+    {
+      "clusterId": 3,
+      "purity": 0.17547530246520512,
+      "entropy": 3.727385161555109,
+      "dominantCategory": "hep-ph",
+      "nCategories": 137,
+      "size": 10993,
+      "topTerms": [
+        "mu",
+        "nu",
+        "measure",
+        "model",
+        "delta",
+        "mathbb",
+        "alpha",
+        "sigma",
+        "frac",
+        "mass"
+      ]
+    },
+    {
+      "clusterId": 23,
+      "purity": 0.16630737115131936,
+      "entropy": 3.3041188779460744,
+      "dominantCategory": "cond-mat.mtrl-sci",
+      "nCategories": 144,
+      "size": 175807,
+      "topTerms": [
+        "temperature",
+        "optical",
+        "electron",
+        "energy",
+        "surface",
+        "high",
+        "laser",
+        "frequency",
+        "light",
+        "materials"
+      ]
+    },
+    {
+      "clusterId": 31,
+      "purity": 0.1563551997088527,
+      "entropy": 3.797825934972102,
+      "dominantCategory": "cs.LG",
+      "nCategories": 153,
+      "size": 65946,
+      "topTerms": [
+        "data",
+        "model",
+        "models",
+        "based",
+        "analysis",
+        "method",
+        "using",
+        "methods",
+        "privacy",
+        "time"
+      ]
+    },
+    {
+      "clusterId": 39,
+      "purity": 0.15558258331306252,
+      "entropy": 3.0368479095169745,
+      "dominantCategory": "math.RT",
+      "nCategories": 116,
+      "size": 20555,
+      "topTerms": [
+        "algebra",
+        "lie",
+        "algebras",
+        "group",
+        "finite",
+        "theory",
+        "dimensional",
+        "prove",
+        "space",
+        "structure"
+      ]
+    },
+    {
+      "clusterId": 29,
+      "purity": 0.14437352504804485,
+      "entropy": 3.6251671900297007,
+      "dominantCategory": "math.OC",
+      "nCategories": 153,
+      "size": 100427,
+      "topTerms": [
+        "algorithm",
+        "problem",
+        "algorithms",
+        "optimization",
+        "problems",
+        "optimal",
+        "method",
+        "time",
+        "proposed",
+        "based"
+      ]
+    },
+    {
+      "clusterId": 21,
+      "purity": 0.14278407725080428,
+      "entropy": 3.4781559747069415,
+      "dominantCategory": "hep-th",
+      "nCategories": 153,
+      "size": 195519,
+      "topTerms": [
+        "theory",
+        "phase",
+        "field",
+        "model",
+        "energy",
+        "non",
+        "dynamics",
+        "states",
+        "transition",
+        "symmetry"
+      ]
+    },
+    {
+      "clusterId": 9,
+      "purity": 0.13325605944569785,
+      "entropy": 3.05487229921326,
+      "dominantCategory": "cond-mat.str-el",
+      "nCategories": 104,
+      "size": 48313,
+      "topTerms": [
+        "magnetic",
+        "field",
+        "magnetic field",
+        "fields",
+        "temperature",
+        "spin",
+        "phase",
+        "effect",
+        "energy",
+        "transition"
+      ]
+    },
+    {
+      "clusterId": 15,
+      "purity": 0.13141894478903438,
+      "entropy": 3.589888170088358,
+      "dominantCategory": "cs.NI",
+      "nCategories": 149,
+      "size": 65295,
+      "topTerms": [
+        "network",
+        "networks",
+        "neural",
+        "nodes",
+        "communication",
+        "based",
+        "model",
+        "neural network",
+        "performance",
+        "neural networks"
+      ]
+    },
+    {
+      "clusterId": 46,
+      "purity": 0.128455451649368,
+      "entropy": 3.232690815051374,
+      "dominantCategory": "hep-ex",
+      "nCategories": 134,
+      "size": 9731,
+      "topTerms": [
+        "pm",
+        "mass",
+        "rm",
+        "times",
+        "data",
+        "star",
+        "using",
+        "sigma",
+        "sim",
+        "measured"
+      ]
+    },
+    {
+      "clusterId": 43,
+      "purity": 0.12798634812286688,
+      "entropy": 3.2104408699221842,
+      "dominantCategory": "math.NT",
+      "nCategories": 102,
+      "size": 26956,
+      "topTerms": [
+        "mathbb",
+        "prove",
+        "let",
+        "infty",
+        "times",
+        "space",
+        "frac",
+        "geq",
+        "group",
+        "alpha"
+      ]
+    },
+    {
+      "clusterId": 49,
+      "purity": 0.1228732361651472,
+      "entropy": 3.7723849728455394,
+      "dominantCategory": "quant-ph",
+      "nCategories": 135,
+      "size": 17221,
+      "topTerms": [
+        "noise",
+        "signal",
+        "frequency",
+        "quantum",
+        "gaussian",
+        "model",
+        "time",
+        "data",
+        "stochastic",
+        "method"
+      ]
+    },
+    {
+      "clusterId": 28,
+      "purity": 0.10303030303030303,
+      "entropy": 3.6860413028854357,
+      "dominantCategory": "math.CO",
+      "nCategories": 132,
+      "size": 18150,
+      "topTerms": [
+        "mathcal",
+        "mathbb",
+        "let",
+        "space",
+        "set",
+        "prove",
+        "algebra",
+        "infty",
+        "group",
+        "finite"
+      ]
+    },
+    {
+      "clusterId": 25,
+      "purity": 0.08087878577864024,
+      "entropy": 3.8359306053706677,
+      "dominantCategory": "hep-ph",
+      "nCategories": 134,
+      "size": 14429,
+      "topTerms": [
+        "lambda",
+        "mathbb",
+        "sigma",
+        "model",
+        "alpha",
+        "frac",
+        "mu",
+        "delta",
+        "infty",
+        "prove"
+      ]
+    },
+    {
+      "clusterId": 45,
+      "purity": 0.07713882725703916,
+      "entropy": 3.7697681571807378,
+      "dominantCategory": "math.AG",
+      "nCategories": 153,
+      "size": 247437,
+      "topTerms": [
+        "prove",
+        "space",
+        "paper",
+        "theorem",
+        "spaces",
+        "result",
+        "number",
+        "proof",
+        "set",
+        "case"
+      ]
+    },
+    {
+      "clusterId": 8,
+      "purity": 0.07678646308675169,
+      "entropy": 3.908045370158702,
+      "dominantCategory": "math.NT",
+      "nCategories": 153,
+      "size": 40541,
+      "topTerms": [
+        "functions",
+        "function",
+        "paper",
+        "results",
+        "space",
+        "theory",
+        "prove",
+        "class",
+        "new",
+        "spaces"
+      ]
+    },
+    {
+      "clusterId": 27,
+      "purity": 0.07291881842594505,
+      "entropy": 3.9201633122246875,
+      "dominantCategory": "astro-ph.GA",
+      "nCategories": 117,
+      "size": 9682,
+      "topTerms": [
+        "mathrm",
+        "mathbb",
+        "mass",
+        "times",
+        "pm",
+        "sim",
+        "sigma",
+        "group",
+        "alpha",
+        "using"
+      ]
+    },
+    {
+      "clusterId": 34,
+      "purity": 0.04727256852230476,
+      "entropy": 4.288348753291574,
+      "dominantCategory": "cs.LG",
+      "nCategories": 153,
+      "size": 274874,
+      "topTerms": [
+        "model",
+        "based",
+        "time",
+        "paper",
+        "method",
+        "systems",
+        "models",
+        "approach",
+        "information",
+        "using"
+      ]
+    }
+  ],
+  "previewData": [
+    {
+      "clusterId": 24,
+      "purity": 0.6638888888888889,
+      "entropy": 1.3984479428617191,
+      "dominantCategory": "quant-ph",
+      "nCategories": 74,
+      "size": 12600,
+      "topTerms": [
+        "entanglement",
+        "quantum",
+        "states",
+        "entropy",
+        "state",
+        "systems",
+        "non",
+        "information",
+        "local",
+        "field"
+      ]
+    },
+    {
+      "clusterId": 10,
+      "purity": 0.6070336391437309,
+      "entropy": 1.9560270467257743,
+      "dominantCategory": "cs.CV",
+      "nCategories": 137,
+      "size": 20274,
+      "topTerms": [
+        "object",
+        "objects",
+        "detection",
+        "image",
+        "based",
+        "method",
+        "dataset",
+        "images",
+        "segmentation",
+        "model"
+      ]
+    },
+    {
+      "clusterId": 12,
+      "purity": 0.6005067327127281,
+      "entropy": 2.0146154534709293,
+      "dominantCategory": "quant-ph",
+      "nCategories": 150,
+      "size": 70254,
+      "topTerms": [
+        "quantum",
+        "classical",
+        "states",
+        "state",
+        "systems",
+        "theory",
+        "time",
+        "information",
+        "non",
+        "measurement"
+      ]
+    },
+    {
+      "clusterId": 17,
+      "purity": 0.5896782646673461,
+      "entropy": 1.3842425349931353,
+      "dominantCategory": "hep-ph",
+      "nCategories": 35,
+      "size": 13738,
+      "topTerms": [
+        "quark",
+        "heavy",
+        "mass",
+        "masses",
+        "lattice",
+        "model",
+        "light",
+        "production",
+        "results",
+        "bar"
+      ]
+    },
+    {
+      "clusterId": 20,
+      "purity": 0.5835356688634524,
+      "entropy": 1.9678178418897576,
+      "dominantCategory": "cs.IT",
+      "nCategories": 121,
+      "size": 8649,
+      "topTerms": [
+        "codes",
+        "code",
+        "error",
+        "linear",
+        "distance",
+        "quantum",
+        "binary",
+        "length",
+        "construction",
+        "paper"
+      ]
+    },
+    {
+      "clusterId": 4,
+      "purity": 0.5595628415300546,
+      "entropy": 1.4818445404545317,
+      "dominantCategory": "cond-mat.mes-hall",
+      "nCategories": 59,
+      "size": 10980,
+      "topTerms": [
+        "graphene",
+        "electronic",
+        "electron",
+        "layer",
+        "energy",
+        "properties",
+        "band",
+        "transport",
+        "states",
+        "materials"
+      ]
+    },
+    {
+      "clusterId": 11,
+      "purity": 0.5531810671913788,
+      "entropy": 1.9027245114274476,
+      "dominantCategory": "cs.CV",
+      "nCategories": 143,
+      "size": 120447,
+      "topTerms": [
+        "image",
+        "images",
+        "training",
+        "model",
+        "methods",
+        "segmentation",
+        "based",
+        "method",
+        "neural",
+        "models"
+      ]
+    },
+    {
+      "clusterId": 6,
+      "purity": 0.5259420455846981,
+      "entropy": 2.0469454873712727,
+      "dominantCategory": "quant-ph",
+      "nCategories": 65,
+      "size": 8731,
+      "topTerms": [
+        "photon",
+        "quantum",
+        "single",
+        "optical",
+        "states",
+        "state",
+        "light",
+        "emission",
+        "mode",
+        "high"
+      ]
+    }
+  ],
+  "misalignedClusters": [
+    {
+      "clusterId": 34,
+      "purity": 0.04727256852230476,
+      "entropy": 4.288348753291574,
+      "dominantCategory": "cs.LG",
+      "nCategories": 153,
+      "size": 274874,
+      "topTerms": [
+        "model",
+        "based",
+        "time",
+        "paper",
+        "method",
+        "systems",
+        "models",
+        "approach",
+        "information",
+        "using"
+      ]
+    },
+    {
+      "clusterId": 27,
+      "purity": 0.07291881842594505,
+      "entropy": 3.9201633122246875,
+      "dominantCategory": "astro-ph.GA",
+      "nCategories": 117,
+      "size": 9682,
+      "topTerms": [
+        "mathrm",
+        "mathbb",
+        "mass",
+        "times",
+        "pm",
+        "sim",
+        "sigma",
+        "group",
+        "alpha",
+        "using"
+      ]
+    },
+    {
+      "clusterId": 8,
+      "purity": 0.07678646308675169,
+      "entropy": 3.908045370158702,
+      "dominantCategory": "math.NT",
+      "nCategories": 153,
+      "size": 40541,
+      "topTerms": [
+        "functions",
+        "function",
+        "paper",
+        "results",
+        "space",
+        "theory",
+        "prove",
+        "class",
+        "new",
+        "spaces"
+      ]
+    },
+    {
+      "clusterId": 45,
+      "purity": 0.07713882725703916,
+      "entropy": 3.7697681571807378,
+      "dominantCategory": "math.AG",
+      "nCategories": 153,
+      "size": 247437,
+      "topTerms": [
+        "prove",
+        "space",
+        "paper",
+        "theorem",
+        "spaces",
+        "result",
+        "number",
+        "proof",
+        "set",
+        "case"
+      ]
+    },
+    {
+      "clusterId": 25,
+      "purity": 0.08087878577864024,
+      "entropy": 3.8359306053706677,
+      "dominantCategory": "hep-ph",
+      "nCategories": 134,
+      "size": 14429,
+      "topTerms": [
+        "lambda",
+        "mathbb",
+        "sigma",
+        "model",
+        "alpha",
+        "frac",
+        "mu",
+        "delta",
+        "infty",
+        "prove"
+      ]
+    },
+    {
+      "clusterId": 28,
+      "purity": 0.10303030303030303,
+      "entropy": 3.6860413028854357,
+      "dominantCategory": "math.CO",
+      "nCategories": 132,
+      "size": 18150,
+      "topTerms": [
+        "mathcal",
+        "mathbb",
+        "let",
+        "space",
+        "set",
+        "prove",
+        "algebra",
+        "infty",
+        "group",
+        "finite"
+      ]
+    },
+    {
+      "clusterId": 49,
+      "purity": 0.1228732361651472,
+      "entropy": 3.7723849728455394,
+      "dominantCategory": "quant-ph",
+      "nCategories": 135,
+      "size": 17221,
+      "topTerms": [
+        "noise",
+        "signal",
+        "frequency",
+        "quantum",
+        "gaussian",
+        "model",
+        "time",
+        "data",
+        "stochastic",
+        "method"
+      ]
+    },
+    {
+      "clusterId": 43,
+      "purity": 0.12798634812286688,
+      "entropy": 3.2104408699221842,
+      "dominantCategory": "math.NT",
+      "nCategories": 102,
+      "size": 26956,
+      "topTerms": [
+        "mathbb",
+        "prove",
+        "let",
+        "infty",
+        "times",
+        "space",
+        "frac",
+        "geq",
+        "group",
+        "alpha"
+      ]
+    },
+    {
+      "clusterId": 46,
+      "purity": 0.128455451649368,
+      "entropy": 3.232690815051374,
+      "dominantCategory": "hep-ex",
+      "nCategories": 134,
+      "size": 9731,
+      "topTerms": [
+        "pm",
+        "mass",
+        "rm",
+        "times",
+        "data",
+        "star",
+        "using",
+        "sigma",
+        "sim",
+        "measured"
+      ]
+    },
+    {
+      "clusterId": 15,
+      "purity": 0.13141894478903438,
+      "entropy": 3.589888170088358,
+      "dominantCategory": "cs.NI",
+      "nCategories": 149,
+      "size": 65295,
+      "topTerms": [
+        "network",
+        "networks",
+        "neural",
+        "nodes",
+        "communication",
+        "based",
+        "model",
+        "neural network",
+        "performance",
+        "neural networks"
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "metric": "NMI",
+      "score500": 0.32424402253378143,
+      "score300": 0.3207401827762293
+    },
+    {
+      "metric": "ARI",
+      "score500": 0.09019147599618647,
+      "score300": 0.07901638876482905
+    },
+    {
+      "metric": "V-measure",
+      "score500": 0.32424402253378143,
+      "score300": 0.32074018277622923
+    },
+    {
+      "metric": "Homogeneity",
+      "score500": 0.2864085882433995,
+      "score300": 0.28412056940836017
+    },
+    {
+      "metric": "Completeness",
+      "score500": 0.3735973545953151,
+      "score300": 0.36819608627133993
+    }
+  ],
+  "purityDistribution": [
+    {
+      "range": "0.1-0.2",
+      "count": 14
+    },
+    {
+      "range": "0.2-0.3",
+      "count": 11
+    },
+    {
+      "range": "0.3-0.4",
+      "count": 7
+    },
+    {
+      "range": "0.4-0.5",
+      "count": 3
+    },
+    {
+      "range": "0.5-0.6",
+      "count": 7
+    },
+    {
+      "range": "0.6-0.7",
+      "count": 3
+    },
+    {
+      "range": "0.7-0.8",
+      "count": 0
+    }
+  ],
+  "categoryData": [
+    {
+      "category": "econ.GN",
+      "dominance": 0.6636144578313253,
+      "nClustersSpanned": 35,
+      "size": 4150
+    },
+    {
+      "category": "math.MG",
+      "dominance": 0.6538722826086957,
+      "nClustersSpanned": 40,
+      "size": 5888
+    },
+    {
+      "category": "econ.EM",
+      "dominance": 0.6500485594043379,
+      "nClustersSpanned": 32,
+      "size": 3089
+    },
+    {
+      "category": "cs.DL",
+      "dominance": 0.6479224376731302,
+      "nClustersSpanned": 35,
+      "size": 3610
+    },
+    {
+      "category": "math.DG",
+      "dominance": 0.6382792922773179,
+      "nClustersSpanned": 44,
+      "size": 26338
+    },
+    {
+      "category": "math.GR",
+      "dominance": 0.6322671197458817,
+      "nClustersSpanned": 37,
+      "size": 13537
+    },
+    {
+      "category": "cs.OS",
+      "dominance": 0.6292947558770343,
+      "nClustersSpanned": 24,
+      "size": 553
+    },
+    {
+      "category": "cs.GL",
+      "dominance": 0.6276595744680851,
+      "nClustersSpanned": 15,
+      "size": 94
+    },
+    {
+      "category": "physics.optics",
+      "dominance": 0.6243661422441815,
+      "nClustersSpanned": 47,
+      "size": 30764
+    },
+    {
+      "category": "nlin.SI",
+      "dominance": 0.6205664710385302,
+      "nClustersSpanned": 35,
+      "size": 3919
+    },
+    {
+      "category": "math.SG",
+      "dominance": 0.6196550909520435,
+      "nClustersSpanned": 35,
+      "size": 4233
+    },
+    {
+      "category": "cs.SE",
+      "dominance": 0.607532685618328,
+      "nClustersSpanned": 42,
+      "size": 16674
+    },
+    {
+      "category": "eess.IV",
+      "dominance": 0.6061443066516348,
+      "nClustersSpanned": 41,
+      "size": 17740
+    },
+    {
+      "category": "math.AG",
+      "dominance": 0.5974021909233177,
+      "nClustersSpanned": 41,
+      "size": 31950
+    },
+    {
+      "category": "q-fin.RM",
+      "dominance": 0.5937940761636107,
+      "nClustersSpanned": 28,
+      "size": 1418
+    },
+    {
+      "category": "physics.atm-clus",
+      "dominance": 0.5919003115264797,
+      "nClustersSpanned": 32,
+      "size": 963
+    },
+    {
+      "category": "physics.acc-ph",
+      "dominance": 0.5888034340905026,
+      "nClustersSpanned": 39,
+      "size": 5591
+    },
+    {
+      "category": "q-fin.GN",
+      "dominance": 0.5825602968460112,
+      "nClustersSpanned": 35,
+      "size": 1617
+    },
+    {
+      "category": "math.AC",
+      "dominance": 0.5758642363293526,
+      "nClustersSpanned": 34,
+      "size": 7955
+    },
+    {
+      "category": "stat.AP",
+      "dominance": 0.5689894778638078,
+      "nClustersSpanned": 43,
+      "size": 10074
+    },
+    {
+      "category": "stat.ME",
+      "dominance": 0.5651670378619154,
+      "nClustersSpanned": 38,
+      "size": 22450
+    },
+    {
+      "category": "physics.atom-ph",
+      "dominance": 0.5646625325784129,
+      "nClustersSpanned": 44,
+      "size": 11127
+    },
+    {
+      "category": "math.GN",
+      "dominance": 0.5574619617999352,
+      "nClustersSpanned": 32,
+      "size": 3089
+    },
+    {
+      "category": "q-fin.EC",
+      "dominance": 0.5509138381201044,
+      "nClustersSpanned": 25,
+      "size": 383
+    },
+    {
+      "category": "math.GT",
+      "dominance": 0.5504065040650407,
+      "nClustersSpanned": 41,
+      "size": 13530
+    },
+    {
+      "category": "q-bio.CB",
+      "dominance": 0.5495689655172413,
+      "nClustersSpanned": 31,
+      "size": 928
+    },
+    {
+      "category": "physics.app-ph",
+      "dominance": 0.5433695139216611,
+      "nClustersSpanned": 44,
+      "size": 10595
+    },
+    {
+      "category": "q-fin.ST",
+      "dominance": 0.5346580406654344,
+      "nClustersSpanned": 33,
+      "size": 2164
+    },
+    {
+      "category": "cs.CV",
+      "dominance": 0.532840177536087,
+      "nClustersSpanned": 47,
+      "size": 125045
+    },
+    {
+      "category": "q-bio.PE",
+      "dominance": 0.5321758302328786,
+      "nClustersSpanned": 45,
+      "size": 7257
+    },
+    {
+      "category": "cs.PF",
+      "dominance": 0.5311475409836065,
+      "nClustersSpanned": 32,
+      "size": 1220
+    },
+    {
+      "category": "math.SP",
+      "dominance": 0.5291162365836949,
+      "nClustersSpanned": 36,
+      "size": 4379
+    },
+    {
+      "category": "cond-mat.soft",
+      "dominance": 0.5239647319376541,
+      "nClustersSpanned": 46,
+      "size": 23931
+    },
+    {
+      "category": "math.CT",
+      "dominance": 0.5236913917142149,
+      "nClustersSpanned": 35,
+      "size": 4031
+    },
+    {
+      "category": "q-bio.TO",
+      "dominance": 0.5175064047822374,
+      "nClustersSpanned": 29,
+      "size": 1171
+    },
+    {
+      "category": "math.FA",
+      "dominance": 0.5172149178902133,
+      "nClustersSpanned": 40,
+      "size": 19547
+    },
+    {
+      "category": "cs.HC",
+      "dominance": 0.5130359405214376,
+      "nClustersSpanned": 39,
+      "size": 14997
+    },
+    {
+      "category": "math.NT",
+      "dominance": 0.5129294073235183,
+      "nClustersSpanned": 39,
+      "size": 31788
+    },
+    {
+      "category": "math.GM",
+      "dominance": 0.5110419026047565,
+      "nClustersSpanned": 41,
+      "size": 3532
+    },
+    {
+      "category": "cond-mat.mtrl-sci",
+      "dominance": 0.5085665582438991,
+      "nClustersSpanned": 47,
+      "size": 57491
+    },
+    {
+      "category": "stat.OT",
+      "dominance": 0.5078909612625538,
+      "nClustersSpanned": 24,
+      "size": 697
+    },
+    {
+      "category": "cs.DS",
+      "dominance": 0.5073342223299794,
+      "nClustersSpanned": 39,
+      "size": 16498
+    },
+    {
+      "category": "q-bio.OT",
+      "dominance": 0.4989059080962801,
+      "nClustersSpanned": 35,
+      "size": 914
+    },
+    {
+      "category": "math.AP",
+      "dominance": 0.49881948916076413,
+      "nClustersSpanned": 46,
+      "size": 51249
+    },
+    {
+      "category": "cs.NI",
+      "dominance": 0.49739160677022953,
+      "nClustersSpanned": 44,
+      "size": 17252
+    },
+    {
+      "category": "q-fin.PR",
+      "dominance": 0.49523052464228934,
+      "nClustersSpanned": 28,
+      "size": 1258
+    },
+    {
+      "category": "cs.OH",
+      "dominance": 0.49327354260089684,
+      "nClustersSpanned": 38,
+      "size": 2007
+    },
+    {
+      "category": "cs.AR",
+      "dominance": 0.49274274274274277,
+      "nClustersSpanned": 34,
+      "size": 3996
+    },
+    {
+      "category": "q-bio.GN",
+      "dominance": 0.4921152800435019,
+      "nClustersSpanned": 34,
+      "size": 1839
+    },
+    {
+      "category": "q-fin.TR",
+      "dominance": 0.49032800672834315,
+      "nClustersSpanned": 28,
+      "size": 1189
+    },
+    {
+      "category": "nucl-ex",
+      "dominance": 0.4864293659621802,
+      "nClustersSpanned": 38,
+      "size": 8990
+    },
+    {
+      "category": "physics.plasm-ph",
+      "dominance": 0.47697194282689254,
+      "nClustersSpanned": 44,
+      "size": 11334
+    },
+    {
+      "category": "math.DS",
+      "dominance": 0.4760985681583554,
+      "nClustersSpanned": 46,
+      "size": 22279
+    },
+    {
+      "category": "math.LO",
+      "dominance": 0.475674504279987,
+      "nClustersSpanned": 40,
+      "size": 9229
+    },
+    {
+      "category": "cond-mat.stat-mech",
+      "dominance": 0.4721113388715072,
+      "nClustersSpanned": 48,
+      "size": 27807
+    },
+    {
+      "category": "math.PR",
+      "dominance": 0.47072384794739464,
+      "nClustersSpanned": 44,
+      "size": 38171
+    },
+    {
+      "category": "cond-mat.quant-gas",
+      "dominance": 0.4673785738890803,
+      "nClustersSpanned": 45,
+      "size": 14515
+    },
+    {
+      "category": "econ.TH",
+      "dominance": 0.4631675874769797,
+      "nClustersSpanned": 31,
+      "size": 2172
+    },
+    {
+      "category": "astro-ph.GA",
+      "dominance": 0.45727623699968484,
+      "nClustersSpanned": 46,
+      "size": 50768
+    },
+    {
+      "category": "eess.AS",
+      "dominance": 0.45531287685917193,
+      "nClustersSpanned": 29,
+      "size": 7463
+    },
+    {
+      "category": "physics.ed-ph",
+      "dominance": 0.4520927014873746,
+      "nClustersSpanned": 46,
+      "size": 2891
+    },
+    {
+      "category": "cond-mat.supr-con",
+      "dominance": 0.4520072053525476,
+      "nClustersSpanned": 41,
+      "size": 23316
+    },
+    {
+      "category": "cs.CY",
+      "dominance": 0.4518588383242946,
+      "nClustersSpanned": 39,
+      "size": 12723
+    },
+    {
+      "category": "math.AT",
+      "dominance": 0.44842562432138977,
+      "nClustersSpanned": 38,
+      "size": 8289
+    },
+    {
+      "category": "math.HO",
+      "dominance": 0.4472954230235784,
+      "nClustersSpanned": 40,
+      "size": 2884
+    },
+    {
+      "category": "stat.CO",
+      "dominance": 0.4422300706357215,
+      "nClustersSpanned": 35,
+      "size": 3964
+    },
+    {
+      "category": "cs.MA",
+      "dominance": 0.43603213844252164,
+      "nClustersSpanned": 32,
+      "size": 3236
+    },
+    {
+      "category": "cs.FL",
+      "dominance": 0.42944,
+      "nClustersSpanned": 35,
+      "size": 3125
+    },
+    {
+      "category": "quant-ph",
+      "dominance": 0.42455469457582773,
+      "nClustersSpanned": 50,
+      "size": 99370
+    },
+    {
+      "category": "hep-th",
+      "dominance": 0.42069017480409887,
+      "nClustersSpanned": 49,
+      "size": 66360
+    },
+    {
+      "category": "math.CV",
+      "dominance": 0.4180911680911681,
+      "nClustersSpanned": 37,
+      "size": 9828
+    },
+    {
+      "category": "cs.PL",
+      "dominance": 0.4179863147605083,
+      "nClustersSpanned": 40,
+      "size": 5115
+    },
+    {
+      "category": "cs.CL",
+      "dominance": 0.4171931811408476,
+      "nClustersSpanned": 46,
+      "size": 67108
+    },
+    {
+      "category": "q-bio.SC",
+      "dominance": 0.4166666666666667,
+      "nClustersSpanned": 26,
+      "size": 612
+    },
+    {
+      "category": "math.OC",
+      "dominance": 0.41633883704235464,
+      "nClustersSpanned": 44,
+      "size": 34825
+    },
+    {
+      "category": "hep-lat",
+      "dominance": 0.4132231404958678,
+      "nClustersSpanned": 44,
+      "size": 10648
+    },
+    {
+      "category": "math.CA",
+      "dominance": 0.4073025952512424,
+      "nClustersSpanned": 39,
+      "size": 14488
+    },
+    {
+      "category": "q-fin.PM",
+      "dominance": 0.40420560747663553,
+      "nClustersSpanned": 29,
+      "size": 1284
+    },
+    {
+      "category": "cond-mat.dis-nn",
+      "dominance": 0.40279663317947323,
+      "nClustersSpanned": 43,
+      "size": 7366
+    },
+    {
+      "category": "cs.MS",
+      "dominance": 0.40264650283553877,
+      "nClustersSpanned": 31,
+      "size": 1058
+    },
+    {
+      "category": "nlin.PS",
+      "dominance": 0.3980470993681792,
+      "nClustersSpanned": 40,
+      "size": 3482
+    },
+    {
+      "category": "physics.ins-det",
+      "dominance": 0.39430211395772086,
+      "nClustersSpanned": 46,
+      "size": 14286
+    },
+    {
+      "category": "q-bio.QM",
+      "dominance": 0.39245000934404783,
+      "nClustersSpanned": 44,
+      "size": 5351
+    },
+    {
+      "category": "cs.DM",
+      "dominance": 0.3915421838838628,
+      "nClustersSpanned": 42,
+      "size": 4753
+    },
+    {
+      "category": "physics.soc-ph",
+      "dominance": 0.3880728790432619,
+      "nClustersSpanned": 46,
+      "size": 12459
+    },
+    {
+      "category": "math.CO",
+      "dominance": 0.38246630228861356,
+      "nClustersSpanned": 43,
+      "size": 45923
+    },
+    {
+      "category": "cs.CE",
+      "dominance": 0.3799298860648554,
+      "nClustersSpanned": 41,
+      "size": 4564
+    },
+    {
+      "category": "cs.IR",
+      "dominance": 0.37920268972142174,
+      "nClustersSpanned": 33,
+      "size": 12492
+    },
+    {
+      "category": "cs.MM",
+      "dominance": 0.3773660894079742,
+      "nClustersSpanned": 30,
+      "size": 2483
+    },
+    {
+      "category": "physics.flu-dyn",
+      "dominance": 0.37668669358810203,
+      "nClustersSpanned": 46,
+      "size": 20306
+    },
+    {
+      "category": "nlin.CD",
+      "dominance": 0.3735294117647059,
+      "nClustersSpanned": 45,
+      "size": 4420
+    },
+    {
+      "category": "q-fin.CP",
+      "dominance": 0.3721777130371449,
+      "nClustersSpanned": 34,
+      "size": 1373
+    },
+    {
+      "category": "hep-ex",
+      "dominance": 0.3702354940519544,
+      "nClustersSpanned": 44,
+      "size": 16476
+    },
+    {
+      "category": "cs.SI",
+      "dominance": 0.3698232895333031,
+      "nClustersSpanned": 40,
+      "size": 11035
+    },
+    {
+      "category": "physics.data-an",
+      "dominance": 0.3680203045685279,
+      "nClustersSpanned": 44,
+      "size": 2758
+    },
+    {
+      "category": "cs.NA",
+      "dominance": 0.36663336663336665,
+      "nClustersSpanned": 31,
+      "size": 1001
+    },
+    {
+      "category": "math.ST",
+      "dominance": 0.36553791646794304,
+      "nClustersSpanned": 42,
+      "size": 14677
+    },
+    {
+      "category": "q-bio.MN",
+      "dominance": 0.36515513126491644,
+      "nClustersSpanned": 30,
+      "size": 2095
+    },
+    {
+      "category": "cs.DB",
+      "dominance": 0.36267870579382994,
+      "nClustersSpanned": 40,
+      "size": 6645
+    },
+    {
+      "category": "astro-ph.HE",
+      "dominance": 0.36139596813754116,
+      "nClustersSpanned": 42,
+      "size": 42809
+    },
+    {
+      "category": "physics.chem-ph",
+      "dominance": 0.3590038629078655,
+      "nClustersSpanned": 48,
+      "size": 12167
+    },
+    {
+      "category": "q-fin.MF",
+      "dominance": 0.3568075117370892,
+      "nClustersSpanned": 35,
+      "size": 1704
+    },
+    {
+      "category": "cs.CR",
+      "dominance": 0.35609181871689227,
+      "nClustersSpanned": 47,
+      "size": 27184
+    },
+    {
+      "category": "math.NA",
+      "dominance": 0.3559095678717924,
+      "nClustersSpanned": 47,
+      "size": 31449
+    },
+    {
+      "category": "cs.DC",
+      "dominance": 0.3540044682147451,
+      "nClustersSpanned": 47,
+      "size": 14771
+    },
+    {
+      "category": "q-bio.NC",
+      "dominance": 0.3516133919103166,
+      "nClustersSpanned": 42,
+      "size": 6601
+    },
+    {
+      "category": "math.KT",
+      "dominance": 0.34706959706959706,
+      "nClustersSpanned": 29,
+      "size": 2184
+    },
+    {
+      "category": "cs.SC",
+      "dominance": 0.34022257551669316,
+      "nClustersSpanned": 33,
+      "size": 1258
+    },
+    {
+      "category": "cs.ET",
+      "dominance": 0.3372708757637475,
+      "nClustersSpanned": 40,
+      "size": 2455
+    },
+    {
+      "category": "astro-ph.SR",
+      "dominance": 0.33699905988325063,
+      "nClustersSpanned": 44,
+      "size": 45739
+    },
+    {
+      "category": "eess.SP",
+      "dominance": 0.33617730210016156,
+      "nClustersSpanned": 46,
+      "size": 19808
+    },
+    {
+      "category": "physics.med-ph",
+      "dominance": 0.3337877312560857,
+      "nClustersSpanned": 43,
+      "size": 5135
+    },
+    {
+      "category": "cs.RO",
+      "dominance": 0.3332279681375648,
+      "nClustersSpanned": 45,
+      "size": 31636
+    },
+    {
+      "category": "cs.GR",
+      "dominance": 0.33108315434182267,
+      "nClustersSpanned": 35,
+      "size": 3259
+    },
+    {
+      "category": "cs.CG",
+      "dominance": 0.3294144767173813,
+      "nClustersSpanned": 36,
+      "size": 4338
+    },
+    {
+      "category": "cs.GT",
+      "dominance": 0.32667308618199326,
+      "nClustersSpanned": 38,
+      "size": 8308
+    },
+    {
+      "category": "cs.LO",
+      "dominance": 0.3250139690817657,
+      "nClustersSpanned": 39,
+      "size": 10738
+    },
+    {
+      "category": "q-bio.BM",
+      "dominance": 0.32336578581363007,
+      "nClustersSpanned": 40,
+      "size": 2876
+    },
+    {
+      "category": "cs.CC",
+      "dominance": 0.316374269005848,
+      "nClustersSpanned": 39,
+      "size": 5130
+    },
+    {
+      "category": "nlin.AO",
+      "dominance": 0.314214463840399,
+      "nClustersSpanned": 40,
+      "size": 2406
+    },
+    {
+      "category": "cs.IT",
+      "dominance": 0.3118182809773124,
+      "nClustersSpanned": 47,
+      "size": 36672
+    },
+    {
+      "category": "cs.SD",
+      "dominance": 0.30472103004291845,
+      "nClustersSpanned": 36,
+      "size": 8155
+    },
+    {
+      "category": "eess.SY",
+      "dominance": 0.30200776109330185,
+      "nClustersSpanned": 44,
+      "size": 17781
+    },
+    {
+      "category": "hep-ph",
+      "dominance": 0.3011552405488267,
+      "nClustersSpanned": 49,
+      "size": 85783
+    },
+    {
+      "category": "math.QA",
+      "dominance": 0.29975510204081635,
+      "nClustersSpanned": 34,
+      "size": 6125
+    },
+    {
+      "category": "cond-mat.other",
+      "dominance": 0.2989992677568953,
+      "nClustersSpanned": 42,
+      "size": 4097
+    },
+    {
+      "category": "physics.pop-ph",
+      "dominance": 0.2979397781299525,
+      "nClustersSpanned": 44,
+      "size": 1262
+    },
+    {
+      "category": "physics.space-ph",
+      "dominance": 0.29675699689027096,
+      "nClustersSpanned": 38,
+      "size": 2251
+    },
+    {
+      "category": "physics.ao-ph",
+      "dominance": 0.29596412556053814,
+      "nClustersSpanned": 43,
+      "size": 3791
+    },
+    {
+      "category": "cs.SY",
+      "dominance": 0.2952803549818475,
+      "nClustersSpanned": 38,
+      "size": 4958
+    },
+    {
+      "category": "physics.geo-ph",
+      "dominance": 0.29369768586903006,
+      "nClustersSpanned": 41,
+      "size": 4062
+    },
+    {
+      "category": "cond-mat.mes-hall",
+      "dominance": 0.28890983125589004,
+      "nClustersSpanned": 47,
+      "size": 56239
+    },
+    {
+      "category": "gr-qc",
+      "dominance": 0.2883113305920082,
+      "nClustersSpanned": 49,
+      "size": 50827
+    },
+    {
+      "category": "nucl-th",
+      "dominance": 0.2850437765141258,
+      "nClustersSpanned": 46,
+      "size": 22158
+    },
+    {
+      "category": "math.RA",
+      "dominance": 0.28358352578906854,
+      "nClustersSpanned": 38,
+      "size": 10392
+    },
+    {
+      "category": "cs.NE",
+      "dominance": 0.2794476035743298,
+      "nClustersSpanned": 42,
+      "size": 7386
+    },
+    {
+      "category": "nlin.CG",
+      "dominance": 0.2777777777777778,
+      "nClustersSpanned": 25,
+      "size": 450
+    },
+    {
+      "category": "astro-ph",
+      "dominance": 0.27537615090949924,
+      "nClustersSpanned": 42,
+      "size": 17812
+    },
+    {
+      "category": "physics.gen-ph",
+      "dominance": 0.2712882096069869,
+      "nClustersSpanned": 48,
+      "size": 7328
+    },
+    {
+      "category": "cond-mat.str-el",
+      "dominance": 0.2592783638098677,
+      "nClustersSpanned": 47,
+      "size": 38773
+    },
+    {
+      "category": "physics.bio-ph",
+      "dominance": 0.25490527740189445,
+      "nClustersSpanned": 45,
+      "size": 5912
+    },
+    {
+      "category": "cs.AI",
+      "dominance": 0.2514630316871253,
+      "nClustersSpanned": 45,
+      "size": 28024
+    },
+    {
+      "category": "physics.class-ph",
+      "dominance": 0.2513291445142581,
+      "nClustersSpanned": 46,
+      "size": 4138
+    },
+    {
+      "category": "math-ph",
+      "dominance": 0.2481527324556468,
+      "nClustersSpanned": 49,
+      "size": 26661
+    },
+    {
+      "category": "physics.hist-ph",
+      "dominance": 0.234890558640967,
+      "nClustersSpanned": 44,
+      "size": 3061
+    },
+    {
+      "category": "math.OA",
+      "dominance": 0.22691140338199162,
+      "nClustersSpanned": 33,
+      "size": 6919
+    },
+    {
+      "category": "stat.ML",
+      "dominance": 0.22186152945559046,
+      "nClustersSpanned": 43,
+      "size": 18791
+    },
+    {
+      "category": "math.RT",
+      "dominance": 0.2204604991038191,
+      "nClustersSpanned": 38,
+      "size": 14506
+    },
+    {
+      "category": "physics.comp-ph",
+      "dominance": 0.21881700088283515,
+      "nClustersSpanned": 49,
+      "size": 7929
+    },
+    {
+      "category": "astro-ph.CO",
+      "dominance": 0.2179285395475581,
+      "nClustersSpanned": 47,
+      "size": 42569
+    },
+    {
+      "category": "cs.LG",
+      "dominance": 0.21002000018099712,
+      "nClustersSpanned": 48,
+      "size": 110499
+    },
+    {
+      "category": "astro-ph.IM",
+      "dominance": 0.2076306046894282,
+      "nClustersSpanned": 46,
+      "size": 19448
+    },
+    {
+      "category": "astro-ph.EP",
+      "dominance": 0.18688524590163935,
+      "nClustersSpanned": 43,
+      "size": 24400
+    }
+  ],
+  "scatterData": [
+    {
+      "clusterId": 0,
+      "x": 40304,
+      "y": 0.2123610559745931,
+      "category": "math.GR"
+    },
+    {
+      "clusterId": 1,
+      "x": 53956,
+      "y": 0.5188857587664023,
+      "category": "cs.CL"
+    },
+    {
+      "clusterId": 2,
+      "x": 39568,
+      "y": 0.3152294783663567,
+      "category": "cs.LG"
+    },
+    {
+      "clusterId": 3,
+      "x": 10993,
+      "y": 0.17547530246520512,
+      "category": "hep-ph"
+    },
+    {
+      "clusterId": 4,
+      "x": 10980,
+      "y": 0.5595628415300546,
+      "category": "cond-mat.mes-hall"
+    },
+    {
+      "clusterId": 5,
+      "x": 12746,
+      "y": 0.5178879648517182,
+      "category": "hep-ph"
+    },
+    {
+      "clusterId": 6,
+      "x": 8731,
+      "y": 0.5259420455846981,
+      "category": "quant-ph"
+    },
+    {
+      "clusterId": 7,
+      "x": 12683,
+      "y": 0.18867775762832137,
+      "category": "astro-ph.GA"
+    },
+    {
+      "clusterId": 8,
+      "x": 40541,
+      "y": 0.07678646308675169,
+      "category": "math.NT"
+    },
+    {
+      "clusterId": 9,
+      "x": 48313,
+      "y": 0.13325605944569785,
+      "category": "cond-mat.str-el"
+    },
+    {
+      "clusterId": 10,
+      "x": 20274,
+      "y": 0.6070336391437309,
+      "category": "cs.CV"
+    },
+    {
+      "clusterId": 11,
+      "x": 120447,
+      "y": 0.5531810671913788,
+      "category": "cs.CV"
+    },
+    {
+      "clusterId": 12,
+      "x": 70254,
+      "y": 0.6005067327127281,
+      "category": "quant-ph"
+    },
+    {
+      "clusterId": 13,
+      "x": 9731,
+      "y": 0.24694276025074505,
+      "category": "hep-ph"
+    },
+    {
+      "clusterId": 14,
+      "x": 10371,
+      "y": 0.3276443930189953,
+      "category": "eess.AS"
+    },
+    {
+      "clusterId": 15,
+      "x": 65295,
+      "y": 0.13141894478903438,
+      "category": "cs.NI"
+    },
+    {
+      "clusterId": 16,
+      "x": 53343,
+      "y": 0.48429972067562754,
+      "category": "hep-ph"
+    },
+    {
+      "clusterId": 17,
+      "x": 13738,
+      "y": 0.5896782646673461,
+      "category": "hep-ph"
+    },
+    {
+      "clusterId": 18,
+      "x": 25958,
+      "y": 0.4605131366052855,
+      "category": "gr-qc"
+    },
+    {
+      "clusterId": 19,
+      "x": 15819,
+      "y": 0.23117769770529112,
+      "category": "cs.CV"
+    },
+    {
+      "clusterId": 20,
+      "x": 8649,
+      "y": 0.5835356688634524,
+      "category": "cs.IT"
+    },
+    {
+      "clusterId": 21,
+      "x": 195519,
+      "y": 0.14278407725080428,
+      "category": "hep-th"
+    },
+    {
+      "clusterId": 22,
+      "x": 23914,
+      "y": 0.36802709709793424,
+      "category": "hep-ph"
+    },
+    {
+      "clusterId": 23,
+      "x": 175807,
+      "y": 0.16630737115131936,
+      "category": "cond-mat.mtrl-sci"
+    },
+    {
+      "clusterId": 24,
+      "x": 12600,
+      "y": 0.6638888888888889,
+      "category": "quant-ph"
+    },
+    {
+      "clusterId": 25,
+      "x": 14429,
+      "y": 0.08087878577864024,
+      "category": "hep-ph"
+    },
+    {
+      "clusterId": 26,
+      "x": 12993,
+      "y": 0.4924189948433772,
+      "category": "astro-ph.SR"
+    },
+    {
+      "clusterId": 27,
+      "x": 9682,
+      "y": 0.07291881842594505,
+      "category": "astro-ph.GA"
+    },
+    {
+      "clusterId": 28,
+      "x": 18150,
+      "y": 0.10303030303030303,
+      "category": "math.CO"
+    },
+    {
+      "clusterId": 29,
+      "x": 100427,
+      "y": 0.14437352504804485,
+      "category": "math.OC"
+    },
+    {
+      "clusterId": 30,
+      "x": 11056,
+      "y": 0.21074529667149058,
+      "category": "cs.AI"
+    },
+    {
+      "clusterId": 31,
+      "x": 65946,
+      "y": 0.1563551997088527,
+      "category": "cs.LG"
+    },
+    {
+      "clusterId": 32,
+      "x": 10137,
+      "y": 0.22314294169872742,
+      "category": "math.RA"
+    },
+    {
+      "clusterId": 33,
+      "x": 63704,
+      "y": 0.36441981665201556,
+      "category": "astro-ph.GA"
+    },
+    {
+      "clusterId": 34,
+      "x": 274874,
+      "y": 0.04727256852230476,
+      "category": "cs.LG"
+    },
+    {
+      "clusterId": 35,
+      "x": 29413,
+      "y": 0.19158195355795057,
+      "category": "math.OC"
+    },
+    {
+      "clusterId": 36,
+      "x": 62396,
+      "y": 0.37193089300596194,
+      "category": "cs.LG"
+    },
+    {
+      "clusterId": 37,
+      "x": 12226,
+      "y": 0.24521511532798954,
+      "category": "math.AP"
+    },
+    {
+      "clusterId": 38,
+      "x": 55682,
+      "y": 0.27784562336122987,
+      "category": "astro-ph.HE"
+    },
+    {
+      "clusterId": 39,
+      "x": 20555,
+      "y": 0.15558258331306252,
+      "category": "math.RT"
+    },
+    {
+      "clusterId": 40,
+      "x": 21173,
+      "y": 0.2507438719123412,
+      "category": "astro-ph.HE"
+    },
+    {
+      "clusterId": 41,
+      "x": 38601,
+      "y": 0.23893163389549493,
+      "category": "cond-mat.mes-hall"
+    },
+    {
+      "clusterId": 42,
+      "x": 17679,
+      "y": 0.31302675490695175,
+      "category": "cs.CL"
+    },
+    {
+      "clusterId": 43,
+      "x": 26956,
+      "y": 0.12798634812286688,
+      "category": "math.NT"
+    },
+    {
+      "clusterId": 44,
+      "x": 42454,
+      "y": 0.3390257690676968,
+      "category": "math.CO"
+    },
+    {
+      "clusterId": 45,
+      "x": 247437,
+      "y": 0.07713882725703916,
+      "category": "math.AG"
+    },
+    {
+      "clusterId": 46,
+      "x": 9731,
+      "y": 0.128455451649368,
+      "category": "hep-ex"
+    },
+    {
+      "clusterId": 47,
+      "x": 94441,
+      "y": 0.2706875191918764,
+      "category": "math.AP"
+    },
+    {
+      "clusterId": 48,
+      "x": 6725,
+      "y": 0.2295910780669145,
+      "category": "hep-ph"
+    },
+    {
+      "clusterId": 49,
+      "x": 17221,
+      "y": 0.1228732361651472,
+      "category": "quant-ph"
+    }
+  ],
+  "comparison": {
+    "fullData": [
+      {
+        "clusterId": 0,
+        "purity": 0.7212335936870924,
+        "entropy": 1.3936519935911815,
+        "dominantCategory": "cs.CV",
+        "nCategories": 79,
+        "size": 12419,
+        "topTerms": [
+          "video",
+          "temporal",
+          "visual",
+          "quality",
+          "motion",
+          "model",
+          "based",
+          "models",
+          "dataset",
+          "propose"
+        ]
+      },
+      {
+        "clusterId": 12,
+        "purity": 0.6602167804094741,
+        "entropy": 1.4074935690589425,
+        "dominantCategory": "quant-ph",
+        "nCategories": 74,
+        "size": 12455,
+        "topTerms": [
+          "entanglement",
+          "quantum",
+          "states",
+          "entropy",
+          "state",
+          "systems",
+          "non",
+          "photon",
+          "information",
+          "field"
+        ]
+      },
+      {
+        "clusterId": 6,
+        "purity": 0.6547101304712125,
+        "entropy": 1.5939079147679378,
+        "dominantCategory": "cs.CV",
+        "nCategories": 143,
+        "size": 50126,
+        "topTerms": [
+          "image",
+          "images",
+          "segmentation",
+          "method",
+          "methods",
+          "based",
+          "model",
+          "quality",
+          "training",
+          "learning"
+        ]
+      },
+      {
+        "clusterId": 5,
+        "purity": 0.6045349626612355,
+        "entropy": 2.0004095457948186,
+        "dominantCategory": "quant-ph",
+        "nCategories": 148,
+        "size": 73650,
+        "topTerms": [
+          "quantum",
+          "classical",
+          "states",
+          "state",
+          "systems",
+          "theory",
+          "time",
+          "information",
+          "non",
+          "photon"
+        ]
+      },
+      {
+        "clusterId": 29,
+        "purity": 0.5687142010665613,
+        "entropy": 1.0832744461217885,
+        "dominantCategory": "astro-ph.GA",
+        "nCategories": 21,
+        "size": 25315,
+        "topTerms": [
+          "galaxies",
+          "galaxy",
+          "star",
+          "mass",
+          "stellar",
+          "formation",
+          "redshift",
+          "gas",
+          "sample",
+          "cluster"
+        ]
+      },
+      {
+        "clusterId": 30,
+        "purity": 0.5621318114874816,
+        "entropy": 1.464478738471945,
+        "dominantCategory": "cond-mat.mes-hall",
+        "nCategories": 58,
+        "size": 10864,
+        "topTerms": [
+          "graphene",
+          "electronic",
+          "electron",
+          "layer",
+          "energy",
+          "properties",
+          "band",
+          "transport",
+          "devices",
+          "materials"
+        ]
+      },
+      {
+        "clusterId": 1,
+        "purity": 0.559268337418505,
+        "entropy": 1.738051110913199,
+        "dominantCategory": "hep-ph",
+        "nCategories": 129,
+        "size": 59973,
+        "topTerms": [
+          "quark",
+          "higgs",
+          "mass",
+          "production",
+          "collisions",
+          "heavy",
+          "bar",
+          "model",
+          "gev",
+          "decay"
+        ]
+      },
+      {
+        "clusterId": 26,
+        "purity": 0.5535644518532024,
+        "entropy": 1.8798817869835525,
+        "dominantCategory": "cs.CL",
+        "nCategories": 104,
+        "size": 38393,
+        "topTerms": [
+          "llms",
+          "language",
+          "models",
+          "language models",
+          "reasoning",
+          "tasks",
+          "large",
+          "performance",
+          "model",
+          "knowledge"
+        ]
+      },
+      {
+        "clusterId": 16,
+        "purity": 0.5103917464114832,
+        "entropy": 1.7682558162531277,
+        "dominantCategory": "hep-ph",
+        "nCategories": 37,
+        "size": 13376,
+        "topTerms": [
+          "neutrino",
+          "mass",
+          "nu",
+          "energy",
+          "detector",
+          "masses",
+          "model",
+          "decay",
+          "physics",
+          "experiments"
+        ]
+      },
+      {
+        "clusterId": 9,
+        "purity": 0.47420323636200634,
+        "entropy": 2.349445698695853,
+        "dominantCategory": "cs.IT",
+        "nCategories": 127,
+        "size": 22309,
+        "topTerms": [
+          "channel",
+          "channels",
+          "communication",
+          "capacity",
+          "rate",
+          "information",
+          "multiple",
+          "performance",
+          "proposed",
+          "transmission"
+        ]
+      },
+      {
+        "clusterId": 34,
+        "purity": 0.46660102402520676,
+        "entropy": 1.7191030454700316,
+        "dominantCategory": "gr-qc",
+        "nCategories": 107,
+        "size": 25390,
+        "topTerms": [
+          "black",
+          "black hole",
+          "hole",
+          "holes",
+          "mass",
+          "gravitational",
+          "gravity",
+          "scalar",
+          "solutions",
+          "field"
+        ]
+      },
+      {
+        "clusterId": 4,
+        "purity": 0.4457158549981692,
+        "entropy": 2.6543246847877353,
+        "dominantCategory": "astro-ph.HE",
+        "nCategories": 136,
+        "size": 32772,
+        "topTerms": [
+          "ray",
+          "gamma",
+          "emission",
+          "energy",
+          "radio",
+          "sources",
+          "observations",
+          "high",
+          "cosmic",
+          "source"
+        ]
+      },
+      {
+        "clusterId": 22,
+        "purity": 0.43221428766860925,
+        "entropy": 1.8056145265811134,
+        "dominantCategory": "astro-ph.SR",
+        "nCategories": 86,
+        "size": 36549,
+        "topTerms": [
+          "stars",
+          "star",
+          "stellar",
+          "mass",
+          "binary",
+          "cluster",
+          "neutron",
+          "clusters",
+          "evolution",
+          "massive"
+        ]
+      },
+      {
+        "clusterId": 24,
+        "purity": 0.37059648543849516,
+        "entropy": 2.0427509304082845,
+        "dominantCategory": "hep-ph",
+        "nCategories": 82,
+        "size": 24242,
+        "topTerms": [
+          "dark",
+          "dark matter",
+          "matter",
+          "mass",
+          "energy",
+          "model",
+          "universe",
+          "cosmological",
+          "scalar",
+          "particles"
+        ]
+      },
+      {
+        "clusterId": 10,
+        "purity": 0.3626453888980762,
+        "entropy": 2.895590157074024,
+        "dominantCategory": "cs.LG",
+        "nCategories": 146,
+        "size": 72564,
+        "topTerms": [
+          "learning",
+          "machine",
+          "machine learning",
+          "deep",
+          "data",
+          "deep learning",
+          "model",
+          "models",
+          "training",
+          "based"
+        ]
+      },
+      {
+        "clusterId": 19,
+        "purity": 0.3488852303485225,
+        "entropy": 2.275815692834732,
+        "dominantCategory": "astro-ph.GA",
+        "nCategories": 117,
+        "size": 35837,
+        "topTerms": [
+          "gas",
+          "emission",
+          "dust",
+          "line",
+          "observations",
+          "radio",
+          "lines",
+          "star",
+          "molecular",
+          "mass"
+        ]
+      },
+      {
+        "clusterId": 42,
+        "purity": 0.33831744597903346,
+        "entropy": 2.961761628094132,
+        "dominantCategory": "math.CO",
+        "nCategories": 140,
+        "size": 42067,
+        "topTerms": [
+          "graph",
+          "graphs",
+          "number",
+          "edge",
+          "problem",
+          "connected",
+          "set",
+          "paper",
+          "prove",
+          "degree"
+        ]
+      },
+      {
+        "clusterId": 46,
+        "purity": 0.33052260025492697,
+        "entropy": 1.6904888089912025,
+        "dominantCategory": "eess.AS",
+        "nCategories": 52,
+        "size": 10199,
+        "topTerms": [
+          "speech",
+          "recognition",
+          "model",
+          "models",
+          "text",
+          "language",
+          "training",
+          "data",
+          "end",
+          "based"
+        ]
+      },
+      {
+        "clusterId": 39,
+        "purity": 0.3282553777845824,
+        "entropy": 2.5517190100593075,
+        "dominantCategory": "cs.CV",
+        "nCategories": 143,
+        "size": 143693,
+        "topTerms": [
+          "model",
+          "models",
+          "performance",
+          "based",
+          "training",
+          "methods",
+          "task",
+          "dataset",
+          "datasets",
+          "propose"
+        ]
+      },
+      {
+        "clusterId": 38,
+        "purity": 0.3152409046214356,
+        "entropy": 2.8675087509224055,
+        "dominantCategory": "math.NT",
+        "nCategories": 123,
+        "size": 5085,
+        "topTerms": [
+          "numbers",
+          "number",
+          "paper",
+          "sum",
+          "real",
+          "sequence",
+          "prove",
+          "sequences",
+          "natural",
+          "formula"
+        ]
+      },
+      {
+        "clusterId": 32,
+        "purity": 0.2938869468837923,
+        "entropy": 2.021638226148861,
+        "dominantCategory": "cs.CR",
+        "nCategories": 74,
+        "size": 11729,
+        "topTerms": [
+          "attacks",
+          "adversarial",
+          "robustness",
+          "security",
+          "training",
+          "models",
+          "model",
+          "learning",
+          "examples",
+          "based"
+        ]
+      },
+      {
+        "clusterId": 31,
+        "purity": 0.2922026131469424,
+        "entropy": 3.1188473425519283,
+        "dominantCategory": "math.AP",
+        "nCategories": 151,
+        "size": 68959,
+        "topTerms": [
+          "equation",
+          "solutions",
+          "equations",
+          "solution",
+          "differential",
+          "nonlinear",
+          "time",
+          "existence",
+          "boundary",
+          "problem"
+        ]
+      },
+      {
+        "clusterId": 17,
+        "purity": 0.2664402759810263,
+        "entropy": 3.2574383825895112,
+        "dominantCategory": "math.GR",
+        "nCategories": 144,
+        "size": 18552,
+        "topTerms": [
+          "groups",
+          "group",
+          "finite",
+          "prove",
+          "lie",
+          "theory",
+          "class",
+          "paper",
+          "free",
+          "representations"
+        ]
+      },
+      {
+        "clusterId": 45,
+        "purity": 0.24640622357517333,
+        "entropy": 3.267052071456725,
+        "dominantCategory": "hep-ph",
+        "nCategories": 136,
+        "size": 11826,
+        "topTerms": [
+          "pi",
+          "pm",
+          "decay",
+          "gamma",
+          "bar",
+          "sigma",
+          "lambda",
+          "mass",
+          "data",
+          "gev"
+        ]
+      },
+      {
+        "clusterId": 2,
+        "purity": 0.2457474104342868,
+        "entropy": 2.144127617596695,
+        "dominantCategory": "astro-ph.EP",
+        "nCategories": 85,
+        "size": 10523,
+        "topTerms": [
+          "disk",
+          "accretion",
+          "mass",
+          "dust",
+          "gas",
+          "star",
+          "formation",
+          "emission",
+          "observations",
+          "stellar"
+        ]
+      },
+      {
+        "clusterId": 37,
+        "purity": 0.24458821943658174,
+        "entropy": 2.650941098430337,
+        "dominantCategory": "cond-mat.mes-hall",
+        "nCategories": 114,
+        "size": 37095,
+        "topTerms": [
+          "spin",
+          "magnetic",
+          "quantum",
+          "orbit",
+          "coupling",
+          "field",
+          "states",
+          "state",
+          "electron",
+          "interaction"
+        ]
+      },
+      {
+        "clusterId": 23,
+        "purity": 0.241444418220439,
+        "entropy": 3.570684603026052,
+        "dominantCategory": "math.AP",
+        "nCategories": 126,
+        "size": 12711,
+        "topTerms": [
+          "omega",
+          "mathbb",
+          "lambda",
+          "partial",
+          "bounded",
+          "infty",
+          "delta",
+          "frac",
+          "prove",
+          "boundary"
+        ]
+      },
+      {
+        "clusterId": 13,
+        "purity": 0.20527185892725938,
+        "entropy": 2.7559785361372455,
+        "dominantCategory": "cs.AI",
+        "nCategories": 116,
+        "size": 10888,
+        "topTerms": [
+          "ai",
+          "human",
+          "research",
+          "systems",
+          "models",
+          "data",
+          "generative",
+          "challenges",
+          "learning",
+          "development"
+        ]
+      },
+      {
+        "clusterId": 41,
+        "purity": 0.20092905405405406,
+        "entropy": 3.632705867166789,
+        "dominantCategory": "hep-ph",
+        "nCategories": 137,
+        "size": 11840,
+        "topTerms": [
+          "mu",
+          "nu",
+          "lambda",
+          "tau",
+          "measure",
+          "gamma",
+          "model",
+          "mathbb",
+          "sigma",
+          "mass"
+        ]
+      },
+      {
+        "clusterId": 25,
+        "purity": 0.19345741680767062,
+        "entropy": 3.1313465964169396,
+        "dominantCategory": "math.OC",
+        "nCategories": 147,
+        "size": 26595,
+        "topTerms": [
+          "control",
+          "optimal",
+          "systems",
+          "time",
+          "problem",
+          "based",
+          "model",
+          "proposed",
+          "paper",
+          "state"
+        ]
+      },
+      {
+        "clusterId": 44,
+        "purity": 0.18639515577693133,
+        "entropy": 3.279647669489554,
+        "dominantCategory": "math.FA",
+        "nCategories": 128,
+        "size": 20478,
+        "topTerms": [
+          "spaces",
+          "space",
+          "metric",
+          "prove",
+          "functions",
+          "paper",
+          "compact",
+          "theorem",
+          "theory",
+          "results"
+        ]
+      },
+      {
+        "clusterId": 20,
+        "purity": 0.18340636783182168,
+        "entropy": 3.5520706302707357,
+        "dominantCategory": "cs.LG",
+        "nCategories": 149,
+        "size": 68689,
+        "topTerms": [
+          "network",
+          "networks",
+          "neural",
+          "neural networks",
+          "neural network",
+          "model",
+          "based",
+          "deep",
+          "data",
+          "nodes"
+        ]
+      },
+      {
+        "clusterId": 36,
+        "purity": 0.18255769378210535,
+        "entropy": 3.024371056796727,
+        "dominantCategory": "cond-mat.mtrl-sci",
+        "nCategories": 143,
+        "size": 130430,
+        "topTerms": [
+          "temperature",
+          "states",
+          "electron",
+          "energy",
+          "density",
+          "state",
+          "surface",
+          "electronic",
+          "transition",
+          "band"
+        ]
+      },
+      {
+        "clusterId": 43,
+        "purity": 0.18123413705583757,
+        "entropy": 2.827727523567076,
+        "dominantCategory": "math.RA",
+        "nCategories": 99,
+        "size": 25216,
+        "topTerms": [
+          "algebras",
+          "algebra",
+          "lie",
+          "finite",
+          "theory",
+          "dimensional",
+          "prove",
+          "group",
+          "type",
+          "paper"
+        ]
+      },
+      {
+        "clusterId": 18,
+        "purity": 0.17436959782841632,
+        "entropy": 3.2718261229604853,
+        "dominantCategory": "astro-ph.GA",
+        "nCategories": 120,
+        "size": 13999,
+        "topTerms": [
+          "rm",
+          "sim",
+          "pm",
+          "mass",
+          "times",
+          "sigma",
+          "star",
+          "lambda",
+          "model",
+          "energy"
+        ]
+      },
+      {
+        "clusterId": 15,
+        "purity": 0.16233695652173913,
+        "entropy": 3.0649566220127307,
+        "dominantCategory": "cs.AI",
+        "nCategories": 116,
+        "size": 18400,
+        "topTerms": [
+          "agents",
+          "agent",
+          "learning",
+          "multi",
+          "based",
+          "model",
+          "environment",
+          "policy",
+          "problem",
+          "information"
+        ]
+      },
+      {
+        "clusterId": 11,
+        "purity": 0.15230224321133412,
+        "entropy": 3.2827377601172945,
+        "dominantCategory": "math.FA",
+        "nCategories": 139,
+        "size": 24563,
+        "topTerms": [
+          "operators",
+          "operator",
+          "space",
+          "functions",
+          "theory",
+          "differential",
+          "type",
+          "prove",
+          "paper",
+          "order"
+        ]
+      },
+      {
+        "clusterId": 47,
+        "purity": 0.15017100842235315,
+        "entropy": 3.8213882382563815,
+        "dominantCategory": "cs.LG",
+        "nCategories": 153,
+        "size": 66371,
+        "topTerms": [
+          "data",
+          "model",
+          "models",
+          "based",
+          "analysis",
+          "using",
+          "method",
+          "methods",
+          "time",
+          "approach"
+        ]
+      },
+      {
+        "clusterId": 7,
+        "purity": 0.14490036797889327,
+        "entropy": 3.5555005326603437,
+        "dominantCategory": "math.GR",
+        "nCategories": 152,
+        "size": 28806,
+        "topTerms": [
+          "group",
+          "finite",
+          "groups",
+          "let",
+          "prove",
+          "action",
+          "space",
+          "lie",
+          "theory",
+          "field"
+        ]
+      },
+      {
+        "clusterId": 28,
+        "purity": 0.13035333872034086,
+        "entropy": 3.2397774737455243,
+        "dominantCategory": "math.NT",
+        "nCategories": 103,
+        "size": 27226,
+        "topTerms": [
+          "mathbb",
+          "prove",
+          "let",
+          "infty",
+          "times",
+          "space",
+          "geq",
+          "frac",
+          "group",
+          "mathrm"
+        ]
+      },
+      {
+        "clusterId": 40,
+        "purity": 0.12882312080325004,
+        "entropy": 3.0851070958500486,
+        "dominantCategory": "astro-ph.SR",
+        "nCategories": 101,
+        "size": 47507,
+        "topTerms": [
+          "magnetic",
+          "field",
+          "magnetic field",
+          "fields",
+          "temperature",
+          "spin",
+          "effect",
+          "energy",
+          "electric",
+          "flux"
+        ]
+      },
+      {
+        "clusterId": 49,
+        "purity": 0.12136004514672687,
+        "entropy": 3.7299188377027717,
+        "dominantCategory": "math.OC",
+        "nCategories": 153,
+        "size": 141760,
+        "topTerms": [
+          "algorithm",
+          "problem",
+          "method",
+          "problems",
+          "algorithms",
+          "optimization",
+          "optimal",
+          "time",
+          "proposed",
+          "based"
+        ]
+      },
+      {
+        "clusterId": 48,
+        "purity": 0.10989170023396609,
+        "entropy": 3.5192974914089747,
+        "dominantCategory": "cond-mat.str-el",
+        "nCategories": 147,
+        "size": 41459,
+        "topTerms": [
+          "phase",
+          "transition",
+          "phases",
+          "model",
+          "order",
+          "temperature",
+          "transitions",
+          "critical",
+          "quantum",
+          "field"
+        ]
+      },
+      {
+        "clusterId": 33,
+        "purity": 0.10542317443940774,
+        "entropy": 3.581399224451836,
+        "dominantCategory": "cs.CR",
+        "nCategories": 151,
+        "size": 91109,
+        "topTerms": [
+          "user",
+          "users",
+          "research",
+          "software",
+          "systems",
+          "design",
+          "information",
+          "based",
+          "social",
+          "paper"
+        ]
+      },
+      {
+        "clusterId": 21,
+        "purity": 0.10379996709985195,
+        "entropy": 3.6919759128872562,
+        "dominantCategory": "math.CO",
+        "nCategories": 133,
+        "size": 18237,
+        "topTerms": [
+          "mathcal",
+          "mathbb",
+          "let",
+          "set",
+          "space",
+          "prove",
+          "algebra",
+          "infty",
+          "group",
+          "finite"
+        ]
+      },
+      {
+        "clusterId": 35,
+        "purity": 0.09072670530539456,
+        "entropy": 3.9597426072439825,
+        "dominantCategory": "math.CO",
+        "nCategories": 146,
+        "size": 13458,
+        "topTerms": [
+          "delta",
+          "frac",
+          "log",
+          "mathbb",
+          "prove",
+          "function",
+          "sigma",
+          "lambda",
+          "graph",
+          "leq"
+        ]
+      },
+      {
+        "clusterId": 27,
+        "purity": 0.0873106082350735,
+        "entropy": 3.7133262936330174,
+        "dominantCategory": "hep-th",
+        "nCategories": 153,
+        "size": 261297,
+        "topTerms": [
+          "prove",
+          "theory",
+          "functions",
+          "paper",
+          "theorem",
+          "space",
+          "function",
+          "non",
+          "result",
+          "case"
+        ]
+      },
+      {
+        "clusterId": 14,
+        "purity": 0.0799151709512233,
+        "entropy": 3.9159159041027016,
+        "dominantCategory": "math.AP",
+        "nCategories": 148,
+        "size": 19333,
+        "topTerms": [
+          "alpha",
+          "beta",
+          "frac",
+          "mathbb",
+          "function",
+          "gamma",
+          "lambda",
+          "infty",
+          "order",
+          "leq"
+        ]
+      },
+      {
+        "clusterId": 8,
+        "purity": 0.053067459998391894,
+        "entropy": 4.276160586310841,
+        "dominantCategory": "quant-ph",
+        "nCategories": 152,
+        "size": 24874,
+        "topTerms": [
+          "al",
+          "et",
+          "et al",
+          "model",
+          "results",
+          "time",
+          "data",
+          "using",
+          "paper",
+          "based"
+        ]
+      },
+      {
+        "clusterId": 3,
+        "purity": 0.05048978147288356,
+        "entropy": 4.274597052042517,
+        "dominantCategory": "physics.optics",
+        "nCategories": 153,
+        "size": 333414,
+        "topTerms": [
+          "model",
+          "time",
+          "using",
+          "energy",
+          "results",
+          "dynamics",
+          "high",
+          "field",
+          "based",
+          "study"
+        ]
+      }
+    ],
+    "previewData": [
+      {
+        "clusterId": 0,
+        "purity": 0.7212335936870924,
+        "entropy": 1.3936519935911815,
+        "dominantCategory": "cs.CV",
+        "nCategories": 79,
+        "size": 12419,
+        "topTerms": [
+          "video",
+          "temporal",
+          "visual",
+          "quality",
+          "motion",
+          "model",
+          "based",
+          "models",
+          "dataset",
+          "propose"
+        ]
+      },
+      {
+        "clusterId": 12,
+        "purity": 0.6602167804094741,
+        "entropy": 1.4074935690589425,
+        "dominantCategory": "quant-ph",
+        "nCategories": 74,
+        "size": 12455,
+        "topTerms": [
+          "entanglement",
+          "quantum",
+          "states",
+          "entropy",
+          "state",
+          "systems",
+          "non",
+          "photon",
+          "information",
+          "field"
+        ]
+      },
+      {
+        "clusterId": 6,
+        "purity": 0.6547101304712125,
+        "entropy": 1.5939079147679378,
+        "dominantCategory": "cs.CV",
+        "nCategories": 143,
+        "size": 50126,
+        "topTerms": [
+          "image",
+          "images",
+          "segmentation",
+          "method",
+          "methods",
+          "based",
+          "model",
+          "quality",
+          "training",
+          "learning"
+        ]
+      },
+      {
+        "clusterId": 5,
+        "purity": 0.6045349626612355,
+        "entropy": 2.0004095457948186,
+        "dominantCategory": "quant-ph",
+        "nCategories": 148,
+        "size": 73650,
+        "topTerms": [
+          "quantum",
+          "classical",
+          "states",
+          "state",
+          "systems",
+          "theory",
+          "time",
+          "information",
+          "non",
+          "photon"
+        ]
+      },
+      {
+        "clusterId": 29,
+        "purity": 0.5687142010665613,
+        "entropy": 1.0832744461217885,
+        "dominantCategory": "astro-ph.GA",
+        "nCategories": 21,
+        "size": 25315,
+        "topTerms": [
+          "galaxies",
+          "galaxy",
+          "star",
+          "mass",
+          "stellar",
+          "formation",
+          "redshift",
+          "gas",
+          "sample",
+          "cluster"
+        ]
+      },
+      {
+        "clusterId": 30,
+        "purity": 0.5621318114874816,
+        "entropy": 1.464478738471945,
+        "dominantCategory": "cond-mat.mes-hall",
+        "nCategories": 58,
+        "size": 10864,
+        "topTerms": [
+          "graphene",
+          "electronic",
+          "electron",
+          "layer",
+          "energy",
+          "properties",
+          "band",
+          "transport",
+          "devices",
+          "materials"
+        ]
+      },
+      {
+        "clusterId": 1,
+        "purity": 0.559268337418505,
+        "entropy": 1.738051110913199,
+        "dominantCategory": "hep-ph",
+        "nCategories": 129,
+        "size": 59973,
+        "topTerms": [
+          "quark",
+          "higgs",
+          "mass",
+          "production",
+          "collisions",
+          "heavy",
+          "bar",
+          "model",
+          "gev",
+          "decay"
+        ]
+      },
+      {
+        "clusterId": 26,
+        "purity": 0.5535644518532024,
+        "entropy": 1.8798817869835525,
+        "dominantCategory": "cs.CL",
+        "nCategories": 104,
+        "size": 38393,
+        "topTerms": [
+          "llms",
+          "language",
+          "models",
+          "language models",
+          "reasoning",
+          "tasks",
+          "large",
+          "performance",
+          "model",
+          "knowledge"
+        ]
+      }
+    ],
+    "misalignedClusters": [
+      {
+        "clusterId": 3,
+        "purity": 0.05048978147288356,
+        "entropy": 4.274597052042517,
+        "dominantCategory": "physics.optics",
+        "nCategories": 153,
+        "size": 333414,
+        "topTerms": [
+          "model",
+          "time",
+          "using",
+          "energy",
+          "results",
+          "dynamics",
+          "high",
+          "field",
+          "based",
+          "study"
+        ]
+      },
+      {
+        "clusterId": 8,
+        "purity": 0.053067459998391894,
+        "entropy": 4.276160586310841,
+        "dominantCategory": "quant-ph",
+        "nCategories": 152,
+        "size": 24874,
+        "topTerms": [
+          "al",
+          "et",
+          "et al",
+          "model",
+          "results",
+          "time",
+          "data",
+          "using",
+          "paper",
+          "based"
+        ]
+      },
+      {
+        "clusterId": 14,
+        "purity": 0.0799151709512233,
+        "entropy": 3.9159159041027016,
+        "dominantCategory": "math.AP",
+        "nCategories": 148,
+        "size": 19333,
+        "topTerms": [
+          "alpha",
+          "beta",
+          "frac",
+          "mathbb",
+          "function",
+          "gamma",
+          "lambda",
+          "infty",
+          "order",
+          "leq"
+        ]
+      },
+      {
+        "clusterId": 27,
+        "purity": 0.0873106082350735,
+        "entropy": 3.7133262936330174,
+        "dominantCategory": "hep-th",
+        "nCategories": 153,
+        "size": 261297,
+        "topTerms": [
+          "prove",
+          "theory",
+          "functions",
+          "paper",
+          "theorem",
+          "space",
+          "function",
+          "non",
+          "result",
+          "case"
+        ]
+      },
+      {
+        "clusterId": 35,
+        "purity": 0.09072670530539456,
+        "entropy": 3.9597426072439825,
+        "dominantCategory": "math.CO",
+        "nCategories": 146,
+        "size": 13458,
+        "topTerms": [
+          "delta",
+          "frac",
+          "log",
+          "mathbb",
+          "prove",
+          "function",
+          "sigma",
+          "lambda",
+          "graph",
+          "leq"
+        ]
+      },
+      {
+        "clusterId": 21,
+        "purity": 0.10379996709985195,
+        "entropy": 3.6919759128872562,
+        "dominantCategory": "math.CO",
+        "nCategories": 133,
+        "size": 18237,
+        "topTerms": [
+          "mathcal",
+          "mathbb",
+          "let",
+          "set",
+          "space",
+          "prove",
+          "algebra",
+          "infty",
+          "group",
+          "finite"
+        ]
+      },
+      {
+        "clusterId": 33,
+        "purity": 0.10542317443940774,
+        "entropy": 3.581399224451836,
+        "dominantCategory": "cs.CR",
+        "nCategories": 151,
+        "size": 91109,
+        "topTerms": [
+          "user",
+          "users",
+          "research",
+          "software",
+          "systems",
+          "design",
+          "information",
+          "based",
+          "social",
+          "paper"
+        ]
+      },
+      {
+        "clusterId": 48,
+        "purity": 0.10989170023396609,
+        "entropy": 3.5192974914089747,
+        "dominantCategory": "cond-mat.str-el",
+        "nCategories": 147,
+        "size": 41459,
+        "topTerms": [
+          "phase",
+          "transition",
+          "phases",
+          "model",
+          "order",
+          "temperature",
+          "transitions",
+          "critical",
+          "quantum",
+          "field"
+        ]
+      },
+      {
+        "clusterId": 49,
+        "purity": 0.12136004514672687,
+        "entropy": 3.7299188377027717,
+        "dominantCategory": "math.OC",
+        "nCategories": 153,
+        "size": 141760,
+        "topTerms": [
+          "algorithm",
+          "problem",
+          "method",
+          "problems",
+          "algorithms",
+          "optimization",
+          "optimal",
+          "time",
+          "proposed",
+          "based"
+        ]
+      },
+      {
+        "clusterId": 40,
+        "purity": 0.12882312080325004,
+        "entropy": 3.0851070958500486,
+        "dominantCategory": "astro-ph.SR",
+        "nCategories": 101,
+        "size": 47507,
+        "topTerms": [
+          "magnetic",
+          "field",
+          "magnetic field",
+          "fields",
+          "temperature",
+          "spin",
+          "effect",
+          "energy",
+          "electric",
+          "flux"
+        ]
+      }
+    ],
+    "purityDistribution": [
+      {
+        "range": "0.1-0.2",
+        "count": 16
+      },
+      {
+        "range": "0.2-0.3",
+        "count": 9
+      },
+      {
+        "range": "0.3-0.4",
+        "count": 7
+      },
+      {
+        "range": "0.4-0.5",
+        "count": 4
+      },
+      {
+        "range": "0.5-0.6",
+        "count": 5
+      },
+      {
+        "range": "0.6-0.7",
+        "count": 3
+      },
+      {
+        "range": "0.7-0.8",
+        "count": 1
+      }
+    ],
+    "categoryData": [
+      {
+        "category": "q-bio.CB",
+        "dominance": 0.7769396551724138,
+        "nClustersSpanned": 31,
+        "size": 928
+      },
+      {
+        "category": "q-bio.SC",
+        "dominance": 0.7369281045751634,
+        "nClustersSpanned": 25,
+        "size": 612
+      },
+      {
+        "category": "q-bio.TO",
+        "dominance": 0.6575576430401366,
+        "nClustersSpanned": 31,
+        "size": 1171
+      },
+      {
+        "category": "physics.bio-ph",
+        "dominance": 0.6375169147496617,
+        "nClustersSpanned": 45,
+        "size": 5912
+      },
+      {
+        "category": "physics.flu-dyn",
+        "dominance": 0.6108539347975968,
+        "nClustersSpanned": 46,
+        "size": 20306
+      },
+      {
+        "category": "math.SG",
+        "dominance": 0.6071344200330735,
+        "nClustersSpanned": 37,
+        "size": 4233
+      },
+      {
+        "category": "math.AC",
+        "dominance": 0.6067881835323696,
+        "nClustersSpanned": 32,
+        "size": 7955
+      },
+      {
+        "category": "q-bio.PE",
+        "dominance": 0.594047126911947,
+        "nClustersSpanned": 45,
+        "size": 7257
+      },
+      {
+        "category": "cs.NA",
+        "dominance": 0.5884115884115884,
+        "nClustersSpanned": 32,
+        "size": 1001
+      },
+      {
+        "category": "math.DG",
+        "dominance": 0.5873262966056648,
+        "nClustersSpanned": 41,
+        "size": 26338
+      },
+      {
+        "category": "cond-mat.soft",
+        "dominance": 0.5677990890476787,
+        "nClustersSpanned": 45,
+        "size": 23931
+      },
+      {
+        "category": "math.AG",
+        "dominance": 0.5665414710485133,
+        "nClustersSpanned": 40,
+        "size": 31950
+      },
+      {
+        "category": "physics.ao-ph",
+        "dominance": 0.5647586388815616,
+        "nClustersSpanned": 38,
+        "size": 3791
+      },
+      {
+        "category": "nlin.SI",
+        "dominance": 0.5478438377137025,
+        "nClustersSpanned": 34,
+        "size": 3919
+      },
+      {
+        "category": "physics.optics",
+        "dominance": 0.5471980236640229,
+        "nClustersSpanned": 48,
+        "size": 30764
+      },
+      {
+        "category": "math.CT",
+        "dominance": 0.5415529645249317,
+        "nClustersSpanned": 36,
+        "size": 4031
+      },
+      {
+        "category": "cs.MA",
+        "dominance": 0.5389369592088998,
+        "nClustersSpanned": 34,
+        "size": 3236
+      },
+      {
+        "category": "math.NT",
+        "dominance": 0.537152384547628,
+        "nClustersSpanned": 42,
+        "size": 31788
+      },
+      {
+        "category": "cs.OS",
+        "dominance": 0.5280289330922242,
+        "nClustersSpanned": 25,
+        "size": 553
+      },
+      {
+        "category": "physics.pop-ph",
+        "dominance": 0.5269413629160064,
+        "nClustersSpanned": 45,
+        "size": 1262
+      },
+      {
+        "category": "math.MG",
+        "dominance": 0.5234375,
+        "nClustersSpanned": 36,
+        "size": 5888
+      },
+      {
+        "category": "cs.SE",
+        "dominance": 0.516012954300108,
+        "nClustersSpanned": 43,
+        "size": 16674
+      },
+      {
+        "category": "math.GT",
+        "dominance": 0.5153732446415373,
+        "nClustersSpanned": 41,
+        "size": 13530
+      },
+      {
+        "category": "math.CV",
+        "dominance": 0.5149572649572649,
+        "nClustersSpanned": 34,
+        "size": 9828
+      },
+      {
+        "category": "q-fin.ST",
+        "dominance": 0.5147874306839186,
+        "nClustersSpanned": 32,
+        "size": 2164
+      },
+      {
+        "category": "physics.acc-ph",
+        "dominance": 0.5122518333035235,
+        "nClustersSpanned": 37,
+        "size": 5591
+      },
+      {
+        "category": "math.LO",
+        "dominance": 0.5065554231227652,
+        "nClustersSpanned": 41,
+        "size": 9229
+      },
+      {
+        "category": "physics.geo-ph",
+        "dominance": 0.5039389463318562,
+        "nClustersSpanned": 41,
+        "size": 4062
+      },
+      {
+        "category": "math.GM",
+        "dominance": 0.5036806342015855,
+        "nClustersSpanned": 40,
+        "size": 3532
+      },
+      {
+        "category": "physics.class-ph",
+        "dominance": 0.500241662638956,
+        "nClustersSpanned": 44,
+        "size": 4138
+      },
+      {
+        "category": "physics.ins-det",
+        "dominance": 0.497760044799104,
+        "nClustersSpanned": 43,
+        "size": 14286
+      },
+      {
+        "category": "math.OC",
+        "dominance": 0.4940129217516152,
+        "nClustersSpanned": 44,
+        "size": 34825
+      },
+      {
+        "category": "math.DS",
+        "dominance": 0.4848960904888011,
+        "nClustersSpanned": 47,
+        "size": 22279
+      },
+      {
+        "category": "cond-mat.supr-con",
+        "dominance": 0.484645736833076,
+        "nClustersSpanned": 39,
+        "size": 23316
+      },
+      {
+        "category": "cs.DS",
+        "dominance": 0.47702751848708935,
+        "nClustersSpanned": 42,
+        "size": 16498
+      },
+      {
+        "category": "cs.HC",
+        "dominance": 0.47536173901446954,
+        "nClustersSpanned": 44,
+        "size": 14997
+      },
+      {
+        "category": "cs.DL",
+        "dominance": 0.4703601108033241,
+        "nClustersSpanned": 37,
+        "size": 3610
+      },
+      {
+        "category": "econ.GN",
+        "dominance": 0.46626506024096387,
+        "nClustersSpanned": 37,
+        "size": 4150
+      },
+      {
+        "category": "hep-ex",
+        "dominance": 0.4656470016994416,
+        "nClustersSpanned": 39,
+        "size": 16476
+      },
+      {
+        "category": "q-fin.EC",
+        "dominance": 0.46475195822454307,
+        "nClustersSpanned": 27,
+        "size": 383
+      },
+      {
+        "category": "math.NA",
+        "dominance": 0.46344875830710036,
+        "nClustersSpanned": 48,
+        "size": 31449
+      },
+      {
+        "category": "stat.CO",
+        "dominance": 0.46165489404641774,
+        "nClustersSpanned": 36,
+        "size": 3964
+      },
+      {
+        "category": "q-fin.GN",
+        "dominance": 0.46072974644403214,
+        "nClustersSpanned": 39,
+        "size": 1617
+      },
+      {
+        "category": "physics.med-ph",
+        "dominance": 0.4597857838364168,
+        "nClustersSpanned": 41,
+        "size": 5135
+      },
+      {
+        "category": "q-bio.OT",
+        "dominance": 0.4573304157549234,
+        "nClustersSpanned": 35,
+        "size": 914
+      },
+      {
+        "category": "eess.AS",
+        "dominance": 0.45169502880879003,
+        "nClustersSpanned": 30,
+        "size": 7463
+      },
+      {
+        "category": "econ.EM",
+        "dominance": 0.4499838135318873,
+        "nClustersSpanned": 34,
+        "size": 3089
+      },
+      {
+        "category": "quant-ph",
+        "dominance": 0.44806279561235784,
+        "nClustersSpanned": 48,
+        "size": 99370
+      },
+      {
+        "category": "cs.GL",
+        "dominance": 0.44680851063829785,
+        "nClustersSpanned": 14,
+        "size": 94
+      },
+      {
+        "category": "nlin.CG",
+        "dominance": 0.4444444444444444,
+        "nClustersSpanned": 29,
+        "size": 450
+      },
+      {
+        "category": "physics.space-ph",
+        "dominance": 0.44158151932474454,
+        "nClustersSpanned": 34,
+        "size": 2251
+      },
+      {
+        "category": "math.RA",
+        "dominance": 0.4397613548883757,
+        "nClustersSpanned": 36,
+        "size": 10392
+      },
+      {
+        "category": "math.HO",
+        "dominance": 0.43966712898751736,
+        "nClustersSpanned": 38,
+        "size": 2884
+      },
+      {
+        "category": "physics.app-ph",
+        "dominance": 0.43935818782444547,
+        "nClustersSpanned": 41,
+        "size": 10595
+      },
+      {
+        "category": "nlin.CD",
+        "dominance": 0.43574660633484164,
+        "nClustersSpanned": 45,
+        "size": 4420
+      },
+      {
+        "category": "math.PR",
+        "dominance": 0.4337586125592727,
+        "nClustersSpanned": 46,
+        "size": 38171
+      },
+      {
+        "category": "math.CA",
+        "dominance": 0.4336692435118719,
+        "nClustersSpanned": 40,
+        "size": 14488
+      },
+      {
+        "category": "physics.hist-ph",
+        "dominance": 0.430578242404443,
+        "nClustersSpanned": 44,
+        "size": 3061
+      },
+      {
+        "category": "q-fin.PR",
+        "dominance": 0.4276629570747218,
+        "nClustersSpanned": 31,
+        "size": 1258
+      },
+      {
+        "category": "physics.atm-clus",
+        "dominance": 0.42679127725856697,
+        "nClustersSpanned": 34,
+        "size": 963
+      },
+      {
+        "category": "q-fin.RM",
+        "dominance": 0.42665726375176305,
+        "nClustersSpanned": 31,
+        "size": 1418
+      },
+      {
+        "category": "eess.IV",
+        "dominance": 0.4245208568207441,
+        "nClustersSpanned": 42,
+        "size": 17740
+      },
+      {
+        "category": "q-fin.TR",
+        "dominance": 0.4213624894869638,
+        "nClustersSpanned": 30,
+        "size": 1189
+      },
+      {
+        "category": "cs.FL",
+        "dominance": 0.42048,
+        "nClustersSpanned": 37,
+        "size": 3125
+      },
+      {
+        "category": "cond-mat.mtrl-sci",
+        "dominance": 0.41416917430554345,
+        "nClustersSpanned": 45,
+        "size": 57491
+      },
+      {
+        "category": "q-bio.BM",
+        "dominance": 0.41342141863699583,
+        "nClustersSpanned": 40,
+        "size": 2876
+      },
+      {
+        "category": "nucl-ex",
+        "dominance": 0.4124582869855395,
+        "nClustersSpanned": 34,
+        "size": 8990
+      },
+      {
+        "category": "physics.plasm-ph",
+        "dominance": 0.4123875066172578,
+        "nClustersSpanned": 41,
+        "size": 11334
+      },
+      {
+        "category": "math.QA",
+        "dominance": 0.41208163265306125,
+        "nClustersSpanned": 36,
+        "size": 6125
+      },
+      {
+        "category": "cs.SC",
+        "dominance": 0.4109697933227345,
+        "nClustersSpanned": 32,
+        "size": 1258
+      },
+      {
+        "category": "astro-ph.IM",
+        "dominance": 0.4085252982311806,
+        "nClustersSpanned": 47,
+        "size": 19448
+      },
+      {
+        "category": "cs.CY",
+        "dominance": 0.3945610312033325,
+        "nClustersSpanned": 42,
+        "size": 12723
+      },
+      {
+        "category": "math.AP",
+        "dominance": 0.39317840348104355,
+        "nClustersSpanned": 44,
+        "size": 51249
+      },
+      {
+        "category": "cs.DM",
+        "dominance": 0.39196297075531245,
+        "nClustersSpanned": 42,
+        "size": 4753
+      },
+      {
+        "category": "hep-ph",
+        "dominance": 0.39099821642982874,
+        "nClustersSpanned": 48,
+        "size": 85783
+      },
+      {
+        "category": "nlin.PS",
+        "dominance": 0.3897185525560023,
+        "nClustersSpanned": 39,
+        "size": 3482
+      },
+      {
+        "category": "physics.data-an",
+        "dominance": 0.38796229151559103,
+        "nClustersSpanned": 43,
+        "size": 2758
+      },
+      {
+        "category": "physics.ed-ph",
+        "dominance": 0.38256658595641646,
+        "nClustersSpanned": 46,
+        "size": 2891
+      },
+      {
+        "category": "cs.LO",
+        "dominance": 0.38247345874464517,
+        "nClustersSpanned": 41,
+        "size": 10738
+      },
+      {
+        "category": "math.CO",
+        "dominance": 0.3795265988720249,
+        "nClustersSpanned": 43,
+        "size": 45923
+      },
+      {
+        "category": "q-fin.PM",
+        "dominance": 0.37850467289719625,
+        "nClustersSpanned": 29,
+        "size": 1284
+      },
+      {
+        "category": "cs.CV",
+        "dominance": 0.37720820504618335,
+        "nClustersSpanned": 49,
+        "size": 125045
+      },
+      {
+        "category": "cs.CL",
+        "dominance": 0.36958335816892174,
+        "nClustersSpanned": 44,
+        "size": 67108
+      },
+      {
+        "category": "math.AT",
+        "dominance": 0.36940523585474727,
+        "nClustersSpanned": 35,
+        "size": 8289
+      },
+      {
+        "category": "math.GR",
+        "dominance": 0.36514737386422397,
+        "nClustersSpanned": 35,
+        "size": 13537
+      },
+      {
+        "category": "cond-mat.stat-mech",
+        "dominance": 0.3635055921170928,
+        "nClustersSpanned": 46,
+        "size": 27807
+      },
+      {
+        "category": "astro-ph.EP",
+        "dominance": 0.36348360655737705,
+        "nClustersSpanned": 42,
+        "size": 24400
+      },
+      {
+        "category": "cs.DB",
+        "dominance": 0.36147479307750185,
+        "nClustersSpanned": 38,
+        "size": 6645
+      },
+      {
+        "category": "nlin.AO",
+        "dominance": 0.3557772236076476,
+        "nClustersSpanned": 36,
+        "size": 2406
+      },
+      {
+        "category": "cs.CR",
+        "dominance": 0.35333284284873456,
+        "nClustersSpanned": 48,
+        "size": 27184
+      },
+      {
+        "category": "q-bio.MN",
+        "dominance": 0.3494033412887828,
+        "nClustersSpanned": 32,
+        "size": 2095
+      },
+      {
+        "category": "math.KT",
+        "dominance": 0.3489010989010989,
+        "nClustersSpanned": 26,
+        "size": 2184
+      },
+      {
+        "category": "physics.chem-ph",
+        "dominance": 0.34782608695652173,
+        "nClustersSpanned": 46,
+        "size": 12167
+      },
+      {
+        "category": "stat.AP",
+        "dominance": 0.3458407782410165,
+        "nClustersSpanned": 45,
+        "size": 10074
+      },
+      {
+        "category": "astro-ph.SR",
+        "dominance": 0.34537265790681915,
+        "nClustersSpanned": 42,
+        "size": 45739
+      },
+      {
+        "category": "physics.atom-ph",
+        "dominance": 0.3439381684191606,
+        "nClustersSpanned": 40,
+        "size": 11127
+      },
+      {
+        "category": "hep-th",
+        "dominance": 0.34379144062688366,
+        "nClustersSpanned": 48,
+        "size": 66360
+      },
+      {
+        "category": "cond-mat.str-el",
+        "dominance": 0.3434864467541846,
+        "nClustersSpanned": 42,
+        "size": 38773
+      },
+      {
+        "category": "astro-ph.HE",
+        "dominance": 0.34121329626947605,
+        "nClustersSpanned": 39,
+        "size": 42809
+      },
+      {
+        "category": "cs.CG",
+        "dominance": 0.33909635776855696,
+        "nClustersSpanned": 39,
+        "size": 4338
+      },
+      {
+        "category": "math.OA",
+        "dominance": 0.33574215927157103,
+        "nClustersSpanned": 32,
+        "size": 6919
+      },
+      {
+        "category": "math.GN",
+        "dominance": 0.3344124312075105,
+        "nClustersSpanned": 32,
+        "size": 3089
+      },
+      {
+        "category": "cs.IR",
+        "dominance": 0.3314121037463977,
+        "nClustersSpanned": 35,
+        "size": 12492
+      },
+      {
+        "category": "cs.MS",
+        "dominance": 0.32892249527410206,
+        "nClustersSpanned": 30,
+        "size": 1058
+      },
+      {
+        "category": "physics.soc-ph",
+        "dominance": 0.3266714824624769,
+        "nClustersSpanned": 47,
+        "size": 12459
+      },
+      {
+        "category": "cond-mat.mes-hall",
+        "dominance": 0.32536140400789487,
+        "nClustersSpanned": 44,
+        "size": 56239
+      },
+      {
+        "category": "cond-mat.quant-gas",
+        "dominance": 0.3242163279366173,
+        "nClustersSpanned": 43,
+        "size": 14515
+      },
+      {
+        "category": "math.SP",
+        "dominance": 0.32244804749942907,
+        "nClustersSpanned": 37,
+        "size": 4379
+      },
+      {
+        "category": "q-bio.GN",
+        "dominance": 0.32137030995106036,
+        "nClustersSpanned": 31,
+        "size": 1839
+      },
+      {
+        "category": "q-bio.NC",
+        "dominance": 0.31904256930768066,
+        "nClustersSpanned": 43,
+        "size": 6601
+      },
+      {
+        "category": "cs.CC",
+        "dominance": 0.31812865497076026,
+        "nClustersSpanned": 41,
+        "size": 5130
+      },
+      {
+        "category": "cs.SI",
+        "dominance": 0.3180788400543724,
+        "nClustersSpanned": 42,
+        "size": 11035
+      },
+      {
+        "category": "cs.NI",
+        "dominance": 0.3108045444006492,
+        "nClustersSpanned": 43,
+        "size": 17252
+      },
+      {
+        "category": "q-fin.MF",
+        "dominance": 0.3086854460093897,
+        "nClustersSpanned": 34,
+        "size": 1704
+      },
+      {
+        "category": "cs.NE",
+        "dominance": 0.30720281613864064,
+        "nClustersSpanned": 42,
+        "size": 7386
+      },
+      {
+        "category": "physics.comp-ph",
+        "dominance": 0.30546096607390594,
+        "nClustersSpanned": 47,
+        "size": 7929
+      },
+      {
+        "category": "stat.OT",
+        "dominance": 0.30272596843615496,
+        "nClustersSpanned": 22,
+        "size": 697
+      },
+      {
+        "category": "cs.SD",
+        "dominance": 0.3020232985898222,
+        "nClustersSpanned": 39,
+        "size": 8155
+      },
+      {
+        "category": "math.RT",
+        "dominance": 0.3011167792637529,
+        "nClustersSpanned": 35,
+        "size": 14506
+      },
+      {
+        "category": "math-ph",
+        "dominance": 0.30047635122463523,
+        "nClustersSpanned": 45,
+        "size": 26661
+      },
+      {
+        "category": "cs.OH",
+        "dominance": 0.2999501743896363,
+        "nClustersSpanned": 40,
+        "size": 2007
+      },
+      {
+        "category": "q-bio.QM",
+        "dominance": 0.29975705475612036,
+        "nClustersSpanned": 42,
+        "size": 5351
+      },
+      {
+        "category": "cs.AR",
+        "dominance": 0.2980480480480481,
+        "nClustersSpanned": 36,
+        "size": 3996
+      },
+      {
+        "category": "astro-ph.CO",
+        "dominance": 0.2973290422608001,
+        "nClustersSpanned": 46,
+        "size": 42569
+      },
+      {
+        "category": "physics.gen-ph",
+        "dominance": 0.29475982532751094,
+        "nClustersSpanned": 47,
+        "size": 7328
+      },
+      {
+        "category": "cs.IT",
+        "dominance": 0.28847622164048864,
+        "nClustersSpanned": 47,
+        "size": 36672
+      },
+      {
+        "category": "stat.ME",
+        "dominance": 0.2843652561247216,
+        "nClustersSpanned": 41,
+        "size": 22450
+      },
+      {
+        "category": "astro-ph.GA",
+        "dominance": 0.28358414749448474,
+        "nClustersSpanned": 43,
+        "size": 50768
+      },
+      {
+        "category": "math.FA",
+        "dominance": 0.2824985931344963,
+        "nClustersSpanned": 38,
+        "size": 19547
+      },
+      {
+        "category": "cond-mat.other",
+        "dominance": 0.2804491091042226,
+        "nClustersSpanned": 43,
+        "size": 4097
+      },
+      {
+        "category": "eess.SY",
+        "dominance": 0.2765873685394522,
+        "nClustersSpanned": 46,
+        "size": 17781
+      },
+      {
+        "category": "cs.DC",
+        "dominance": 0.2763523119626295,
+        "nClustersSpanned": 48,
+        "size": 14771
+      },
+      {
+        "category": "q-fin.CP",
+        "dominance": 0.2745812090313183,
+        "nClustersSpanned": 34,
+        "size": 1373
+      },
+      {
+        "category": "econ.TH",
+        "dominance": 0.27348066298342544,
+        "nClustersSpanned": 35,
+        "size": 2172
+      },
+      {
+        "category": "hep-lat",
+        "dominance": 0.2731968444778362,
+        "nClustersSpanned": 42,
+        "size": 10648
+      },
+      {
+        "category": "cs.RO",
+        "dominance": 0.27253761537488935,
+        "nClustersSpanned": 47,
+        "size": 31636
+      },
+      {
+        "category": "cs.SY",
+        "dominance": 0.2668414683340056,
+        "nClustersSpanned": 38,
+        "size": 4958
+      },
+      {
+        "category": "cs.MM",
+        "dominance": 0.2662102295610149,
+        "nClustersSpanned": 28,
+        "size": 2483
+      },
+      {
+        "category": "stat.ML",
+        "dominance": 0.2626789420467245,
+        "nClustersSpanned": 44,
+        "size": 18791
+      },
+      {
+        "category": "math.ST",
+        "dominance": 0.25993050350889146,
+        "nClustersSpanned": 42,
+        "size": 14677
+      },
+      {
+        "category": "cs.CE",
+        "dominance": 0.2541630148992112,
+        "nClustersSpanned": 41,
+        "size": 4564
+      },
+      {
+        "category": "gr-qc",
+        "dominance": 0.25305447891868493,
+        "nClustersSpanned": 46,
+        "size": 50827
+      },
+      {
+        "category": "cs.PF",
+        "dominance": 0.23934426229508196,
+        "nClustersSpanned": 34,
+        "size": 1220
+      },
+      {
+        "category": "cs.PL",
+        "dominance": 0.2389051808406647,
+        "nClustersSpanned": 39,
+        "size": 5115
+      },
+      {
+        "category": "cs.LG",
+        "dominance": 0.23814695155612267,
+        "nClustersSpanned": 49,
+        "size": 110499
+      },
+      {
+        "category": "nucl-th",
+        "dominance": 0.23679935012185216,
+        "nClustersSpanned": 40,
+        "size": 22158
+      },
+      {
+        "category": "cs.GT",
+        "dominance": 0.23567645642753973,
+        "nClustersSpanned": 41,
+        "size": 8308
+      },
+      {
+        "category": "cond-mat.dis-nn",
+        "dominance": 0.22508824327993485,
+        "nClustersSpanned": 40,
+        "size": 7366
+      },
+      {
+        "category": "cs.GR",
+        "dominance": 0.2049708499539736,
+        "nClustersSpanned": 38,
+        "size": 3259
+      },
+      {
+        "category": "cs.ET",
+        "dominance": 0.1979633401221996,
+        "nClustersSpanned": 42,
+        "size": 2455
+      },
+      {
+        "category": "astro-ph",
+        "dominance": 0.19498091174489107,
+        "nClustersSpanned": 41,
+        "size": 17812
+      },
+      {
+        "category": "eess.SP",
+        "dominance": 0.17836227786752828,
+        "nClustersSpanned": 47,
+        "size": 19808
+      },
+      {
+        "category": "cs.AI",
+        "dominance": 0.1385598058806737,
+        "nClustersSpanned": 45,
+        "size": 28024
+      }
+    ],
+    "scatterData": [
+      {
+        "clusterId": 0,
+        "x": 12419,
+        "y": 0.7212335936870924,
+        "category": "cs.CV"
+      },
+      {
+        "clusterId": 1,
+        "x": 59973,
+        "y": 0.559268337418505,
+        "category": "hep-ph"
+      },
+      {
+        "clusterId": 2,
+        "x": 10523,
+        "y": 0.2457474104342868,
+        "category": "astro-ph.EP"
+      },
+      {
+        "clusterId": 3,
+        "x": 333414,
+        "y": 0.05048978147288356,
+        "category": "physics.optics"
+      },
+      {
+        "clusterId": 4,
+        "x": 32772,
+        "y": 0.4457158549981692,
+        "category": "astro-ph.HE"
+      },
+      {
+        "clusterId": 5,
+        "x": 73650,
+        "y": 0.6045349626612355,
+        "category": "quant-ph"
+      },
+      {
+        "clusterId": 6,
+        "x": 50126,
+        "y": 0.6547101304712125,
+        "category": "cs.CV"
+      },
+      {
+        "clusterId": 7,
+        "x": 28806,
+        "y": 0.14490036797889327,
+        "category": "math.GR"
+      },
+      {
+        "clusterId": 8,
+        "x": 24874,
+        "y": 0.053067459998391894,
+        "category": "quant-ph"
+      },
+      {
+        "clusterId": 9,
+        "x": 22309,
+        "y": 0.47420323636200634,
+        "category": "cs.IT"
+      },
+      {
+        "clusterId": 10,
+        "x": 72564,
+        "y": 0.3626453888980762,
+        "category": "cs.LG"
+      },
+      {
+        "clusterId": 11,
+        "x": 24563,
+        "y": 0.15230224321133412,
+        "category": "math.FA"
+      },
+      {
+        "clusterId": 12,
+        "x": 12455,
+        "y": 0.6602167804094741,
+        "category": "quant-ph"
+      },
+      {
+        "clusterId": 13,
+        "x": 10888,
+        "y": 0.20527185892725938,
+        "category": "cs.AI"
+      },
+      {
+        "clusterId": 14,
+        "x": 19333,
+        "y": 0.0799151709512233,
+        "category": "math.AP"
+      },
+      {
+        "clusterId": 15,
+        "x": 18400,
+        "y": 0.16233695652173913,
+        "category": "cs.AI"
+      },
+      {
+        "clusterId": 16,
+        "x": 13376,
+        "y": 0.5103917464114832,
+        "category": "hep-ph"
+      },
+      {
+        "clusterId": 17,
+        "x": 18552,
+        "y": 0.2664402759810263,
+        "category": "math.GR"
+      },
+      {
+        "clusterId": 18,
+        "x": 13999,
+        "y": 0.17436959782841632,
+        "category": "astro-ph.GA"
+      },
+      {
+        "clusterId": 19,
+        "x": 35837,
+        "y": 0.3488852303485225,
+        "category": "astro-ph.GA"
+      },
+      {
+        "clusterId": 20,
+        "x": 68689,
+        "y": 0.18340636783182168,
+        "category": "cs.LG"
+      },
+      {
+        "clusterId": 21,
+        "x": 18237,
+        "y": 0.10379996709985195,
+        "category": "math.CO"
+      },
+      {
+        "clusterId": 22,
+        "x": 36549,
+        "y": 0.43221428766860925,
+        "category": "astro-ph.SR"
+      },
+      {
+        "clusterId": 23,
+        "x": 12711,
+        "y": 0.241444418220439,
+        "category": "math.AP"
+      },
+      {
+        "clusterId": 24,
+        "x": 24242,
+        "y": 0.37059648543849516,
+        "category": "hep-ph"
+      },
+      {
+        "clusterId": 25,
+        "x": 26595,
+        "y": 0.19345741680767062,
+        "category": "math.OC"
+      },
+      {
+        "clusterId": 26,
+        "x": 38393,
+        "y": 0.5535644518532024,
+        "category": "cs.CL"
+      },
+      {
+        "clusterId": 27,
+        "x": 261297,
+        "y": 0.0873106082350735,
+        "category": "hep-th"
+      },
+      {
+        "clusterId": 28,
+        "x": 27226,
+        "y": 0.13035333872034086,
+        "category": "math.NT"
+      },
+      {
+        "clusterId": 29,
+        "x": 25315,
+        "y": 0.5687142010665613,
+        "category": "astro-ph.GA"
+      },
+      {
+        "clusterId": 30,
+        "x": 10864,
+        "y": 0.5621318114874816,
+        "category": "cond-mat.mes-hall"
+      },
+      {
+        "clusterId": 31,
+        "x": 68959,
+        "y": 0.2922026131469424,
+        "category": "math.AP"
+      },
+      {
+        "clusterId": 32,
+        "x": 11729,
+        "y": 0.2938869468837923,
+        "category": "cs.CR"
+      },
+      {
+        "clusterId": 33,
+        "x": 91109,
+        "y": 0.10542317443940774,
+        "category": "cs.CR"
+      },
+      {
+        "clusterId": 34,
+        "x": 25390,
+        "y": 0.46660102402520676,
+        "category": "gr-qc"
+      },
+      {
+        "clusterId": 35,
+        "x": 13458,
+        "y": 0.09072670530539456,
+        "category": "math.CO"
+      },
+      {
+        "clusterId": 36,
+        "x": 130430,
+        "y": 0.18255769378210535,
+        "category": "cond-mat.mtrl-sci"
+      },
+      {
+        "clusterId": 37,
+        "x": 37095,
+        "y": 0.24458821943658174,
+        "category": "cond-mat.mes-hall"
+      },
+      {
+        "clusterId": 38,
+        "x": 5085,
+        "y": 0.3152409046214356,
+        "category": "math.NT"
+      },
+      {
+        "clusterId": 39,
+        "x": 143693,
+        "y": 0.3282553777845824,
+        "category": "cs.CV"
+      },
+      {
+        "clusterId": 40,
+        "x": 47507,
+        "y": 0.12882312080325004,
+        "category": "astro-ph.SR"
+      },
+      {
+        "clusterId": 41,
+        "x": 11840,
+        "y": 0.20092905405405406,
+        "category": "hep-ph"
+      },
+      {
+        "clusterId": 42,
+        "x": 42067,
+        "y": 0.33831744597903346,
+        "category": "math.CO"
+      },
+      {
+        "clusterId": 43,
+        "x": 25216,
+        "y": 0.18123413705583757,
+        "category": "math.RA"
+      },
+      {
+        "clusterId": 44,
+        "x": 20478,
+        "y": 0.18639515577693133,
+        "category": "math.FA"
+      },
+      {
+        "clusterId": 45,
+        "x": 11826,
+        "y": 0.24640622357517333,
+        "category": "hep-ph"
+      },
+      {
+        "clusterId": 46,
+        "x": 10199,
+        "y": 0.33052260025492697,
+        "category": "eess.AS"
+      },
+      {
+        "clusterId": 47,
+        "x": 66371,
+        "y": 0.15017100842235315,
+        "category": "cs.LG"
+      },
+      {
+        "clusterId": 48,
+        "x": 41459,
+        "y": 0.10989170023396609,
+        "category": "cond-mat.str-el"
+      },
+      {
+        "clusterId": 49,
+        "x": 141760,
+        "y": 0.12136004514672687,
+        "category": "math.OC"
+      }
+    ]
+  },
+  "summary": {
+    "nmi500": 0.32424402253378143,
+    "nmi300": 0.3207401827762293,
+    "ari500": 0.09019147599618647,
+    "avgPurity500": 0.29234354193787904,
+    "avgPurity300": 0.2923434578025696,
+    "highPurityCount500": 10,
+    "lowPurityCount500": 19,
+    "totalClusters": 50,
+    "interpretation": "Partial"
+  }
+}

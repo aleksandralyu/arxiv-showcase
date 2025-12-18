@@ -1,0 +1,3240 @@
+{
+  "fullData": [
+    {
+      "clusterId": 45,
+      "stability": 1.0,
+      "size": 247437,
+      "topCategory": "math.AG",
+      "domain": "math",
+      "topTerms": [
+        "prove",
+        "space",
+        "paper",
+        "theorem",
+        "spaces",
+        "result",
+        "number",
+        "proof",
+        "set",
+        "case"
+      ],
+      "pairwiseSimilarities": [
+        1.0
+      ]
+    },
+    {
+      "clusterId": 38,
+      "stability": 0.9047619047619048,
+      "size": 55682,
+      "topCategory": "astro-ph.HE",
+      "domain": "astro-ph",
+      "topTerms": [
+        "emission",
+        "ray",
+        "radio",
+        "observations",
+        "dust",
+        "gas",
+        "disk",
+        "line",
+        "sources",
+        "observed"
+      ],
+      "pairwiseSimilarities": [
+        0.9047619047619048
+      ]
+    },
+    {
+      "clusterId": 43,
+      "stability": 0.9047619047619048,
+      "size": 26956,
+      "topCategory": "math.NT",
+      "domain": "math",
+      "topTerms": [
+        "mathbb",
+        "prove",
+        "let",
+        "infty",
+        "times",
+        "space",
+        "frac",
+        "geq",
+        "group",
+        "alpha"
+      ],
+      "pairwiseSimilarities": [
+        0.9047619047619048
+      ]
+    },
+    {
+      "clusterId": 0,
+      "stability": 0.8181818181818182,
+      "size": 40304,
+      "topCategory": "math.GR",
+      "domain": "math",
+      "topTerms": [
+        "group",
+        "groups",
+        "finite",
+        "prove",
+        "lie",
+        "let",
+        "theory",
+        "action",
+        "class",
+        "representations"
+      ],
+      "pairwiseSimilarities": [
+        0.8181818181818182
+      ]
+    },
+    {
+      "clusterId": 13,
+      "stability": 0.8181818181818182,
+      "size": 9731,
+      "topCategory": "hep-ph",
+      "domain": "hep-ph",
+      "topTerms": [
+        "pi",
+        "decay",
+        "bar",
+        "sigma",
+        "gamma",
+        "pm",
+        "mass",
+        "data",
+        "gev",
+        "phi"
+      ],
+      "pairwiseSimilarities": [
+        0.8181818181818182
+      ]
+    },
+    {
+      "clusterId": 16,
+      "stability": 0.8181818181818182,
+      "size": 53343,
+      "topCategory": "hep-ph",
+      "domain": "hep-ph",
+      "topTerms": [
+        "higgs",
+        "production",
+        "collisions",
+        "mass",
+        "model",
+        "gev",
+        "energy",
+        "decay",
+        "cross",
+        "bar"
+      ],
+      "pairwiseSimilarities": [
+        0.8181818181818182
+      ]
+    },
+    {
+      "clusterId": 17,
+      "stability": 0.8181818181818182,
+      "size": 13738,
+      "topCategory": "hep-ph",
+      "domain": "hep-ph",
+      "topTerms": [
+        "quark",
+        "heavy",
+        "mass",
+        "masses",
+        "lattice",
+        "model",
+        "light",
+        "production",
+        "results",
+        "bar"
+      ],
+      "pairwiseSimilarities": [
+        0.8181818181818182
+      ]
+    },
+    {
+      "clusterId": 21,
+      "stability": 0.8181818181818182,
+      "size": 195519,
+      "topCategory": "hep-th",
+      "domain": "hep-th",
+      "topTerms": [
+        "theory",
+        "phase",
+        "field",
+        "model",
+        "energy",
+        "non",
+        "dynamics",
+        "states",
+        "transition",
+        "symmetry"
+      ],
+      "pairwiseSimilarities": [
+        0.8181818181818182
+      ]
+    },
+    {
+      "clusterId": 32,
+      "stability": 0.8181818181818182,
+      "size": 10137,
+      "topCategory": "math.RA",
+      "domain": "math",
+      "topTerms": [
+        "algebras",
+        "lie",
+        "algebra",
+        "finite",
+        "theory",
+        "dimensional",
+        "groups",
+        "prove",
+        "paper",
+        "type"
+      ],
+      "pairwiseSimilarities": [
+        0.8181818181818182
+      ]
+    },
+    {
+      "clusterId": 37,
+      "stability": 0.8181818181818182,
+      "size": 12226,
+      "topCategory": "math.AP",
+      "domain": "math",
+      "topTerms": [
+        "omega",
+        "mathbb",
+        "delta",
+        "partial",
+        "bounded",
+        "infty",
+        "frac",
+        "prove",
+        "boundary",
+        "subset"
+      ],
+      "pairwiseSimilarities": [
+        0.8181818181818182
+      ]
+    },
+    {
+      "clusterId": 39,
+      "stability": 0.8181818181818182,
+      "size": 20555,
+      "topCategory": "math.RT",
+      "domain": "math",
+      "topTerms": [
+        "algebra",
+        "lie",
+        "algebras",
+        "group",
+        "finite",
+        "theory",
+        "dimensional",
+        "prove",
+        "space",
+        "structure"
+      ],
+      "pairwiseSimilarities": [
+        0.8181818181818182
+      ]
+    },
+    {
+      "clusterId": 41,
+      "stability": 0.8181818181818182,
+      "size": 38601,
+      "topCategory": "cond-mat.mes-hall",
+      "domain": "cond-mat",
+      "topTerms": [
+        "spin",
+        "magnetic",
+        "quantum",
+        "orbit",
+        "coupling",
+        "states",
+        "field",
+        "state",
+        "phase",
+        "electron"
+      ],
+      "pairwiseSimilarities": [
+        0.8181818181818182
+      ]
+    },
+    {
+      "clusterId": 4,
+      "stability": 0.7391304347826086,
+      "size": 10980,
+      "topCategory": "cond-mat.mes-hall",
+      "domain": "cond-mat",
+      "topTerms": [
+        "graphene",
+        "electronic",
+        "electron",
+        "layer",
+        "energy",
+        "properties",
+        "band",
+        "transport",
+        "states",
+        "materials"
+      ],
+      "pairwiseSimilarities": [
+        0.7391304347826086
+      ]
+    },
+    {
+      "clusterId": 6,
+      "stability": 0.7391304347826086,
+      "size": 8731,
+      "topCategory": "quant-ph",
+      "domain": "quant-ph",
+      "topTerms": [
+        "photon",
+        "quantum",
+        "single",
+        "optical",
+        "states",
+        "state",
+        "light",
+        "emission",
+        "mode",
+        "high"
+      ],
+      "pairwiseSimilarities": [
+        0.7391304347826086
+      ]
+    },
+    {
+      "clusterId": 9,
+      "stability": 0.7391304347826086,
+      "size": 48313,
+      "topCategory": "cond-mat.str-el",
+      "domain": "cond-mat",
+      "topTerms": [
+        "magnetic",
+        "field",
+        "magnetic field",
+        "fields",
+        "temperature",
+        "spin",
+        "phase",
+        "effect",
+        "energy",
+        "transition"
+      ],
+      "pairwiseSimilarities": [
+        0.7391304347826086
+      ]
+    },
+    {
+      "clusterId": 12,
+      "stability": 0.7391304347826086,
+      "size": 70254,
+      "topCategory": "quant-ph",
+      "domain": "quant-ph",
+      "topTerms": [
+        "quantum",
+        "classical",
+        "states",
+        "state",
+        "systems",
+        "theory",
+        "time",
+        "information",
+        "non",
+        "measurement"
+      ],
+      "pairwiseSimilarities": [
+        0.7391304347826086
+      ]
+    },
+    {
+      "clusterId": 18,
+      "stability": 0.7391304347826086,
+      "size": 25958,
+      "topCategory": "gr-qc",
+      "domain": "gr-qc",
+      "topTerms": [
+        "black",
+        "black hole",
+        "hole",
+        "holes",
+        "mass",
+        "gravitational",
+        "gravity",
+        "scalar",
+        "solutions",
+        "accretion"
+      ],
+      "pairwiseSimilarities": [
+        0.7391304347826086
+      ]
+    },
+    {
+      "clusterId": 20,
+      "stability": 0.7391304347826086,
+      "size": 8649,
+      "topCategory": "cs.IT",
+      "domain": "cs",
+      "topTerms": [
+        "codes",
+        "code",
+        "error",
+        "linear",
+        "distance",
+        "quantum",
+        "binary",
+        "length",
+        "construction",
+        "paper"
+      ],
+      "pairwiseSimilarities": [
+        0.7391304347826086
+      ]
+    },
+    {
+      "clusterId": 22,
+      "stability": 0.7391304347826086,
+      "size": 23914,
+      "topCategory": "hep-ph",
+      "domain": "hep-ph",
+      "topTerms": [
+        "dark",
+        "dark matter",
+        "matter",
+        "mass",
+        "energy",
+        "model",
+        "universe",
+        "cosmological",
+        "scalar",
+        "density"
+      ],
+      "pairwiseSimilarities": [
+        0.7391304347826086
+      ]
+    },
+    {
+      "clusterId": 23,
+      "stability": 0.7391304347826086,
+      "size": 175807,
+      "topCategory": "cond-mat.mtrl-sci",
+      "domain": "cond-mat",
+      "topTerms": [
+        "temperature",
+        "optical",
+        "electron",
+        "energy",
+        "surface",
+        "high",
+        "laser",
+        "frequency",
+        "light",
+        "materials"
+      ],
+      "pairwiseSimilarities": [
+        0.7391304347826086
+      ]
+    },
+    {
+      "clusterId": 24,
+      "stability": 0.7391304347826086,
+      "size": 12600,
+      "topCategory": "quant-ph",
+      "domain": "quant-ph",
+      "topTerms": [
+        "entanglement",
+        "quantum",
+        "states",
+        "entropy",
+        "state",
+        "systems",
+        "non",
+        "information",
+        "local",
+        "field"
+      ],
+      "pairwiseSimilarities": [
+        0.7391304347826086
+      ]
+    },
+    {
+      "clusterId": 28,
+      "stability": 0.7391304347826086,
+      "size": 18150,
+      "topCategory": "math.CO",
+      "domain": "math",
+      "topTerms": [
+        "mathcal",
+        "mathbb",
+        "let",
+        "space",
+        "set",
+        "prove",
+        "algebra",
+        "infty",
+        "group",
+        "finite"
+      ],
+      "pairwiseSimilarities": [
+        0.7391304347826086
+      ]
+    },
+    {
+      "clusterId": 33,
+      "stability": 0.7391304347826086,
+      "size": 63704,
+      "topCategory": "astro-ph.GA",
+      "domain": "astro-ph",
+      "topTerms": [
+        "stars",
+        "galaxies",
+        "star",
+        "mass",
+        "stellar",
+        "galaxy",
+        "formation",
+        "cluster",
+        "clusters",
+        "gas"
+      ],
+      "pairwiseSimilarities": [
+        0.7391304347826086
+      ]
+    },
+    {
+      "clusterId": 35,
+      "stability": 0.7391304347826086,
+      "size": 29413,
+      "topCategory": "math.OC",
+      "domain": "math",
+      "topTerms": [
+        "control",
+        "optimal",
+        "systems",
+        "time",
+        "problem",
+        "based",
+        "model",
+        "proposed",
+        "paper",
+        "state"
+      ],
+      "pairwiseSimilarities": [
+        0.7391304347826086
+      ]
+    },
+    {
+      "clusterId": 47,
+      "stability": 0.7391304347826086,
+      "size": 94441,
+      "topCategory": "math.AP",
+      "domain": "math",
+      "topTerms": [
+        "equations",
+        "equation",
+        "solutions",
+        "solution",
+        "differential",
+        "nonlinear",
+        "time",
+        "boundary",
+        "method",
+        "existence"
+      ],
+      "pairwiseSimilarities": [
+        0.7391304347826086
+      ]
+    },
+    {
+      "clusterId": 8,
+      "stability": 0.6666666666666666,
+      "size": 40541,
+      "topCategory": "math.NT",
+      "domain": "math",
+      "topTerms": [
+        "functions",
+        "function",
+        "paper",
+        "results",
+        "space",
+        "theory",
+        "prove",
+        "class",
+        "new",
+        "spaces"
+      ],
+      "pairwiseSimilarities": [
+        0.6666666666666666
+      ]
+    },
+    {
+      "clusterId": 27,
+      "stability": 0.6666666666666666,
+      "size": 9682,
+      "topCategory": "astro-ph.GA",
+      "domain": "astro-ph",
+      "topTerms": [
+        "mathrm",
+        "mathbb",
+        "mass",
+        "times",
+        "pm",
+        "sim",
+        "sigma",
+        "group",
+        "alpha",
+        "using"
+      ],
+      "pairwiseSimilarities": [
+        0.6666666666666666
+      ]
+    },
+    {
+      "clusterId": 29,
+      "stability": 0.6666666666666666,
+      "size": 100427,
+      "topCategory": "math.OC",
+      "domain": "math",
+      "topTerms": [
+        "algorithm",
+        "problem",
+        "algorithms",
+        "optimization",
+        "problems",
+        "optimal",
+        "method",
+        "time",
+        "proposed",
+        "based"
+      ],
+      "pairwiseSimilarities": [
+        0.6666666666666666
+      ]
+    },
+    {
+      "clusterId": 34,
+      "stability": 0.6666666666666666,
+      "size": 274874,
+      "topCategory": "cs.LG",
+      "domain": "cs",
+      "topTerms": [
+        "model",
+        "based",
+        "time",
+        "paper",
+        "method",
+        "systems",
+        "models",
+        "approach",
+        "information",
+        "using"
+      ],
+      "pairwiseSimilarities": [
+        0.6666666666666666
+      ]
+    },
+    {
+      "clusterId": 40,
+      "stability": 0.6666666666666666,
+      "size": 21173,
+      "topCategory": "astro-ph.HE",
+      "domain": "astro-ph",
+      "topTerms": [
+        "gamma",
+        "ray",
+        "energy",
+        "emission",
+        "gev",
+        "high",
+        "fermi",
+        "data",
+        "sources",
+        "alpha"
+      ],
+      "pairwiseSimilarities": [
+        0.6666666666666666
+      ]
+    },
+    {
+      "clusterId": 46,
+      "stability": 0.6666666666666666,
+      "size": 9731,
+      "topCategory": "hep-ex",
+      "domain": "hep-ex",
+      "topTerms": [
+        "pm",
+        "mass",
+        "rm",
+        "times",
+        "data",
+        "star",
+        "using",
+        "sigma",
+        "sim",
+        "measured"
+      ],
+      "pairwiseSimilarities": [
+        0.6666666666666666
+      ]
+    },
+    {
+      "clusterId": 48,
+      "stability": 0.6666666666666666,
+      "size": 6725,
+      "topCategory": "hep-ph",
+      "domain": "hep-ph",
+      "topTerms": [
+        "tau",
+        "nu",
+        "mu",
+        "time",
+        "decay",
+        "model",
+        "function",
+        "sigma",
+        "higgs",
+        "alpha"
+      ],
+      "pairwiseSimilarities": [
+        0.6666666666666666
+      ]
+    },
+    {
+      "clusterId": 49,
+      "stability": 0.6666666666666666,
+      "size": 17221,
+      "topCategory": "quant-ph",
+      "domain": "quant-ph",
+      "topTerms": [
+        "noise",
+        "signal",
+        "frequency",
+        "quantum",
+        "gaussian",
+        "model",
+        "time",
+        "data",
+        "stochastic",
+        "method"
+      ],
+      "pairwiseSimilarities": [
+        0.6666666666666666
+      ]
+    },
+    {
+      "clusterId": 2,
+      "stability": 0.6,
+      "size": 39568,
+      "topCategory": "cs.LG",
+      "domain": "cs",
+      "topTerms": [
+        "machine",
+        "machine learning",
+        "learning",
+        "data",
+        "models",
+        "model",
+        "based",
+        "methods",
+        "performance",
+        "training"
+      ],
+      "pairwiseSimilarities": [
+        0.6
+      ]
+    },
+    {
+      "clusterId": 5,
+      "stability": 0.6,
+      "size": 12746,
+      "topCategory": "hep-ph",
+      "domain": "hep-ph",
+      "topTerms": [
+        "neutrino",
+        "mass",
+        "nu",
+        "energy",
+        "masses",
+        "detector",
+        "model",
+        "decay",
+        "experiments",
+        "physics"
+      ],
+      "pairwiseSimilarities": [
+        0.6
+      ]
+    },
+    {
+      "clusterId": 7,
+      "stability": 0.6,
+      "size": 12683,
+      "topCategory": "astro-ph.GA",
+      "domain": "astro-ph",
+      "topTerms": [
+        "rm",
+        "sim",
+        "mass",
+        "pm",
+        "times",
+        "sigma",
+        "star",
+        "galaxies",
+        "alpha",
+        "model"
+      ],
+      "pairwiseSimilarities": [
+        0.6
+      ]
+    },
+    {
+      "clusterId": 15,
+      "stability": 0.6,
+      "size": 65295,
+      "topCategory": "cs.NI",
+      "domain": "cs",
+      "topTerms": [
+        "network",
+        "networks",
+        "neural",
+        "nodes",
+        "communication",
+        "based",
+        "model",
+        "neural network",
+        "performance",
+        "neural networks"
+      ],
+      "pairwiseSimilarities": [
+        0.6
+      ]
+    },
+    {
+      "clusterId": 25,
+      "stability": 0.6,
+      "size": 14429,
+      "topCategory": "hep-ph",
+      "domain": "hep-ph",
+      "topTerms": [
+        "lambda",
+        "mathbb",
+        "sigma",
+        "model",
+        "alpha",
+        "frac",
+        "mu",
+        "delta",
+        "infty",
+        "prove"
+      ],
+      "pairwiseSimilarities": [
+        0.6
+      ]
+    },
+    {
+      "clusterId": 26,
+      "stability": 0.6,
+      "size": 12993,
+      "topCategory": "astro-ph.SR",
+      "domain": "astro-ph",
+      "topTerms": [
+        "solar",
+        "magnetic",
+        "observations",
+        "observed",
+        "flux",
+        "activity",
+        "energy",
+        "data",
+        "plasma",
+        "field"
+      ],
+      "pairwiseSimilarities": [
+        0.6
+      ]
+    },
+    {
+      "clusterId": 44,
+      "stability": 0.6,
+      "size": 42454,
+      "topCategory": "math.CO",
+      "domain": "math",
+      "topTerms": [
+        "graph",
+        "graphs",
+        "number",
+        "edge",
+        "problem",
+        "connected",
+        "set",
+        "paper",
+        "degree",
+        "prove"
+      ],
+      "pairwiseSimilarities": [
+        0.6
+      ]
+    },
+    {
+      "clusterId": 36,
+      "stability": 0.5384615384615384,
+      "size": 62396,
+      "topCategory": "cs.LG",
+      "domain": "cs",
+      "topTerms": [
+        "learning",
+        "deep",
+        "deep learning",
+        "training",
+        "data",
+        "model",
+        "tasks",
+        "based",
+        "performance",
+        "task"
+      ],
+      "pairwiseSimilarities": [
+        0.5384615384615384
+      ]
+    },
+    {
+      "clusterId": 3,
+      "stability": 0.48148148148148145,
+      "size": 10993,
+      "topCategory": "hep-ph",
+      "domain": "hep-ph",
+      "topTerms": [
+        "mu",
+        "nu",
+        "measure",
+        "model",
+        "delta",
+        "mathbb",
+        "alpha",
+        "sigma",
+        "frac",
+        "mass"
+      ],
+      "pairwiseSimilarities": [
+        0.48148148148148145
+      ]
+    },
+    {
+      "clusterId": 31,
+      "stability": 0.48148148148148145,
+      "size": 65946,
+      "topCategory": "cs.LG",
+      "domain": "cs",
+      "topTerms": [
+        "data",
+        "model",
+        "models",
+        "based",
+        "analysis",
+        "method",
+        "using",
+        "methods",
+        "privacy",
+        "time"
+      ],
+      "pairwiseSimilarities": [
+        0.48148148148148145
+      ]
+    },
+    {
+      "clusterId": 11,
+      "stability": 0.3793103448275862,
+      "size": 120447,
+      "topCategory": "cs.CV",
+      "domain": "cs",
+      "topTerms": [
+        "image",
+        "images",
+        "training",
+        "model",
+        "methods",
+        "segmentation",
+        "based",
+        "method",
+        "neural",
+        "models"
+      ],
+      "pairwiseSimilarities": [
+        0.3793103448275862
+      ]
+    },
+    {
+      "clusterId": 14,
+      "stability": 0.3793103448275862,
+      "size": 10371,
+      "topCategory": "eess.AS",
+      "domain": "eess",
+      "topTerms": [
+        "speech",
+        "recognition",
+        "model",
+        "models",
+        "language",
+        "training",
+        "text",
+        "data",
+        "based",
+        "end"
+      ],
+      "pairwiseSimilarities": [
+        0.3793103448275862
+      ]
+    },
+    {
+      "clusterId": 10,
+      "stability": 0.2903225806451613,
+      "size": 20274,
+      "topCategory": "cs.CV",
+      "domain": "cs",
+      "topTerms": [
+        "object",
+        "objects",
+        "detection",
+        "image",
+        "based",
+        "method",
+        "dataset",
+        "images",
+        "segmentation",
+        "model"
+      ],
+      "pairwiseSimilarities": [
+        0.2903225806451613
+      ]
+    },
+    {
+      "clusterId": 42,
+      "stability": 0.2903225806451613,
+      "size": 17679,
+      "topCategory": "cs.CL",
+      "domain": "cs",
+      "topTerms": [
+        "text",
+        "image",
+        "models",
+        "language",
+        "model",
+        "generation",
+        "based",
+        "data",
+        "task",
+        "images"
+      ],
+      "pairwiseSimilarities": [
+        0.2903225806451613
+      ]
+    },
+    {
+      "clusterId": 1,
+      "stability": 0.21212121212121213,
+      "size": 53956,
+      "topCategory": "cs.CL",
+      "domain": "cs",
+      "topTerms": [
+        "language",
+        "llms",
+        "models",
+        "language models",
+        "tasks",
+        "reasoning",
+        "large",
+        "model",
+        "performance",
+        "knowledge"
+      ],
+      "pairwiseSimilarities": [
+        0.21212121212121213
+      ]
+    },
+    {
+      "clusterId": 19,
+      "stability": 0.17647058823529413,
+      "size": 15819,
+      "topCategory": "cs.CV",
+      "domain": "cs",
+      "topTerms": [
+        "domain",
+        "domains",
+        "target",
+        "data",
+        "source",
+        "model",
+        "learning",
+        "training",
+        "performance",
+        "method"
+      ],
+      "pairwiseSimilarities": [
+        0.17647058823529413
+      ]
+    },
+    {
+      "clusterId": 30,
+      "stability": 0.17647058823529413,
+      "size": 11056,
+      "topCategory": "cs.AI",
+      "domain": "cs",
+      "topTerms": [
+        "ai",
+        "human",
+        "research",
+        "systems",
+        "models",
+        "generative",
+        "data",
+        "challenges",
+        "learning",
+        "development"
+      ],
+      "pairwiseSimilarities": [
+        0.17647058823529413
+      ]
+    }
+  ],
+  "previewData": [
+    {
+      "clusterId": 45,
+      "stability": 1.0,
+      "size": 247437,
+      "topCategory": "math.AG",
+      "domain": "math",
+      "topTerms": [
+        "prove",
+        "space",
+        "paper",
+        "theorem",
+        "spaces",
+        "result",
+        "number",
+        "proof",
+        "set",
+        "case"
+      ],
+      "pairwiseSimilarities": [
+        1.0
+      ]
+    },
+    {
+      "clusterId": 38,
+      "stability": 0.9047619047619048,
+      "size": 55682,
+      "topCategory": "astro-ph.HE",
+      "domain": "astro-ph",
+      "topTerms": [
+        "emission",
+        "ray",
+        "radio",
+        "observations",
+        "dust",
+        "gas",
+        "disk",
+        "line",
+        "sources",
+        "observed"
+      ],
+      "pairwiseSimilarities": [
+        0.9047619047619048
+      ]
+    },
+    {
+      "clusterId": 43,
+      "stability": 0.9047619047619048,
+      "size": 26956,
+      "topCategory": "math.NT",
+      "domain": "math",
+      "topTerms": [
+        "mathbb",
+        "prove",
+        "let",
+        "infty",
+        "times",
+        "space",
+        "frac",
+        "geq",
+        "group",
+        "alpha"
+      ],
+      "pairwiseSimilarities": [
+        0.9047619047619048
+      ]
+    },
+    {
+      "clusterId": 0,
+      "stability": 0.8181818181818182,
+      "size": 40304,
+      "topCategory": "math.GR",
+      "domain": "math",
+      "topTerms": [
+        "group",
+        "groups",
+        "finite",
+        "prove",
+        "lie",
+        "let",
+        "theory",
+        "action",
+        "class",
+        "representations"
+      ],
+      "pairwiseSimilarities": [
+        0.8181818181818182
+      ]
+    },
+    {
+      "clusterId": 13,
+      "stability": 0.8181818181818182,
+      "size": 9731,
+      "topCategory": "hep-ph",
+      "domain": "hep-ph",
+      "topTerms": [
+        "pi",
+        "decay",
+        "bar",
+        "sigma",
+        "gamma",
+        "pm",
+        "mass",
+        "data",
+        "gev",
+        "phi"
+      ],
+      "pairwiseSimilarities": [
+        0.8181818181818182
+      ]
+    },
+    {
+      "clusterId": 16,
+      "stability": 0.8181818181818182,
+      "size": 53343,
+      "topCategory": "hep-ph",
+      "domain": "hep-ph",
+      "topTerms": [
+        "higgs",
+        "production",
+        "collisions",
+        "mass",
+        "model",
+        "gev",
+        "energy",
+        "decay",
+        "cross",
+        "bar"
+      ],
+      "pairwiseSimilarities": [
+        0.8181818181818182
+      ]
+    },
+    {
+      "clusterId": 17,
+      "stability": 0.8181818181818182,
+      "size": 13738,
+      "topCategory": "hep-ph",
+      "domain": "hep-ph",
+      "topTerms": [
+        "quark",
+        "heavy",
+        "mass",
+        "masses",
+        "lattice",
+        "model",
+        "light",
+        "production",
+        "results",
+        "bar"
+      ],
+      "pairwiseSimilarities": [
+        0.8181818181818182
+      ]
+    },
+    {
+      "clusterId": 21,
+      "stability": 0.8181818181818182,
+      "size": 195519,
+      "topCategory": "hep-th",
+      "domain": "hep-th",
+      "topTerms": [
+        "theory",
+        "phase",
+        "field",
+        "model",
+        "energy",
+        "non",
+        "dynamics",
+        "states",
+        "transition",
+        "symmetry"
+      ],
+      "pairwiseSimilarities": [
+        0.8181818181818182
+      ]
+    }
+  ],
+  "evolvingClusters": [
+    {
+      "clusterId": 19,
+      "stability": 0.17647058823529413,
+      "size": 15819,
+      "topCategory": "cs.CV",
+      "domain": "cs",
+      "topTerms": [
+        "domain",
+        "domains",
+        "target",
+        "data",
+        "source",
+        "model",
+        "learning",
+        "training",
+        "performance",
+        "method"
+      ],
+      "pairwiseSimilarities": [
+        0.17647058823529413
+      ]
+    },
+    {
+      "clusterId": 30,
+      "stability": 0.17647058823529413,
+      "size": 11056,
+      "topCategory": "cs.AI",
+      "domain": "cs",
+      "topTerms": [
+        "ai",
+        "human",
+        "research",
+        "systems",
+        "models",
+        "generative",
+        "data",
+        "challenges",
+        "learning",
+        "development"
+      ],
+      "pairwiseSimilarities": [
+        0.17647058823529413
+      ]
+    },
+    {
+      "clusterId": 1,
+      "stability": 0.21212121212121213,
+      "size": 53956,
+      "topCategory": "cs.CL",
+      "domain": "cs",
+      "topTerms": [
+        "language",
+        "llms",
+        "models",
+        "language models",
+        "tasks",
+        "reasoning",
+        "large",
+        "model",
+        "performance",
+        "knowledge"
+      ],
+      "pairwiseSimilarities": [
+        0.21212121212121213
+      ]
+    },
+    {
+      "clusterId": 10,
+      "stability": 0.2903225806451613,
+      "size": 20274,
+      "topCategory": "cs.CV",
+      "domain": "cs",
+      "topTerms": [
+        "object",
+        "objects",
+        "detection",
+        "image",
+        "based",
+        "method",
+        "dataset",
+        "images",
+        "segmentation",
+        "model"
+      ],
+      "pairwiseSimilarities": [
+        0.2903225806451613
+      ]
+    },
+    {
+      "clusterId": 42,
+      "stability": 0.2903225806451613,
+      "size": 17679,
+      "topCategory": "cs.CL",
+      "domain": "cs",
+      "topTerms": [
+        "text",
+        "image",
+        "models",
+        "language",
+        "model",
+        "generation",
+        "based",
+        "data",
+        "task",
+        "images"
+      ],
+      "pairwiseSimilarities": [
+        0.2903225806451613
+      ]
+    },
+    {
+      "clusterId": 11,
+      "stability": 0.3793103448275862,
+      "size": 120447,
+      "topCategory": "cs.CV",
+      "domain": "cs",
+      "topTerms": [
+        "image",
+        "images",
+        "training",
+        "model",
+        "methods",
+        "segmentation",
+        "based",
+        "method",
+        "neural",
+        "models"
+      ],
+      "pairwiseSimilarities": [
+        0.3793103448275862
+      ]
+    },
+    {
+      "clusterId": 14,
+      "stability": 0.3793103448275862,
+      "size": 10371,
+      "topCategory": "eess.AS",
+      "domain": "eess",
+      "topTerms": [
+        "speech",
+        "recognition",
+        "model",
+        "models",
+        "language",
+        "training",
+        "text",
+        "data",
+        "based",
+        "end"
+      ],
+      "pairwiseSimilarities": [
+        0.3793103448275862
+      ]
+    },
+    {
+      "clusterId": 3,
+      "stability": 0.48148148148148145,
+      "size": 10993,
+      "topCategory": "hep-ph",
+      "domain": "hep-ph",
+      "topTerms": [
+        "mu",
+        "nu",
+        "measure",
+        "model",
+        "delta",
+        "mathbb",
+        "alpha",
+        "sigma",
+        "frac",
+        "mass"
+      ],
+      "pairwiseSimilarities": [
+        0.48148148148148145
+      ]
+    },
+    {
+      "clusterId": 31,
+      "stability": 0.48148148148148145,
+      "size": 65946,
+      "topCategory": "cs.LG",
+      "domain": "cs",
+      "topTerms": [
+        "data",
+        "model",
+        "models",
+        "based",
+        "analysis",
+        "method",
+        "using",
+        "methods",
+        "privacy",
+        "time"
+      ],
+      "pairwiseSimilarities": [
+        0.48148148148148145
+      ]
+    },
+    {
+      "clusterId": 36,
+      "stability": 0.5384615384615384,
+      "size": 62396,
+      "topCategory": "cs.LG",
+      "domain": "cs",
+      "topTerms": [
+        "learning",
+        "deep",
+        "deep learning",
+        "training",
+        "data",
+        "model",
+        "tasks",
+        "based",
+        "performance",
+        "task"
+      ],
+      "pairwiseSimilarities": [
+        0.5384615384615384
+      ]
+    }
+  ],
+  "distribution": [
+    {
+      "range": "0.1-0.2",
+      "count": 2
+    },
+    {
+      "range": "0.2-0.3",
+      "count": 3
+    },
+    {
+      "range": "0.3-0.4",
+      "count": 2
+    },
+    {
+      "range": "0.4-0.5",
+      "count": 2
+    },
+    {
+      "range": "0.5-0.6",
+      "count": 8
+    },
+    {
+      "range": "0.6-0.7",
+      "count": 8
+    },
+    {
+      "range": "0.7-0.8",
+      "count": 13
+    },
+    {
+      "range": "0.8-0.9",
+      "count": 9
+    },
+    {
+      "range": "0.9-1.0",
+      "count": 3
+    }
+  ],
+  "byDomain": [
+    {
+      "domain": "hep-th",
+      "meanStability": 0.8181818181818182,
+      "clusterCount": 1,
+      "minStability": 0.8181818181818182,
+      "maxStability": 0.8181818181818182
+    },
+    {
+      "domain": "math",
+      "meanStability": 0.7773511512641945,
+      "clusterCount": 12,
+      "minStability": 0.6,
+      "maxStability": 1.0
+    },
+    {
+      "domain": "cond-mat",
+      "meanStability": 0.7588932806324109,
+      "clusterCount": 4,
+      "minStability": 0.7391304347826086,
+      "maxStability": 0.8181818181818182
+    },
+    {
+      "domain": "gr-qc",
+      "meanStability": 0.7391304347826086,
+      "clusterCount": 1,
+      "minStability": 0.7391304347826086,
+      "maxStability": 0.7391304347826086
+    },
+    {
+      "domain": "quant-ph",
+      "meanStability": 0.7210144927536232,
+      "clusterCount": 4,
+      "minStability": 0.6666666666666666,
+      "maxStability": 0.7391304347826086
+    },
+    {
+      "domain": "astro-ph",
+      "meanStability": 0.6962042788129744,
+      "clusterCount": 6,
+      "minStability": 0.6,
+      "maxStability": 0.9047619047619048
+    },
+    {
+      "domain": "hep-ph",
+      "meanStability": 0.6927280046845264,
+      "clusterCount": 8,
+      "minStability": 0.48148148148148145,
+      "maxStability": 0.8181818181818182
+    },
+    {
+      "domain": "hep-ex",
+      "meanStability": 0.6666666666666666,
+      "clusterCount": 1,
+      "minStability": 0.6666666666666666,
+      "maxStability": 0.6666666666666666
+    },
+    {
+      "domain": "cs",
+      "meanStability": 0.42922983467516707,
+      "clusterCount": 12,
+      "minStability": 0.17647058823529413,
+      "maxStability": 0.7391304347826086
+    },
+    {
+      "domain": "eess",
+      "meanStability": 0.3793103448275862,
+      "clusterCount": 1,
+      "minStability": 0.3793103448275862,
+      "maxStability": 0.3793103448275862
+    }
+  ],
+  "comparison": {
+    "fullData": [
+      {
+        "clusterId": 4,
+        "stability": 0.9047619047619048,
+        "size": 32772,
+        "topCategory": "astro-ph.HE",
+        "domain": "astro-ph",
+        "topTerms": [
+          "ray",
+          "gamma",
+          "emission",
+          "energy",
+          "radio",
+          "sources",
+          "observations",
+          "high",
+          "cosmic",
+          "source"
+        ],
+        "pairwiseSimilarities": [
+          0.9047619047619048
+        ]
+      },
+      {
+        "clusterId": 7,
+        "stability": 0.9047619047619048,
+        "size": 28806,
+        "topCategory": "math.GR",
+        "domain": "math",
+        "topTerms": [
+          "group",
+          "finite",
+          "groups",
+          "let",
+          "prove",
+          "action",
+          "space",
+          "lie",
+          "theory",
+          "field"
+        ],
+        "pairwiseSimilarities": [
+          0.9047619047619048
+        ]
+      },
+      {
+        "clusterId": 17,
+        "stability": 0.9047619047619048,
+        "size": 18552,
+        "topCategory": "math.GR",
+        "domain": "math",
+        "topTerms": [
+          "groups",
+          "group",
+          "finite",
+          "prove",
+          "lie",
+          "theory",
+          "class",
+          "paper",
+          "free",
+          "representations"
+        ],
+        "pairwiseSimilarities": [
+          0.9047619047619048
+        ]
+      },
+      {
+        "clusterId": 19,
+        "stability": 0.9047619047619048,
+        "size": 35837,
+        "topCategory": "astro-ph.GA",
+        "domain": "astro-ph",
+        "topTerms": [
+          "gas",
+          "emission",
+          "dust",
+          "line",
+          "observations",
+          "radio",
+          "lines",
+          "star",
+          "molecular",
+          "mass"
+        ],
+        "pairwiseSimilarities": [
+          0.9047619047619048
+        ]
+      },
+      {
+        "clusterId": 1,
+        "stability": 0.8181818181818182,
+        "size": 59973,
+        "topCategory": "hep-ph",
+        "domain": "hep-ph",
+        "topTerms": [
+          "quark",
+          "higgs",
+          "mass",
+          "production",
+          "collisions",
+          "heavy",
+          "bar",
+          "model",
+          "gev",
+          "decay"
+        ],
+        "pairwiseSimilarities": [
+          0.8181818181818182
+        ]
+      },
+      {
+        "clusterId": 2,
+        "stability": 0.8181818181818182,
+        "size": 10523,
+        "topCategory": "astro-ph.EP",
+        "domain": "astro-ph",
+        "topTerms": [
+          "disk",
+          "accretion",
+          "mass",
+          "dust",
+          "gas",
+          "star",
+          "formation",
+          "emission",
+          "observations",
+          "stellar"
+        ],
+        "pairwiseSimilarities": [
+          0.8181818181818182
+        ]
+      },
+      {
+        "clusterId": 11,
+        "stability": 0.8181818181818182,
+        "size": 24563,
+        "topCategory": "math.FA",
+        "domain": "math",
+        "topTerms": [
+          "operators",
+          "operator",
+          "space",
+          "functions",
+          "theory",
+          "differential",
+          "type",
+          "prove",
+          "paper",
+          "order"
+        ],
+        "pairwiseSimilarities": [
+          0.8181818181818182
+        ]
+      },
+      {
+        "clusterId": 23,
+        "stability": 0.8181818181818182,
+        "size": 12711,
+        "topCategory": "math.AP",
+        "domain": "math",
+        "topTerms": [
+          "omega",
+          "mathbb",
+          "lambda",
+          "partial",
+          "bounded",
+          "infty",
+          "delta",
+          "frac",
+          "prove",
+          "boundary"
+        ],
+        "pairwiseSimilarities": [
+          0.8181818181818182
+        ]
+      },
+      {
+        "clusterId": 24,
+        "stability": 0.8181818181818182,
+        "size": 24242,
+        "topCategory": "hep-ph",
+        "domain": "hep-ph",
+        "topTerms": [
+          "dark",
+          "dark matter",
+          "matter",
+          "mass",
+          "energy",
+          "model",
+          "universe",
+          "cosmological",
+          "scalar",
+          "particles"
+        ],
+        "pairwiseSimilarities": [
+          0.8181818181818182
+        ]
+      },
+      {
+        "clusterId": 27,
+        "stability": 0.8181818181818182,
+        "size": 261297,
+        "topCategory": "hep-th",
+        "domain": "hep-th",
+        "topTerms": [
+          "prove",
+          "theory",
+          "functions",
+          "paper",
+          "theorem",
+          "space",
+          "function",
+          "non",
+          "result",
+          "case"
+        ],
+        "pairwiseSimilarities": [
+          0.8181818181818182
+        ]
+      },
+      {
+        "clusterId": 28,
+        "stability": 0.8181818181818182,
+        "size": 27226,
+        "topCategory": "math.NT",
+        "domain": "math",
+        "topTerms": [
+          "mathbb",
+          "prove",
+          "let",
+          "infty",
+          "times",
+          "space",
+          "geq",
+          "frac",
+          "group",
+          "mathrm"
+        ],
+        "pairwiseSimilarities": [
+          0.8181818181818182
+        ]
+      },
+      {
+        "clusterId": 37,
+        "stability": 0.8181818181818182,
+        "size": 37095,
+        "topCategory": "cond-mat.mes-hall",
+        "domain": "cond-mat",
+        "topTerms": [
+          "spin",
+          "magnetic",
+          "quantum",
+          "orbit",
+          "coupling",
+          "field",
+          "states",
+          "state",
+          "electron",
+          "interaction"
+        ],
+        "pairwiseSimilarities": [
+          0.8181818181818182
+        ]
+      },
+      {
+        "clusterId": 40,
+        "stability": 0.8181818181818182,
+        "size": 47507,
+        "topCategory": "astro-ph.SR",
+        "domain": "astro-ph",
+        "topTerms": [
+          "magnetic",
+          "field",
+          "magnetic field",
+          "fields",
+          "temperature",
+          "spin",
+          "effect",
+          "energy",
+          "electric",
+          "flux"
+        ],
+        "pairwiseSimilarities": [
+          0.8181818181818182
+        ]
+      },
+      {
+        "clusterId": 44,
+        "stability": 0.8181818181818182,
+        "size": 20478,
+        "topCategory": "math.FA",
+        "domain": "math",
+        "topTerms": [
+          "spaces",
+          "space",
+          "metric",
+          "prove",
+          "functions",
+          "paper",
+          "compact",
+          "theorem",
+          "theory",
+          "results"
+        ],
+        "pairwiseSimilarities": [
+          0.8181818181818182
+        ]
+      },
+      {
+        "clusterId": 49,
+        "stability": 0.8181818181818182,
+        "size": 141760,
+        "topCategory": "math.OC",
+        "domain": "math",
+        "topTerms": [
+          "algorithm",
+          "problem",
+          "method",
+          "problems",
+          "algorithms",
+          "optimization",
+          "optimal",
+          "time",
+          "proposed",
+          "based"
+        ],
+        "pairwiseSimilarities": [
+          0.8181818181818182
+        ]
+      },
+      {
+        "clusterId": 29,
+        "stability": 0.7391304347826086,
+        "size": 25315,
+        "topCategory": "astro-ph.GA",
+        "domain": "astro-ph",
+        "topTerms": [
+          "galaxies",
+          "galaxy",
+          "star",
+          "mass",
+          "stellar",
+          "formation",
+          "redshift",
+          "gas",
+          "sample",
+          "cluster"
+        ],
+        "pairwiseSimilarities": [
+          0.7391304347826086
+        ]
+      },
+      {
+        "clusterId": 30,
+        "stability": 0.7391304347826086,
+        "size": 10864,
+        "topCategory": "cond-mat.mes-hall",
+        "domain": "cond-mat",
+        "topTerms": [
+          "graphene",
+          "electronic",
+          "electron",
+          "layer",
+          "energy",
+          "properties",
+          "band",
+          "transport",
+          "devices",
+          "materials"
+        ],
+        "pairwiseSimilarities": [
+          0.7391304347826086
+        ]
+      },
+      {
+        "clusterId": 31,
+        "stability": 0.7391304347826086,
+        "size": 68959,
+        "topCategory": "math.AP",
+        "domain": "math",
+        "topTerms": [
+          "equation",
+          "solutions",
+          "equations",
+          "solution",
+          "differential",
+          "nonlinear",
+          "time",
+          "existence",
+          "boundary",
+          "problem"
+        ],
+        "pairwiseSimilarities": [
+          0.7391304347826086
+        ]
+      },
+      {
+        "clusterId": 33,
+        "stability": 0.7391304347826086,
+        "size": 91109,
+        "topCategory": "cs.CR",
+        "domain": "cs",
+        "topTerms": [
+          "user",
+          "users",
+          "research",
+          "software",
+          "systems",
+          "design",
+          "information",
+          "based",
+          "social",
+          "paper"
+        ],
+        "pairwiseSimilarities": [
+          0.7391304347826086
+        ]
+      },
+      {
+        "clusterId": 34,
+        "stability": 0.7391304347826086,
+        "size": 25390,
+        "topCategory": "gr-qc",
+        "domain": "gr-qc",
+        "topTerms": [
+          "black",
+          "black hole",
+          "hole",
+          "holes",
+          "mass",
+          "gravitational",
+          "gravity",
+          "scalar",
+          "solutions",
+          "field"
+        ],
+        "pairwiseSimilarities": [
+          0.7391304347826086
+        ]
+      },
+      {
+        "clusterId": 38,
+        "stability": 0.7391304347826086,
+        "size": 5085,
+        "topCategory": "math.NT",
+        "domain": "math",
+        "topTerms": [
+          "numbers",
+          "number",
+          "paper",
+          "sum",
+          "real",
+          "sequence",
+          "prove",
+          "sequences",
+          "natural",
+          "formula"
+        ],
+        "pairwiseSimilarities": [
+          0.7391304347826086
+        ]
+      },
+      {
+        "clusterId": 5,
+        "stability": 0.6666666666666666,
+        "size": 73650,
+        "topCategory": "quant-ph",
+        "domain": "quant-ph",
+        "topTerms": [
+          "quantum",
+          "classical",
+          "states",
+          "state",
+          "systems",
+          "theory",
+          "time",
+          "information",
+          "non",
+          "photon"
+        ],
+        "pairwiseSimilarities": [
+          0.6666666666666666
+        ]
+      },
+      {
+        "clusterId": 12,
+        "stability": 0.6666666666666666,
+        "size": 12455,
+        "topCategory": "quant-ph",
+        "domain": "quant-ph",
+        "topTerms": [
+          "entanglement",
+          "quantum",
+          "states",
+          "entropy",
+          "state",
+          "systems",
+          "non",
+          "photon",
+          "information",
+          "field"
+        ],
+        "pairwiseSimilarities": [
+          0.6666666666666666
+        ]
+      },
+      {
+        "clusterId": 14,
+        "stability": 0.6666666666666666,
+        "size": 19333,
+        "topCategory": "math.AP",
+        "domain": "math",
+        "topTerms": [
+          "alpha",
+          "beta",
+          "frac",
+          "mathbb",
+          "function",
+          "gamma",
+          "lambda",
+          "infty",
+          "order",
+          "leq"
+        ],
+        "pairwiseSimilarities": [
+          0.6666666666666666
+        ]
+      },
+      {
+        "clusterId": 16,
+        "stability": 0.6666666666666666,
+        "size": 13376,
+        "topCategory": "hep-ph",
+        "domain": "hep-ph",
+        "topTerms": [
+          "neutrino",
+          "mass",
+          "nu",
+          "energy",
+          "detector",
+          "masses",
+          "model",
+          "decay",
+          "physics",
+          "experiments"
+        ],
+        "pairwiseSimilarities": [
+          0.6666666666666666
+        ]
+      },
+      {
+        "clusterId": 21,
+        "stability": 0.6666666666666666,
+        "size": 18237,
+        "topCategory": "math.CO",
+        "domain": "math",
+        "topTerms": [
+          "mathcal",
+          "mathbb",
+          "let",
+          "set",
+          "space",
+          "prove",
+          "algebra",
+          "infty",
+          "group",
+          "finite"
+        ],
+        "pairwiseSimilarities": [
+          0.6666666666666666
+        ]
+      },
+      {
+        "clusterId": 22,
+        "stability": 0.6666666666666666,
+        "size": 36549,
+        "topCategory": "astro-ph.SR",
+        "domain": "astro-ph",
+        "topTerms": [
+          "stars",
+          "star",
+          "stellar",
+          "mass",
+          "binary",
+          "cluster",
+          "neutron",
+          "clusters",
+          "evolution",
+          "massive"
+        ],
+        "pairwiseSimilarities": [
+          0.6666666666666666
+        ]
+      },
+      {
+        "clusterId": 25,
+        "stability": 0.6666666666666666,
+        "size": 26595,
+        "topCategory": "math.OC",
+        "domain": "math",
+        "topTerms": [
+          "control",
+          "optimal",
+          "systems",
+          "time",
+          "problem",
+          "based",
+          "model",
+          "proposed",
+          "paper",
+          "state"
+        ],
+        "pairwiseSimilarities": [
+          0.6666666666666666
+        ]
+      },
+      {
+        "clusterId": 43,
+        "stability": 0.6666666666666666,
+        "size": 25216,
+        "topCategory": "math.RA",
+        "domain": "math",
+        "topTerms": [
+          "algebras",
+          "algebra",
+          "lie",
+          "finite",
+          "theory",
+          "dimensional",
+          "prove",
+          "group",
+          "type",
+          "paper"
+        ],
+        "pairwiseSimilarities": [
+          0.6666666666666666
+        ]
+      },
+      {
+        "clusterId": 45,
+        "stability": 0.6666666666666666,
+        "size": 11826,
+        "topCategory": "hep-ph",
+        "domain": "hep-ph",
+        "topTerms": [
+          "pi",
+          "pm",
+          "decay",
+          "gamma",
+          "bar",
+          "sigma",
+          "lambda",
+          "mass",
+          "data",
+          "gev"
+        ],
+        "pairwiseSimilarities": [
+          0.6666666666666666
+        ]
+      },
+      {
+        "clusterId": 3,
+        "stability": 0.6,
+        "size": 333414,
+        "topCategory": "physics.optics",
+        "domain": "physics",
+        "topTerms": [
+          "model",
+          "time",
+          "using",
+          "energy",
+          "results",
+          "dynamics",
+          "high",
+          "field",
+          "based",
+          "study"
+        ],
+        "pairwiseSimilarities": [
+          0.6
+        ]
+      },
+      {
+        "clusterId": 8,
+        "stability": 0.6,
+        "size": 24874,
+        "topCategory": "quant-ph",
+        "domain": "quant-ph",
+        "topTerms": [
+          "al",
+          "et",
+          "et al",
+          "model",
+          "results",
+          "time",
+          "data",
+          "using",
+          "paper",
+          "based"
+        ],
+        "pairwiseSimilarities": [
+          0.6
+        ]
+      },
+      {
+        "clusterId": 9,
+        "stability": 0.6,
+        "size": 22309,
+        "topCategory": "cs.IT",
+        "domain": "cs",
+        "topTerms": [
+          "channel",
+          "channels",
+          "communication",
+          "capacity",
+          "rate",
+          "information",
+          "multiple",
+          "performance",
+          "proposed",
+          "transmission"
+        ],
+        "pairwiseSimilarities": [
+          0.6
+        ]
+      },
+      {
+        "clusterId": 10,
+        "stability": 0.6,
+        "size": 72564,
+        "topCategory": "cs.LG",
+        "domain": "cs",
+        "topTerms": [
+          "learning",
+          "machine",
+          "machine learning",
+          "deep",
+          "data",
+          "deep learning",
+          "model",
+          "models",
+          "training",
+          "based"
+        ],
+        "pairwiseSimilarities": [
+          0.6
+        ]
+      },
+      {
+        "clusterId": 18,
+        "stability": 0.6,
+        "size": 13999,
+        "topCategory": "astro-ph.GA",
+        "domain": "astro-ph",
+        "topTerms": [
+          "rm",
+          "sim",
+          "pm",
+          "mass",
+          "times",
+          "sigma",
+          "star",
+          "lambda",
+          "model",
+          "energy"
+        ],
+        "pairwiseSimilarities": [
+          0.6
+        ]
+      },
+      {
+        "clusterId": 36,
+        "stability": 0.6,
+        "size": 130430,
+        "topCategory": "cond-mat.mtrl-sci",
+        "domain": "cond-mat",
+        "topTerms": [
+          "temperature",
+          "states",
+          "electron",
+          "energy",
+          "density",
+          "state",
+          "surface",
+          "electronic",
+          "transition",
+          "band"
+        ],
+        "pairwiseSimilarities": [
+          0.6
+        ]
+      },
+      {
+        "clusterId": 41,
+        "stability": 0.6,
+        "size": 11840,
+        "topCategory": "hep-ph",
+        "domain": "hep-ph",
+        "topTerms": [
+          "mu",
+          "nu",
+          "lambda",
+          "tau",
+          "measure",
+          "gamma",
+          "model",
+          "mathbb",
+          "sigma",
+          "mass"
+        ],
+        "pairwiseSimilarities": [
+          0.6
+        ]
+      },
+      {
+        "clusterId": 42,
+        "stability": 0.6,
+        "size": 42067,
+        "topCategory": "math.CO",
+        "domain": "math",
+        "topTerms": [
+          "graph",
+          "graphs",
+          "number",
+          "edge",
+          "problem",
+          "connected",
+          "set",
+          "paper",
+          "prove",
+          "degree"
+        ],
+        "pairwiseSimilarities": [
+          0.6
+        ]
+      },
+      {
+        "clusterId": 48,
+        "stability": 0.6,
+        "size": 41459,
+        "topCategory": "cond-mat.str-el",
+        "domain": "cond-mat",
+        "topTerms": [
+          "phase",
+          "transition",
+          "phases",
+          "model",
+          "order",
+          "temperature",
+          "transitions",
+          "critical",
+          "quantum",
+          "field"
+        ],
+        "pairwiseSimilarities": [
+          0.6
+        ]
+      },
+      {
+        "clusterId": 35,
+        "stability": 0.5384615384615384,
+        "size": 13458,
+        "topCategory": "math.CO",
+        "domain": "math",
+        "topTerms": [
+          "delta",
+          "frac",
+          "log",
+          "mathbb",
+          "prove",
+          "function",
+          "sigma",
+          "lambda",
+          "graph",
+          "leq"
+        ],
+        "pairwiseSimilarities": [
+          0.5384615384615384
+        ]
+      },
+      {
+        "clusterId": 47,
+        "stability": 0.5384615384615384,
+        "size": 66371,
+        "topCategory": "cs.LG",
+        "domain": "cs",
+        "topTerms": [
+          "data",
+          "model",
+          "models",
+          "based",
+          "analysis",
+          "using",
+          "method",
+          "methods",
+          "time",
+          "approach"
+        ],
+        "pairwiseSimilarities": [
+          0.5384615384615384
+        ]
+      },
+      {
+        "clusterId": 15,
+        "stability": 0.3793103448275862,
+        "size": 18400,
+        "topCategory": "cs.AI",
+        "domain": "cs",
+        "topTerms": [
+          "agents",
+          "agent",
+          "learning",
+          "multi",
+          "based",
+          "model",
+          "environment",
+          "policy",
+          "problem",
+          "information"
+        ],
+        "pairwiseSimilarities": [
+          0.3793103448275862
+        ]
+      },
+      {
+        "clusterId": 39,
+        "stability": 0.3793103448275862,
+        "size": 143693,
+        "topCategory": "cs.CV",
+        "domain": "cs",
+        "topTerms": [
+          "model",
+          "models",
+          "performance",
+          "based",
+          "training",
+          "methods",
+          "task",
+          "dataset",
+          "datasets",
+          "propose"
+        ],
+        "pairwiseSimilarities": [
+          0.3793103448275862
+        ]
+      },
+      {
+        "clusterId": 46,
+        "stability": 0.3793103448275862,
+        "size": 10199,
+        "topCategory": "eess.AS",
+        "domain": "eess",
+        "topTerms": [
+          "speech",
+          "recognition",
+          "model",
+          "models",
+          "text",
+          "language",
+          "training",
+          "data",
+          "end",
+          "based"
+        ],
+        "pairwiseSimilarities": [
+          0.3793103448275862
+        ]
+      },
+      {
+        "clusterId": 20,
+        "stability": 0.3333333333333333,
+        "size": 68689,
+        "topCategory": "cs.LG",
+        "domain": "cs",
+        "topTerms": [
+          "network",
+          "networks",
+          "neural",
+          "neural networks",
+          "neural network",
+          "model",
+          "based",
+          "deep",
+          "data",
+          "nodes"
+        ],
+        "pairwiseSimilarities": [
+          0.3333333333333333
+        ]
+      },
+      {
+        "clusterId": 0,
+        "stability": 0.2903225806451613,
+        "size": 12419,
+        "topCategory": "cs.CV",
+        "domain": "cs",
+        "topTerms": [
+          "video",
+          "temporal",
+          "visual",
+          "quality",
+          "motion",
+          "model",
+          "based",
+          "models",
+          "dataset",
+          "propose"
+        ],
+        "pairwiseSimilarities": [
+          0.2903225806451613
+        ]
+      },
+      {
+        "clusterId": 6,
+        "stability": 0.2903225806451613,
+        "size": 50126,
+        "topCategory": "cs.CV",
+        "domain": "cs",
+        "topTerms": [
+          "image",
+          "images",
+          "segmentation",
+          "method",
+          "methods",
+          "based",
+          "model",
+          "quality",
+          "training",
+          "learning"
+        ],
+        "pairwiseSimilarities": [
+          0.2903225806451613
+        ]
+      },
+      {
+        "clusterId": 32,
+        "stability": 0.25,
+        "size": 11729,
+        "topCategory": "cs.CR",
+        "domain": "cs",
+        "topTerms": [
+          "attacks",
+          "adversarial",
+          "robustness",
+          "security",
+          "training",
+          "models",
+          "model",
+          "learning",
+          "examples",
+          "based"
+        ],
+        "pairwiseSimilarities": [
+          0.25
+        ]
+      },
+      {
+        "clusterId": 26,
+        "stability": 0.21212121212121213,
+        "size": 38393,
+        "topCategory": "cs.CL",
+        "domain": "cs",
+        "topTerms": [
+          "llms",
+          "language",
+          "models",
+          "language models",
+          "reasoning",
+          "tasks",
+          "large",
+          "performance",
+          "model",
+          "knowledge"
+        ],
+        "pairwiseSimilarities": [
+          0.21212121212121213
+        ]
+      },
+      {
+        "clusterId": 13,
+        "stability": 0.17647058823529413,
+        "size": 10888,
+        "topCategory": "cs.AI",
+        "domain": "cs",
+        "topTerms": [
+          "ai",
+          "human",
+          "research",
+          "systems",
+          "models",
+          "data",
+          "generative",
+          "challenges",
+          "learning",
+          "development"
+        ],
+        "pairwiseSimilarities": [
+          0.17647058823529413
+        ]
+      }
+    ],
+    "previewData": [
+      {
+        "clusterId": 4,
+        "stability": 0.9047619047619048,
+        "size": 32772,
+        "topCategory": "astro-ph.HE",
+        "domain": "astro-ph",
+        "topTerms": [
+          "ray",
+          "gamma",
+          "emission",
+          "energy",
+          "radio",
+          "sources",
+          "observations",
+          "high",
+          "cosmic",
+          "source"
+        ],
+        "pairwiseSimilarities": [
+          0.9047619047619048
+        ]
+      },
+      {
+        "clusterId": 7,
+        "stability": 0.9047619047619048,
+        "size": 28806,
+        "topCategory": "math.GR",
+        "domain": "math",
+        "topTerms": [
+          "group",
+          "finite",
+          "groups",
+          "let",
+          "prove",
+          "action",
+          "space",
+          "lie",
+          "theory",
+          "field"
+        ],
+        "pairwiseSimilarities": [
+          0.9047619047619048
+        ]
+      },
+      {
+        "clusterId": 17,
+        "stability": 0.9047619047619048,
+        "size": 18552,
+        "topCategory": "math.GR",
+        "domain": "math",
+        "topTerms": [
+          "groups",
+          "group",
+          "finite",
+          "prove",
+          "lie",
+          "theory",
+          "class",
+          "paper",
+          "free",
+          "representations"
+        ],
+        "pairwiseSimilarities": [
+          0.9047619047619048
+        ]
+      },
+      {
+        "clusterId": 19,
+        "stability": 0.9047619047619048,
+        "size": 35837,
+        "topCategory": "astro-ph.GA",
+        "domain": "astro-ph",
+        "topTerms": [
+          "gas",
+          "emission",
+          "dust",
+          "line",
+          "observations",
+          "radio",
+          "lines",
+          "star",
+          "molecular",
+          "mass"
+        ],
+        "pairwiseSimilarities": [
+          0.9047619047619048
+        ]
+      },
+      {
+        "clusterId": 1,
+        "stability": 0.8181818181818182,
+        "size": 59973,
+        "topCategory": "hep-ph",
+        "domain": "hep-ph",
+        "topTerms": [
+          "quark",
+          "higgs",
+          "mass",
+          "production",
+          "collisions",
+          "heavy",
+          "bar",
+          "model",
+          "gev",
+          "decay"
+        ],
+        "pairwiseSimilarities": [
+          0.8181818181818182
+        ]
+      },
+      {
+        "clusterId": 2,
+        "stability": 0.8181818181818182,
+        "size": 10523,
+        "topCategory": "astro-ph.EP",
+        "domain": "astro-ph",
+        "topTerms": [
+          "disk",
+          "accretion",
+          "mass",
+          "dust",
+          "gas",
+          "star",
+          "formation",
+          "emission",
+          "observations",
+          "stellar"
+        ],
+        "pairwiseSimilarities": [
+          0.8181818181818182
+        ]
+      },
+      {
+        "clusterId": 11,
+        "stability": 0.8181818181818182,
+        "size": 24563,
+        "topCategory": "math.FA",
+        "domain": "math",
+        "topTerms": [
+          "operators",
+          "operator",
+          "space",
+          "functions",
+          "theory",
+          "differential",
+          "type",
+          "prove",
+          "paper",
+          "order"
+        ],
+        "pairwiseSimilarities": [
+          0.8181818181818182
+        ]
+      },
+      {
+        "clusterId": 23,
+        "stability": 0.8181818181818182,
+        "size": 12711,
+        "topCategory": "math.AP",
+        "domain": "math",
+        "topTerms": [
+          "omega",
+          "mathbb",
+          "lambda",
+          "partial",
+          "bounded",
+          "infty",
+          "delta",
+          "frac",
+          "prove",
+          "boundary"
+        ],
+        "pairwiseSimilarities": [
+          0.8181818181818182
+        ]
+      }
+    ],
+    "evolvingClusters": [
+      {
+        "clusterId": 13,
+        "stability": 0.17647058823529413,
+        "size": 10888,
+        "topCategory": "cs.AI",
+        "domain": "cs",
+        "topTerms": [
+          "ai",
+          "human",
+          "research",
+          "systems",
+          "models",
+          "data",
+          "generative",
+          "challenges",
+          "learning",
+          "development"
+        ],
+        "pairwiseSimilarities": [
+          0.17647058823529413
+        ]
+      },
+      {
+        "clusterId": 26,
+        "stability": 0.21212121212121213,
+        "size": 38393,
+        "topCategory": "cs.CL",
+        "domain": "cs",
+        "topTerms": [
+          "llms",
+          "language",
+          "models",
+          "language models",
+          "reasoning",
+          "tasks",
+          "large",
+          "performance",
+          "model",
+          "knowledge"
+        ],
+        "pairwiseSimilarities": [
+          0.21212121212121213
+        ]
+      },
+      {
+        "clusterId": 32,
+        "stability": 0.25,
+        "size": 11729,
+        "topCategory": "cs.CR",
+        "domain": "cs",
+        "topTerms": [
+          "attacks",
+          "adversarial",
+          "robustness",
+          "security",
+          "training",
+          "models",
+          "model",
+          "learning",
+          "examples",
+          "based"
+        ],
+        "pairwiseSimilarities": [
+          0.25
+        ]
+      },
+      {
+        "clusterId": 0,
+        "stability": 0.2903225806451613,
+        "size": 12419,
+        "topCategory": "cs.CV",
+        "domain": "cs",
+        "topTerms": [
+          "video",
+          "temporal",
+          "visual",
+          "quality",
+          "motion",
+          "model",
+          "based",
+          "models",
+          "dataset",
+          "propose"
+        ],
+        "pairwiseSimilarities": [
+          0.2903225806451613
+        ]
+      },
+      {
+        "clusterId": 6,
+        "stability": 0.2903225806451613,
+        "size": 50126,
+        "topCategory": "cs.CV",
+        "domain": "cs",
+        "topTerms": [
+          "image",
+          "images",
+          "segmentation",
+          "method",
+          "methods",
+          "based",
+          "model",
+          "quality",
+          "training",
+          "learning"
+        ],
+        "pairwiseSimilarities": [
+          0.2903225806451613
+        ]
+      },
+      {
+        "clusterId": 20,
+        "stability": 0.3333333333333333,
+        "size": 68689,
+        "topCategory": "cs.LG",
+        "domain": "cs",
+        "topTerms": [
+          "network",
+          "networks",
+          "neural",
+          "neural networks",
+          "neural network",
+          "model",
+          "based",
+          "deep",
+          "data",
+          "nodes"
+        ],
+        "pairwiseSimilarities": [
+          0.3333333333333333
+        ]
+      },
+      {
+        "clusterId": 15,
+        "stability": 0.3793103448275862,
+        "size": 18400,
+        "topCategory": "cs.AI",
+        "domain": "cs",
+        "topTerms": [
+          "agents",
+          "agent",
+          "learning",
+          "multi",
+          "based",
+          "model",
+          "environment",
+          "policy",
+          "problem",
+          "information"
+        ],
+        "pairwiseSimilarities": [
+          0.3793103448275862
+        ]
+      },
+      {
+        "clusterId": 39,
+        "stability": 0.3793103448275862,
+        "size": 143693,
+        "topCategory": "cs.CV",
+        "domain": "cs",
+        "topTerms": [
+          "model",
+          "models",
+          "performance",
+          "based",
+          "training",
+          "methods",
+          "task",
+          "dataset",
+          "datasets",
+          "propose"
+        ],
+        "pairwiseSimilarities": [
+          0.3793103448275862
+        ]
+      },
+      {
+        "clusterId": 46,
+        "stability": 0.3793103448275862,
+        "size": 10199,
+        "topCategory": "eess.AS",
+        "domain": "eess",
+        "topTerms": [
+          "speech",
+          "recognition",
+          "model",
+          "models",
+          "text",
+          "language",
+          "training",
+          "data",
+          "end",
+          "based"
+        ],
+        "pairwiseSimilarities": [
+          0.3793103448275862
+        ]
+      },
+      {
+        "clusterId": 35,
+        "stability": 0.5384615384615384,
+        "size": 13458,
+        "topCategory": "math.CO",
+        "domain": "math",
+        "topTerms": [
+          "delta",
+          "frac",
+          "log",
+          "mathbb",
+          "prove",
+          "function",
+          "sigma",
+          "lambda",
+          "graph",
+          "leq"
+        ],
+        "pairwiseSimilarities": [
+          0.5384615384615384
+        ]
+      }
+    ],
+    "distribution": [
+      {
+        "range": "0.1-0.2",
+        "count": 1
+      },
+      {
+        "range": "0.2-0.3",
+        "count": 4
+      },
+      {
+        "range": "0.3-0.4",
+        "count": 4
+      },
+      {
+        "range": "0.4-0.5",
+        "count": 0
+      },
+      {
+        "range": "0.5-0.6",
+        "count": 11
+      },
+      {
+        "range": "0.6-0.7",
+        "count": 9
+      },
+      {
+        "range": "0.7-0.8",
+        "count": 6
+      },
+      {
+        "range": "0.8-0.9",
+        "count": 11
+      },
+      {
+        "range": "0.9-1.0",
+        "count": 4
+      }
+    ],
+    "byDomain": [
+      {
+        "domain": "hep-th",
+        "meanStability": 0.8181818181818182,
+        "clusterCount": 1,
+        "minStability": 0.8181818181818182,
+        "maxStability": 0.8181818181818182
+      },
+      {
+        "domain": "astro-ph",
+        "meanStability": 0.7788120781909601,
+        "clusterCount": 7,
+        "minStability": 0.6,
+        "maxStability": 0.9047619047619048
+      },
+      {
+        "domain": "math",
+        "meanStability": 0.7455881316750881,
+        "clusterCount": 15,
+        "minStability": 0.5384615384615384,
+        "maxStability": 0.9047619047619048
+      },
+      {
+        "domain": "gr-qc",
+        "meanStability": 0.7391304347826086,
+        "clusterCount": 1,
+        "minStability": 0.7391304347826086,
+        "maxStability": 0.7391304347826086
+      },
+      {
+        "domain": "hep-ph",
+        "meanStability": 0.713939393939394,
+        "clusterCount": 5,
+        "minStability": 0.6,
+        "maxStability": 0.8181818181818182
+      },
+      {
+        "domain": "cond-mat",
+        "meanStability": 0.6893280632411067,
+        "clusterCount": 4,
+        "minStability": 0.6,
+        "maxStability": 0.8181818181818182
+      },
+      {
+        "domain": "quant-ph",
+        "meanStability": 0.6444444444444444,
+        "clusterCount": 3,
+        "minStability": 0.6,
+        "maxStability": 0.6666666666666666
+      },
+      {
+        "domain": "physics",
+        "meanStability": 0.6,
+        "clusterCount": 1,
+        "minStability": 0.6,
+        "maxStability": 0.6
+      },
+      {
+        "domain": "cs",
+        "meanStability": 0.39906524648995684,
+        "clusterCount": 12,
+        "minStability": 0.17647058823529413,
+        "maxStability": 0.7391304347826086
+      },
+      {
+        "domain": "eess",
+        "meanStability": 0.3793103448275862,
+        "clusterCount": 1,
+        "minStability": 0.3793103448275862,
+        "maxStability": 0.3793103448275862
+      }
+    ]
+  },
+  "summary": {
+    "meanStability500": 0.6544188379925842,
+    "meanStability300": 0.6444250926825855,
+    "medianStability500": 0.7028985507246377,
+    "stableCount500": 25,
+    "evolvingCount500": 5,
+    "stableCount300": 21,
+    "evolvingCount300": 5,
+    "totalClusters": 50,
+    "mostStableDomain": "hep-th",
+    "leastStableDomain": "eess"
+  }
+}

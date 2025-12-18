@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Large Language Models",
+    "topTerms": ["language", "llms", "models", "reasoning", "training", "fine", "tuning", "evaluation"],
+    "size": 53956,
+    "domain": "Computer Science",
+    "topCategory": "cs.CL",
+    "purity": 51.9,
+    "growthRate": 991.7,
+    "medianYear": 2024,
+    "recentPapers": 95.0,
+    "isBridge": false,
+    "insight": "Fastest growing cluster — 10x growth rate. 95% of papers from 2020+."
+  },
+  {
+    "id": 11,
+    "name": "Computer Vision & Deep Learning",
+    "topTerms": ["image", "images", "training", "segmentation", "neural", "network", "dataset", "features"],
+    "size": 120447,
+    "domain": "Computer Science",
+    "topCategory": "cs.CV",
+    "purity": 55.3,
+    "growthRate": 130.9,
+    "medianYear": 2022,
+    "recentPapers": 80.8,
+    "isBridge": false,
+    "insight": "Largest CS cluster — represents the deep learning revolution in vision."
+  },
+  {
+    "id": 44,
+    "name": "Graph Theory & Networks",
+    "topTerms": ["graph", "graphs", "edge", "nodes", "algorithm", "networks", "random", "connected"],
+    "size": 42454,
+    "domain": "Interdisciplinary",
+    "topCategory": "math.CO",
+    "purity": 33.9,
+    "growthRate": 87.8,
+    "medianYear": 2021,
+    "recentPapers": 59.4,
+    "isBridge": true,
+    "insight": "Bridge cluster — 46% math, 46% CS. Graph neural networks merge both fields."
+  },
+  {
+    "id": 18,
+    "name": "Black Holes",
+    "topTerms": ["black", "hole", "holes", "gravitational", "gravity", "entropy", "accretion", "radiation"],
+    "size": 25958,
+    "domain": "Physics",
+    "topCategory": "gr-qc",
+    "purity": 46.1,
+    "growthRate": 62.7,
+    "medianYear": 2019,
+    "recentPapers": 45.7,
+    "isBridge": false,
+    "insight": "High distinctiveness (0.68) — very focused vocabulary around gravitational physics."
+  },
+  {
+    "id": 30,
+    "name": "AI Systems & Ethics",
+    "topTerms": ["ai", "human", "systems", "generative", "agents", "challenges", "development", "decision"],
+    "size": 11056,
+    "domain": "Computer Science",
+    "topCategory": "cs.AI",
+    "purity": 21.1,
+    "growthRate": 551.6,
+    "medianYear": 2024,
+    "recentPapers": 94.8,
+    "isBridge": false,
+    "insight": "Second fastest growing — emerged with generative AI. 95% papers from 2020+."
+  }
+]

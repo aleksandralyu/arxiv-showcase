@@ -1,0 +1,77 @@
+[
+  {
+    "category": "cs.CV",
+    "count": 125045,
+    "domain": "Computer Science"
+  },
+  {
+    "category": "cs.LG",
+    "count": 110499,
+    "domain": "Computer Science"
+  },
+  {
+    "category": "quant-ph",
+    "count": 99370,
+    "domain": "Quantum Physics"
+  },
+  {
+    "category": "hep-ph",
+    "count": 85783,
+    "domain": "High Energy Physics"
+  },
+  {
+    "category": "cs.CL",
+    "count": 67108,
+    "domain": "Computer Science"
+  },
+  {
+    "category": "hep-th",
+    "count": 66360,
+    "domain": "High Energy Physics (Theory)"
+  },
+  {
+    "category": "cond-mat.mtrl-sci",
+    "count": 57491,
+    "domain": "Condensed Matter"
+  },
+  {
+    "category": "cond-mat.mes-hall",
+    "count": 56239,
+    "domain": "Condensed Matter"
+  },
+  {
+    "category": "math.AP",
+    "count": 51249,
+    "domain": "Mathematics"
+  },
+  {
+    "category": "gr-qc",
+    "count": 50827,
+    "domain": "General Relativity"
+  },
+  {
+    "category": "astro-ph.GA",
+    "count": 50768,
+    "domain": "Astrophysics"
+  },
+  {
+    "category": "math.CO",
+    "count": 45923,
+    "domain": "Mathematics"
+  },
+  {
+    "category": "astro-ph.SR",
+    "count": 45739,
+    "domain": "Astrophysics"
+  },
+  {
+    "category": "astro-ph.HE",
+    "count": 42809,
+    "domain": "Astrophysics"
+  },
+  {
+    "category": "astro-ph.CO",
+    "count": 42569,
+    "domain": "Astrophysics"
+  }
+]

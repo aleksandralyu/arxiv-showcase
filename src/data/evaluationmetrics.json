@@ -1,0 +1,11 @@
+[
+  { "k": 10, "silhouette": 0.0043, "daviesBouldin": 6.0106, "calinskiHarabasz": 13915.2 },
+  { "k": 15, "silhouette": 0.0102, "daviesBouldin": 6.1266, "calinskiHarabasz": 12080.6 },
+  { "k": 20, "silhouette": 0.0101, "daviesBouldin": 5.2005, "calinskiHarabasz": 10361.1 },
+  { "k": 25, "silhouette": 0.0115, "daviesBouldin": 4.8490, "calinskiHarabasz": 9623.2 },
+  { "k": 30, "silhouette": 0.0164, "daviesBouldin": 4.9118, "calinskiHarabasz": 8470.0 },
+  { "k": 35, "silhouette": 0.0177, "daviesBouldin": 4.4978, "calinskiHarabasz": 8214.6 },
+  { "k": 40, "silhouette": 0.0171, "daviesBouldin": 4.3970, "calinskiHarabasz": 7610.2 },
+  { "k": 45, "silhouette": 0.0173, "daviesBouldin": 3.9975, "calinskiHarabasz": 6841.6 },
+  { "k": 50, "silhouette": 0.0206, "daviesBouldin": 4.1221, "calinskiHarabasz": 7084.3 }
+]
