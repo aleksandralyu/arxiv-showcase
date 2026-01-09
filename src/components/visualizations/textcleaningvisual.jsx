@@ -1,54 +1,93 @@
 import { motion, AnimatePresence, LayoutGroup } from 'framer-motion'
 import { useInView } from '../../hooks/useinview'
 
+// Example abstract snippet that showcases all our preprocessing steps:
+// - Capitalization issues (Fully, Differential, All)
+// - Punctuation (., -, etc.)
+// - LaTeX artifacts (mathbb, frac)
+// - Stopwords/boilerplate (we, propose, this, paper, study)
+// - Lemmatization candidates (networks → network, computed → compute)
+
 const tokens = [
-  { id: 1, text: "A", clean: "a", type: "word", hasCase: false },
-  { id: 2, text: "Fully", clean: "fully", type: "word", hasCase: true },
-  { id: 3, text: "Differential", clean: "differential", type: "word", hasCase: true },
-  { id: 4, text: "calculation", clean: "calculation", type: "word", hasCase: false },
-  { id: 5, text: "in", clean: "in", type: "word", hasCase: false },
-  { id: 6, text: "perturbative", clean: "perturbative", type: "word", hasCase: false },
-  { id: 7, text: "quantum", clean: "quantum", type: "word", hasCase: false },
-  { id: 8, text: "chromodynamics", clean: "chromodynamics", type: "word", hasCase: false },
-  { id: 9, text: "is", clean: "is", type: "word", hasCase: false },
-  { id: 10, text: "presented", clean: "presented", type: "word", hasCase: false },
-  { id: 11, text: "for", clean: "for", type: "word", hasCase: false },
-  { id: 12, text: "the", clean: "the", type: "word", hasCase: false },
-  { id: 13, text: "production", clean: "production", type: "word", hasCase: false },
-  { id: 14, text: "of", clean: "of", type: "word", hasCase: false },
-  { id: 15, text: "massive", clean: "massive", type: "word", hasCase: false },
-  { id: 16, text: "photon", clean: "photon", type: "word", hasCase: false },
-  { id: 17, text: "pairs", clean: "pairs", type: "word", hasCase: false },
-  { id: 18, text: "at", clean: "at", type: "word", hasCase: false },
-  { id: 19, text: "hadron", clean: "hadron", type: "word", hasCase: false },
-  { id: 20, text: "colliders", clean: "colliders", type: "word", hasCase: false },
-  { id: 21, text: ".", clean: null, type: "punctuation" },
-  { id: 22, text: "All", clean: "all", type: "word", hasCase: true },
-  { id: 23, text: "next", clean: "next", type: "word", hasCase: false },
-  { id: 24, text: "-", clean: null, type: "punctuation" },
-  { id: 25, text: "to", clean: "to", type: "word", hasCase: false },
-  { id: 26, text: "-", clean: null, type: "punctuation" },
-  { id: 27, text: "leading", clean: "leading", type: "word", hasCase: false },
-  { id: 28, text: "order", clean: "order", type: "word", hasCase: false },
-  { id: 29, text: "perturbative", clean: "perturbative", type: "word", hasCase: false },
-  { id: 30, text: "contributions", clean: "contributions", type: "word", hasCase: false },
-  { id: 31, text: "from", clean: "from", type: "word", hasCase: false },
-  { id: 32, text: "quark", clean: "quark", type: "word", hasCase: false },
+  // "We propose a study of neural networks using $\mathbb{R}$ spaces."
+  { id: 1, text: "We", clean: null, type: "stopword" },
+  { id: 2, text: "propose", clean: null, type: "stopword" },
+  { id: 3, text: "a", clean: null, type: "stopword" },
+  { id: 4, text: "study", clean: null, type: "stopword" },
+  { id: 5, text: "of", clean: null, type: "stopword" },
+  { id: 6, text: "Neural", clean: "neural", type: "word", hasCase: true },
+  { id: 7, text: "networks", clean: "network", type: "lemma", lemmaFrom: "networks" },
+  { id: 8, text: "using", clean: null, type: "stopword" },
+  { id: 9, text: "mathbb", clean: null, type: "latex" },
+  { id: 10, text: "R", clean: null, type: "short" },
+  { id: 11, text: "spaces", clean: "space", type: "lemma", lemmaFrom: "spaces" },
+  { id: 12, text: ".", clean: null, type: "punctuation" },
+  
+  // "The computed results show improved performance on classification tasks."
+  { id: 13, text: "The", clean: null, type: "stopword" },
+  { id: 14, text: "computed", clean: "compute", type: "lemma", lemmaFrom: "computed" },
+  { id: 15, text: "results", clean: null, type: "stopword" },
+  { id: 16, text: "show", clean: null, type: "stopword" },
+  { id: 17, text: "improved", clean: "improve", type: "lemma", lemmaFrom: "improved" },
+  { id: 18, text: "performance", clean: "performance", type: "word", hasCase: false },
+  { id: 19, text: "on", clean: null, type: "stopword" },
+  { id: 20, text: "Classification", clean: "classification", type: "word", hasCase: true },
+  { id: 21, text: "tasks", clean: "task", type: "lemma", lemmaFrom: "tasks" },
+  { id: 22, text: ".", clean: null, type: "punctuation" },
+  
+  // "Our method uses frac{1}{n} normalization and achieves state-of-the-art accuracy."
+  { id: 23, text: "Our", clean: null, type: "stopword" },
+  { id: 24, text: "method", clean: null, type: "stopword" },
+  { id: 25, text: "uses", clean: null, type: "stopword" },
+  { id: 26, text: "frac", clean: null, type: "latex" },
+  { id: 27, text: "normalization", clean: "normalization", type: "word", hasCase: false },
+  { id: 28, text: "and", clean: null, type: "stopword" },
+  { id: 29, text: "achieves", clean: "achieve", type: "lemma", lemmaFrom: "achieves" },
+  { id: 30, text: "state", clean: "state", type: "word", hasCase: false },
+  { id: 31, text: "-", clean: null, type: "punctuation" },
+  { id: 32, text: "of", clean: null, type: "stopword" },
   { id: 33, text: "-", clean: null, type: "punctuation" },
-  { id: 34, text: "antiquark", clean: "antiquark", type: "word", hasCase: false },
-  { id: 35, text: ",", clean: null, type: "punctuation" },
-  { id: 36, text: "gluon", clean: "gluon", type: "word", hasCase: false },
-  { id: 37, text: "-", clean: null, type: "punctuation" },
-  { id: 38, text: "(", clean: null, type: "punctuation" },
-  { id: 39, text: "anti", clean: "anti", type: "word", hasCase: false },
-  { id: 40, text: ")", clean: null, type: "punctuation" },
-  { id: 41, text: "quark", clean: "quark", type: "word", hasCase: false },
-  { id: 42, text: "...", clean: null, type: "punctuation" },
+  { id: 34, text: "the", clean: null, type: "stopword" },
+  { id: 35, text: "-", clean: null, type: "punctuation" },
+  { id: 36, text: "art", clean: "art", type: "word", hasCase: false },
+  { id: 37, text: "accuracy", clean: "accuracy", type: "word", hasCase: false },
+  { id: 38, text: ".", clean: null, type: "punctuation" },
 ]
+
+// Color scheme for different token types
+const getTokenStyle = (token, isClean) => {
+  if (isClean) {
+    return "text-emerald-400"
+  }
+  
+  switch (token.type) {
+    case "latex":
+      return "text-red-400 bg-red-400/15 rounded px-0.5"
+    case "stopword":
+      return "text-amber-400 bg-amber-400/10 rounded px-0.5"
+    case "punctuation":
+      return "text-purple-400 bg-purple-400/15 rounded px-0.5"
+    case "lemma":
+      return "text-blue-400 bg-blue-400/10 rounded px-0.5"
+    case "short":
+      return "text-gray-500 bg-gray-500/15 rounded px-0.5"
+    case "word":
+      return token.hasCase 
+        ? "text-cyan-400 bg-cyan-400/10 rounded px-0.5" 
+        : "text-gray-300"
+    default:
+      return "text-gray-300"
+  }
+}
 
 export function TextCleaningVisual({ stage = "dirty" }) {
   const { ref, hasBeenInView } = useInView(0.3)
   const isClean = stage === "clean"
+
+  // Filter tokens for clean view - only keep words that survive preprocessing
+  const visibleTokens = isClean 
+    ? tokens.filter(t => t.clean !== null)
+    : tokens
 
   return (
     <motion.div
@@ -75,7 +114,7 @@ export function TextCleaningVisual({ stage = "dirty" }) {
         </motion.div>
       </div>
 
-      {/* Content - only render tokens after component has been in view */}
+      {/* Content */}
       <div className="p-6">
         {hasBeenInView ? (
           <LayoutGroup>
@@ -84,80 +123,38 @@ export function TextCleaningVisual({ stage = "dirty" }) {
               className="font-mono text-sm leading-loose flex flex-wrap gap-x-2 gap-y-1"
             >
               <AnimatePresence mode="popLayout">
-                {tokens.map((token) => {
-                  if (isClean && token.type === "punctuation") {
-                    return null
-                  }
-
-                  if (token.hasCase) {
-                    if (isClean) {
-                      return (
-                        <motion.span
-                          key={`${token.id}-clean`}
-                          layoutId={`token-${token.id}`}
-                          initial={{ opacity: 0 }}
-                          animate={{ opacity: 1 }}
-                          transition={{
-                            layout: { duration: 2.0, ease: "easeInOut" },
-                            opacity: { duration: 1.5, delay: 1.5 }
-                          }}
-                          className="text-emerald-400"
-                        >
-                          {token.clean}
-                        </motion.span>
-                      )
-                    } else {
-                      return (
-                        <motion.span
-                          key={`${token.id}-dirty`}
-                          layoutId={`token-${token.id}`}
-                          initial={{ opacity: 0 }}
-                          animate={{ opacity: 1 }}
-                          exit={{ opacity: 0, scale: 0.95, transition: { duration: 1.5, delay: 0.5 } }}
-                          transition={{
-                            layout: { duration: 2.0, ease: "easeInOut" },
-                            opacity: { duration: 1.0 }
-                          }}
-                          className="text-amber-400 bg-amber-400/15 rounded px-0.5"
-                        >
-                          {token.text}
-                        </motion.span>
-                      )
+                {visibleTokens.map((token) => {
+                  const displayText = isClean ? token.clean : token.text
+                  
+                  // Determine exit delay based on type (staggered removal)
+                  const getExitDelay = () => {
+                    switch (token.type) {
+                      case "punctuation": return 0.1
+                      case "latex": return 0.3
+                      case "short": return 0.4
+                      case "stopword": return 0.6
+                      default: return 0.8
                     }
-                  }
-
-                  if (token.type === "punctuation") {
-                    return (
-                      <motion.span
-                        key={token.id}
-                        layoutId={`token-${token.id}`}
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        exit={{ opacity: 0, scale: 0.8, transition: { duration: 1.3, delay: 0.2 } }}
-                        transition={{
-                          layout: { duration: 2.0, ease: "easeInOut" },
-                          opacity: { duration: 1.0 }
-                        }}
-                        className="text-purple-400 bg-purple-400/15 rounded px-0.5"
-                      >
-                        {token.text}
-                      </motion.span>
-                    )
                   }
 
                   return (
                     <motion.span
-                      key={token.id}
+                      key={`${token.id}-${isClean ? 'clean' : 'dirty'}`}
                       layoutId={`token-${token.id}`}
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
-                      transition={{
-                        layout: { duration: 2.0, ease: "easeInOut" },
-                        opacity: { duration: 1.5 }
+                      exit={{ 
+                        opacity: 0, 
+                        scale: 0.8, 
+                        transition: { duration: 0.8, delay: getExitDelay() } 
                       }}
-                      className={isClean ? "text-emerald-400" : "text-gray-300"}
+                      transition={{
+                        layout: { duration: 1.5, ease: "easeInOut" },
+                        opacity: { duration: 0.8, delay: isClean ? 1.2 : 0 }
+                      }}
+                      className={getTokenStyle(token, isClean)}
                     >
-                      {isClean ? token.clean : token.text}
+                      {displayText}
                     </motion.span>
                   )
                 })}
@@ -177,19 +174,33 @@ export function TextCleaningVisual({ stage = "dirty" }) {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                className="flex items-center justify-between text-xs"
+                className="space-y-3"
               >
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs">
+                  <div className="flex items-center gap-2">
+                    <span className="w-3 h-3 rounded bg-red-400/20 border border-red-400/50"></span>
+                    <span className="text-gray-400">LaTeX artifacts</span>
+                  </div>
                   <div className="flex items-center gap-2">
                     <span className="w-3 h-3 rounded bg-amber-400/20 border border-amber-400/50"></span>
-                    <span className="text-gray-400">Inconsistent case</span>
+                    <span className="text-gray-400">Stopwords</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <span className="w-3 h-3 rounded bg-purple-400/20 border border-purple-400/50"></span>
-                    <span className="text-gray-400">Punctuation to remove</span>
+                    <span className="text-gray-400">Punctuation</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-3 h-3 rounded bg-blue-400/20 border border-blue-400/50"></span>
+                    <span className="text-gray-400">To lemmatize</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <span className="w-3 h-3 rounded bg-cyan-400/20 border border-cyan-400/50"></span>
+                    <span className="text-gray-400">Case issues</span>
                   </div>
                 </div>
-                <div className="text-red-400">Needs processing</div>
+                <div className="flex justify-end">
+                  <span className="text-red-400 text-xs">Needs processing</span>
+                </div>
               </motion.div>
             ) : (
               <motion.div
@@ -197,10 +208,21 @@ export function TextCleaningVisual({ stage = "dirty" }) {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                className="flex justify-between text-xs"
+                className="space-y-2"
               >
-                <div className="text-gray-400">Lowercase · No punctuation · Normalized</div>
-                <div className="text-emerald-400">Ready for TF-IDF →</div>
+                <div className="flex flex-wrap gap-3 text-xs text-gray-400">
+                  <span>✓ Lowercase</span>
+                  <span>✓ No punctuation</span>
+                  <span>✓ No LaTeX</span>
+                  <span>✓ No stopwords</span>
+                  <span>✓ Lemmatized</span>
+                </div>
+                <div className="flex justify-between items-center">
+                  <div className="text-xs text-gray-500">
+                    38 tokens → 14 tokens <span className="text-emerald-400">(63% reduction)</span>
+                  </div>
+                  <div className="text-emerald-400 text-xs">Ready for TF-IDF →</div>
+                </div>
               </motion.div>
             )}
           </AnimatePresence>
