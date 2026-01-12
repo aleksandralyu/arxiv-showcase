@@ -1,3 +1,5 @@
+console.log('clusteringvisuals.jsx starting to load')
+
 import { motion, AnimatePresence } from 'framer-motion'
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react'
 import { useInView } from '../../hooks/useinview'
@@ -6,9 +8,22 @@ import {
   ReferenceLine, Label, BarChart, Bar, Cell
 } from 'recharts'
 
-import evaluationMetrics from '../../data/evaluationmetrics.json'
+import evaluationMetricsRaw from '../../data/evaluationmetrics.json'
 import clusterSizes from '../../data/clustersizes.json'
 import clusterExamples from '../../data/clusterexamples.json'
+
+// Extract the elbowData array and transform field names to match what the chart expects
+const evaluationMetrics = (evaluationMetricsRaw.elbowData || []).map(d => ({
+  k: d.k,
+  silhouette: d.silhouette500,
+  daviesBouldin: d.daviesBouldin500,
+  calinskiHarabasz: d.calinskiHarabasz500,
+  inertia: d.inertia500
+}))
+
+console.log('evaluationMetrics:', evaluationMetrics)
+console.log('Is array?:', Array.isArray(evaluationMetrics))
+console.log('clusterSizes:', clusterSizes, 'Is array?:', Array.isArray(clusterSizes))
 
 // ============================================================================
 // VISUAL 1: K-Means Animation with REAL math and replay capability
@@ -501,8 +516,12 @@ export function EvaluationChart() {
           <div className="h-[240px] flex items-center justify-center text-gray-400 text-sm">
             Loading metrics...
           </div>
+        ) : !hasBeenInView ? (
+          <div className="h-[240px] flex items-center justify-center text-gray-400 text-sm">
+            {/* Placeholder until visible */}
+          </div>
         ) : (
-          <ResponsiveContainer width="100%" height={240}>
+          <ResponsiveContainer width="100%" height={240} minWidth={100}>
             <LineChart data={evaluationMetrics}>
               <XAxis 
                 dataKey="k"
@@ -600,9 +619,13 @@ export function ClusterOverview() {
           <div className="h-[240px] flex items-center justify-center text-gray-400 text-sm">
             Loading cluster data...
           </div>
+        ) : !hasBeenInView ? (
+          <div className="h-[240px] flex items-center justify-center text-gray-400 text-sm">
+            {/* Placeholder until visible */}
+          </div>
         ) : (
           <>
-            <ResponsiveContainer width="100%" height={220}>
+            <ResponsiveContainer width="100%" height={220} minWidth={100}>
               <BarChart data={sortedClusters} layout="horizontal">
                 <XAxis 
                   type="category" 
