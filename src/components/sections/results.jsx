@@ -6,6 +6,7 @@ import {
   AreaChart, Area, Legend, CartesianGrid,
 } from 'recharts'
 
+import MethodologyCallout from '../ui/methodologycallout'
 import q1Data from '../../data/q1termstability.json'
 import q2Data from '../../data/q2bridgeareas.json'
 import q3Data from '../../data/q3categoryalignment.json'
@@ -171,6 +172,17 @@ export default function Results() {
             Explore the key discoveries from analyzing 2.4 million scientific papers.
           </p>
         </motion.div>
+
+        {/* Pipeline methodology note */}
+        <div className="mb-6">
+          <MethodologyCallout
+            step="Pipeline Output"
+            title="K-Means Clustering (k=50)"
+            input="500-dim SVD vectors, 2.4M papers"
+            output="50 cluster assignments"
+            note="k selected via elbow method + silhouette analysis across k=20–80"
+          />
+        </div>
 
         {/* Tab Navigation */}
         <div className="flex flex-wrap justify-center gap-2 mb-8">
@@ -1725,7 +1737,7 @@ function ClusterDetailModal({ cluster, badgeColors, onClose }) {
         </div>
 
         {/* Key Metrics */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <div className="bg-gray-800/50 rounded-lg p-3 text-center">
             <p className="text-2xl font-bold text-emerald-400">+{cluster.growthRate}%</p>
             <p className="text-gray-500 text-xs">Growth Rate</p>
@@ -1801,6 +1813,10 @@ function ClusterDetailModal({ cluster, badgeColors, onClose }) {
             ))}
           </div>
         </div>
+
+        {/* ArXiv paper deep links — no paper IDs present in clusterexploration.json data;
+            fields checked: examplePapers, topPapers, paperIds, examples — none found.
+            Links would be rendered as: https://arxiv.org/abs/{id} if data were available. */}
 
         {/* Temporal */}
         <div className="mt-6 pt-6 border-t border-gray-700">

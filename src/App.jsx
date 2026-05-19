@@ -1,4 +1,5 @@
 import SectionNav from './components/ui/sectionnav'
+import ScrollProgress from './components/ui/scrollprogress'
 import Hero from './components/sections/hero'
 import Introduction from './components/sections/introduction'
 import DataOverview from './components/sections/dataoverview'
@@ -12,6 +13,7 @@ import Conclusion from './components/sections/conclusion'
 function App() {
   return (
     <main>
+      <ScrollProgress />
       <SectionNav />
       <Hero />
       <Introduction />
