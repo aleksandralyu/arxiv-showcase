@@ -138,16 +138,15 @@ export default function SectionNav() {
                 aria-label={`Go to ${section.label}`}
               >
                 {/* Label */}
-                <motion.span
-                  initial={{ opacity: 0, x: 10 }}
-                  animate={{ 
-                    opacity: isActive ? 1 : 0,
-                    x: isActive ? 0 : 10
-                  }}
-                  className="text-xs text-gray-400 font-medium whitespace-nowrap pointer-events-none group-hover:opacity-100"
+                <span
+                  className={`text-xs font-medium whitespace-nowrap pointer-events-none transition-opacity duration-150 ${
+                    isActive
+                      ? 'opacity-100 text-blue-400'
+                      : 'opacity-0 group-hover:opacity-100 text-gray-400'
+                  }`}
                 >
                   {section.label}
-                </motion.span>
+                </span>
 
                 {/* Dot */}
                 <motion.div

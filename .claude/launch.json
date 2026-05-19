@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "arxiv-trends",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "--port", "5180"],
+      "cwd": "/Users/aleksandralyubarskaja/Desktop/iu applied ai/active courses/unsupervised learning/arxiv-trends-website",
+      "port": 5180
+    }
+  ]
+}

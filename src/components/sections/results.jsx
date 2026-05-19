@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useMemo, useCallback, lazy, Suspense, memo } from 'react'
+import { useState, useEffect, useRef, useMemo, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import {
   LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer,
@@ -6,20 +6,140 @@ import {
   AreaChart, Area, Legend, CartesianGrid,
 } from 'recharts'
 
-// Shared constants & helpers — single source of truth
-import {
-  DOMAIN_COLORS, METRIC_COLOR_CLASSES,
-  getCategoryName, getDomainName, getDomainColor,
-  getTermStrings, getClusterName, getShortName,
-  formatGrowthRate, isMeaningfulTerm,
-} from '../results/shared.js'
-
-// All JSON data — Vite tree-shakes unused imports per tab at build time
+import MethodologyCallout from '../ui/methodologycallout'
 import q1Data from '../../data/q1termstability.json'
 import q2Data from '../../data/q2bridgeareas.json'
 import q3Data from '../../data/q3categoryalignment.json'
 import q4Data from '../../data/q4growingniches.json'
 import clusterData from '../../data/clusterexploration.json'
+
+// ============================================================================
+// CONSTANTS
+// ============================================================================
+
+const CATEGORY_NAMES = {
+  'hep-ph': 'High Energy Physics', 'hep-th': 'Theoretical Physics',
+  'astro-ph': 'Astrophysics', 'astro-ph.GA': 'Galaxies',
+  'astro-ph.CO': 'Cosmology', 'astro-ph.SR': 'Stars',
+  'astro-ph.HE': 'High Energy Astro', 'astro-ph.EP': 'Exoplanets',
+  'cond-mat': 'Condensed Matter', 'cond-mat.mes-hall': 'Mesoscale Physics',
+  'cond-mat.mtrl-sci': 'Materials Science', 'quant-ph': 'Quantum Physics',
+  'gr-qc': 'General Relativity', 'math.AG': 'Algebraic Geometry',
+  'math.NT': 'Number Theory', 'math.CO': 'Combinatorics',
+  'math.GR': 'Group Theory', 'math.GT': 'Topology',
+  'math.DG': 'Differential Geometry', 'math.AP': 'PDEs',
+  'math.PR': 'Probability', 'math.NA': 'Numerical Analysis',
+  'cs.LG': 'Machine Learning', 'cs.CV': 'Computer Vision',
+  'cs.CL': 'NLP', 'cs.AI': 'Artificial Intelligence',
+  'cs.NE': 'Neural Networks', 'cs.CR': 'Cryptography',
+  'cs.IT': 'Information Theory', 'cs.RO': 'Robotics',
+  'stat.ML': 'Statistical ML', 'eess.SP': 'Signal Processing',
+  'eess.AS': 'Audio & Speech', 'q-bio': 'Quantitative Biology',
+}
+
+const DOMAIN_NAMES = {
+  'cs': 'Computer Science', 'math': 'Mathematics', 'physics': 'Physics',
+  'stat': 'Statistics', 'hep-ph': 'High Energy Physics',
+  'hep-th': 'Theoretical Physics', 'astro-ph': 'Astrophysics',
+  'cond-mat': 'Condensed Matter', 'quant-ph': 'Quantum Physics',
+  'gr-qc': 'Relativity', 'eess': 'Electrical Engineering',
+  'q-bio': 'Biology', 'q-fin': 'Finance', 'nlin': 'Nonlinear Science',
+  'nucl-th': 'Nuclear Physics', 'math-ph': 'Mathematical Physics',
+}
+
+// Explicit per-domain color map — no dynamic Tailwind strings
+const DOMAIN_COLORS = {
+  'cs':       '#10b981',
+  'math':     '#a855f7',
+  'hep-ph':   '#3b82f6',
+  'hep-th':   '#3b82f6',
+  'astro-ph': '#f59e0b',
+  'cond-mat': '#6366f1',
+  'quant-ph': '#60a5fa',
+  'gr-qc':    '#6b7280',
+  'stat':     '#14b8a6',
+  'eess':     '#f97316',
+  'q-bio':    '#84cc16',
+  'math-ph':  '#a855f7',
+  'nucl-th':  '#3b82f6',
+  'nlin':     '#ec4899',
+}
+
+// Explicit color class sets for MetricExplainer — no dynamic string interpolation
+const METRIC_COLOR_CLASSES = {
+  blue:    { bg: 'bg-blue-500/5',    border: 'border-blue-500/20',    title: 'text-blue-400'    },
+  emerald: { bg: 'bg-emerald-500/5', border: 'border-emerald-500/20', title: 'text-emerald-400' },
+  purple:  { bg: 'bg-purple-500/5',  border: 'border-purple-500/20',  title: 'text-purple-400'  },
+  amber:   { bg: 'bg-amber-500/5',   border: 'border-amber-500/20',   title: 'text-amber-400'   },
+}
+
+// ============================================================================
+// HELPERS
+// ============================================================================
+
+function getCategoryName(code) {
+  return CATEGORY_NAMES[code] || code
+}
+
+function getDomainName(code) {
+  return DOMAIN_NAMES[code] || code
+}
+
+function getDomainColor(domain) {
+  if (!domain) return '#6b7280'
+  const key = domain.split('.')[0]
+  return DOMAIN_COLORS[key] || DOMAIN_COLORS[domain] || '#6b7280'
+}
+
+// Normalize topTerms — can be string[] (q1/q2/q3/q4 data) or {term,score}[] (clusterexploration)
+function getTermStrings(topTerms) {
+  if (!topTerms) return []
+  return topTerms.map(t => (typeof t === 'string' ? t : t.term)).filter(Boolean)
+}
+
+function getClusterName(cluster) {
+  const terms = getTermStrings(cluster.topTerms)
+  const id = cluster.clusterId ?? cluster.id
+  const valid = terms.filter(t =>
+    !t.startsWith('math') && !t.startsWith('frac') &&
+    !t.includes('\\') && t.length > 2
+  )
+  if (valid.length >= 2) {
+    return valid.slice(0, 2).map(t => t.charAt(0).toUpperCase() + t.slice(1)).join(' & ')
+  }
+  return `Cluster ${id}`
+}
+
+function getShortName(cluster) {
+  const terms = getTermStrings(cluster.topTerms)
+  const id = cluster.clusterId ?? cluster.id
+  const valid = terms.filter(t =>
+    !t.startsWith('math') && !t.startsWith('frac') && t.length > 2
+  )
+  if (valid.length >= 1) {
+    return valid[0].charAt(0).toUpperCase() + valid[0].slice(1)
+  }
+  return `C${id}`
+}
+
+// Formats a growth rate multiplier (where 1.0 = no change) for display
+function formatGrowthRate(rate) {
+  if (rate === undefined || rate === null) return '—'
+  if (rate > 1000) return `${(rate / 1000).toFixed(0)}k×`
+  if (rate > 10)   return `${rate.toFixed(0)}×`
+  if (rate >= 1)   return `+${(rate * 100).toFixed(0)}%`
+  return `+${(rate * 100).toFixed(0)}%`
+}
+
+function isMeaningfulTerm(term) {
+  if (!term || typeof term !== 'string') return false
+  return (
+    !term.startsWith('math') &&
+    !term.startsWith('frac') &&
+    !term.includes('\\') &&
+    term.length > 2
+  )
+}
 
 // ============================================================================
 // MAIN COMPONENT
@@ -87,6 +207,15 @@ export default function Results() {
             exit={{ opacity: 0, y: -16 }}
             transition={{ duration: 0.25 }}
           >
+            <div className="mb-4">
+              <MethodologyCallout
+                step="Pipeline Output"
+                title="K-Means Clustering (k=50)"
+                input="500-dim SVD vectors, 2.4M papers"
+                output="50 cluster assignments"
+                note="k selected via elbow method + silhouette analysis across k=20–80"
+              />
+            </div>
             {activeTab === 'q1'      && <TermStabilityTab     setExpandedChart={setExpandedChart} />}
             {activeTab === 'q2'      && <BridgeAreasTab        setExpandedChart={setExpandedChart} />}
             {activeTab === 'q3'      && <CategoryAlignmentTab  setExpandedChart={setExpandedChart} />}
@@ -1510,8 +1639,7 @@ function ClusterExplorationTab() {
   )
 }
 
-// memo: stops all 50 cards re-rendering when selectedCluster changes
-const ClusterCard = memo(function ClusterCard({ cluster, badgeColors, onClick }) {
+function ClusterCard({ cluster, badgeColors, onClick }) {
   const displayName = cluster.displayTerms?.length >= 2
     ? cluster.displayTerms.slice(0, 2).map(t => t.charAt(0).toUpperCase() + t.slice(1)).join(' & ')
     : `Cluster ${cluster.id}`
@@ -1560,7 +1688,7 @@ const ClusterCard = memo(function ClusterCard({ cluster, badgeColors, onClick })
       </p>
     </motion.div>
   )
-})
+}
 
 function ClusterDetailModal({ cluster, badgeColors, onClose }) {
   const displayName = cluster.displayTerms?.length >= 2
@@ -1607,7 +1735,7 @@ function ClusterDetailModal({ cluster, badgeColors, onClose }) {
         </div>
 
         {/* Key Metrics */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <div className="bg-gray-800/50 rounded-lg p-3 text-center">
             <p className="text-2xl font-bold text-emerald-400">+{cluster.growthRate}%</p>
             <p className="text-gray-500 text-xs">Growth Rate</p>
@@ -1684,6 +1812,10 @@ function ClusterDetailModal({ cluster, badgeColors, onClose }) {
           </div>
         </div>
 
+        {/* ArXiv paper deep links — no paper IDs present in clusterexploration.json data;
+            fields checked: examplePapers, topPapers, paperIds, examples — none found.
+            Links would be rendered as: https://arxiv.org/abs/{id} if data were available. */}
+
         {/* Temporal */}
         <div className="mt-6 pt-6 border-t border-gray-700">
           <div className="grid grid-cols-3 gap-4 text-sm">
@@ -1705,4 +1837,3 @@ function ClusterDetailModal({ cluster, badgeColors, onClose }) {
     </motion.div>
   )
 }
-
