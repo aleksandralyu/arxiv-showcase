@@ -10,6 +10,7 @@ export default function SectionNav() {
   const [isVisible, setIsVisible] = useState(false)  // Start hidden
   const observerRef = useRef(null)
   const heroObserverRef = useRef(null)
+  const currentSectionRef = useRef(0) // avoid stale closure in observer callback
 
   // Section definitions matching App.jsx order
   const sectionConfig = [
@@ -60,26 +61,27 @@ export default function SectionNav() {
 
     observerRef.current = new IntersectionObserver(
       (entries) => {
-        let bestIndex = currentSection
+        let bestIndex = currentSectionRef.current
         let bestScore = -1
 
         sectionElements.forEach((section, index) => {
           const rect = section.element.getBoundingClientRect()
           const viewportHeight = window.innerHeight
-          
+
           const visibleTop = Math.max(0, rect.top)
           const visibleBottom = Math.min(viewportHeight, rect.bottom)
           const visibleHeight = Math.max(0, visibleBottom - visibleTop)
-          
+
           const topProximity = rect.top >= -100 && rect.top < viewportHeight * 0.5
           const score = visibleHeight + (topProximity ? 1000 : 0)
-          
+
           if (score > bestScore && visibleHeight > 50) {
             bestScore = score
             bestIndex = index
           }
         })
 
+        currentSectionRef.current = bestIndex
         setCurrentSection(bestIndex)
       },
       {
