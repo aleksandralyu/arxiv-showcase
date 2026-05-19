@@ -173,17 +173,6 @@ export default function Results() {
           </p>
         </motion.div>
 
-        {/* Pipeline methodology note */}
-        <div className="mb-6">
-          <MethodologyCallout
-            step="Pipeline Output"
-            title="K-Means Clustering (k=50)"
-            input="500-dim SVD vectors, 2.4M papers"
-            output="50 cluster assignments"
-            note="k selected via elbow method + silhouette analysis across k=20–80"
-          />
-        </div>
-
         {/* Tab Navigation */}
         <div className="flex flex-wrap justify-center gap-2 mb-8">
           {tabs.map((tab) => {
@@ -218,6 +207,15 @@ export default function Results() {
             exit={{ opacity: 0, y: -16 }}
             transition={{ duration: 0.25 }}
           >
+            <div className="mb-4">
+              <MethodologyCallout
+                step="Pipeline Output"
+                title="K-Means Clustering (k=50)"
+                input="500-dim SVD vectors, 2.4M papers"
+                output="50 cluster assignments"
+                note="k selected via elbow method + silhouette analysis across k=20–80"
+              />
+            </div>
             {activeTab === 'q1'      && <TermStabilityTab     setExpandedChart={setExpandedChart} />}
             {activeTab === 'q2'      && <BridgeAreasTab        setExpandedChart={setExpandedChart} />}
             {activeTab === 'q3'      && <CategoryAlignmentTab  setExpandedChart={setExpandedChart} />}
