@@ -131,6 +131,14 @@ function formatGrowthRate(rate) {
   return `+${(rate * 100).toFixed(0)}%`
 }
 
+// Formats a plain-percentage growth rate (clusterexploration.json stores e.g. 1230350.0)
+function formatPctGrowth(pct) {
+  if (pct === undefined || pct === null) return '—'
+  if (pct >= 100000) return `${(pct / 1000).toFixed(0)}k×`
+  if (pct >= 1000)   return `${(pct / 1000).toFixed(1)}k%`
+  return `+${pct.toFixed(0)}%`
+}
+
 function isMeaningfulTerm(term) {
   if (!term || typeof term !== 'string') return false
   return (
@@ -1656,7 +1664,7 @@ function ClusterCard({ cluster, badgeColors, onClick }) {
           <p className="text-gray-500 text-xs">C{cluster.id} · {cluster.size.toLocaleString()} papers</p>
         </div>
         <span className={`text-xs px-2 py-0.5 rounded ${cluster.growthRate > 50 ? 'bg-emerald-500/20 text-emerald-400' : 'bg-gray-700 text-gray-400'}`}>
-          +{cluster.growthRate.toFixed(0)}%
+          {formatPctGrowth(cluster.growthRate)}
         </span>
       </div>
 
@@ -1737,7 +1745,7 @@ function ClusterDetailModal({ cluster, badgeColors, onClose }) {
         {/* Key Metrics */}
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <div className="bg-gray-800/50 rounded-lg p-3 text-center">
-            <p className="text-2xl font-bold text-emerald-400">+{cluster.growthRate}%</p>
+            <p className="text-2xl font-bold text-emerald-400">{formatPctGrowth(cluster.growthRate)}</p>
             <p className="text-gray-500 text-xs">Growth Rate</p>
           </div>
           <div className="bg-gray-800/50 rounded-lg p-3 text-center">
