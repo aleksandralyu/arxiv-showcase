@@ -25,11 +25,12 @@ export default function Conclusion() {
           </h2>
           <p className="text-gray-400 text-lg mb-8 leading-relaxed">
             Analyzing 2.4 million ArXiv papers without labels revealed two findings that stand out:
-            the LLM research community grew{' '}
-            <span className="text-emerald-400 font-semibold">12,303×</span> in seven years — from
-            near-zero to the largest CS cluster in the dataset — and interdisciplinary bridge areas
-            grow <span className="text-blue-400 font-semibold">421× faster</span> than single-domain
-            fields, a signal that the boundaries of science are where the action is.
+            the LLM research community went from{' '}
+            <span className="text-emerald-400 font-semibold">~2 papers in 2021 to 9,600 in 2024</span>
+            {' '}— essentially a new research community that did not exist three years earlier — and
+            interdisciplinary bridge areas show{' '}
+            <span className="text-blue-400 font-semibold">421× higher average growth rates</span> than
+            single-domain clusters, a signal that the boundaries between fields are where the action is.
           </p>
 
           {/* Key takeaways */}
@@ -127,11 +128,12 @@ export default function Conclusion() {
                   AI/ML Dominates the Growth Landscape
                 </h3>
                 <p className="text-gray-400 leading-relaxed">
-                  Large Language Model research has grown nearly 1000% since 2020. But the data also 
-                  reveals <em>stagnating</em> areas—older niches where paper volume has plateaued or 
-                  declined. <strong className="text-gray-300">For researchers and investors, both 
-                  extremes matter: explosive growth signals opportunity, while stagnation may signal 
-                  either saturation or underexplored gaps.</strong>
+                  The LLM cluster went from 2 papers in 2021 to 9,600 in 2024 — effectively a field
+                  that didn't exist until it did. But the data also reveals <em>stagnating</em> areas:
+                  older niches where paper volume has plateaued or declined.{' '}
+                  <strong className="text-gray-300">For researchers and investors, both extremes
+                  matter: explosive growth signals opportunity, while stagnation may signal either
+                  saturation or underexplored gaps.</strong>
                 </p>
               </div>
             </motion.div>

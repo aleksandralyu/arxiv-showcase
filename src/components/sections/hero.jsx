@@ -195,13 +195,13 @@ function Hero() {
           className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
         >
           <div className="bg-gray-900/70 border border-emerald-500/30 rounded-xl px-6 py-4 text-center min-w-[160px]">
-            <p className="text-3xl font-bold text-emerald-400">12,303×</p>
-            <p className="text-gray-400 text-xs mt-1">LLM cluster growth</p>
-            <p className="text-gray-600 text-xs">2017 → 2024</p>
+            <p className="text-3xl font-bold text-emerald-400">~0 → 9,600</p>
+            <p className="text-gray-400 text-xs mt-1">LLM papers/year</p>
+            <p className="text-gray-600 text-xs">2021 → 2024</p>
           </div>
           <div className="bg-gray-900/70 border border-blue-500/30 rounded-xl px-6 py-4 text-center min-w-[160px]">
             <p className="text-3xl font-bold text-blue-400">421×</p>
-            <p className="text-gray-400 text-xs mt-1">bridge area growth advantage</p>
+            <p className="text-gray-400 text-xs mt-1">avg. bridge area growth rate</p>
             <p className="text-gray-600 text-xs">vs. single-domain clusters</p>
           </div>
           <div className="bg-gray-900/70 border border-purple-500/30 rounded-xl px-6 py-4 text-center min-w-[160px]">

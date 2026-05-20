@@ -247,7 +247,8 @@
           "description": "234,031 papers"
         }
       ],
-      "description": "Stochastic processes and probabilistic methods, covering Markov chains, diffusion processes, Monte Carlo simulation, and their applications in statistical mechanics and numerical analysis."
+      "description": "A heterogeneous applied mathematics and physics cluster with no dominant sub-field (no category exceeds 6%). Vocabulary \u2014 time, method, distribution, process, model, particle, control \u2014 spans stochastic processes, statistical mechanics, fluid dynamics, and numerical methods. Precise identification uncertain.",
+      "review": true
     },
     {
       "id": 11,
@@ -1467,7 +1468,7 @@
           "description": "Spans multiple domains"
         }
       ],
-      "description": "Probabilistic and Bayesian machine learning: latent variable models, Gaussian processes, variational inference, and simulation-based approaches to parameter estimation.",
+      "description": "A large general-purpose ML and statistical modeling cluster (80k+ papers) covering probabilistic models, time-series, simulation, and prediction tasks. The mix of cs.LG, stat.ME, and cs.CL without any dominant category or distinctive vocabulary suggests this is a broad methods cluster rather than a coherent research community.",
       "review": true
     },
     {
@@ -3644,7 +3645,7 @@
           "description": "Spans multiple domains"
         }
       ],
-      "description": "Data-centric machine learning with an emphasis on privacy-preserving methods, federated learning, and fairness-aware statistical modeling across structured and unstructured data.",
+      "description": "A broad, high-volume ML and data methods cluster (79k+ papers) with generic vocabulary spanning machine learning, statistical modeling, computer vision, and data analysis. No single sub-field dominates. Likely a catch-all for papers that apply standard methods without specialized terminology.",
       "review": true
     },
     {
@@ -5571,7 +5572,7 @@
           "description": "Most papers from 2021+"
         }
       ],
-      "description": "Pre-trained language models and NLP transfer learning: BERT-style fine-tuning, multi-task learning, sequence-to-sequence models, and benchmark evaluation in natural language processing (2018\u20132022 era)."
+      "description": "Pre-trained language models and NLP transfer learning: BERT-style pre-training, fine-tuning on downstream tasks, multi-task learning, and sequence-to-sequence architectures. Closely related to C28 (LLM cluster); C43 centers on the fine-tuning paradigm and task performance benchmarks rather than the emergent capabilities of very large models."
     },
     {
       "id": 8,
@@ -6754,7 +6755,7 @@
           "description": "Spans multiple domains"
         }
       ],
-      "description": "Gravitational wave science: signal detection and parameter estimation for compact binary mergers, numerical relativity, and wave propagation modeling (LIGO/Virgo era)."
+      "description": "Wave phenomena and gravitational physics: gravitational wave detection and numerical relativity (gr-qc, 10%), mathematical wave equations (math.AP, 9%), and optical wave propagation (physics.optics, 6%). The cluster spans classical and gravitational wave science \u2014 it is not exclusively LIGO-era gravitational wave astronomy."
     },
     {
       "id": 33,
