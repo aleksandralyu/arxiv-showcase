@@ -1691,9 +1691,13 @@ function ClusterCard({ cluster, badgeColors, onClick }) {
         </div>
       </div>
 
-      <p className="text-gray-500 text-xs mt-3 truncate">
-        {cluster.displayTerms?.join(', ') || cluster.topTerms?.slice(0, 5).map(t => t.term).join(', ')}
-      </p>
+      {cluster.description ? (
+        <p className="text-gray-400 text-xs mt-3 line-clamp-2 leading-relaxed">{cluster.description}</p>
+      ) : (
+        <p className="text-gray-500 text-xs mt-3 truncate">
+          {cluster.displayTerms?.join(', ') || cluster.topTerms?.slice(0, 5).map(t => t.term).join(', ')}
+        </p>
+      )}
     </motion.div>
   )
 }
@@ -1724,6 +1728,12 @@ function ClusterDetailModal({ cluster, badgeColors, onClose }) {
           <div>
             <h3 className="text-2xl font-bold text-white">{displayName}</h3>
             <p className="text-gray-400">Cluster {cluster.id} · {cluster.size.toLocaleString()} papers ({cluster.sizePercentage}%)</p>
+            {cluster.description && (
+              <p className="text-gray-300 text-sm mt-2 leading-relaxed max-w-xl">
+                {cluster.description}
+                {cluster.review && <span className="ml-2 text-amber-400/70 text-xs">[interpretation uncertain — under review]</span>}
+              </p>
+            )}
           </div>
           <button onClick={onClose} className="text-gray-400 hover:text-white p-2">
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

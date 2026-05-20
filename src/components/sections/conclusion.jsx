@@ -20,9 +20,17 @@ export default function Conclusion() {
           transition={{ duration: 0.8 }}
         >
           {/* Main heading */}
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             What We've Learned
           </h2>
+          <p className="text-gray-400 text-lg mb-8 leading-relaxed">
+            Analyzing 2.4 million ArXiv papers without labels revealed two findings that stand out:
+            the LLM research community grew{' '}
+            <span className="text-emerald-400 font-semibold">12,303×</span> in seven years — from
+            near-zero to the largest CS cluster in the dataset — and interdisciplinary bridge areas
+            grow <span className="text-blue-400 font-semibold">421× faster</span> than single-domain
+            fields, a signal that the boundaries of science are where the action is.
+          </p>
 
           {/* Key takeaways */}
           <div className="space-y-8 mb-16">
@@ -68,11 +76,12 @@ export default function Conclusion() {
                   Interdisciplinary Bridges Grow Faster
                 </h3>
                 <p className="text-gray-400 leading-relaxed">
-                  Clusters that span multiple traditional domains—like computational biology, quantum 
-                  computing, or graph neural networks—show 30-50% faster growth than single-domain 
-                  clusters. <strong className="text-gray-300">Innovation increasingly happens at 
-                  disciplinary boundaries.</strong> These bridge areas represent opportunities for 
-                  researchers who can translate methods from one field to problems in another.
+                  Clusters that span multiple traditional domains — graph neural networks, quantum
+                  computing, computational imaging — grow on average{' '}
+                  <strong className="text-emerald-400">421× faster</strong> than single-domain clusters.{' '}
+                  <strong className="text-gray-300">Innovation increasingly happens at disciplinary
+                  boundaries.</strong> These bridge areas represent the highest-opportunity positions
+                  for researchers who can translate methods from one field to problems in another.
                 </p>
               </div>
             </motion.div>

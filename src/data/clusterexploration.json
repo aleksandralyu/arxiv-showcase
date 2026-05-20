@@ -217,10 +217,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 60927,
-        "percentage": 26.03
+        "code": "math",
+        "name": "Mathematics"
       },
       "domainDiversity": 2.426,
       "yearRange": [
@@ -248,7 +246,8 @@
           "label": "Major Field",
           "description": "234,031 papers"
         }
-      ]
+      ],
+      "description": "Stochastic processes and probabilistic methods, covering Markov chains, diffusion processes, Monte Carlo simulation, and their applications in statistical mechanics and numerical analysis."
     },
     {
       "id": 11,
@@ -467,10 +466,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 43456,
-        "percentage": 24.09
+        "code": "math",
+        "name": "Mathematics"
       },
       "domainDiversity": 0.977,
       "yearRange": [
@@ -493,7 +490,8 @@
           "label": "Major Field",
           "description": "180,419 papers"
         }
-      ]
+      ],
+      "description": "Pure mathematics spanning algebraic geometry, arithmetic geometry, and combinatorics: schemes, varieties, Diophantine equations, and combinatorial identities approached through algebraic tools."
     },
     {
       "id": 40,
@@ -712,10 +710,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 34260,
-        "percentage": 23.83
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 1.347,
       "yearRange": [
@@ -733,7 +729,8 @@
           "label": "Major Field",
           "description": "143,763 papers"
         }
-      ]
+      ],
+      "description": "Electronic structure and materials physics: band theory, surface and interface states, electron transport, and the computational and experimental study of functional materials."
     },
     {
       "id": 14,
@@ -953,9 +950,7 @@
       ],
       "primaryDomain": {
         "code": "cs",
-        "name": "Computer Science",
-        "count": 29956,
-        "percentage": 31.58
+        "name": "Computer Science"
       },
       "domainDiversity": 0.922,
       "yearRange": [
@@ -978,7 +973,8 @@
           "label": "Very Recent",
           "description": "Most papers from 2021+"
         }
-      ]
+      ],
+      "description": "Software engineering, human\u2013computer interaction, and system security: software design patterns, usability evaluation, distributed systems, and vulnerability analysis."
     },
     {
       "id": 13,
@@ -1198,9 +1194,7 @@
       ],
       "primaryDomain": {
         "code": "cs",
-        "name": "Computer Science",
-        "count": 33891,
-        "percentage": 36.38
+        "name": "Computer Science"
       },
       "domainDiversity": 0.488,
       "yearRange": [
@@ -1223,7 +1217,8 @@
           "label": "Very Recent",
           "description": "Most papers from 2021+"
         }
-      ]
+      ],
+      "description": "Computer vision: object detection, semantic and instance segmentation, image classification, and feature learning \u2014 the primary cluster for visual recognition research."
     },
     {
       "id": 17,
@@ -1443,9 +1438,7 @@
       ],
       "primaryDomain": {
         "code": "cs",
-        "name": "Computer Science",
-        "count": 23478,
-        "percentage": 29.35
+        "name": "Computer Science"
       },
       "domainDiversity": 2.256,
       "yearRange": [
@@ -1473,7 +1466,9 @@
           "label": "Interdisciplinary",
           "description": "Spans multiple domains"
         }
-      ]
+      ],
+      "description": "Probabilistic and Bayesian machine learning: latent variable models, Gaussian processes, variational inference, and simulation-based approaches to parameter estimation.",
+      "review": true
     },
     {
       "id": 9,
@@ -1692,10 +1687,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 22271,
-        "percentage": 28.5
+        "code": "math",
+        "name": "Mathematics"
       },
       "domainDiversity": 1.429,
       "yearRange": [
@@ -1713,7 +1706,8 @@
           "label": "Fast Growing",
           "description": "+66% growth"
         }
-      ]
+      ],
+      "description": "Algorithm design and mathematical optimization: worst-case complexity analysis, combinatorial optimization, convex and non-convex solvers, and approximation algorithms."
     },
     {
       "id": 27,
@@ -1932,10 +1926,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 17293,
-        "percentage": 24.51
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 1.594,
       "yearRange": [
@@ -1953,7 +1945,8 @@
           "label": "Interdisciplinary",
           "description": "Spans multiple domains"
         }
-      ]
+      ],
+      "description": "Quantum optics and photonics: cavity quantum electrodynamics, laser physics, optical mode engineering, nonlinear optics, and photonic devices including single-photon sources."
     },
     {
       "id": 25,
@@ -2172,10 +2165,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 15143,
-        "percentage": 22.09
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 2.05,
       "yearRange": [
@@ -2193,7 +2184,8 @@
           "label": "Interdisciplinary",
           "description": "Spans multiple domains"
         }
-      ]
+      ],
+      "description": "Quantum field theory and theoretical gravity: gauge theories, string and M-theory, holography (AdS/CFT), supersymmetry, and approaches to quantum gravity."
     },
     {
       "id": 3,
@@ -2412,10 +2404,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 18585,
-        "percentage": 27.12
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 1.308,
       "yearRange": [
@@ -2433,7 +2423,8 @@
           "label": "Explosive Growth",
           "description": "+119% growth"
         }
-      ]
+      ],
+      "description": "Quantum information and computing: entanglement theory, quantum protocols, quantum error correction, and the boundary between quantum mechanics and classical information processing."
     },
     {
       "id": 7,
@@ -2653,9 +2644,7 @@
       ],
       "primaryDomain": {
         "code": "cs",
-        "name": "Computer Science",
-        "count": 22725,
-        "percentage": 34.75
+        "name": "Computer Science"
       },
       "domainDiversity": 0.964,
       "yearRange": [
@@ -2678,7 +2667,8 @@
           "label": "Very Recent",
           "description": "Most papers from 2021+"
         }
-      ]
+      ],
+      "description": "Deep learning foundations: supervised training methodology, neural architecture design, regularization techniques, and benchmark evaluation across vision, language, and tabular data tasks."
     },
     {
       "id": 29,
@@ -2897,10 +2887,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "math",
-        "name": "Mathematics",
-        "count": 13921,
-        "percentage": 21.73
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 1.562,
       "yearRange": [
@@ -2923,7 +2911,8 @@
           "label": "Interdisciplinary",
           "description": "Spans multiple domains"
         }
-      ]
+      ],
+      "description": "Particle physics phenomenology and collider experiments: quark and hadron interactions, decay branching ratios, cross-section measurements, and Standard Model tests at the LHC."
     },
     {
       "id": 22,
@@ -3143,9 +3132,7 @@
       ],
       "primaryDomain": {
         "code": "cs",
-        "name": "Computer Science",
-        "count": 18545,
-        "percentage": 29.15
+        "name": "Computer Science"
       },
       "domainDiversity": 1.5,
       "yearRange": [
@@ -3163,7 +3150,8 @@
           "label": "Very Recent",
           "description": "Most papers from 2021+"
         }
-      ]
+      ],
+      "description": "Graph neural networks and complex network science: message-passing architectures, node and graph classification, and the analysis of social, biological, and infrastructure networks."
     },
     {
       "id": 20,
@@ -3382,10 +3370,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 14045,
-        "percentage": 25.02
+        "code": "math",
+        "name": "Mathematics"
       },
       "domainDiversity": 1.537,
       "yearRange": [
@@ -3408,7 +3394,8 @@
           "label": "Interdisciplinary",
           "description": "Spans multiple domains"
         }
-      ]
+      ],
+      "description": "Partial differential equations: existence, uniqueness, and regularity theory for boundary value problems, elliptic and parabolic equations, and numerical discretization methods."
     },
     {
       "id": 2,
@@ -3628,9 +3615,7 @@
       ],
       "primaryDomain": {
         "code": "cs",
-        "name": "Computer Science",
-        "count": 17014,
-        "percentage": 30.91
+        "name": "Computer Science"
       },
       "domainDiversity": 1.642,
       "yearRange": [
@@ -3658,7 +3643,9 @@
           "label": "Interdisciplinary",
           "description": "Spans multiple domains"
         }
-      ]
+      ],
+      "description": "Data-centric machine learning with an emphasis on privacy-preserving methods, federated learning, and fairness-aware statistical modeling across structured and unstructured data.",
+      "review": true
     },
     {
       "id": 15,
@@ -3877,10 +3864,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 12034,
-        "percentage": 22.98
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 0.409,
       "yearRange": [
@@ -3892,7 +3877,8 @@
       "growthRate": 37.2,
       "multiCategoryRate": 34.5,
       "distinctiveness": 0.454,
-      "badges": []
+      "badges": [],
+      "description": "Observational stellar and galactic astrophysics: spectral line analysis, circumstellar disk structure, interstellar medium emission, and dust properties in nearby and high-redshift environments."
     },
     {
       "id": 38,
@@ -4112,9 +4098,7 @@
       ],
       "primaryDomain": {
         "code": "cs",
-        "name": "Computer Science",
-        "count": 16407,
-        "percentage": 33.72
+        "name": "Computer Science"
       },
       "domainDiversity": 1.168,
       "yearRange": [
@@ -4137,7 +4121,8 @@
           "label": "Very Recent",
           "description": "Most papers from 2021+"
         }
-      ]
+      ],
+      "description": "Computational imaging and applied image processing: medical image segmentation, super-resolution, image reconstruction, and deep learning methods for low-level vision tasks."
     },
     {
       "id": 10,
@@ -4356,10 +4341,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 11672,
-        "percentage": 24.23
+        "code": "math",
+        "name": "Mathematics"
       },
       "domainDiversity": 1.766,
       "yearRange": [
@@ -4377,7 +4360,8 @@
           "label": "Interdisciplinary",
           "description": "Spans multiple domains"
         }
-      ]
+      ],
+      "description": "Classical mathematical analysis: complex function theory, analytic number theory, harmonic analysis, and the study of special functions and their asymptotic behavior."
     },
     {
       "id": 18,
@@ -4596,10 +4580,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 11384,
-        "percentage": 24.15
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 1.625,
       "yearRange": [
@@ -4622,7 +4604,8 @@
           "label": "Interdisciplinary",
           "description": "Spans multiple domains"
         }
-      ]
+      ],
+      "description": "Phase transitions and critical phenomena in condensed matter: order parameters, symmetry breaking, renormalization group methods, and emergent phases in strongly correlated electron systems."
     },
     {
       "id": 36,
@@ -4841,10 +4824,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 10590,
-        "percentage": 23.32
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 1.554,
       "yearRange": [
@@ -4862,7 +4843,8 @@
           "label": "Interdisciplinary",
           "description": "Spans multiple domains"
         }
-      ]
+      ],
+      "description": "Magnetism and magnetic phenomena across scales: spin transport in quantum materials, magnetic phase transitions, and astrophysical magnetic field generation and evolution."
     },
     {
       "id": 23,
@@ -5081,10 +5063,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 12886,
-        "percentage": 28.38
+        "code": "math",
+        "name": "Mathematics"
       },
       "domainDiversity": 1.096,
       "yearRange": [
@@ -5107,7 +5087,8 @@
           "label": "Very Recent",
           "description": "Most papers from 2021+"
         }
-      ]
+      ],
+      "description": "Graph theory and combinatorial algorithms: vertex/edge properties, graph coloring, extremal combinatorics, and the design of efficient graph algorithms."
     },
     {
       "id": 46,
@@ -5326,10 +5307,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 9534,
-        "percentage": 23.97
+        "code": "math",
+        "name": "Mathematics"
       },
       "domainDiversity": 0.975,
       "yearRange": [
@@ -5347,7 +5326,8 @@
           "label": "Fast Growing",
           "description": "+60% growth"
         }
-      ]
+      ],
+      "description": "Finite group theory and algebraic representation theory: group classification, character theory, modular representations, and Lie-theoretic approaches to algebraic structures."
     },
     {
       "id": 43,
@@ -5567,9 +5547,7 @@
       ],
       "primaryDomain": {
         "code": "cs",
-        "name": "Computer Science",
-        "count": 14795,
-        "percentage": 37.94
+        "name": "Computer Science"
       },
       "domainDiversity": 0.232,
       "yearRange": [
@@ -5592,7 +5570,8 @@
           "label": "Very Recent",
           "description": "Most papers from 2021+"
         }
-      ]
+      ],
+      "description": "Pre-trained language models and NLP transfer learning: BERT-style fine-tuning, multi-task learning, sequence-to-sequence models, and benchmark evaluation in natural language processing (2018\u20132022 era)."
     },
     {
       "id": 8,
@@ -5811,10 +5790,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 8982,
-        "percentage": 23.26
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 1.276,
       "yearRange": [
@@ -5826,7 +5803,8 @@
       "growthRate": 43.9,
       "multiCategoryRate": 45.1,
       "distinctiveness": 0.592,
-      "badges": []
+      "badges": [],
+      "description": "Spin physics and magnetic properties of quantum materials: spin\u2013orbit coupling, exchange interactions, magnetic anisotropy, and strongly correlated electron behavior in mesoscopic systems."
     },
     {
       "id": 35,
@@ -6045,10 +6023,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 8647,
-        "percentage": 22.95
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 0.473,
       "yearRange": [
@@ -6060,7 +6036,8 @@
       "growthRate": 37.3,
       "multiCategoryRate": 40.5,
       "distinctiveness": 0.598,
-      "badges": []
+      "badges": [],
+      "description": "Stellar astrophysics: stellar evolution, binary star systems, star cluster dynamics, stellar populations, and the observational characterization of stars across mass ranges."
     },
     {
       "id": 6,
@@ -6279,10 +6256,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 7530,
-        "percentage": 22.84
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 0.054,
       "yearRange": [
@@ -6300,7 +6275,8 @@
           "label": "Fast Growing",
           "description": "+54% growth"
         }
-      ]
+      ],
+      "description": "Galaxy formation and large-scale structure: photometric and spectroscopic surveys, galaxy clustering statistics, mass functions, and the interplay between dark matter halos and baryonic matter."
     },
     {
       "id": 47,
@@ -6519,10 +6495,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 7449,
-        "percentage": 24.27
+        "code": "math",
+        "name": "Mathematics"
       },
       "domainDiversity": 1.471,
       "yearRange": [
@@ -6540,7 +6514,8 @@
           "label": "Fast Growing",
           "description": "+57% growth"
         }
-      ]
+      ],
+      "description": "Functional analysis and operator theory: spectral theory of differential operators, Banach and Hilbert space methods, semigroup theory, and mathematical foundations of quantum mechanics."
     },
     {
       "id": 32,
@@ -6759,10 +6734,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 7295,
-        "percentage": 24.58
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 2.217,
       "yearRange": [
@@ -6780,7 +6753,8 @@
           "label": "Interdisciplinary",
           "description": "Spans multiple domains"
         }
-      ]
+      ],
+      "description": "Gravitational wave science: signal detection and parameter estimation for compact binary mergers, numerical relativity, and wave propagation modeling (LIGO/Virgo era)."
     },
     {
       "id": 33,
@@ -6999,10 +6973,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 6594,
-        "percentage": 22.96
+        "code": "math",
+        "name": "Mathematics"
       },
       "domainDiversity": 0.742,
       "yearRange": [
@@ -7020,7 +6992,8 @@
           "label": "Fast Growing",
           "description": "+52% growth"
         }
-      ]
+      ],
+      "description": "Abstract algebra: Lie algebras and Lie groups, module theory, representation theory, operator algebras, and categorical approaches to algebraic structures."
     },
     {
       "id": 48,
@@ -7239,10 +7212,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 7597,
-        "percentage": 26.66
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 1.97,
       "yearRange": [
@@ -7265,7 +7236,8 @@
           "label": "Interdisciplinary",
           "description": "Spans multiple domains"
         }
-      ]
+      ],
+      "description": "Fluid dynamics and soft matter: turbulence modeling, multiphase flows, viscoelastic fluids, granular systems, and numerical methods for the Navier\u2013Stokes equations."
     },
     {
       "id": 30,
@@ -7484,10 +7456,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 6812,
-        "percentage": 24.72
+        "code": "math",
+        "name": "Mathematics"
       },
       "domainDiversity": 1.994,
       "yearRange": [
@@ -7510,7 +7480,8 @@
           "label": "Interdisciplinary",
           "description": "Spans multiple domains"
         }
-      ]
+      ],
+      "description": "Numerical linear algebra and random matrix theory: eigenvalue solvers, matrix factorizations, low-rank approximations, and spectral properties of random matrices."
     },
     {
       "id": 12,
@@ -7729,10 +7700,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 6547,
-        "percentage": 24.87
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 1.346,
       "yearRange": [
@@ -7750,7 +7719,8 @@
           "label": "Fast Growing",
           "description": "+66% growth"
         }
-      ]
+      ],
+      "description": "Black hole physics: thermodynamics, information paradox, quasi-normal modes, Hawking radiation, and black hole solutions in general relativity and string-theoretic contexts."
     },
     {
       "id": 26,
@@ -7969,10 +7939,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 5776,
-        "percentage": 22.0
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 0.65,
       "yearRange": [
@@ -7990,7 +7958,8 @@
           "label": "Mature Field",
           "description": "Slower, steady growth"
         }
-      ]
+      ],
+      "description": "High-energy astrophysics: gamma-ray bursts, cosmic ray acceleration, active galactic nuclei jets, and multi-messenger observations combining photons, neutrinos, and gravitational waves."
     },
     {
       "id": 16,
@@ -8209,10 +8178,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 5780,
-        "percentage": 23.02
+        "code": "math",
+        "name": "Mathematics"
       },
       "domainDiversity": 0.739,
       "yearRange": [
@@ -8230,7 +8197,8 @@
           "label": "Fast Growing",
           "description": "+56% growth"
         }
-      ]
+      ],
+      "description": "Differential geometry and geometric topology: Riemannian manifolds, curvature flows, symplectic geometry, and geometric structures on compact spaces."
     },
     {
       "id": 28,
@@ -8450,9 +8418,7 @@
       ],
       "primaryDomain": {
         "code": "cs",
-        "name": "Computer Science",
-        "count": 10780,
-        "percentage": 43.79
+        "name": "Computer Science"
       },
       "domainDiversity": 0.147,
       "yearRange": [
@@ -8475,7 +8441,8 @@
           "label": "Very Recent",
           "description": "Most papers from 2021+"
         }
-      ]
+      ],
+      "description": "Large language models and generative AI: prompt engineering, chain-of-thought reasoning, instruction tuning, LLM evaluation, and applications in code generation and knowledge retrieval (2020+)."
     },
     {
       "id": 41,
@@ -8694,10 +8661,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 5448,
-        "percentage": 23.35
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 1.468,
       "yearRange": [
@@ -8715,7 +8680,8 @@
           "label": "Fast Growing",
           "description": "+59% growth"
         }
-      ]
+      ],
+      "description": "Dark matter and dark energy: direct and indirect detection experiments, cosmological constraints, candidate particle models (WIMPs, axions), and modified gravity theories."
     },
     {
       "id": 42,
@@ -8935,9 +8901,7 @@
       ],
       "primaryDomain": {
         "code": "cs",
-        "name": "Computer Science",
-        "count": 5957,
-        "percentage": 25.83
+        "name": "Computer Science"
       },
       "domainDiversity": 1.537,
       "yearRange": [
@@ -8960,7 +8924,8 @@
           "label": "Interdisciplinary",
           "description": "Spans multiple domains"
         }
-      ]
+      ],
+      "description": "Information theory and communications engineering: channel capacity, error-correcting codes, wireless channel modeling, signal processing, and quantum communication protocols."
     },
     {
       "id": 24,
@@ -9179,10 +9144,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 4907,
-        "percentage": 24.06
+        "code": "math",
+        "name": "Mathematics"
       },
       "domainDiversity": 0.893,
       "yearRange": [
@@ -9200,7 +9163,8 @@
           "label": "Fast Growing",
           "description": "+53% growth"
         }
-      ]
+      ],
+      "description": "Algebraic and analytic combinatorics: polynomial methods, generating functions, enumerative identities, and number-theoretic properties of combinatorial sequences."
     },
     {
       "id": 1,
@@ -9420,9 +9384,7 @@
       ],
       "primaryDomain": {
         "code": "cs",
-        "name": "Computer Science",
-        "count": 6647,
-        "percentage": 33.73
+        "name": "Computer Science"
       },
       "domainDiversity": 1.03,
       "yearRange": [
@@ -9445,7 +9407,8 @@
           "label": "Very Recent",
           "description": "Most papers from 2021+"
         }
-      ]
+      ],
+      "description": "Reinforcement learning and multi-agent systems: autonomous agents learning from environment interaction, policy optimization, and cooperative/competitive multi-agent coordination."
     },
     {
       "id": 31,
@@ -9664,10 +9627,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 4731,
-        "percentage": 24.37
+        "code": "math",
+        "name": "Mathematics"
       },
       "domainDiversity": 1.936,
       "yearRange": [
@@ -9690,7 +9651,9 @@
           "label": "Interdisciplinary",
           "description": "Spans multiple domains"
         }
-      ]
+      ],
+      "description": "Stochastic analysis and fractional calculus: \u03b1-stable processes, fractional differential equations, Malliavin calculus, and regularity theory for stochastic PDEs. Note: heavy overlap of Greek notation from physics papers makes precise identification uncertain.",
+      "review": true
     },
     {
       "id": 0,
@@ -9909,10 +9872,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 4267,
-        "percentage": 26.76
+        "code": "math",
+        "name": "Mathematics"
       },
       "domainDiversity": 1.469,
       "yearRange": [
@@ -9930,7 +9891,8 @@
           "label": "Fast Growing",
           "description": "+61% growth"
         }
-      ]
+      ],
+      "description": "Discrete mathematics and combinatorial number theory, including integer sequences, combinatorial structures, and the application of algebraic methods to counting and number-theoretic problems."
     },
     {
       "id": 44,
@@ -10149,10 +10111,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 3892,
-        "percentage": 24.56
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 2.021,
       "yearRange": [
@@ -10175,7 +10135,9 @@
           "label": "Interdisciplinary",
           "description": "Spans multiple domains"
         }
-      ]
+      ],
+      "description": "Theoretical physics at the intersection of cosmology and mathematical physics, using Greek-letter parametrized models (\u039b-CDM cosmological constant, density parameters) alongside rigorous analytical methods. Heterogeneous cluster; precise sub-field identification uncertain.",
+      "review": true
     },
     {
       "id": 4,
@@ -10394,10 +10356,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 3501,
-        "percentage": 22.73
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 1.338,
       "yearRange": [
@@ -10409,7 +10369,8 @@
       "growthRate": 28.9,
       "multiCategoryRate": 51.2,
       "distinctiveness": 0.708,
-      "badges": []
+      "badges": [],
+      "description": "Neutrino physics: oscillation measurements, mass hierarchy experiments, sterile neutrino searches, and detector-based observations from terrestrial and astrophysical sources."
     },
     {
       "id": 19,
@@ -10629,9 +10590,7 @@
       ],
       "primaryDomain": {
         "code": "cs",
-        "name": "Computer Science",
-        "count": 5213,
-        "percentage": 34.46
+        "name": "Computer Science"
       },
       "domainDiversity": 0.482,
       "yearRange": [
@@ -10654,7 +10613,8 @@
           "label": "Very Recent",
           "description": "Most papers from 2021+"
         }
-      ]
+      ],
+      "description": "Adversarial machine learning and cybersecurity: adversarial attacks on classifiers, defense mechanisms, robustness certification, and the intersection of deep learning with security-critical applications."
     },
     {
       "id": 34,
@@ -10874,9 +10834,7 @@
       ],
       "primaryDomain": {
         "code": "cs",
-        "name": "Computer Science",
-        "count": 5210,
-        "percentage": 35.25
+        "name": "Computer Science"
       },
       "domainDiversity": 0.352,
       "yearRange": [
@@ -10904,7 +10862,8 @@
           "label": "Niche Area",
           "description": "14,781 papers"
         }
-      ]
+      ],
+      "description": "Video understanding and temporal vision: action recognition, video object segmentation, optical flow, and temporal modeling for multi-frame visual tasks."
     },
     {
       "id": 49,
@@ -11123,10 +11082,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 3341,
-        "percentage": 22.93
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 1.998,
       "yearRange": [
@@ -11149,7 +11106,9 @@
           "label": "Niche Area",
           "description": "14,570 papers"
         }
-      ]
+      ],
+      "description": "Hadronic physics and particle decay processes: meson and baryon spectroscopy, photon\u2013hadron interactions, branching fractions, and Feynman diagram calculations in quantum chromodynamics. Greek notation (\u03b3, \u03b4, \u03a3, \u03a9) dominates vocabulary; some mathematical physics papers co-cluster.",
+      "review": true
     },
     {
       "id": 21,
@@ -11369,9 +11328,7 @@
       ],
       "primaryDomain": {
         "code": "cs",
-        "name": "Computer Science",
-        "count": 4978,
-        "percentage": 35.69
+        "name": "Computer Science"
       },
       "domainDiversity": 0.22,
       "yearRange": [
@@ -11399,7 +11356,8 @@
           "label": "Niche Area",
           "description": "13,947 papers"
         }
-      ]
+      ],
+      "description": "Robotics and human\u2013robot interaction: manipulation planning, autonomous navigation, task and motion planning, and the design of systems that collaborate with or assist humans."
     },
     {
       "id": 37,
@@ -11619,9 +11577,7 @@
       ],
       "primaryDomain": {
         "code": "cs",
-        "name": "Computer Science",
-        "count": 3276,
-        "percentage": 26.6
+        "name": "Computer Science"
       },
       "domainDiversity": 1.297,
       "yearRange": [
@@ -11644,7 +11600,8 @@
           "label": "Niche Area",
           "description": "12,318 papers"
         }
-      ]
+      ],
+      "description": "Theoretical computer science: computational complexity, randomized and approximation algorithms, logarithmic-factor bounds, and connections to discrete probability."
     },
     {
       "id": 39,
@@ -11863,10 +11820,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 2736,
-        "percentage": 24.06
+        "code": "physics",
+        "name": "Physics"
       },
       "domainDiversity": 0.155,
       "yearRange": [
@@ -11884,7 +11839,8 @@
           "label": "Niche Area",
           "description": "11,370 papers"
         }
-      ]
+      ],
+      "description": "Exoplanet science and planetary astrophysics: transit photometry, radial velocity surveys, orbital dynamics, atmospheric characterization, and the architecture of planetary systems."
     },
     {
       "id": 45,
@@ -12103,10 +12059,8 @@
         }
       ],
       "primaryDomain": {
-        "code": "cs",
-        "name": "Computer Science",
-        "count": 3554,
-        "percentage": 35.57
+        "code": "eess",
+        "name": "Electrical Engineering"
       },
       "domainDiversity": 0.712,
       "yearRange": [
@@ -12134,7 +12088,8 @@
           "label": "Niche Area",
           "description": "9,991 papers"
         }
-      ]
+      ],
+      "description": "Speech recognition and spoken language processing: acoustic modeling, end-to-end systems (CTC, attention-based), speaker verification, and the integration of language models with speech."
     }
   ],
   "summary": {

@@ -183,9 +183,33 @@ function Hero() {
           from raw text to hidden research patterns.
         </p>
 
-        <p className="text-sm text-gray-500 mb-12">
+        <p className="text-sm text-gray-500 mb-10">
           A case study in clustering, dimensionality reduction, and discovery.
         </p>
+
+        {/* Headline findings strip */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.6, duration: 0.7 }}
+          className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
+        >
+          <div className="bg-gray-900/70 border border-emerald-500/30 rounded-xl px-6 py-4 text-center min-w-[160px]">
+            <p className="text-3xl font-bold text-emerald-400">12,303×</p>
+            <p className="text-gray-400 text-xs mt-1">LLM cluster growth</p>
+            <p className="text-gray-600 text-xs">2017 → 2024</p>
+          </div>
+          <div className="bg-gray-900/70 border border-blue-500/30 rounded-xl px-6 py-4 text-center min-w-[160px]">
+            <p className="text-3xl font-bold text-blue-400">421×</p>
+            <p className="text-gray-400 text-xs mt-1">bridge area growth advantage</p>
+            <p className="text-gray-600 text-xs">vs. single-domain clusters</p>
+          </div>
+          <div className="bg-gray-900/70 border border-purple-500/30 rounded-xl px-6 py-4 text-center min-w-[160px]">
+            <p className="text-3xl font-bold text-purple-400">50</p>
+            <p className="text-gray-400 text-xs mt-1">research communities</p>
+            <p className="text-gray-600 text-xs">discovered unsupervised</p>
+          </div>
+        </motion.div>
       </motion.div>
 
       {/* Scroll indicator */}
