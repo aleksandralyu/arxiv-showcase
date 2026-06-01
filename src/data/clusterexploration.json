@@ -248,7 +248,25 @@
         }
       ],
       "description": "A heterogeneous applied mathematics and physics cluster with no dominant sub-field (no category exceeds 6%). Vocabulary \u2014 time, method, distribution, process, model, particle, control \u2014 spans stochastic processes, statistical mechanics, fluid dynamics, and numerical methods. Precise identification uncertain.",
-      "review": true
+      "review": true,
+      "temporalCohesion": {
+        "clusterId": 5,
+        "meanYear": 2018.7,
+        "medianYear": 2020.0,
+        "stdYear": 4.68,
+        "iqr": 8.0,
+        "q1Year": 2015.0,
+        "q3Year": 2023.0,
+        "emergenceScore": 0.5009,
+        "quadrant": "stable",
+        "topTerms": [
+          "time",
+          "method",
+          "distribution",
+          "process",
+          "model"
+        ]
+      }
     },
     {
       "id": 11,
@@ -492,7 +510,25 @@
           "description": "180,419 papers"
         }
       ],
-      "description": "Pure mathematics spanning algebraic geometry, arithmetic geometry, and combinatorics: schemes, varieties, Diophantine equations, and combinatorial identities approached through algebraic tools."
+      "description": "Pure mathematics spanning algebraic geometry, arithmetic geometry, and combinatorics: schemes, varieties, Diophantine equations, and combinatorial identities approached through algebraic tools.",
+      "temporalCohesion": {
+        "clusterId": 11,
+        "meanYear": 2018.3,
+        "medianYear": 2019.0,
+        "stdYear": 4.86,
+        "iqr": 8.0,
+        "q1Year": 2015.0,
+        "q3Year": 2023.0,
+        "emergenceScore": 0.4562,
+        "quadrant": "stable",
+        "topTerms": [
+          "space",
+          "prove",
+          "set",
+          "theorem",
+          "number"
+        ]
+      }
     },
     {
       "id": 40,
@@ -731,7 +767,25 @@
           "description": "143,763 papers"
         }
       ],
-      "description": "Electronic structure and materials physics: band theory, surface and interface states, electron transport, and the computational and experimental study of functional materials."
+      "description": "Electronic structure and materials physics: band theory, surface and interface states, electron transport, and the computational and experimental study of functional materials.",
+      "temporalCohesion": {
+        "clusterId": 40,
+        "meanYear": 2017.9,
+        "medianYear": 2018.0,
+        "stdYear": 4.73,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.418,
+        "quadrant": "stable",
+        "topTerms": [
+          "energy",
+          "temperature",
+          "electron",
+          "state",
+          "surface"
+        ]
+      }
     },
     {
       "id": 14,
@@ -975,7 +1029,25 @@
           "description": "Most papers from 2021+"
         }
       ],
-      "description": "Software engineering, human\u2013computer interaction, and system security: software design patterns, usability evaluation, distributed systems, and vulnerability analysis."
+      "description": "Software engineering, human\u2013computer interaction, and system security: software design patterns, usability evaluation, distributed systems, and vulnerability analysis.",
+      "temporalCohesion": {
+        "clusterId": 14,
+        "meanYear": 2020.5,
+        "medianYear": 2021.0,
+        "stdYear": 3.99,
+        "iqr": 6.0,
+        "q1Year": 2018.0,
+        "q3Year": 2024.0,
+        "emergenceScore": 0.6731,
+        "quadrant": "classic",
+        "topTerms": [
+          "user",
+          "design",
+          "software",
+          "technology",
+          "service"
+        ]
+      }
     },
     {
       "id": 13,
@@ -1219,7 +1291,25 @@
           "description": "Most papers from 2021+"
         }
       ],
-      "description": "Computer vision: object detection, semantic and instance segmentation, image classification, and feature learning \u2014 the primary cluster for visual recognition research."
+      "description": "Computer vision: object detection, semantic and instance segmentation, image classification, and feature learning \u2014 the primary cluster for visual recognition research.",
+      "temporalCohesion": {
+        "clusterId": 13,
+        "meanYear": 2022.0,
+        "medianYear": 2023.0,
+        "stdYear": 2.73,
+        "iqr": 4.0,
+        "q1Year": 2020.0,
+        "q3Year": 2024.0,
+        "emergenceScore": 0.8312,
+        "quadrant": "rocket",
+        "topTerms": [
+          "method",
+          "feature",
+          "object",
+          "model",
+          "train"
+        ]
+      }
     },
     {
       "id": 17,
@@ -1469,7 +1559,25 @@
         }
       ],
       "description": "A large general-purpose ML and statistical modeling cluster (80k+ papers) covering probabilistic models, time-series, simulation, and prediction tasks. The mix of cs.LG, stat.ME, and cs.CL without any dominant category or distinctive vocabulary suggests this is a broad methods cluster rather than a coherent research community.",
-      "review": true
+      "review": true,
+      "temporalCohesion": {
+        "clusterId": 17,
+        "meanYear": 2019.9,
+        "medianYear": 2021.0,
+        "stdYear": 4.44,
+        "iqr": 7.0,
+        "q1Year": 2017.0,
+        "q3Year": 2024.0,
+        "emergenceScore": 0.6173,
+        "quadrant": "classic",
+        "topTerms": [
+          "model",
+          "data",
+          "parameter",
+          "method",
+          "approach"
+        ]
+      }
     },
     {
       "id": 9,
@@ -1708,7 +1816,25 @@
           "description": "+66% growth"
         }
       ],
-      "description": "Algorithm design and mathematical optimization: worst-case complexity analysis, combinatorial optimization, convex and non-convex solvers, and approximation algorithms."
+      "description": "Algorithm design and mathematical optimization: worst-case complexity analysis, combinatorial optimization, convex and non-convex solvers, and approximation algorithms.",
+      "temporalCohesion": {
+        "clusterId": 9,
+        "meanYear": 2019.6,
+        "medianYear": 2020.0,
+        "stdYear": 4.24,
+        "iqr": 6.0,
+        "q1Year": 2017.0,
+        "q3Year": 2023.0,
+        "emergenceScore": 0.5837,
+        "quadrant": "stable",
+        "topTerms": [
+          "algorithm",
+          "problem",
+          "optimization",
+          "method",
+          "solve"
+        ]
+      }
     },
     {
       "id": 27,
@@ -1947,7 +2073,25 @@
           "description": "Spans multiple domains"
         }
       ],
-      "description": "Quantum optics and photonics: cavity quantum electrodynamics, laser physics, optical mode engineering, nonlinear optics, and photonic devices including single-photon sources."
+      "description": "Quantum optics and photonics: cavity quantum electrodynamics, laser physics, optical mode engineering, nonlinear optics, and photonic devices including single-photon sources.",
+      "temporalCohesion": {
+        "clusterId": 27,
+        "meanYear": 2018.3,
+        "medianYear": 2019.0,
+        "stdYear": 4.6,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.4485,
+        "quadrant": "stable",
+        "topTerms": [
+          "mode",
+          "optical",
+          "laser",
+          "photon",
+          "frequency"
+        ]
+      }
     },
     {
       "id": 25,
@@ -2186,7 +2330,25 @@
           "description": "Spans multiple domains"
         }
       ],
-      "description": "Quantum field theory and theoretical gravity: gauge theories, string and M-theory, holography (AdS/CFT), supersymmetry, and approaches to quantum gravity."
+      "description": "Quantum field theory and theoretical gravity: gauge theories, string and M-theory, holography (AdS/CFT), supersymmetry, and approaches to quantum gravity.",
+      "temporalCohesion": {
+        "clusterId": 25,
+        "meanYear": 2017.3,
+        "medianYear": 2017.0,
+        "stdYear": 4.95,
+        "iqr": 8.0,
+        "q1Year": 2014.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.3798,
+        "quadrant": "stable",
+        "topTerms": [
+          "theory",
+          "field",
+          "gauge",
+          "field theory",
+          "gravity"
+        ]
+      }
     },
     {
       "id": 3,
@@ -2425,7 +2587,25 @@
           "description": "+119% growth"
         }
       ],
-      "description": "Quantum information and computing: entanglement theory, quantum protocols, quantum error correction, and the boundary between quantum mechanics and classical information processing."
+      "description": "Quantum information and computing: entanglement theory, quantum protocols, quantum error correction, and the boundary between quantum mechanics and classical information processing.",
+      "temporalCohesion": {
+        "clusterId": 3,
+        "meanYear": 2019.2,
+        "medianYear": 2020.0,
+        "stdYear": 4.84,
+        "iqr": 8.0,
+        "q1Year": 2015.0,
+        "q3Year": 2023.0,
+        "emergenceScore": 0.546,
+        "quadrant": "classic",
+        "topTerms": [
+          "quantum",
+          "state",
+          "classical",
+          "entanglement",
+          "measurement"
+        ]
+      }
     },
     {
       "id": 7,
@@ -2669,7 +2849,25 @@
           "description": "Most papers from 2021+"
         }
       ],
-      "description": "Deep learning foundations: supervised training methodology, neural architecture design, regularization techniques, and benchmark evaluation across vision, language, and tabular data tasks."
+      "description": "Deep learning foundations: supervised training methodology, neural architecture design, regularization techniques, and benchmark evaluation across vision, language, and tabular data tasks.",
+      "temporalCohesion": {
+        "clusterId": 7,
+        "meanYear": 2021.6,
+        "medianYear": 2022.0,
+        "stdYear": 2.78,
+        "iqr": 4.0,
+        "q1Year": 2020.0,
+        "q3Year": 2024.0,
+        "emergenceScore": 0.8035,
+        "quadrant": "niche",
+        "topTerms": [
+          "learn",
+          "model",
+          "train",
+          "machine",
+          "machine learn"
+        ]
+      }
     },
     {
       "id": 29,
@@ -2913,7 +3111,25 @@
           "description": "Spans multiple domains"
         }
       ],
-      "description": "Particle physics phenomenology and collider experiments: quark and hadron interactions, decay branching ratios, cross-section measurements, and Standard Model tests at the LHC."
+      "description": "Particle physics phenomenology and collider experiments: quark and hadron interactions, decay branching ratios, cross-section measurements, and Standard Model tests at the LHC.",
+      "temporalCohesion": {
+        "clusterId": 29,
+        "meanYear": 2016.9,
+        "medianYear": 2017.0,
+        "stdYear": 4.84,
+        "iqr": 7.0,
+        "q1Year": 2014.0,
+        "q3Year": 2021.0,
+        "emergenceScore": 0.3219,
+        "quadrant": "stable",
+        "topTerms": [
+          "quark",
+          "decay",
+          "mass",
+          "collision",
+          "production"
+        ]
+      }
     },
     {
       "id": 22,
@@ -3152,7 +3368,25 @@
           "description": "Most papers from 2021+"
         }
       ],
-      "description": "Graph neural networks and complex network science: message-passing architectures, node and graph classification, and the analysis of social, biological, and infrastructure networks."
+      "description": "Graph neural networks and complex network science: message-passing architectures, node and graph classification, and the analysis of social, biological, and infrastructure networks.",
+      "temporalCohesion": {
+        "clusterId": 22,
+        "meanYear": 2019.9,
+        "medianYear": 2021.0,
+        "stdYear": 3.99,
+        "iqr": 5.0,
+        "q1Year": 2018.0,
+        "q3Year": 2023.0,
+        "emergenceScore": 0.6091,
+        "quadrant": "stable",
+        "topTerms": [
+          "network",
+          "neural",
+          "neural network",
+          "model",
+          "node"
+        ]
+      }
     },
     {
       "id": 20,
@@ -3396,7 +3630,25 @@
           "description": "Spans multiple domains"
         }
       ],
-      "description": "Partial differential equations: existence, uniqueness, and regularity theory for boundary value problems, elliptic and parabolic equations, and numerical discretization methods."
+      "description": "Partial differential equations: existence, uniqueness, and regularity theory for boundary value problems, elliptic and parabolic equations, and numerical discretization methods.",
+      "temporalCohesion": {
+        "clusterId": 20,
+        "meanYear": 2018.4,
+        "medianYear": 2019.0,
+        "stdYear": 4.72,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.4643,
+        "quadrant": "stable",
+        "topTerms": [
+          "solution",
+          "problem",
+          "existence",
+          "boundary",
+          "condition"
+        ]
+      }
     },
     {
       "id": 2,
@@ -3646,7 +3898,25 @@
         }
       ],
       "description": "A broad, high-volume ML and data methods cluster (79k+ papers) with generic vocabulary spanning machine learning, statistical modeling, computer vision, and data analysis. No single sub-field dominates. Likely a catch-all for papers that apply standard methods without specialized terminology.",
-      "review": true
+      "review": true,
+      "temporalCohesion": {
+        "clusterId": 2,
+        "meanYear": 2020.4,
+        "medianYear": 2021.0,
+        "stdYear": 4.01,
+        "iqr": 6.0,
+        "q1Year": 2018.0,
+        "q3Year": 2024.0,
+        "emergenceScore": 0.6711,
+        "quadrant": "stable",
+        "topTerms": [
+          "data",
+          "model",
+          "method",
+          "analysis",
+          "approach"
+        ]
+      }
     },
     {
       "id": 15,
@@ -3879,7 +4149,25 @@
       "multiCategoryRate": 34.5,
       "distinctiveness": 0.454,
       "badges": [],
-      "description": "Observational stellar and galactic astrophysics: spectral line analysis, circumstellar disk structure, interstellar medium emission, and dust properties in nearby and high-redshift environments."
+      "description": "Observational stellar and galactic astrophysics: spectral line analysis, circumstellar disk structure, interstellar medium emission, and dust properties in nearby and high-redshift environments.",
+      "temporalCohesion": {
+        "clusterId": 15,
+        "meanYear": 2017.8,
+        "medianYear": 2017.0,
+        "stdYear": 4.47,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.381,
+        "quadrant": "stable",
+        "topTerms": [
+          "emission",
+          "line",
+          "disk",
+          "observation",
+          "dust"
+        ]
+      }
     },
     {
       "id": 38,
@@ -4123,7 +4411,25 @@
           "description": "Most papers from 2021+"
         }
       ],
-      "description": "Computational imaging and applied image processing: medical image segmentation, super-resolution, image reconstruction, and deep learning methods for low-level vision tasks."
+      "description": "Computational imaging and applied image processing: medical image segmentation, super-resolution, image reconstruction, and deep learning methods for low-level vision tasks.",
+      "temporalCohesion": {
+        "clusterId": 38,
+        "meanYear": 2021.1,
+        "medianYear": 2022.0,
+        "stdYear": 3.41,
+        "iqr": 5.0,
+        "q1Year": 2019.0,
+        "q3Year": 2024.0,
+        "emergenceScore": 0.7332,
+        "quadrant": "classic",
+        "topTerms": [
+          "image",
+          "method",
+          "model",
+          "train",
+          "learn"
+        ]
+      }
     },
     {
       "id": 10,
@@ -4362,7 +4668,25 @@
           "description": "Spans multiple domains"
         }
       ],
-      "description": "Classical mathematical analysis: complex function theory, analytic number theory, harmonic analysis, and the study of special functions and their asymptotic behavior."
+      "description": "Classical mathematical analysis: complex function theory, analytic number theory, harmonic analysis, and the study of special functions and their asymptotic behavior.",
+      "temporalCohesion": {
+        "clusterId": 10,
+        "meanYear": 2018.3,
+        "medianYear": 2019.0,
+        "stdYear": 4.76,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.4619,
+        "quadrant": "stable",
+        "topTerms": [
+          "function",
+          "space",
+          "value",
+          "prove",
+          "formula"
+        ]
+      }
     },
     {
       "id": 18,
@@ -4606,7 +4930,25 @@
           "description": "Spans multiple domains"
         }
       ],
-      "description": "Phase transitions and critical phenomena in condensed matter: order parameters, symmetry breaking, renormalization group methods, and emergent phases in strongly correlated electron systems."
+      "description": "Phase transitions and critical phenomena in condensed matter: order parameters, symmetry breaking, renormalization group methods, and emergent phases in strongly correlated electron systems.",
+      "temporalCohesion": {
+        "clusterId": 18,
+        "meanYear": 2018.0,
+        "medianYear": 2018.0,
+        "stdYear": 4.84,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.4298,
+        "quadrant": "stable",
+        "topTerms": [
+          "phase",
+          "transition",
+          "phase transition",
+          "temperature",
+          "order"
+        ]
+      }
     },
     {
       "id": 36,
@@ -4845,7 +5187,25 @@
           "description": "Spans multiple domains"
         }
       ],
-      "description": "Magnetism and magnetic phenomena across scales: spin transport in quantum materials, magnetic phase transitions, and astrophysical magnetic field generation and evolution."
+      "description": "Magnetism and magnetic phenomena across scales: spin transport in quantum materials, magnetic phase transitions, and astrophysical magnetic field generation and evolution.",
+      "temporalCohesion": {
+        "clusterId": 36,
+        "meanYear": 2017.7,
+        "medianYear": 2018.0,
+        "stdYear": 4.69,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.39,
+        "quadrant": "stable",
+        "topTerms": [
+          "magnetic",
+          "magnetic field",
+          "field",
+          "temperature",
+          "spin"
+        ]
+      }
     },
     {
       "id": 23,
@@ -5089,7 +5449,25 @@
           "description": "Most papers from 2021+"
         }
       ],
-      "description": "Graph theory and combinatorial algorithms: vertex/edge properties, graph coloring, extremal combinatorics, and the design of efficient graph algorithms."
+      "description": "Graph theory and combinatorial algorithms: vertex/edge properties, graph coloring, extremal combinatorics, and the design of efficient graph algorithms.",
+      "temporalCohesion": {
+        "clusterId": 23,
+        "meanYear": 2019.7,
+        "medianYear": 2021.0,
+        "stdYear": 4.34,
+        "iqr": 6.0,
+        "q1Year": 2017.0,
+        "q3Year": 2023.0,
+        "emergenceScore": 0.5883,
+        "quadrant": "stable",
+        "topTerms": [
+          "graph",
+          "vertex",
+          "edge",
+          "number",
+          "problem"
+        ]
+      }
     },
     {
       "id": 46,
@@ -5328,7 +5706,25 @@
           "description": "+60% growth"
         }
       ],
-      "description": "Finite group theory and algebraic representation theory: group classification, character theory, modular representations, and Lie-theoretic approaches to algebraic structures."
+      "description": "Finite group theory and algebraic representation theory: group classification, character theory, modular representations, and Lie-theoretic approaches to algebraic structures.",
+      "temporalCohesion": {
+        "clusterId": 46,
+        "meanYear": 2018.3,
+        "medianYear": 2019.0,
+        "stdYear": 4.9,
+        "iqr": 8.0,
+        "q1Year": 2015.0,
+        "q3Year": 2023.0,
+        "emergenceScore": 0.4595,
+        "quadrant": "stable",
+        "topTerms": [
+          "group",
+          "finite",
+          "prove",
+          "representation",
+          "class"
+        ]
+      }
     },
     {
       "id": 43,
@@ -5572,7 +5968,25 @@
           "description": "Most papers from 2021+"
         }
       ],
-      "description": "Pre-trained language models and NLP transfer learning: BERT-style pre-training, fine-tuning on downstream tasks, multi-task learning, and sequence-to-sequence architectures. Closely related to C28 (LLM cluster); C43 centers on the fine-tuning paradigm and task performance benchmarks rather than the emergent capabilities of very large models."
+      "description": "Pre-trained language models and NLP transfer learning: BERT-style pre-training, fine-tuning on downstream tasks, multi-task learning, and sequence-to-sequence architectures. Closely related to C28 (LLM cluster); C43 centers on the fine-tuning paradigm and task performance benchmarks rather than the emergent capabilities of very large models.",
+      "temporalCohesion": {
+        "clusterId": 43,
+        "meanYear": 2022.3,
+        "medianYear": 2023.0,
+        "stdYear": 2.97,
+        "iqr": 3.0,
+        "q1Year": 2021.0,
+        "q3Year": 2024.0,
+        "emergenceScore": 0.8639,
+        "quadrant": "rocket",
+        "topTerms": [
+          "language",
+          "model",
+          "task",
+          "language model",
+          "train"
+        ]
+      }
     },
     {
       "id": 8,
@@ -5805,7 +6219,25 @@
       "multiCategoryRate": 45.1,
       "distinctiveness": 0.592,
       "badges": [],
-      "description": "Spin physics and magnetic properties of quantum materials: spin\u2013orbit coupling, exchange interactions, magnetic anisotropy, and strongly correlated electron behavior in mesoscopic systems."
+      "description": "Spin physics and magnetic properties of quantum materials: spin\u2013orbit coupling, exchange interactions, magnetic anisotropy, and strongly correlated electron behavior in mesoscopic systems.",
+      "temporalCohesion": {
+        "clusterId": 8,
+        "meanYear": 2017.7,
+        "medianYear": 2018.0,
+        "stdYear": 4.78,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.3957,
+        "quadrant": "stable",
+        "topTerms": [
+          "spin",
+          "magnetic",
+          "state",
+          "couple",
+          "quantum"
+        ]
+      }
     },
     {
       "id": 35,
@@ -6038,7 +6470,25 @@
       "multiCategoryRate": 40.5,
       "distinctiveness": 0.598,
       "badges": [],
-      "description": "Stellar astrophysics: stellar evolution, binary star systems, star cluster dynamics, stellar populations, and the observational characterization of stars across mass ranges."
+      "description": "Stellar astrophysics: stellar evolution, binary star systems, star cluster dynamics, stellar populations, and the observational characterization of stars across mass ranges.",
+      "temporalCohesion": {
+        "clusterId": 35,
+        "meanYear": 2017.6,
+        "medianYear": 2017.0,
+        "stdYear": 4.53,
+        "iqr": 6.0,
+        "q1Year": 2015.0,
+        "q3Year": 2021.0,
+        "emergenceScore": 0.3703,
+        "quadrant": "stable",
+        "topTerms": [
+          "star",
+          "mass",
+          "stellar",
+          "cluster",
+          "binary"
+        ]
+      }
     },
     {
       "id": 6,
@@ -6277,7 +6727,25 @@
           "description": "+54% growth"
         }
       ],
-      "description": "Galaxy formation and large-scale structure: photometric and spectroscopic surveys, galaxy clustering statistics, mass functions, and the interplay between dark matter halos and baryonic matter."
+      "description": "Galaxy formation and large-scale structure: photometric and spectroscopic surveys, galaxy clustering statistics, mass functions, and the interplay between dark matter halos and baryonic matter.",
+      "temporalCohesion": {
+        "clusterId": 6,
+        "meanYear": 2017.7,
+        "medianYear": 2017.0,
+        "stdYear": 4.56,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.3781,
+        "quadrant": "stable",
+        "topTerms": [
+          "galaxy",
+          "mass",
+          "redshift",
+          "cluster",
+          "star"
+        ]
+      }
     },
     {
       "id": 47,
@@ -6516,7 +6984,25 @@
           "description": "+57% growth"
         }
       ],
-      "description": "Functional analysis and operator theory: spectral theory of differential operators, Banach and Hilbert space methods, semigroup theory, and mathematical foundations of quantum mechanics."
+      "description": "Functional analysis and operator theory: spectral theory of differential operators, Banach and Hilbert space methods, semigroup theory, and mathematical foundations of quantum mechanics.",
+      "temporalCohesion": {
+        "clusterId": 47,
+        "meanYear": 2018.3,
+        "medianYear": 2019.0,
+        "stdYear": 4.81,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.4579,
+        "quadrant": "stable",
+        "topTerms": [
+          "operator",
+          "space",
+          "function",
+          "prove",
+          "differential"
+        ]
+      }
     },
     {
       "id": 32,
@@ -6755,7 +7241,25 @@
           "description": "Spans multiple domains"
         }
       ],
-      "description": "Wave phenomena and gravitational physics: gravitational wave detection and numerical relativity (gr-qc, 10%), mathematical wave equations (math.AP, 9%), and optical wave propagation (physics.optics, 6%). The cluster spans classical and gravitational wave science \u2014 it is not exclusively LIGO-era gravitational wave astronomy."
+      "description": "Wave phenomena and gravitational physics: gravitational wave detection and numerical relativity (gr-qc, 10%), mathematical wave equations (math.AP, 9%), and optical wave propagation (physics.optics, 6%). The cluster spans classical and gravitational wave science \u2014 it is not exclusively LIGO-era gravitational wave astronomy.",
+      "temporalCohesion": {
+        "clusterId": 32,
+        "meanYear": 2018.2,
+        "medianYear": 2019.0,
+        "stdYear": 4.74,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.4467,
+        "quadrant": "stable",
+        "topTerms": [
+          "wave",
+          "gravitational",
+          "frequency",
+          "time",
+          "energy"
+        ]
+      }
     },
     {
       "id": 33,
@@ -6994,7 +7498,25 @@
           "description": "+52% growth"
         }
       ],
-      "description": "Abstract algebra: Lie algebras and Lie groups, module theory, representation theory, operator algebras, and categorical approaches to algebraic structures."
+      "description": "Abstract algebra: Lie algebras and Lie groups, module theory, representation theory, operator algebras, and categorical approaches to algebraic structures.",
+      "temporalCohesion": {
+        "clusterId": 33,
+        "meanYear": 2017.8,
+        "medianYear": 2018.0,
+        "stdYear": 5.03,
+        "iqr": 8.0,
+        "q1Year": 2014.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.4221,
+        "quadrant": "stable",
+        "topTerms": [
+          "algebra",
+          "lie",
+          "module",
+          "group",
+          "category"
+        ]
+      }
     },
     {
       "id": 48,
@@ -7238,7 +7760,25 @@
           "description": "Spans multiple domains"
         }
       ],
-      "description": "Fluid dynamics and soft matter: turbulence modeling, multiphase flows, viscoelastic fluids, granular systems, and numerical methods for the Navier\u2013Stokes equations."
+      "description": "Fluid dynamics and soft matter: turbulence modeling, multiphase flows, viscoelastic fluids, granular systems, and numerical methods for the Navier\u2013Stokes equations.",
+      "temporalCohesion": {
+        "clusterId": 48,
+        "meanYear": 2019.0,
+        "medianYear": 2020.0,
+        "stdYear": 4.6,
+        "iqr": 8.0,
+        "q1Year": 2015.0,
+        "q3Year": 2023.0,
+        "emergenceScore": 0.5242,
+        "quadrant": "stable",
+        "topTerms": [
+          "flow",
+          "fluid",
+          "model",
+          "velocity",
+          "particle"
+        ]
+      }
     },
     {
       "id": 30,
@@ -7482,7 +8022,25 @@
           "description": "Spans multiple domains"
         }
       ],
-      "description": "Numerical linear algebra and random matrix theory: eigenvalue solvers, matrix factorizations, low-rank approximations, and spectral properties of random matrices."
+      "description": "Numerical linear algebra and random matrix theory: eigenvalue solvers, matrix factorizations, low-rank approximations, and spectral properties of random matrices.",
+      "temporalCohesion": {
+        "clusterId": 30,
+        "meanYear": 2018.4,
+        "medianYear": 2019.0,
+        "stdYear": 4.72,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.4648,
+        "quadrant": "stable",
+        "topTerms": [
+          "matrix",
+          "eigenvalue",
+          "method",
+          "rank",
+          "random"
+        ]
+      }
     },
     {
       "id": 12,
@@ -7721,7 +8279,25 @@
           "description": "+66% growth"
         }
       ],
-      "description": "Black hole physics: thermodynamics, information paradox, quasi-normal modes, Hawking radiation, and black hole solutions in general relativity and string-theoretic contexts."
+      "description": "Black hole physics: thermodynamics, information paradox, quasi-normal modes, Hawking radiation, and black hole solutions in general relativity and string-theoretic contexts.",
+      "temporalCohesion": {
+        "clusterId": 12,
+        "meanYear": 2018.2,
+        "medianYear": 2019.0,
+        "stdYear": 4.87,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.4615,
+        "quadrant": "stable",
+        "topTerms": [
+          "black hole",
+          "black",
+          "hole",
+          "horizon",
+          "mass"
+        ]
+      }
     },
     {
       "id": 26,
@@ -7960,7 +8536,25 @@
           "description": "Slower, steady growth"
         }
       ],
-      "description": "High-energy astrophysics: gamma-ray bursts, cosmic ray acceleration, active galactic nuclei jets, and multi-messenger observations combining photons, neutrinos, and gravitational waves."
+      "description": "High-energy astrophysics: gamma-ray bursts, cosmic ray acceleration, active galactic nuclei jets, and multi-messenger observations combining photons, neutrinos, and gravitational waves.",
+      "temporalCohesion": {
+        "clusterId": 26,
+        "meanYear": 2017.4,
+        "medianYear": 2017.0,
+        "stdYear": 4.62,
+        "iqr": 6.0,
+        "q1Year": 2015.0,
+        "q3Year": 2021.0,
+        "emergenceScore": 0.345,
+        "quadrant": "stable",
+        "topTerms": [
+          "ray",
+          "gamma ray",
+          "gamma",
+          "emission",
+          "energy"
+        ]
+      }
     },
     {
       "id": 16,
@@ -8199,7 +8793,25 @@
           "description": "+56% growth"
         }
       ],
-      "description": "Differential geometry and geometric topology: Riemannian manifolds, curvature flows, symplectic geometry, and geometric structures on compact spaces."
+      "description": "Differential geometry and geometric topology: Riemannian manifolds, curvature flows, symplectic geometry, and geometric structures on compact spaces.",
+      "temporalCohesion": {
+        "clusterId": 16,
+        "meanYear": 2018.1,
+        "medianYear": 2019.0,
+        "stdYear": 4.93,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.4406,
+        "quadrant": "stable",
+        "topTerms": [
+          "manifold",
+          "curvature",
+          "compact",
+          "metric",
+          "space"
+        ]
+      }
     },
     {
       "id": 28,
@@ -8443,7 +9055,25 @@
           "description": "Most papers from 2021+"
         }
       ],
-      "description": "Large language models and generative AI: prompt engineering, chain-of-thought reasoning, instruction tuning, LLM evaluation, and applications in code generation and knowledge retrieval (2020+)."
+      "description": "Large language models and generative AI: prompt engineering, chain-of-thought reasoning, instruction tuning, LLM evaluation, and applications in code generation and knowledge retrieval (2020+).",
+      "temporalCohesion": {
+        "clusterId": 28,
+        "meanYear": 2024.4,
+        "medianYear": 2025.0,
+        "stdYear": 0.68,
+        "iqr": 1.0,
+        "q1Year": 2024.0,
+        "q3Year": 2025.0,
+        "emergenceScore": 0.9998,
+        "quadrant": "rocket",
+        "topTerms": [
+          "llm",
+          "language",
+          "model",
+          "language model",
+          "task"
+        ]
+      }
     },
     {
       "id": 41,
@@ -8682,7 +9312,25 @@
           "description": "+59% growth"
         }
       ],
-      "description": "Dark matter and dark energy: direct and indirect detection experiments, cosmological constraints, candidate particle models (WIMPs, axions), and modified gravity theories."
+      "description": "Dark matter and dark energy: direct and indirect detection experiments, cosmological constraints, candidate particle models (WIMPs, axions), and modified gravity theories.",
+      "temporalCohesion": {
+        "clusterId": 41,
+        "meanYear": 2017.9,
+        "medianYear": 2018.0,
+        "stdYear": 4.85,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.4134,
+        "quadrant": "stable",
+        "topTerms": [
+          "dark",
+          "dark matter",
+          "matter",
+          "mass",
+          "model"
+        ]
+      }
     },
     {
       "id": 42,
@@ -8926,7 +9574,25 @@
           "description": "Spans multiple domains"
         }
       ],
-      "description": "Information theory and communications engineering: channel capacity, error-correcting codes, wireless channel modeling, signal processing, and quantum communication protocols."
+      "description": "Information theory and communications engineering: channel capacity, error-correcting codes, wireless channel modeling, signal processing, and quantum communication protocols.",
+      "temporalCohesion": {
+        "clusterId": 42,
+        "meanYear": 2018.6,
+        "medianYear": 2019.0,
+        "stdYear": 4.65,
+        "iqr": 8.0,
+        "q1Year": 2015.0,
+        "q3Year": 2023.0,
+        "emergenceScore": 0.4798,
+        "quadrant": "stable",
+        "topTerms": [
+          "channel",
+          "communication",
+          "capacity",
+          "scheme",
+          "rate"
+        ]
+      }
     },
     {
       "id": 24,
@@ -9165,7 +9831,25 @@
           "description": "+53% growth"
         }
       ],
-      "description": "Algebraic and analytic combinatorics: polynomial methods, generating functions, enumerative identities, and number-theoretic properties of combinatorial sequences."
+      "description": "Algebraic and analytic combinatorics: polynomial methods, generating functions, enumerative identities, and number-theoretic properties of combinatorial sequences.",
+      "temporalCohesion": {
+        "clusterId": 24,
+        "meanYear": 2018.2,
+        "medianYear": 2019.0,
+        "stdYear": 4.83,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.4531,
+        "quadrant": "stable",
+        "topTerms": [
+          "polynomial",
+          "degree",
+          "function",
+          "number",
+          "prove"
+        ]
+      }
     },
     {
       "id": 1,
@@ -9409,7 +10093,25 @@
           "description": "Most papers from 2021+"
         }
       ],
-      "description": "Reinforcement learning and multi-agent systems: autonomous agents learning from environment interaction, policy optimization, and cooperative/competitive multi-agent coordination."
+      "description": "Reinforcement learning and multi-agent systems: autonomous agents learning from environment interaction, policy optimization, and cooperative/competitive multi-agent coordination.",
+      "temporalCohesion": {
+        "clusterId": 1,
+        "meanYear": 2021.3,
+        "medianYear": 2022.0,
+        "stdYear": 3.74,
+        "iqr": 4.0,
+        "q1Year": 2020.0,
+        "q3Year": 2024.0,
+        "emergenceScore": 0.7514,
+        "quadrant": "rocket",
+        "topTerms": [
+          "agent",
+          "learn",
+          "multi",
+          "model",
+          "environment"
+        ]
+      }
     },
     {
       "id": 31,
@@ -9654,7 +10356,25 @@
         }
       ],
       "description": "Stochastic analysis and fractional calculus: \u03b1-stable processes, fractional differential equations, Malliavin calculus, and regularity theory for stochastic PDEs. Note: heavy overlap of Greek notation from physics papers makes precise identification uncertain.",
-      "review": true
+      "review": true,
+      "temporalCohesion": {
+        "clusterId": 31,
+        "meanYear": 2018.4,
+        "medianYear": 2019.0,
+        "stdYear": 4.69,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.4563,
+        "quadrant": "stable",
+        "topTerms": [
+          "alpha",
+          "beta",
+          "function",
+          "delta",
+          "time"
+        ]
+      }
     },
     {
       "id": 0,
@@ -9893,7 +10613,25 @@
           "description": "+61% growth"
         }
       ],
-      "description": "Discrete mathematics and combinatorial number theory, including integer sequences, combinatorial structures, and the application of algebraic methods to counting and number-theoretic problems."
+      "description": "Discrete mathematics and combinatorial number theory, including integer sequences, combinatorial structures, and the application of algebraic methods to counting and number-theoretic problems.",
+      "temporalCohesion": {
+        "clusterId": 0,
+        "meanYear": 2018.8,
+        "medianYear": 2020.0,
+        "stdYear": 4.68,
+        "iqr": 8.0,
+        "q1Year": 2015.0,
+        "q3Year": 2023.0,
+        "emergenceScore": 0.5126,
+        "quadrant": "stable",
+        "topTerms": [
+          "sequence",
+          "number",
+          "model",
+          "set",
+          "method"
+        ]
+      }
     },
     {
       "id": 44,
@@ -10138,7 +10876,25 @@
         }
       ],
       "description": "Theoretical physics at the intersection of cosmology and mathematical physics, using Greek-letter parametrized models (\u039b-CDM cosmological constant, density parameters) alongside rigorous analytical methods. Heterogeneous cluster; precise sub-field identification uncertain.",
-      "review": true
+      "review": true,
+      "temporalCohesion": {
+        "clusterId": 44,
+        "meanYear": 2018.3,
+        "medianYear": 2019.0,
+        "stdYear": 4.73,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.4537,
+        "quadrant": "stable",
+        "topTerms": [
+          "lambda",
+          "omega",
+          "sigma",
+          "model",
+          "function"
+        ]
+      }
     },
     {
       "id": 4,
@@ -10371,7 +11127,25 @@
       "multiCategoryRate": 51.2,
       "distinctiveness": 0.708,
       "badges": [],
-      "description": "Neutrino physics: oscillation measurements, mass hierarchy experiments, sterile neutrino searches, and detector-based observations from terrestrial and astrophysical sources."
+      "description": "Neutrino physics: oscillation measurements, mass hierarchy experiments, sterile neutrino searches, and detector-based observations from terrestrial and astrophysical sources.",
+      "temporalCohesion": {
+        "clusterId": 4,
+        "meanYear": 2017.5,
+        "medianYear": 2018.0,
+        "stdYear": 4.87,
+        "iqr": 8.0,
+        "q1Year": 2014.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.3814,
+        "quadrant": "stable",
+        "topTerms": [
+          "neutrino",
+          "mass",
+          "oscillation",
+          "energy",
+          "detector"
+        ]
+      }
     },
     {
       "id": 19,
@@ -10615,7 +11389,25 @@
           "description": "Most papers from 2021+"
         }
       ],
-      "description": "Adversarial machine learning and cybersecurity: adversarial attacks on classifiers, defense mechanisms, robustness certification, and the intersection of deep learning with security-critical applications."
+      "description": "Adversarial machine learning and cybersecurity: adversarial attacks on classifiers, defense mechanisms, robustness certification, and the intersection of deep learning with security-critical applications.",
+      "temporalCohesion": {
+        "clusterId": 19,
+        "meanYear": 2021.5,
+        "medianYear": 2022.0,
+        "stdYear": 3.21,
+        "iqr": 4.0,
+        "q1Year": 2020.0,
+        "q3Year": 2024.0,
+        "emergenceScore": 0.7928,
+        "quadrant": "rocket",
+        "topTerms": [
+          "attack",
+          "adversarial",
+          "model",
+          "security",
+          "network"
+        ]
+      }
     },
     {
       "id": 34,
@@ -10864,7 +11656,25 @@
           "description": "14,781 papers"
         }
       ],
-      "description": "Video understanding and temporal vision: action recognition, video object segmentation, optical flow, and temporal modeling for multi-frame visual tasks."
+      "description": "Video understanding and temporal vision: action recognition, video object segmentation, optical flow, and temporal modeling for multi-frame visual tasks.",
+      "temporalCohesion": {
+        "clusterId": 34,
+        "meanYear": 2021.8,
+        "medianYear": 2023.0,
+        "stdYear": 3.13,
+        "iqr": 4.0,
+        "q1Year": 2020.0,
+        "q3Year": 2024.0,
+        "emergenceScore": 0.7925,
+        "quadrant": "rocket",
+        "topTerms": [
+          "video",
+          "frame",
+          "temporal",
+          "model",
+          "method"
+        ]
+      }
     },
     {
       "id": 49,
@@ -11109,7 +11919,25 @@
         }
       ],
       "description": "Hadronic physics and particle decay processes: meson and baryon spectroscopy, photon\u2013hadron interactions, branching fractions, and Feynman diagram calculations in quantum chromodynamics. Greek notation (\u03b3, \u03b4, \u03a3, \u03a9) dominates vocabulary; some mathematical physics papers co-cluster.",
-      "review": true
+      "review": true,
+      "temporalCohesion": {
+        "clusterId": 49,
+        "meanYear": 2017.9,
+        "medianYear": 2018.0,
+        "stdYear": 4.8,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.4133,
+        "quadrant": "stable",
+        "topTerms": [
+          "gamma",
+          "decay",
+          "group",
+          "energy",
+          "delta"
+        ]
+      }
     },
     {
       "id": 21,
@@ -11358,7 +12186,25 @@
           "description": "13,947 papers"
         }
       ],
-      "description": "Robotics and human\u2013robot interaction: manipulation planning, autonomous navigation, task and motion planning, and the design of systems that collaborate with or assist humans."
+      "description": "Robotics and human\u2013robot interaction: manipulation planning, autonomous navigation, task and motion planning, and the design of systems that collaborate with or assist humans.",
+      "temporalCohesion": {
+        "clusterId": 21,
+        "meanYear": 2021.8,
+        "medianYear": 2023.0,
+        "stdYear": 2.98,
+        "iqr": 4.0,
+        "q1Year": 2020.0,
+        "q3Year": 2024.0,
+        "emergenceScore": 0.8067,
+        "quadrant": "rocket",
+        "topTerms": [
+          "robot",
+          "human",
+          "task",
+          "environment",
+          "control"
+        ]
+      }
     },
     {
       "id": 37,
@@ -11602,7 +12448,25 @@
           "description": "12,318 papers"
         }
       ],
-      "description": "Theoretical computer science: computational complexity, randomized and approximation algorithms, logarithmic-factor bounds, and connections to discrete probability."
+      "description": "Theoretical computer science: computational complexity, randomized and approximation algorithms, logarithmic-factor bounds, and connections to discrete probability.",
+      "temporalCohesion": {
+        "clusterId": 37,
+        "meanYear": 2019.0,
+        "medianYear": 2020.0,
+        "stdYear": 4.62,
+        "iqr": 7.0,
+        "q1Year": 2016.0,
+        "q3Year": 2023.0,
+        "emergenceScore": 0.5174,
+        "quadrant": "stable",
+        "topTerms": [
+          "log",
+          "algorithm",
+          "bind",
+          "time",
+          "epsilon"
+        ]
+      }
     },
     {
       "id": 39,
@@ -11841,7 +12705,25 @@
           "description": "11,370 papers"
         }
       ],
-      "description": "Exoplanet science and planetary astrophysics: transit photometry, radial velocity surveys, orbital dynamics, atmospheric characterization, and the architecture of planetary systems."
+      "description": "Exoplanet science and planetary astrophysics: transit photometry, radial velocity surveys, orbital dynamics, atmospheric characterization, and the architecture of planetary systems.",
+      "temporalCohesion": {
+        "clusterId": 39,
+        "meanYear": 2018.1,
+        "medianYear": 2018.0,
+        "stdYear": 4.35,
+        "iqr": 7.0,
+        "q1Year": 2015.0,
+        "q3Year": 2022.0,
+        "emergenceScore": 0.4117,
+        "quadrant": "stable",
+        "topTerms": [
+          "planet",
+          "star",
+          "mass",
+          "orbit",
+          "orbital"
+        ]
+      }
     },
     {
       "id": 45,
@@ -12090,7 +12972,25 @@
           "description": "9,991 papers"
         }
       ],
-      "description": "Speech recognition and spoken language processing: acoustic modeling, end-to-end systems (CTC, attention-based), speaker verification, and the integration of language models with speech."
+      "description": "Speech recognition and spoken language processing: acoustic modeling, end-to-end systems (CTC, attention-based), speaker verification, and the integration of language models with speech.",
+      "temporalCohesion": {
+        "clusterId": 45,
+        "meanYear": 2022.0,
+        "medianYear": 2022.0,
+        "stdYear": 2.67,
+        "iqr": 4.0,
+        "q1Year": 2020.0,
+        "q3Year": 2024.0,
+        "emergenceScore": 0.8431,
+        "quadrant": "rocket",
+        "topTerms": [
+          "speech",
+          "model",
+          "recognition",
+          "train",
+          "language"
+        ]
+      }
     }
   ],
   "summary": {

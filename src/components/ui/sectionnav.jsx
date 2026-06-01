@@ -14,6 +14,7 @@ export default function SectionNav() {
 
   // Section definitions matching App.jsx order
   const sectionConfig = [
+    { id: 'library-explorer', label: 'The Problem' },
     { id: 'introduction', label: 'Introduction' },
     { id: 'data-overview', label: 'Data Overview' },
     { id: 'text-preprocessing', label: 'Preprocessing' },
@@ -21,7 +22,7 @@ export default function SectionNav() {
     { id: 'dimensionality-reduction', label: 'Dim Reduction' },
     { id: 'clustering', label: 'Clustering' },
     { id: 'results', label: 'Results' },
-    { id: 'conclusion', label: 'Conclusion' },
+    { id: 'conclusion', label: 'The Map' },
   ]
 
   useEffect(() => {

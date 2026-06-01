@@ -1,0 +1,917 @@
+{
+  "summary": {
+    "thresholds": {
+      "tightIqr": 4,
+      "highEmergence": 0.5,
+      "recentYearCutoff": 2020
+    },
+    "quadrantCounts": {
+      "stable": 37,
+      "rocket": 8,
+      "classic": 4,
+      "niche": 1
+    }
+  },
+  "clusters": [
+    {
+      "clusterId": 0,
+      "meanYear": 2018.8,
+      "medianYear": 2020.0,
+      "stdYear": 4.68,
+      "iqr": 8.0,
+      "q1Year": 2015.0,
+      "q3Year": 2023.0,
+      "emergenceScore": 0.5126,
+      "quadrant": "stable",
+      "topTerms": [
+        "sequence",
+        "number",
+        "model",
+        "set",
+        "method"
+      ]
+    },
+    {
+      "clusterId": 1,
+      "meanYear": 2021.3,
+      "medianYear": 2022.0,
+      "stdYear": 3.74,
+      "iqr": 4.0,
+      "q1Year": 2020.0,
+      "q3Year": 2024.0,
+      "emergenceScore": 0.7514,
+      "quadrant": "rocket",
+      "topTerms": [
+        "agent",
+        "learn",
+        "multi",
+        "model",
+        "environment"
+      ]
+    },
+    {
+      "clusterId": 2,
+      "meanYear": 2020.4,
+      "medianYear": 2021.0,
+      "stdYear": 4.01,
+      "iqr": 6.0,
+      "q1Year": 2018.0,
+      "q3Year": 2024.0,
+      "emergenceScore": 0.6711,
+      "quadrant": "stable",
+      "topTerms": [
+        "data",
+        "model",
+        "method",
+        "analysis",
+        "approach"
+      ]
+    },
+    {
+      "clusterId": 3,
+      "meanYear": 2019.2,
+      "medianYear": 2020.0,
+      "stdYear": 4.84,
+      "iqr": 8.0,
+      "q1Year": 2015.0,
+      "q3Year": 2023.0,
+      "emergenceScore": 0.546,
+      "quadrant": "classic",
+      "topTerms": [
+        "quantum",
+        "state",
+        "classical",
+        "entanglement",
+        "measurement"
+      ]
+    },
+    {
+      "clusterId": 4,
+      "meanYear": 2017.5,
+      "medianYear": 2018.0,
+      "stdYear": 4.87,
+      "iqr": 8.0,
+      "q1Year": 2014.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.3814,
+      "quadrant": "stable",
+      "topTerms": [
+        "neutrino",
+        "mass",
+        "oscillation",
+        "energy",
+        "detector"
+      ]
+    },
+    {
+      "clusterId": 5,
+      "meanYear": 2018.7,
+      "medianYear": 2020.0,
+      "stdYear": 4.68,
+      "iqr": 8.0,
+      "q1Year": 2015.0,
+      "q3Year": 2023.0,
+      "emergenceScore": 0.5009,
+      "quadrant": "stable",
+      "topTerms": [
+        "time",
+        "method",
+        "distribution",
+        "process",
+        "model"
+      ]
+    },
+    {
+      "clusterId": 6,
+      "meanYear": 2017.7,
+      "medianYear": 2017.0,
+      "stdYear": 4.56,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.3781,
+      "quadrant": "stable",
+      "topTerms": [
+        "galaxy",
+        "mass",
+        "redshift",
+        "cluster",
+        "star"
+      ]
+    },
+    {
+      "clusterId": 7,
+      "meanYear": 2021.6,
+      "medianYear": 2022.0,
+      "stdYear": 2.78,
+      "iqr": 4.0,
+      "q1Year": 2020.0,
+      "q3Year": 2024.0,
+      "emergenceScore": 0.8035,
+      "quadrant": "niche",
+      "topTerms": [
+        "learn",
+        "model",
+        "train",
+        "machine",
+        "machine learn"
+      ]
+    },
+    {
+      "clusterId": 8,
+      "meanYear": 2017.7,
+      "medianYear": 2018.0,
+      "stdYear": 4.78,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.3957,
+      "quadrant": "stable",
+      "topTerms": [
+        "spin",
+        "magnetic",
+        "state",
+        "couple",
+        "quantum"
+      ]
+    },
+    {
+      "clusterId": 9,
+      "meanYear": 2019.6,
+      "medianYear": 2020.0,
+      "stdYear": 4.24,
+      "iqr": 6.0,
+      "q1Year": 2017.0,
+      "q3Year": 2023.0,
+      "emergenceScore": 0.5837,
+      "quadrant": "stable",
+      "topTerms": [
+        "algorithm",
+        "problem",
+        "optimization",
+        "method",
+        "solve"
+      ]
+    },
+    {
+      "clusterId": 10,
+      "meanYear": 2018.3,
+      "medianYear": 2019.0,
+      "stdYear": 4.76,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.4619,
+      "quadrant": "stable",
+      "topTerms": [
+        "function",
+        "space",
+        "value",
+        "prove",
+        "formula"
+      ]
+    },
+    {
+      "clusterId": 11,
+      "meanYear": 2018.3,
+      "medianYear": 2019.0,
+      "stdYear": 4.86,
+      "iqr": 8.0,
+      "q1Year": 2015.0,
+      "q3Year": 2023.0,
+      "emergenceScore": 0.4562,
+      "quadrant": "stable",
+      "topTerms": [
+        "space",
+        "prove",
+        "set",
+        "theorem",
+        "number"
+      ]
+    },
+    {
+      "clusterId": 12,
+      "meanYear": 2018.2,
+      "medianYear": 2019.0,
+      "stdYear": 4.87,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.4615,
+      "quadrant": "stable",
+      "topTerms": [
+        "black hole",
+        "black",
+        "hole",
+        "horizon",
+        "mass"
+      ]
+    },
+    {
+      "clusterId": 13,
+      "meanYear": 2022.0,
+      "medianYear": 2023.0,
+      "stdYear": 2.73,
+      "iqr": 4.0,
+      "q1Year": 2020.0,
+      "q3Year": 2024.0,
+      "emergenceScore": 0.8312,
+      "quadrant": "rocket",
+      "topTerms": [
+        "method",
+        "feature",
+        "object",
+        "model",
+        "train"
+      ]
+    },
+    {
+      "clusterId": 14,
+      "meanYear": 2020.5,
+      "medianYear": 2021.0,
+      "stdYear": 3.99,
+      "iqr": 6.0,
+      "q1Year": 2018.0,
+      "q3Year": 2024.0,
+      "emergenceScore": 0.6731,
+      "quadrant": "classic",
+      "topTerms": [
+        "user",
+        "design",
+        "software",
+        "technology",
+        "service"
+      ]
+    },
+    {
+      "clusterId": 15,
+      "meanYear": 2017.8,
+      "medianYear": 2017.0,
+      "stdYear": 4.47,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.381,
+      "quadrant": "stable",
+      "topTerms": [
+        "emission",
+        "line",
+        "disk",
+        "observation",
+        "dust"
+      ]
+    },
+    {
+      "clusterId": 16,
+      "meanYear": 2018.1,
+      "medianYear": 2019.0,
+      "stdYear": 4.93,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.4406,
+      "quadrant": "stable",
+      "topTerms": [
+        "manifold",
+        "curvature",
+        "compact",
+        "metric",
+        "space"
+      ]
+    },
+    {
+      "clusterId": 17,
+      "meanYear": 2019.9,
+      "medianYear": 2021.0,
+      "stdYear": 4.44,
+      "iqr": 7.0,
+      "q1Year": 2017.0,
+      "q3Year": 2024.0,
+      "emergenceScore": 0.6173,
+      "quadrant": "classic",
+      "topTerms": [
+        "model",
+        "data",
+        "parameter",
+        "method",
+        "approach"
+      ]
+    },
+    {
+      "clusterId": 18,
+      "meanYear": 2018.0,
+      "medianYear": 2018.0,
+      "stdYear": 4.84,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.4298,
+      "quadrant": "stable",
+      "topTerms": [
+        "phase",
+        "transition",
+        "phase transition",
+        "temperature",
+        "order"
+      ]
+    },
+    {
+      "clusterId": 19,
+      "meanYear": 2021.5,
+      "medianYear": 2022.0,
+      "stdYear": 3.21,
+      "iqr": 4.0,
+      "q1Year": 2020.0,
+      "q3Year": 2024.0,
+      "emergenceScore": 0.7928,
+      "quadrant": "rocket",
+      "topTerms": [
+        "attack",
+        "adversarial",
+        "model",
+        "security",
+        "network"
+      ]
+    },
+    {
+      "clusterId": 20,
+      "meanYear": 2018.4,
+      "medianYear": 2019.0,
+      "stdYear": 4.72,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.4643,
+      "quadrant": "stable",
+      "topTerms": [
+        "solution",
+        "problem",
+        "existence",
+        "boundary",
+        "condition"
+      ]
+    },
+    {
+      "clusterId": 21,
+      "meanYear": 2021.8,
+      "medianYear": 2023.0,
+      "stdYear": 2.98,
+      "iqr": 4.0,
+      "q1Year": 2020.0,
+      "q3Year": 2024.0,
+      "emergenceScore": 0.8067,
+      "quadrant": "rocket",
+      "topTerms": [
+        "robot",
+        "human",
+        "task",
+        "environment",
+        "control"
+      ]
+    },
+    {
+      "clusterId": 22,
+      "meanYear": 2019.9,
+      "medianYear": 2021.0,
+      "stdYear": 3.99,
+      "iqr": 5.0,
+      "q1Year": 2018.0,
+      "q3Year": 2023.0,
+      "emergenceScore": 0.6091,
+      "quadrant": "stable",
+      "topTerms": [
+        "network",
+        "neural",
+        "neural network",
+        "model",
+        "node"
+      ]
+    },
+    {
+      "clusterId": 23,
+      "meanYear": 2019.7,
+      "medianYear": 2021.0,
+      "stdYear": 4.34,
+      "iqr": 6.0,
+      "q1Year": 2017.0,
+      "q3Year": 2023.0,
+      "emergenceScore": 0.5883,
+      "quadrant": "stable",
+      "topTerms": [
+        "graph",
+        "vertex",
+        "edge",
+        "number",
+        "problem"
+      ]
+    },
+    {
+      "clusterId": 24,
+      "meanYear": 2018.2,
+      "medianYear": 2019.0,
+      "stdYear": 4.83,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.4531,
+      "quadrant": "stable",
+      "topTerms": [
+        "polynomial",
+        "degree",
+        "function",
+        "number",
+        "prove"
+      ]
+    },
+    {
+      "clusterId": 25,
+      "meanYear": 2017.3,
+      "medianYear": 2017.0,
+      "stdYear": 4.95,
+      "iqr": 8.0,
+      "q1Year": 2014.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.3798,
+      "quadrant": "stable",
+      "topTerms": [
+        "theory",
+        "field",
+        "gauge",
+        "field theory",
+        "gravity"
+      ]
+    },
+    {
+      "clusterId": 26,
+      "meanYear": 2017.4,
+      "medianYear": 2017.0,
+      "stdYear": 4.62,
+      "iqr": 6.0,
+      "q1Year": 2015.0,
+      "q3Year": 2021.0,
+      "emergenceScore": 0.345,
+      "quadrant": "stable",
+      "topTerms": [
+        "ray",
+        "gamma ray",
+        "gamma",
+        "emission",
+        "energy"
+      ]
+    },
+    {
+      "clusterId": 27,
+      "meanYear": 2018.3,
+      "medianYear": 2019.0,
+      "stdYear": 4.6,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.4485,
+      "quadrant": "stable",
+      "topTerms": [
+        "mode",
+        "optical",
+        "laser",
+        "photon",
+        "frequency"
+      ]
+    },
+    {
+      "clusterId": 28,
+      "meanYear": 2024.4,
+      "medianYear": 2025.0,
+      "stdYear": 0.68,
+      "iqr": 1.0,
+      "q1Year": 2024.0,
+      "q3Year": 2025.0,
+      "emergenceScore": 0.9998,
+      "quadrant": "rocket",
+      "topTerms": [
+        "llm",
+        "language",
+        "model",
+        "language model",
+        "task"
+      ]
+    },
+    {
+      "clusterId": 29,
+      "meanYear": 2016.9,
+      "medianYear": 2017.0,
+      "stdYear": 4.84,
+      "iqr": 7.0,
+      "q1Year": 2014.0,
+      "q3Year": 2021.0,
+      "emergenceScore": 0.3219,
+      "quadrant": "stable",
+      "topTerms": [
+        "quark",
+        "decay",
+        "mass",
+        "collision",
+        "production"
+      ]
+    },
+    {
+      "clusterId": 30,
+      "meanYear": 2018.4,
+      "medianYear": 2019.0,
+      "stdYear": 4.72,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.4648,
+      "quadrant": "stable",
+      "topTerms": [
+        "matrix",
+        "eigenvalue",
+        "method",
+        "rank",
+        "random"
+      ]
+    },
+    {
+      "clusterId": 31,
+      "meanYear": 2018.4,
+      "medianYear": 2019.0,
+      "stdYear": 4.69,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.4563,
+      "quadrant": "stable",
+      "topTerms": [
+        "alpha",
+        "beta",
+        "function",
+        "delta",
+        "time"
+      ]
+    },
+    {
+      "clusterId": 32,
+      "meanYear": 2018.2,
+      "medianYear": 2019.0,
+      "stdYear": 4.74,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.4467,
+      "quadrant": "stable",
+      "topTerms": [
+        "wave",
+        "gravitational",
+        "frequency",
+        "time",
+        "energy"
+      ]
+    },
+    {
+      "clusterId": 33,
+      "meanYear": 2017.8,
+      "medianYear": 2018.0,
+      "stdYear": 5.03,
+      "iqr": 8.0,
+      "q1Year": 2014.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.4221,
+      "quadrant": "stable",
+      "topTerms": [
+        "algebra",
+        "lie",
+        "module",
+        "group",
+        "category"
+      ]
+    },
+    {
+      "clusterId": 34,
+      "meanYear": 2021.8,
+      "medianYear": 2023.0,
+      "stdYear": 3.13,
+      "iqr": 4.0,
+      "q1Year": 2020.0,
+      "q3Year": 2024.0,
+      "emergenceScore": 0.7925,
+      "quadrant": "rocket",
+      "topTerms": [
+        "video",
+        "frame",
+        "temporal",
+        "model",
+        "method"
+      ]
+    },
+    {
+      "clusterId": 35,
+      "meanYear": 2017.6,
+      "medianYear": 2017.0,
+      "stdYear": 4.53,
+      "iqr": 6.0,
+      "q1Year": 2015.0,
+      "q3Year": 2021.0,
+      "emergenceScore": 0.3703,
+      "quadrant": "stable",
+      "topTerms": [
+        "star",
+        "mass",
+        "stellar",
+        "cluster",
+        "binary"
+      ]
+    },
+    {
+      "clusterId": 36,
+      "meanYear": 2017.7,
+      "medianYear": 2018.0,
+      "stdYear": 4.69,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.39,
+      "quadrant": "stable",
+      "topTerms": [
+        "magnetic",
+        "magnetic field",
+        "field",
+        "temperature",
+        "spin"
+      ]
+    },
+    {
+      "clusterId": 37,
+      "meanYear": 2019.0,
+      "medianYear": 2020.0,
+      "stdYear": 4.62,
+      "iqr": 7.0,
+      "q1Year": 2016.0,
+      "q3Year": 2023.0,
+      "emergenceScore": 0.5174,
+      "quadrant": "stable",
+      "topTerms": [
+        "log",
+        "algorithm",
+        "bind",
+        "time",
+        "epsilon"
+      ]
+    },
+    {
+      "clusterId": 38,
+      "meanYear": 2021.1,
+      "medianYear": 2022.0,
+      "stdYear": 3.41,
+      "iqr": 5.0,
+      "q1Year": 2019.0,
+      "q3Year": 2024.0,
+      "emergenceScore": 0.7332,
+      "quadrant": "classic",
+      "topTerms": [
+        "image",
+        "method",
+        "model",
+        "train",
+        "learn"
+      ]
+    },
+    {
+      "clusterId": 39,
+      "meanYear": 2018.1,
+      "medianYear": 2018.0,
+      "stdYear": 4.35,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.4117,
+      "quadrant": "stable",
+      "topTerms": [
+        "planet",
+        "star",
+        "mass",
+        "orbit",
+        "orbital"
+      ]
+    },
+    {
+      "clusterId": 40,
+      "meanYear": 2017.9,
+      "medianYear": 2018.0,
+      "stdYear": 4.73,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.418,
+      "quadrant": "stable",
+      "topTerms": [
+        "energy",
+        "temperature",
+        "electron",
+        "state",
+        "surface"
+      ]
+    },
+    {
+      "clusterId": 41,
+      "meanYear": 2017.9,
+      "medianYear": 2018.0,
+      "stdYear": 4.85,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.4134,
+      "quadrant": "stable",
+      "topTerms": [
+        "dark",
+        "dark matter",
+        "matter",
+        "mass",
+        "model"
+      ]
+    },
+    {
+      "clusterId": 42,
+      "meanYear": 2018.6,
+      "medianYear": 2019.0,
+      "stdYear": 4.65,
+      "iqr": 8.0,
+      "q1Year": 2015.0,
+      "q3Year": 2023.0,
+      "emergenceScore": 0.4798,
+      "quadrant": "stable",
+      "topTerms": [
+        "channel",
+        "communication",
+        "capacity",
+        "scheme",
+        "rate"
+      ]
+    },
+    {
+      "clusterId": 43,
+      "meanYear": 2022.3,
+      "medianYear": 2023.0,
+      "stdYear": 2.97,
+      "iqr": 3.0,
+      "q1Year": 2021.0,
+      "q3Year": 2024.0,
+      "emergenceScore": 0.8639,
+      "quadrant": "rocket",
+      "topTerms": [
+        "language",
+        "model",
+        "task",
+        "language model",
+        "train"
+      ]
+    },
+    {
+      "clusterId": 44,
+      "meanYear": 2018.3,
+      "medianYear": 2019.0,
+      "stdYear": 4.73,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.4537,
+      "quadrant": "stable",
+      "topTerms": [
+        "lambda",
+        "omega",
+        "sigma",
+        "model",
+        "function"
+      ]
+    },
+    {
+      "clusterId": 45,
+      "meanYear": 2022.0,
+      "medianYear": 2022.0,
+      "stdYear": 2.67,
+      "iqr": 4.0,
+      "q1Year": 2020.0,
+      "q3Year": 2024.0,
+      "emergenceScore": 0.8431,
+      "quadrant": "rocket",
+      "topTerms": [
+        "speech",
+        "model",
+        "recognition",
+        "train",
+        "language"
+      ]
+    },
+    {
+      "clusterId": 46,
+      "meanYear": 2018.3,
+      "medianYear": 2019.0,
+      "stdYear": 4.9,
+      "iqr": 8.0,
+      "q1Year": 2015.0,
+      "q3Year": 2023.0,
+      "emergenceScore": 0.4595,
+      "quadrant": "stable",
+      "topTerms": [
+        "group",
+        "finite",
+        "prove",
+        "representation",
+        "class"
+      ]
+    },
+    {
+      "clusterId": 47,
+      "meanYear": 2018.3,
+      "medianYear": 2019.0,
+      "stdYear": 4.81,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.4579,
+      "quadrant": "stable",
+      "topTerms": [
+        "operator",
+        "space",
+        "function",
+        "prove",
+        "differential"
+      ]
+    },
+    {
+      "clusterId": 48,
+      "meanYear": 2019.0,
+      "medianYear": 2020.0,
+      "stdYear": 4.6,
+      "iqr": 8.0,
+      "q1Year": 2015.0,
+      "q3Year": 2023.0,
+      "emergenceScore": 0.5242,
+      "quadrant": "stable",
+      "topTerms": [
+        "flow",
+        "fluid",
+        "model",
+        "velocity",
+        "particle"
+      ]
+    },
+    {
+      "clusterId": 49,
+      "meanYear": 2017.9,
+      "medianYear": 2018.0,
+      "stdYear": 4.8,
+      "iqr": 7.0,
+      "q1Year": 2015.0,
+      "q3Year": 2022.0,
+      "emergenceScore": 0.4133,
+      "quadrant": "stable",
+      "topTerms": [
+        "gamma",
+        "decay",
+        "group",
+        "energy",
+        "delta"
+      ]
+    }
+  ]
+}

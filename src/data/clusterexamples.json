@@ -20,7 +20,8 @@
     "medianYear": 2025.0,
     "recentPapers": 100.0,
     "isBridge": false,
-    "insight": "Fastest growing cluster \u2014 1230350% growth rate. 100% of papers from 2020+."
+    "insight": "Fastest growing cluster \u2014 1230350% growth rate. 100% of papers from 2020+.",
+    "description": "The LLM eruption \u2014 24k papers almost entirely from 2022\u20132025. Focuses on prompting, reasoning, and instruction-following in large language models. Essentially a field that did not exist before 2022."
   },
   {
     "id": 43,
@@ -43,7 +44,8 @@
     "medianYear": 2023.0,
     "recentPapers": 86.4,
     "isBridge": false,
-    "insight": "Fastest growing cluster \u2014 283% growth rate. 86% of papers from 2020+."
+    "insight": "Fastest growing cluster \u2014 283% growth rate. 86% of papers from 2020+.",
+    "description": "The broader NLP/transformer foundation \u2014 39k papers going back to 2018, covering pre-training, fine-tuning, and benchmark evaluation. The established base from which the LLM cluster grew out of."
   },
   {
     "id": 5,
@@ -66,7 +68,8 @@
     "medianYear": 2020.0,
     "recentPapers": 50.1,
     "isBridge": true,
-    "insight": "One of the largest clusters with 234,031 papers spanning Computer Science."
+    "insight": "One of the largest clusters with 234,031 papers spanning Computer Science.",
+    "description": "A heterogeneous catch-all spanning applied math and computational methods. No single sub-field dominates \u2014 it catches papers using generic probabilistic and time-series vocabulary from across domains."
   },
   {
     "id": 11,
@@ -89,7 +92,8 @@
     "medianYear": 2019.0,
     "recentPapers": 45.6,
     "isBridge": false,
-    "insight": "One of the largest clusters with 180,419 papers spanning Computer Science."
+    "insight": "One of the largest clusters with 180,419 papers spanning Computer Science.",
+    "description": "Pure mathematics \u2014 abstract algebra, topology, and functional analysis. Extremely stable vocabulary going back decades, high purity within math, low overlap with CS or physics."
   },
   {
     "id": 13,
@@ -112,7 +116,8 @@
     "medianYear": 2023.0,
     "recentPapers": 83.1,
     "isBridge": false,
-    "insight": "Very recent cluster \u2014 median publication year 2023.0. 83% from 2020+."
+    "insight": "Very recent cluster \u2014 median publication year 2023.0. 83% from 2020+.",
+    "description": "Computer vision feature extraction and object recognition \u2014 the classical CV pipeline before and alongside deep learning. Spans detection, segmentation, and learned representations."
   },
   {
     "id": 21,
@@ -135,7 +140,8 @@
     "medianYear": 2023.0,
     "recentPapers": 80.7,
     "isBridge": false,
-    "insight": "Highly focused cluster \u2014 83% purity in cs.RO."
+    "insight": "Highly focused cluster \u2014 83% purity in cs.RO.",
+    "description": "Robotics and human-robot interaction \u2014 task planning, manipulation, embodied agents. Bridges mechanical systems and machine learning, growing fast as embodied AI accelerates."
   },
   {
     "id": 39,
@@ -158,7 +164,8 @@
     "medianYear": 2018.0,
     "recentPapers": 41.2,
     "isBridge": false,
-    "insight": "Highly focused cluster \u2014 82% purity in astro-ph.EP."
+    "insight": "Highly focused cluster \u2014 82% purity in astro-ph.EP.",
+    "description": "Observational astrophysics \u2014 planetary systems, stellar evolution, and mass measurement. Mature field with steady output and little interdisciplinary boundary-crossing."
   },
   {
     "id": 17,
@@ -181,7 +188,8 @@
     "medianYear": 2021.0,
     "recentPapers": 61.7,
     "isBridge": true,
-    "insight": "Interdisciplinary bridge \u2014 spans multiple domains with diversity score 2.26."
+    "insight": "Interdisciplinary bridge \u2014 spans multiple domains with diversity score 2.26.",
+    "description": "A large general ML and statistical modeling catch-all. Papers here use broadly applicable methods (regression, simulation, probabilistic models) that fit no more specific cluster."
   },
   {
     "id": 26,
@@ -204,7 +212,8 @@
     "medianYear": 2017.0,
     "recentPapers": 34.5,
     "isBridge": false,
-    "insight": "Mature field \u2014 only 14% growth. Established area with stable vocabulary."
+    "insight": "Mature field \u2014 only 14% growth. Established area with stable vocabulary.",
+    "description": "High-energy astrophysics \u2014 gamma-ray bursts, cosmic rays, and X-ray sources. Pure physics vocabulary, high domain stability, anchored in observational and theoretical astrophysics."
   },
   {
     "id": 29,
@@ -227,6 +236,7 @@
     "medianYear": 2017.0,
     "recentPapers": 32.2,
     "isBridge": true,
-    "insight": "Mature field \u2014 only 19% growth. Established area with stable vocabulary."
+    "insight": "Mature field \u2014 only 19% growth. Established area with stable vocabulary.",
+    "description": "Particle physics \u2014 quark interactions, decay processes, and hadron spectroscopy. Core HEP cluster, very high domain purity, long-running field with stable 3,500 papers/year."
   }
 ]

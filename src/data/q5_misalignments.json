@@ -1,0 +1,1993 @@
+{
+  "summary": {
+    "totalPapers": 2384111,
+    "avgMigrationRate": 0.2273,
+    "medianMigrationRate": 0.1884,
+    "highMigrationClusters": 18,
+    "lowMigrationClusters": 23
+  },
+  "topMisalignments": [
+    {
+      "clusterId": 17,
+      "dominantDomain": "cs",
+      "dominantCategory": "cs.LG",
+      "migrationRate": 0.6591,
+      "migrantPapers": 52721,
+      "totalPapers": 79991,
+      "surprisingCategories": [
+        {
+          "category": "stat.ME",
+          "count": 5033,
+          "domain": "stats"
+        },
+        {
+          "category": "stat.AP",
+          "count": 2517,
+          "domain": "stats"
+        },
+        {
+          "category": "hep-ph",
+          "count": 2176,
+          "domain": "physics"
+        }
+      ],
+      "topTerms": [
+        "model",
+        "data",
+        "parameter",
+        "method",
+        "approach",
+        "time"
+      ]
+    },
+    {
+      "clusterId": 5,
+      "dominantDomain": "physics",
+      "dominantCategory": "math.PR",
+      "migrationRate": 0.5946,
+      "migrantPapers": 139150,
+      "totalPapers": 234031,
+      "surprisingCategories": [
+        {
+          "category": "math.PR",
+          "count": 12809,
+          "domain": "math"
+        },
+        {
+          "category": "math.NA",
+          "count": 9766,
+          "domain": "math"
+        },
+        {
+          "category": "stat.ME",
+          "count": 8741,
+          "domain": "stats"
+        }
+      ],
+      "topTerms": [
+        "time",
+        "method",
+        "distribution",
+        "process",
+        "model",
+        "dynamic"
+      ]
+    },
+    {
+      "clusterId": 37,
+      "dominantDomain": "math",
+      "dominantCategory": "cs.DS",
+      "migrationRate": 0.5607,
+      "migrantPapers": 6907,
+      "totalPapers": 12318,
+      "surprisingCategories": [
+        {
+          "category": "cs.DS",
+          "count": 1960,
+          "domain": "cs"
+        },
+        {
+          "category": "cs.LG",
+          "count": 562,
+          "domain": "cs"
+        },
+        {
+          "category": "cs.CG",
+          "count": 427,
+          "domain": "cs"
+        }
+      ],
+      "topTerms": [
+        "log",
+        "algorithm",
+        "bind",
+        "time",
+        "epsilon",
+        "number"
+      ]
+    },
+    {
+      "clusterId": 0,
+      "dominantDomain": "math",
+      "dominantCategory": "math.NT",
+      "migrationRate": 0.5249,
+      "migrantPapers": 8371,
+      "totalPapers": 15947,
+      "surprisingCategories": [
+        {
+          "category": "cs.LG",
+          "count": 1000,
+          "domain": "cs"
+        },
+        {
+          "category": "cs.CL",
+          "count": 925,
+          "domain": "cs"
+        },
+        {
+          "category": "cs.IT",
+          "count": 649,
+          "domain": "cs"
+        }
+      ],
+      "topTerms": [
+        "sequence",
+        "number",
+        "model",
+        "set",
+        "method",
+        "prove"
+      ]
+    },
+    {
+      "clusterId": 30,
+      "dominantDomain": "math",
+      "dominantCategory": "math.NA",
+      "migrationRate": 0.5198,
+      "migrantPapers": 14327,
+      "totalPapers": 27561,
+      "surprisingCategories": [
+        {
+          "category": "quant-ph",
+          "count": 1323,
+          "domain": "physics"
+        },
+        {
+          "category": "hep-th",
+          "count": 1236,
+          "domain": "physics"
+        },
+        {
+          "category": "cs.IT",
+          "count": 1209,
+          "domain": "cs"
+        }
+      ],
+      "topTerms": [
+        "matrix",
+        "eigenvalue",
+        "method",
+        "rank",
+        "random",
+        "problem"
+      ]
+    },
+    {
+      "clusterId": 31,
+      "dominantDomain": "math",
+      "dominantCategory": "math.AP",
+      "migrationRate": 0.5177,
+      "migrantPapers": 10051,
+      "totalPapers": 19415,
+      "surprisingCategories": [
+        {
+          "category": "astro-ph.GA",
+          "count": 945,
+          "domain": "physics"
+        },
+        {
+          "category": "hep-ph",
+          "count": 892,
+          "domain": "physics"
+        },
+        {
+          "category": "astro-ph.CO",
+          "count": 824,
+          "domain": "physics"
+        }
+      ],
+      "topTerms": [
+        "alpha",
+        "beta",
+        "function",
+        "delta",
+        "time",
+        "prove"
+      ]
+    },
+    {
+      "clusterId": 44,
+      "dominantDomain": "math",
+      "dominantCategory": "hep-ph",
+      "migrationRate": 0.5168,
+      "migrantPapers": 8189,
+      "totalPapers": 15845,
+      "surprisingCategories": [
+        {
+          "category": "hep-ph",
+          "count": 1404,
+          "domain": "physics"
+        },
+        {
+          "category": "astro-ph.CO",
+          "count": 890,
+          "domain": "physics"
+        },
+        {
+          "category": "gr-qc",
+          "count": 667,
+          "domain": "physics"
+        }
+      ],
+      "topTerms": [
+        "lambda",
+        "omega",
+        "sigma",
+        "model",
+        "function",
+        "delta"
+      ]
+    },
+    {
+      "clusterId": 23,
+      "dominantDomain": "math",
+      "dominantCategory": "math.CO",
+      "migrationRate": 0.5052,
+      "migrantPapers": 22934,
+      "totalPapers": 45398,
+      "surprisingCategories": [
+        {
+          "category": "cs.LG",
+          "count": 5431,
+          "domain": "cs"
+        },
+        {
+          "category": "cs.DS",
+          "count": 3368,
+          "domain": "cs"
+        },
+        {
+          "category": "cs.DM",
+          "count": 1998,
+          "domain": "cs"
+        }
+      ],
+      "topTerms": [
+        "graph",
+        "vertex",
+        "edge",
+        "number",
+        "problem",
+        "node"
+      ]
+    },
+    {
+      "clusterId": 49,
+      "dominantDomain": "physics",
+      "dominantCategory": "hep-ph",
+      "migrationRate": 0.4754,
+      "migrantPapers": 6926,
+      "totalPapers": 14570,
+      "surprisingCategories": [
+        {
+          "category": "math.AP",
+          "count": 859,
+          "domain": "math"
+        },
+        {
+          "category": "math.CO",
+          "count": 710,
+          "domain": "math"
+        },
+        {
+          "category": "math.NT",
+          "count": 655,
+          "domain": "math"
+        }
+      ],
+      "topTerms": [
+        "gamma",
+        "decay",
+        "group",
+        "energy",
+        "delta",
+        "function"
+      ]
+    },
+    {
+      "clusterId": 9,
+      "dominantDomain": "cs",
+      "dominantCategory": "math.OC",
+      "migrationRate": 0.4676,
+      "migrantPapers": 36538,
+      "totalPapers": 78145,
+      "surprisingCategories": [
+        {
+          "category": "math.OC",
+          "count": 12173,
+          "domain": "math"
+        },
+        {
+          "category": "math.NA",
+          "count": 3970,
+          "domain": "math"
+        },
+        {
+          "category": "stat.ML",
+          "count": 2705,
+          "domain": "stats"
+        }
+      ],
+      "topTerms": [
+        "algorithm",
+        "problem",
+        "optimization",
+        "method",
+        "solve",
+        "optimal"
+      ]
+    }
+  ],
+  "clusterMigrationRates": [
+    {
+      "clusterId": 17,
+      "dominantDomain": "cs",
+      "dominantCategory": "cs.LG",
+      "migrationRate": 0.6591,
+      "migrantPapers": 52721,
+      "totalPapers": 79991,
+      "surprisingCategories": [
+        {
+          "category": "stat.ME",
+          "count": 5033,
+          "domain": "stats"
+        },
+        {
+          "category": "stat.AP",
+          "count": 2517,
+          "domain": "stats"
+        },
+        {
+          "category": "hep-ph",
+          "count": 2176,
+          "domain": "physics"
+        }
+      ],
+      "topTerms": [
+        "model",
+        "data",
+        "parameter",
+        "method",
+        "approach",
+        "time"
+      ]
+    },
+    {
+      "clusterId": 5,
+      "dominantDomain": "physics",
+      "dominantCategory": "math.PR",
+      "migrationRate": 0.5946,
+      "migrantPapers": 139150,
+      "totalPapers": 234031,
+      "surprisingCategories": [
+        {
+          "category": "math.PR",
+          "count": 12809,
+          "domain": "math"
+        },
+        {
+          "category": "math.NA",
+          "count": 9766,
+          "domain": "math"
+        },
+        {
+          "category": "stat.ME",
+          "count": 8741,
+          "domain": "stats"
+        }
+      ],
+      "topTerms": [
+        "time",
+        "method",
+        "distribution",
+        "process",
+        "model",
+        "dynamic"
+      ]
+    },
+    {
+      "clusterId": 37,
+      "dominantDomain": "math",
+      "dominantCategory": "cs.DS",
+      "migrationRate": 0.5607,
+      "migrantPapers": 6907,
+      "totalPapers": 12318,
+      "surprisingCategories": [
+        {
+          "category": "cs.DS",
+          "count": 1960,
+          "domain": "cs"
+        },
+        {
+          "category": "cs.LG",
+          "count": 562,
+          "domain": "cs"
+        },
+        {
+          "category": "cs.CG",
+          "count": 427,
+          "domain": "cs"
+        }
+      ],
+      "topTerms": [
+        "log",
+        "algorithm",
+        "bind",
+        "time",
+        "epsilon",
+        "number"
+      ]
+    },
+    {
+      "clusterId": 0,
+      "dominantDomain": "math",
+      "dominantCategory": "math.NT",
+      "migrationRate": 0.5249,
+      "migrantPapers": 8371,
+      "totalPapers": 15947,
+      "surprisingCategories": [
+        {
+          "category": "cs.LG",
+          "count": 1000,
+          "domain": "cs"
+        },
+        {
+          "category": "cs.CL",
+          "count": 925,
+          "domain": "cs"
+        },
+        {
+          "category": "cs.IT",
+          "count": 649,
+          "domain": "cs"
+        }
+      ],
+      "topTerms": [
+        "sequence",
+        "number",
+        "model",
+        "set",
+        "method",
+        "prove"
+      ]
+    },
+    {
+      "clusterId": 30,
+      "dominantDomain": "math",
+      "dominantCategory": "math.NA",
+      "migrationRate": 0.5198,
+      "migrantPapers": 14327,
+      "totalPapers": 27561,
+      "surprisingCategories": [
+        {
+          "category": "quant-ph",
+          "count": 1323,
+          "domain": "physics"
+        },
+        {
+          "category": "hep-th",
+          "count": 1236,
+          "domain": "physics"
+        },
+        {
+          "category": "cs.IT",
+          "count": 1209,
+          "domain": "cs"
+        }
+      ],
+      "topTerms": [
+        "matrix",
+        "eigenvalue",
+        "method",
+        "rank",
+        "random",
+        "problem"
+      ]
+    },
+    {
+      "clusterId": 31,
+      "dominantDomain": "math",
+      "dominantCategory": "math.AP",
+      "migrationRate": 0.5177,
+      "migrantPapers": 10051,
+      "totalPapers": 19415,
+      "surprisingCategories": [
+        {
+          "category": "astro-ph.GA",
+          "count": 945,
+          "domain": "physics"
+        },
+        {
+          "category": "hep-ph",
+          "count": 892,
+          "domain": "physics"
+        },
+        {
+          "category": "astro-ph.CO",
+          "count": 824,
+          "domain": "physics"
+        }
+      ],
+      "topTerms": [
+        "alpha",
+        "beta",
+        "function",
+        "delta",
+        "time",
+        "prove"
+      ]
+    },
+    {
+      "clusterId": 44,
+      "dominantDomain": "math",
+      "dominantCategory": "hep-ph",
+      "migrationRate": 0.5168,
+      "migrantPapers": 8189,
+      "totalPapers": 15845,
+      "surprisingCategories": [
+        {
+          "category": "hep-ph",
+          "count": 1404,
+          "domain": "physics"
+        },
+        {
+          "category": "astro-ph.CO",
+          "count": 890,
+          "domain": "physics"
+        },
+        {
+          "category": "gr-qc",
+          "count": 667,
+          "domain": "physics"
+        }
+      ],
+      "topTerms": [
+        "lambda",
+        "omega",
+        "sigma",
+        "model",
+        "function",
+        "delta"
+      ]
+    },
+    {
+      "clusterId": 23,
+      "dominantDomain": "math",
+      "dominantCategory": "math.CO",
+      "migrationRate": 0.5052,
+      "migrantPapers": 22934,
+      "totalPapers": 45398,
+      "surprisingCategories": [
+        {
+          "category": "cs.LG",
+          "count": 5431,
+          "domain": "cs"
+        },
+        {
+          "category": "cs.DS",
+          "count": 3368,
+          "domain": "cs"
+        },
+        {
+          "category": "cs.DM",
+          "count": 1998,
+          "domain": "cs"
+        }
+      ],
+      "topTerms": [
+        "graph",
+        "vertex",
+        "edge",
+        "number",
+        "problem",
+        "node"
+      ]
+    },
+    {
+      "clusterId": 49,
+      "dominantDomain": "physics",
+      "dominantCategory": "hep-ph",
+      "migrationRate": 0.4754,
+      "migrantPapers": 6926,
+      "totalPapers": 14570,
+      "surprisingCategories": [
+        {
+          "category": "math.AP",
+          "count": 859,
+          "domain": "math"
+        },
+        {
+          "category": "math.CO",
+          "count": 710,
+          "domain": "math"
+        },
+        {
+          "category": "math.NT",
+          "count": 655,
+          "domain": "math"
+        }
+      ],
+      "topTerms": [
+        "gamma",
+        "decay",
+        "group",
+        "energy",
+        "delta",
+        "function"
+      ]
+    },
+    {
+      "clusterId": 9,
+      "dominantDomain": "cs",
+      "dominantCategory": "math.OC",
+      "migrationRate": 0.4676,
+      "migrantPapers": 36538,
+      "totalPapers": 78145,
+      "surprisingCategories": [
+        {
+          "category": "math.OC",
+          "count": 12173,
+          "domain": "math"
+        },
+        {
+          "category": "math.NA",
+          "count": 3970,
+          "domain": "math"
+        },
+        {
+          "category": "stat.ML",
+          "count": 2705,
+          "domain": "stats"
+        }
+      ],
+      "topTerms": [
+        "algorithm",
+        "problem",
+        "optimization",
+        "method",
+        "solve",
+        "optimal"
+      ]
+    },
+    {
+      "clusterId": 2,
+      "dominantDomain": "cs",
+      "dominantCategory": "cs.LG",
+      "migrationRate": 0.4467,
+      "migrantPapers": 24586,
+      "totalPapers": 55038,
+      "surprisingCategories": [
+        {
+          "category": "stat.ME",
+          "count": 3559,
+          "domain": "stats"
+        },
+        {
+          "category": "stat.ML",
+          "count": 1947,
+          "domain": "stats"
+        },
+        {
+          "category": "stat.AP",
+          "count": 1807,
+          "domain": "stats"
+        }
+      ],
+      "topTerms": [
+        "data",
+        "model",
+        "method",
+        "analysis",
+        "approach",
+        "train"
+      ]
+    },
+    {
+      "clusterId": 42,
+      "dominantDomain": "cs",
+      "dominantCategory": "cs.IT",
+      "migrationRate": 0.4256,
+      "migrantPapers": 9816,
+      "totalPapers": 23062,
+      "surprisingCategories": [
+        {
+          "category": "eess.SP",
+          "count": 3038,
+          "domain": "eess"
+        },
+        {
+          "category": "quant-ph",
+          "count": 2008,
+          "domain": "physics"
+        },
+        {
+          "category": "hep-ph",
+          "count": 620,
+          "domain": "physics"
+        }
+      ],
+      "topTerms": [
+        "channel",
+        "communication",
+        "capacity",
+        "scheme",
+        "rate",
+        "user"
+      ]
+    },
+    {
+      "clusterId": 10,
+      "dominantDomain": "math",
+      "dominantCategory": "math.NT",
+      "migrationRate": 0.4076,
+      "migrantPapers": 19640,
+      "totalPapers": 48181,
+      "surprisingCategories": [
+        {
+          "category": "hep-th",
+          "count": 2124,
+          "domain": "physics"
+        },
+        {
+          "category": "cs.LG",
+          "count": 1568,
+          "domain": "cs"
+        },
+        {
+          "category": "hep-ph",
+          "count": 1551,
+          "domain": "physics"
+        }
+      ],
+      "topTerms": [
+        "function",
+        "space",
+        "value",
+        "prove",
+        "formula",
+        "set"
+      ]
+    },
+    {
+      "clusterId": 48,
+      "dominantDomain": "physics",
+      "dominantCategory": "physics.flu-dyn",
+      "migrationRate": 0.3937,
+      "migrantPapers": 11218,
+      "totalPapers": 28491,
+      "surprisingCategories": [
+        {
+          "category": "math.AP",
+          "count": 1738,
+          "domain": "math"
+        },
+        {
+          "category": "math.DG",
+          "count": 1641,
+          "domain": "math"
+        },
+        {
+          "category": "math.DS",
+          "count": 996,
+          "domain": "math"
+        }
+      ],
+      "topTerms": [
+        "flow",
+        "fluid",
+        "model",
+        "velocity",
+        "particle",
+        "time"
+      ]
+    },
+    {
+      "clusterId": 22,
+      "dominantDomain": "cs",
+      "dominantCategory": "cs.LG",
+      "migrationRate": 0.378,
+      "migrantPapers": 24047,
+      "totalPapers": 63617,
+      "surprisingCategories": [
+        {
+          "category": "physics.soc-ph",
+          "count": 3486,
+          "domain": "physics"
+        },
+        {
+          "category": "stat.ML",
+          "count": 1638,
+          "domain": "stats"
+        },
+        {
+          "category": "eess.SP",
+          "count": 1476,
+          "domain": "eess"
+        }
+      ],
+      "topTerms": [
+        "network",
+        "neural",
+        "neural network",
+        "model",
+        "node",
+        "train"
+      ]
+    },
+    {
+      "clusterId": 45,
+      "dominantDomain": "cs",
+      "dominantCategory": "eess.AS",
+      "migrationRate": 0.3514,
+      "migrantPapers": 3511,
+      "totalPapers": 9991,
+      "surprisingCategories": [
+        {
+          "category": "eess.AS",
+          "count": 3350,
+          "domain": "eess"
+        },
+        {
+          "category": "q-bio.NC",
+          "count": 49,
+          "domain": "bio"
+        },
+        {
+          "category": "eess.SP",
+          "count": 39,
+          "domain": "eess"
+        }
+      ],
+      "topTerms": [
+        "speech",
+        "model",
+        "recognition",
+        "train",
+        "language",
+        "task"
+      ]
+    },
+    {
+      "clusterId": 38,
+      "dominantDomain": "cs",
+      "dominantCategory": "cs.CV",
+      "migrationRate": 0.3478,
+      "migrantPapers": 16923,
+      "totalPapers": 48658,
+      "surprisingCategories": [
+        {
+          "category": "eess.IV",
+          "count": 7780,
+          "domain": "eess"
+        },
+        {
+          "category": "physics.optics",
+          "count": 1415,
+          "domain": "physics"
+        },
+        {
+          "category": "astro-ph.IM",
+          "count": 1404,
+          "domain": "physics"
+        }
+      ],
+      "topTerms": [
+        "image",
+        "method",
+        "model",
+        "train",
+        "learn",
+        "segmentation"
+      ]
+    },
+    {
+      "clusterId": 20,
+      "dominantDomain": "math",
+      "dominantCategory": "math.AP",
+      "migrationRate": 0.331,
+      "migrantPapers": 18575,
+      "totalPapers": 56124,
+      "surprisingCategories": [
+        {
+          "category": "gr-qc",
+          "count": 3433,
+          "domain": "physics"
+        },
+        {
+          "category": "hep-th",
+          "count": 2947,
+          "domain": "physics"
+        },
+        {
+          "category": "nlin.SI",
+          "count": 1136,
+          "domain": "other"
+        }
+      ],
+      "topTerms": [
+        "solution",
+        "problem",
+        "existence",
+        "boundary",
+        "condition",
+        "prove"
+      ]
+    },
+    {
+      "clusterId": 47,
+      "dominantDomain": "math",
+      "dominantCategory": "math.FA",
+      "migrationRate": 0.2944,
+      "migrantPapers": 9038,
+      "totalPapers": 30697,
+      "surprisingCategories": [
+        {
+          "category": "hep-th",
+          "count": 2286,
+          "domain": "physics"
+        },
+        {
+          "category": "quant-ph",
+          "count": 1598,
+          "domain": "physics"
+        },
+        {
+          "category": "hep-ph",
+          "count": 1020,
+          "domain": "physics"
+        }
+      ],
+      "topTerms": [
+        "operator",
+        "space",
+        "function",
+        "prove",
+        "differential",
+        "condition"
+      ]
+    },
+    {
+      "clusterId": 1,
+      "dominantDomain": "cs",
+      "dominantCategory": "cs.AI",
+      "migrationRate": 0.2395,
+      "migrantPapers": 4719,
+      "totalPapers": 19706,
+      "surprisingCategories": [
+        {
+          "category": "math.OC",
+          "count": 980,
+          "domain": "math"
+        },
+        {
+          "category": "eess.SY",
+          "count": 851,
+          "domain": "eess"
+        },
+        {
+          "category": "physics.soc-ph",
+          "count": 618,
+          "domain": "physics"
+        }
+      ],
+      "topTerms": [
+        "agent",
+        "learn",
+        "multi",
+        "model",
+        "environment",
+        "game"
+      ]
+    },
+    {
+      "clusterId": 32,
+      "dominantDomain": "physics",
+      "dominantCategory": "gr-qc",
+      "migrationRate": 0.2193,
+      "migrantPapers": 6508,
+      "totalPapers": 29682,
+      "surprisingCategories": [
+        {
+          "category": "math.AP",
+          "count": 2686,
+          "domain": "math"
+        },
+        {
+          "category": "nlin.PS",
+          "count": 869,
+          "domain": "other"
+        },
+        {
+          "category": "math-ph",
+          "count": 629,
+          "domain": "math"
+        }
+      ],
+      "topTerms": [
+        "wave",
+        "gravitational",
+        "frequency",
+        "time",
+        "energy",
+        "nonlinear"
+      ]
+    },
+    {
+      "clusterId": 7,
+      "dominantDomain": "cs",
+      "dominantCategory": "cs.LG",
+      "migrationRate": 0.2136,
+      "migrantPapers": 13970,
+      "totalPapers": 65402,
+      "surprisingCategories": [
+        {
+          "category": "stat.ML",
+          "count": 2607,
+          "domain": "stats"
+        },
+        {
+          "category": "eess.IV",
+          "count": 1456,
+          "domain": "eess"
+        },
+        {
+          "category": "eess.SP",
+          "count": 1248,
+          "domain": "eess"
+        }
+      ],
+      "topTerms": [
+        "learn",
+        "model",
+        "train",
+        "machine",
+        "machine learn",
+        "data"
+      ]
+    },
+    {
+      "clusterId": 14,
+      "dominantDomain": "cs",
+      "dominantCategory": "cs.SE",
+      "migrationRate": 0.2009,
+      "migrantPapers": 19058,
+      "totalPapers": 94854,
+      "surprisingCategories": [
+        {
+          "category": "eess.SP",
+          "count": 2595,
+          "domain": "eess"
+        },
+        {
+          "category": "eess.SY",
+          "count": 1915,
+          "domain": "eess"
+        },
+        {
+          "category": "astro-ph.IM",
+          "count": 1594,
+          "domain": "physics"
+        }
+      ],
+      "topTerms": [
+        "user",
+        "design",
+        "software",
+        "technology",
+        "service",
+        "application"
+      ]
+    },
+    {
+      "clusterId": 11,
+      "dominantDomain": "math",
+      "dominantCategory": "math.AG",
+      "migrationRate": 0.1971,
+      "migrantPapers": 35560,
+      "totalPapers": 180419,
+      "surprisingCategories": [
+        {
+          "category": "hep-th",
+          "count": 4432,
+          "domain": "physics"
+        },
+        {
+          "category": "quant-ph",
+          "count": 3244,
+          "domain": "physics"
+        },
+        {
+          "category": "cs.LO",
+          "count": 3192,
+          "domain": "cs"
+        }
+      ],
+      "topTerms": [
+        "space",
+        "prove",
+        "set",
+        "theorem",
+        "number",
+        "point"
+      ]
+    },
+    {
+      "clusterId": 24,
+      "dominantDomain": "math",
+      "dominantCategory": "math.CO",
+      "migrationRate": 0.1892,
+      "migrantPapers": 3858,
+      "totalPapers": 20391,
+      "surprisingCategories": [
+        {
+          "category": "cs.CC",
+          "count": 594,
+          "domain": "cs"
+        },
+        {
+          "category": "cs.SC",
+          "count": 338,
+          "domain": "cs"
+        },
+        {
+          "category": "cs.DS",
+          "count": 302,
+          "domain": "cs"
+        }
+      ],
+      "topTerms": [
+        "polynomial",
+        "degree",
+        "function",
+        "number",
+        "prove",
+        "coefficient"
+      ]
+    },
+    {
+      "clusterId": 46,
+      "dominantDomain": "math",
+      "dominantCategory": "math.GR",
+      "migrationRate": 0.1876,
+      "migrantPapers": 7460,
+      "totalPapers": 39773,
+      "surprisingCategories": [
+        {
+          "category": "hep-th",
+          "count": 737,
+          "domain": "physics"
+        },
+        {
+          "category": "cs.LG",
+          "count": 503,
+          "domain": "cs"
+        },
+        {
+          "category": "quant-ph",
+          "count": 362,
+          "domain": "physics"
+        }
+      ],
+      "topTerms": [
+        "group",
+        "finite",
+        "prove",
+        "representation",
+        "class",
+        "action"
+      ]
+    },
+    {
+      "clusterId": 25,
+      "dominantDomain": "physics",
+      "dominantCategory": "hep-th",
+      "migrationRate": 0.1602,
+      "migrantPapers": 10984,
+      "totalPapers": 68561,
+      "surprisingCategories": [
+        {
+          "category": "math-ph",
+          "count": 2036,
+          "domain": "math"
+        },
+        {
+          "category": "math.LO",
+          "count": 968,
+          "domain": "math"
+        },
+        {
+          "category": "math.AG",
+          "count": 800,
+          "domain": "math"
+        }
+      ],
+      "topTerms": [
+        "theory",
+        "field",
+        "gauge",
+        "field theory",
+        "gravity",
+        "scalar"
+      ]
+    },
+    {
+      "clusterId": 16,
+      "dominantDomain": "math",
+      "dominantCategory": "math.DG",
+      "migrationRate": 0.1232,
+      "migrantPapers": 3094,
+      "totalPapers": 25111,
+      "surprisingCategories": [
+        {
+          "category": "hep-th",
+          "count": 919,
+          "domain": "physics"
+        },
+        {
+          "category": "cs.LG",
+          "count": 394,
+          "domain": "cs"
+        },
+        {
+          "category": "gr-qc",
+          "count": 392,
+          "domain": "physics"
+        }
+      ],
+      "topTerms": [
+        "manifold",
+        "curvature",
+        "compact",
+        "metric",
+        "space",
+        "prove"
+      ]
+    },
+    {
+      "clusterId": 33,
+      "dominantDomain": "math",
+      "dominantCategory": "math.RT",
+      "migrationRate": 0.1168,
+      "migrantPapers": 3353,
+      "totalPapers": 28715,
+      "surprisingCategories": [
+        {
+          "category": "hep-th",
+          "count": 1705,
+          "domain": "physics"
+        },
+        {
+          "category": "cs.LO",
+          "count": 329,
+          "domain": "cs"
+        },
+        {
+          "category": "quant-ph",
+          "count": 277,
+          "domain": "physics"
+        }
+      ],
+      "topTerms": [
+        "algebra",
+        "lie",
+        "module",
+        "group",
+        "category",
+        "finite"
+      ]
+    },
+    {
+      "clusterId": 13,
+      "dominantDomain": "cs",
+      "dominantCategory": "cs.CV",
+      "migrationRate": 0.1097,
+      "migrantPapers": 10222,
+      "totalPapers": 93171,
+      "surprisingCategories": [
+        {
+          "category": "eess.IV",
+          "count": 3968,
+          "domain": "eess"
+        },
+        {
+          "category": "eess.SP",
+          "count": 1328,
+          "domain": "eess"
+        },
+        {
+          "category": "eess.AS",
+          "count": 1117,
+          "domain": "eess"
+        }
+      ],
+      "topTerms": [
+        "method",
+        "feature",
+        "object",
+        "model",
+        "train",
+        "task"
+      ]
+    },
+    {
+      "clusterId": 19,
+      "dominantDomain": "cs",
+      "dominantCategory": "cs.CR",
+      "migrationRate": 0.101,
+      "migrantPapers": 1528,
+      "totalPapers": 15128,
+      "surprisingCategories": [
+        {
+          "category": "eess.SY",
+          "count": 404,
+          "domain": "eess"
+        },
+        {
+          "category": "quant-ph",
+          "count": 371,
+          "domain": "physics"
+        },
+        {
+          "category": "eess.SP",
+          "count": 141,
+          "domain": "eess"
+        }
+      ],
+      "topTerms": [
+        "attack",
+        "adversarial",
+        "model",
+        "security",
+        "network",
+        "train"
+      ]
+    },
+    {
+      "clusterId": 18,
+      "dominantDomain": "physics",
+      "dominantCategory": "cond-mat.str-el",
+      "migrationRate": 0.0931,
+      "migrantPapers": 4387,
+      "totalPapers": 47143,
+      "surprisingCategories": [
+        {
+          "category": "math.PR",
+          "count": 405,
+          "domain": "math"
+        },
+        {
+          "category": "math-ph",
+          "count": 380,
+          "domain": "math"
+        },
+        {
+          "category": "math.AP",
+          "count": 361,
+          "domain": "math"
+        }
+      ],
+      "topTerms": [
+        "phase",
+        "transition",
+        "phase transition",
+        "temperature",
+        "order",
+        "state"
+      ]
+    },
+    {
+      "clusterId": 34,
+      "dominantDomain": "cs",
+      "dominantCategory": "cs.CV",
+      "migrationRate": 0.0792,
+      "migrantPapers": 1170,
+      "totalPapers": 14781,
+      "surprisingCategories": [
+        {
+          "category": "eess.IV",
+          "count": 774,
+          "domain": "eess"
+        },
+        {
+          "category": "physics.flu-dyn",
+          "count": 92,
+          "domain": "physics"
+        },
+        {
+          "category": "eess.SP",
+          "count": 42,
+          "domain": "eess"
+        }
+      ],
+      "topTerms": [
+        "video",
+        "frame",
+        "temporal",
+        "model",
+        "method",
+        "learn"
+      ]
+    },
+    {
+      "clusterId": 3,
+      "dominantDomain": "physics",
+      "dominantCategory": "quant-ph",
+      "migrationRate": 0.0735,
+      "migrantPapers": 5033,
+      "totalPapers": 68517,
+      "surprisingCategories": [
+        {
+          "category": "math-ph",
+          "count": 1276,
+          "domain": "math"
+        },
+        {
+          "category": "math.QA",
+          "count": 367,
+          "domain": "math"
+        },
+        {
+          "category": "cs.CR",
+          "count": 336,
+          "domain": "cs"
+        }
+      ],
+      "topTerms": [
+        "quantum",
+        "state",
+        "classical",
+        "entanglement",
+        "measurement",
+        "circuit"
+      ]
+    },
+    {
+      "clusterId": 27,
+      "dominantDomain": "physics",
+      "dominantCategory": "physics.optics",
+      "migrationRate": 0.0528,
+      "migrantPapers": 3723,
+      "totalPapers": 70561,
+      "surprisingCategories": [
+        {
+          "category": "eess.SP",
+          "count": 768,
+          "domain": "eess"
+        },
+        {
+          "category": "nlin.PS",
+          "count": 447,
+          "domain": "other"
+        },
+        {
+          "category": "cs.IT",
+          "count": 314,
+          "domain": "cs"
+        }
+      ],
+      "topTerms": [
+        "mode",
+        "optical",
+        "laser",
+        "photon",
+        "frequency",
+        "beam"
+      ]
+    },
+    {
+      "clusterId": 40,
+      "dominantDomain": "physics",
+      "dominantCategory": "cond-mat.mtrl-sci",
+      "migrationRate": 0.0394,
+      "migrantPapers": 5663,
+      "totalPapers": 143763,
+      "surprisingCategories": [
+        {
+          "category": "math-ph",
+          "count": 1135,
+          "domain": "math"
+        },
+        {
+          "category": "math.AP",
+          "count": 689,
+          "domain": "math"
+        },
+        {
+          "category": "q-bio.BM",
+          "count": 427,
+          "domain": "bio"
+        }
+      ],
+      "topTerms": [
+        "energy",
+        "temperature",
+        "electron",
+        "state",
+        "surface",
+        "material"
+      ]
+    },
+    {
+      "clusterId": 43,
+      "dominantDomain": "cs",
+      "dominantCategory": "cs.CL",
+      "migrationRate": 0.0379,
+      "migrantPapers": 1479,
+      "totalPapers": 38992,
+      "surprisingCategories": [
+        {
+          "category": "eess.AS",
+          "count": 424,
+          "domain": "eess"
+        },
+        {
+          "category": "physics.soc-ph",
+          "count": 93,
+          "domain": "physics"
+        },
+        {
+          "category": "math.LO",
+          "count": 86,
+          "domain": "math"
+        }
+      ],
+      "topTerms": [
+        "language",
+        "model",
+        "task",
+        "language model",
+        "train",
+        "pre train"
+      ]
+    },
+    {
+      "clusterId": 36,
+      "dominantDomain": "physics",
+      "dominantCategory": "cond-mat.mes-hall",
+      "migrationRate": 0.0378,
+      "migrantPapers": 1716,
+      "totalPapers": 45413,
+      "surprisingCategories": [
+        {
+          "category": "math.AP",
+          "count": 492,
+          "domain": "math"
+        },
+        {
+          "category": "math-ph",
+          "count": 466,
+          "domain": "math"
+        },
+        {
+          "category": "math.NA",
+          "count": 139,
+          "domain": "math"
+        }
+      ],
+      "topTerms": [
+        "magnetic",
+        "magnetic field",
+        "field",
+        "temperature",
+        "spin",
+        "effect"
+      ]
+    },
+    {
+      "clusterId": 21,
+      "dominantDomain": "cs",
+      "dominantCategory": "cs.RO",
+      "migrationRate": 0.0371,
+      "migrantPapers": 517,
+      "totalPapers": 13947,
+      "surprisingCategories": [
+        {
+          "category": "eess.SY",
+          "count": 185,
+          "domain": "eess"
+        },
+        {
+          "category": "math.OC",
+          "count": 73,
+          "domain": "math"
+        },
+        {
+          "category": "eess.SP",
+          "count": 32,
+          "domain": "eess"
+        }
+      ],
+      "topTerms": [
+        "robot",
+        "human",
+        "task",
+        "environment",
+        "control",
+        "plan"
+      ]
+    },
+    {
+      "clusterId": 8,
+      "dominantDomain": "physics",
+      "dominantCategory": "cond-mat.mes-hall",
+      "migrationRate": 0.0283,
+      "migrantPapers": 1094,
+      "totalPapers": 38623,
+      "surprisingCategories": [
+        {
+          "category": "math-ph",
+          "count": 427,
+          "domain": "math"
+        },
+        {
+          "category": "math.PR",
+          "count": 171,
+          "domain": "math"
+        },
+        {
+          "category": "math.DG",
+          "count": 80,
+          "domain": "math"
+        }
+      ],
+      "topTerms": [
+        "spin",
+        "magnetic",
+        "state",
+        "couple",
+        "quantum",
+        "field"
+      ]
+    },
+    {
+      "clusterId": 28,
+      "dominantDomain": "cs",
+      "dominantCategory": "cs.CL",
+      "migrationRate": 0.0214,
+      "migrantPapers": 526,
+      "totalPapers": 24617,
+      "surprisingCategories": [
+        {
+          "category": "eess.AS",
+          "count": 64,
+          "domain": "eess"
+        },
+        {
+          "category": "econ.GN",
+          "count": 40,
+          "domain": "econ"
+        },
+        {
+          "category": "eess.SY",
+          "count": 36,
+          "domain": "eess"
+        }
+      ],
+      "topTerms": [
+        "llm",
+        "language",
+        "model",
+        "language model",
+        "task",
+        "prompt"
+      ]
+    },
+    {
+      "clusterId": 26,
+      "dominantDomain": "physics",
+      "dominantCategory": "astro-ph.HE",
+      "migrationRate": 0.0189,
+      "migrantPapers": 496,
+      "totalPapers": 26250,
+      "surprisingCategories": [
+        {
+          "category": "cs.CV",
+          "count": 81,
+          "domain": "cs"
+        },
+        {
+          "category": "eess.IV",
+          "count": 80,
+          "domain": "eess"
+        },
+        {
+          "category": "cs.GR",
+          "count": 38,
+          "domain": "cs"
+        }
+      ],
+      "topTerms": [
+        "ray",
+        "gamma ray",
+        "gamma",
+        "emission",
+        "energy",
+        "source"
+      ]
+    },
+    {
+      "clusterId": 35,
+      "dominantDomain": "physics",
+      "dominantCategory": "astro-ph.SR",
+      "migrationRate": 0.0175,
+      "migrantPapers": 659,
+      "totalPapers": 37680,
+      "surprisingCategories": [
+        {
+          "category": "math.CO",
+          "count": 70,
+          "domain": "math"
+        },
+        {
+          "category": "cs.IT",
+          "count": 64,
+          "domain": "cs"
+        },
+        {
+          "category": "math.AP",
+          "count": 41,
+          "domain": "math"
+        }
+      ],
+      "topTerms": [
+        "star",
+        "mass",
+        "stellar",
+        "cluster",
+        "binary",
+        "formation"
+      ]
+    },
+    {
+      "clusterId": 15,
+      "dominantDomain": "physics",
+      "dominantCategory": "astro-ph.GA",
+      "migrationRate": 0.0168,
+      "migrantPapers": 878,
+      "totalPapers": 52371,
+      "surprisingCategories": [
+        {
+          "category": "cs.CV",
+          "count": 74,
+          "domain": "cs"
+        },
+        {
+          "category": "eess.SY",
+          "count": 61,
+          "domain": "eess"
+        },
+        {
+          "category": "econ.GN",
+          "count": 59,
+          "domain": "econ"
+        }
+      ],
+      "topTerms": [
+        "emission",
+        "line",
+        "disk",
+        "observation",
+        "dust",
+        "radio"
+      ]
+    },
+    {
+      "clusterId": 12,
+      "dominantDomain": "physics",
+      "dominantCategory": "gr-qc",
+      "migrationRate": 0.0143,
+      "migrantPapers": 376,
+      "totalPapers": 26326,
+      "surprisingCategories": [
+        {
+          "category": "math.AP",
+          "count": 92,
+          "domain": "math"
+        },
+        {
+          "category": "math-ph",
+          "count": 57,
+          "domain": "math"
+        },
+        {
+          "category": "math.DG",
+          "count": 39,
+          "domain": "math"
+        }
+      ],
+      "topTerms": [
+        "black hole",
+        "black",
+        "hole",
+        "horizon",
+        "mass",
+        "gravitational"
+      ]
+    },
+    {
+      "clusterId": 41,
+      "dominantDomain": "physics",
+      "dominantCategory": "hep-ph",
+      "migrationRate": 0.007,
+      "migrantPapers": 164,
+      "totalPapers": 23329,
+      "surprisingCategories": [
+        {
+          "category": "nlin.PS",
+          "count": 47,
+          "domain": "other"
+        },
+        {
+          "category": "math-ph",
+          "count": 16,
+          "domain": "math"
+        },
+        {
+          "category": "cs.HC",
+          "count": 16,
+          "domain": "cs"
+        }
+      ],
+      "topTerms": [
+        "dark",
+        "dark matter",
+        "matter",
+        "mass",
+        "model",
+        "energy"
+      ]
+    },
+    {
+      "clusterId": 29,
+      "dominantDomain": "physics",
+      "dominantCategory": "hep-ph",
+      "migrationRate": 0.007,
+      "migrantPapers": 449,
+      "totalPapers": 64071,
+      "surprisingCategories": [
+        {
+          "category": "math.AP",
+          "count": 93,
+          "domain": "math"
+        },
+        {
+          "category": "math-ph",
+          "count": 86,
+          "domain": "math"
+        },
+        {
+          "category": "cs.RO",
+          "count": 24,
+          "domain": "cs"
+        }
+      ],
+      "topTerms": [
+        "quark",
+        "decay",
+        "mass",
+        "collision",
+        "production",
+        "higgs"
+      ]
+    },
+    {
+      "clusterId": 39,
+      "dominantDomain": "physics",
+      "dominantCategory": "astro-ph.EP",
+      "migrationRate": 0.0043,
+      "migrantPapers": 49,
+      "totalPapers": 11370,
+      "surprisingCategories": [
+        {
+          "category": "math.DS",
+          "count": 6,
+          "domain": "math"
+        },
+        {
+          "category": "cs.CV",
+          "count": 6,
+          "domain": "cs"
+        },
+        {
+          "category": "math-ph",
+          "count": 5,
+          "domain": "math"
+        }
+      ],
+      "topTerms": [
+        "planet",
+        "star",
+        "mass",
+        "orbit",
+        "orbital",
+        "disk"
+      ]
+    },
+    {
+      "clusterId": 6,
+      "dominantDomain": "physics",
+      "dominantCategory": "astro-ph.GA",
+      "migrationRate": 0.0008,
+      "migrantPapers": 27,
+      "totalPapers": 32964,
+      "surprisingCategories": [
+        {
+          "category": "cs.CV",
+          "count": 10,
+          "domain": "cs"
+        },
+        {
+          "category": "cs.LG",
+          "count": 4,
+          "domain": "cs"
+        },
+        {
+          "category": "stat.AP",
+          "count": 3,
+          "domain": "stats"
+        }
+      ],
+      "topTerms": [
+        "galaxy",
+        "mass",
+        "redshift",
+        "cluster",
+        "star",
+        "stellar"
+      ]
+    },
+    {
+      "clusterId": 4,
+      "dominantDomain": "physics",
+      "dominantCategory": "hep-ph",
+      "migrationRate": 0.0006,
+      "migrantPapers": 9,
+      "totalPapers": 15400,
+      "surprisingCategories": [
+        {
+          "category": "math-ph",
+          "count": 5,
+          "domain": "math"
+        },
+        {
+          "category": "cs.DC",
+          "count": 3,
+          "domain": "cs"
+        },
+        {
+          "category": "cs.CV",
+          "count": 1,
+          "domain": "cs"
+        }
+      ],
+      "topTerms": [
+        "neutrino",
+        "mass",
+        "oscillation",
+        "energy",
+        "detector",
+        "model"
+      ]
+    }
+  ]
+}

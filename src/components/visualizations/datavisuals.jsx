@@ -489,10 +489,12 @@ export function InteractiveCharts() {
             >
               <ResponsiveContainer width="100%" height="100%">
                 <LineChart data={papersOverTime}>
-                  <XAxis 
-                    dataKey="year" 
+                  <XAxis
+                    dataKey="year"
                     stroke="#6b7280"
                     tick={{ fill: '#9ca3af', fontSize: 12 }}
+                    ticks={['2007','2009','2011','2013','2015','2017','2019','2021','2023','2025']}
+                    interval={0}
                   />
                   <YAxis 
                     stroke="#6b7280"

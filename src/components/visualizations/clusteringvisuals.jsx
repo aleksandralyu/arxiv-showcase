@@ -1,5 +1,3 @@
-console.log('clusteringvisuals.jsx starting to load')
-
 import { motion, AnimatePresence } from 'framer-motion'
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react'
 import { useInView } from '../../hooks/useinview'
@@ -20,10 +18,6 @@ const evaluationMetrics = (evaluationMetricsRaw.elbowData || []).map(d => ({
   calinskiHarabasz: d.calinskiHarabasz500,
   inertia: d.inertia500
 }))
-
-console.log('evaluationMetrics:', evaluationMetrics)
-console.log('Is array?:', Array.isArray(evaluationMetrics))
-console.log('clusterSizes:', clusterSizes, 'Is array?:', Array.isArray(clusterSizes))
 
 // ============================================================================
 // VISUAL 1: K-Means Animation with REAL math and replay capability
@@ -166,24 +160,36 @@ export function KMeansAnimation() {
     }
   }, [points, nearest, computeCentroid])
 
-  // Animation steps: init, assign1, update1, assign2, update2, assign3, converge
-  // Maps to centroid/assignment history indices
-  const getStage = useCallback(() => {
+  // Centroids and assignments use SEPARATE stage indices so they can animate
+  // independently: during Update, centroids move but point colors freeze;
+  // during Assign, colors update but centroids freeze.
+  //
+  // step:  0=Init  1=Assign1  2=Update1  3=Assign2  4=Update2  5=Assign3  6=Converge
+  // cIdx:    0        0          1          1          2          2          2
+  // aIdx:    0        0          0          1          1          2          2
+
+  const getCentroidIdx = useCallback(() => {
     if (step <= 1) return 0
-    if (step === 2) return 1
-    if (step === 3) return 1
-    if (step === 4) return 2
-    if (step === 5) return 2
-    return Math.min(centroidHistory.length - 1, 3)
+    if (step <= 3) return 1
+    return Math.min(2, centroidHistory.length - 1)
   }, [step, centroidHistory.length])
 
-  const currentCentroids = centroidHistory[getStage()] || centroidHistory[0]
-  const currentAssignments = assignmentHistory[getStage()] || assignmentHistory[0]
-  const prevAssignments = getStage() > 0 ? assignmentHistory[getStage() - 1] : currentAssignments
-  
-  // Count actual changes at this step
+  const getAssignmentIdx = useCallback(() => {
+    if (step <= 2) return 0                                // freeze during Update1
+    if (step <= 4) return 1                                // freeze during Update2
+    return Math.min(2, assignmentHistory.length - 1)
+  }, [step, assignmentHistory.length])
+
+  const currentCentroids = centroidHistory[getCentroidIdx()] || centroidHistory[0]
+  const currentAssignments = assignmentHistory[getAssignmentIdx()] || assignmentHistory[0]
+
+  // Previous assignments for flash-on-change effect
+  const prevAssignmentIdx = Math.max(0, getAssignmentIdx() - 1)
+  const prevAssignments = assignmentHistory[prevAssignmentIdx] || currentAssignments
+
+  // Count actual changes at this step (only on Assign steps: 1, 3, 5)
   const changesAtStep = useMemo(() => {
-    if (step <= 1) return 0
+    if (step !== 1 && step !== 3 && step !== 5) return 0
     let count = 0
     for (let i = 0; i < points.length; i++) {
       if (currentAssignments[i] !== prevAssignments[i]) count++
@@ -333,7 +339,9 @@ export function KMeansAnimation() {
               {points.map((point, idx) => {
                 const assignment = currentAssignments[idx]
                 const prevAssignment = prevAssignments[idx]
-                const justChanged = step > 1 && assignment !== prevAssignment
+                // Only show flash on Assign steps (1, 3, 5), not during centroid Update steps
+                const isAssignStep = step === 1 || step === 3 || step === 5
+                const justChanged = isAssignStep && assignment !== prevAssignment
                 
                 return (
                   <motion.circle
@@ -357,31 +365,35 @@ export function KMeansAnimation() {
                 )
               })}
               
-              {/* Centroids */}
+              {/* Centroids — use motion.g so translate works correctly on SVG */}
               {currentCentroids.map((centroid, i) => (
-                <motion.path
+                <motion.g
                   key={`centroid-${i}`}
-                  d="M0,-9 L9,0 L0,9 L-9,0 Z"
-                  fill={clusterColors[i]}
-                  stroke="white"
-                  strokeWidth={2}
-                  initial={{ 
+                  initial={{
                     x: centroidHistory[0][i].x,
                     y: centroidHistory[0][i].y,
                     opacity: 0,
                     scale: 0
                   }}
-                  animate={{ 
-                    x: centroid.x, 
+                  animate={{
+                    x: centroid.x,
                     y: centroid.y,
                     opacity: 1,
                     scale: 1
                   }}
-                  transition={{ 
+                  transition={{
                     duration: 1.0,
                     ease: [0.4, 0, 0.2, 1]
                   }}
-                />
+                >
+                  {/* Diamond shape centred at 0,0 — translate handled by parent g */}
+                  <path
+                    d="M0,-9 L9,0 L0,9 L-9,0 Z"
+                    fill={clusterColors[i]}
+                    stroke="white"
+                    strokeWidth={2}
+                  />
+                </motion.g>
               ))}
             </svg>
           </div>
@@ -804,6 +816,13 @@ export function ClusterExamples() {
                 )}
               </div>
             </div>
+
+            {/* Description — differentiates clusters with similar names */}
+            {current.description && (
+              <p className="text-xs text-gray-400 leading-relaxed border-l-2 border-gray-600 pl-3">
+                {current.description}
+              </p>
+            )}
 
             {/* Top terms */}
             <div>

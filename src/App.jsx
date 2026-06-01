@@ -1,6 +1,7 @@
 import SectionNav from './components/ui/sectionnav'
 import ScrollProgress from './components/ui/scrollprogress'
 import Hero from './components/sections/hero'
+import LibraryExplorer from './components/sections/libraryexplorer'
 import Introduction from './components/sections/introduction'
 import DataOverview from './components/sections/dataoverview'
 import TextPreprocessing from './components/sections/textpreprocessing'
@@ -8,7 +9,7 @@ import TfIdf from './components/sections/tfidf'
 import DimensionalityReduction from './components/sections/dimensionalityreduction'
 import Clustering from './components/sections/clustering'
 import Results from './components/sections/results'
-import Conclusion from './components/sections/conclusion'
+import ClusterMap from './components/sections/clustermap'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <ScrollProgress />
       <SectionNav />
       <Hero />
+      <LibraryExplorer />
       <Introduction />
       <DataOverview />
       <TextPreprocessing />
@@ -23,7 +25,7 @@ function App() {
       <DimensionalityReduction />
       <Clustering />
       <Results />
-      <Conclusion />
+      <ClusterMap />
     </main>
   )
 }

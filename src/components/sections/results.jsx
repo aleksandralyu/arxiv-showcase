@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import {
   LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer,
   BarChart, Bar, Cell, ScatterChart, Scatter, ZAxis,
-  AreaChart, Area, Legend, CartesianGrid,
+  AreaChart, Area, Legend, CartesianGrid, ReferenceArea, ReferenceLine,
 } from 'recharts'
 
 import MethodologyCallout from '../ui/methodologycallout'
@@ -12,6 +12,8 @@ import q2Data from '../../data/q2bridgeareas.json'
 import q3Data from '../../data/q3categoryalignment.json'
 import q4Data from '../../data/q4growingniches.json'
 import clusterData from '../../data/clusterexploration.json'
+import q5Data from '../../data/q5_misalignments.json'
+import tcData from '../../data/temporal_cohesion.json'
 
 // ============================================================================
 // CONSTANTS
@@ -158,11 +160,11 @@ export default function Results() {
   const [expandedChart, setExpandedChart] = useState(null)
 
   const tabs = [
-    { id: 'q1',      label: 'Term Stability',     color: '#3b82f6' },
-    { id: 'q2',      label: 'Bridge Areas',        color: '#10b981' },
-    { id: 'q3',      label: 'Category Alignment',  color: '#a855f7' },
-    { id: 'q4',      label: 'Growing Niches',      color: '#f59e0b' },
-    { id: 'explore', label: 'Explore Clusters',    color: '#6366f1' },
+    { id: 'q1', label: 'Term Stability',    color: '#3b82f6' },
+    { id: 'q2', label: 'Bridge Areas',      color: '#10b981' },
+    { id: 'q3', label: 'Category Alignment',color: '#a855f7' },
+    { id: 'q4', label: 'Growing Niches',    color: '#f59e0b' },
+    { id: 'q6', label: 'Field Lifecycles',  color: '#ec4899' },
   ]
 
   return (
@@ -218,17 +220,17 @@ export default function Results() {
             <div className="mb-4">
               <MethodologyCallout
                 step="Pipeline Output"
-                title="K-Means Clustering (k=50)"
-                input="500-dim SVD vectors, 2.4M papers"
-                output="50 cluster assignments"
-                note="k selected via elbow method + silhouette analysis across k=20–80"
+                title={activeTab === 'q6' ? 'Temporal Analysis (NB 9f)' : 'K-Means Clustering (k=50)'}
+                input={activeTab === 'q6' ? 'cluster_labels_500d.pkl + arxiv_metadata_features.pkl (year field)' : '500-dim SVD vectors, 2.4M papers'}
+                output={activeTab === 'q6' ? 'IQR, emergence score, quadrant per cluster → temporal_cohesion.json' : '50 cluster assignments'}
+                note={activeTab === 'q6' ? 'IQR = interquartile range of publication years · emergence = fraction of papers from 2020+' : 'k selected via elbow method + silhouette analysis across k=20–80'}
               />
             </div>
-            {activeTab === 'q1'      && <TermStabilityTab     setExpandedChart={setExpandedChart} />}
-            {activeTab === 'q2'      && <BridgeAreasTab        setExpandedChart={setExpandedChart} />}
-            {activeTab === 'q3'      && <CategoryAlignmentTab  setExpandedChart={setExpandedChart} />}
-            {activeTab === 'q4'      && <GrowingNichesTab      setExpandedChart={setExpandedChart} />}
-            {activeTab === 'explore' && <ClusterExplorationTab />}
+            {activeTab === 'q1' && <TermStabilityTab     setExpandedChart={setExpandedChart} />}
+            {activeTab === 'q2' && <BridgeAreasTab        setExpandedChart={setExpandedChart} />}
+            {activeTab === 'q3' && <CategoryAlignmentTab  setExpandedChart={setExpandedChart} />}
+            {activeTab === 'q4' && <GrowingNichesTab      setExpandedChart={setExpandedChart} />}
+            {activeTab === 'q6' && <FieldLifecyclesTab    setExpandedChart={setExpandedChart} />}
           </motion.div>
         </AnimatePresence>
       </div>
@@ -1189,6 +1191,135 @@ function CategoryAlignmentTab({ setExpandedChart }) {
           areas where content similarity crosses traditional ArXiv boundaries.
         </p>
       </div>
+
+      {/* ── Q5: Where the gaps are informative ─────────────────────────── */}
+      <MigrationInsightsSection setExpandedChart={setExpandedChart} />
+    </div>
+  )
+}
+
+// ============================================================================
+// Q5 — MIGRATION INSIGHTS (extension of Q3)
+// Shows which clusters most disagree with ArXiv labels and why that's meaningful
+// ============================================================================
+
+function MigrationInsightsSection({ setExpandedChart }) {
+  const { topMisalignments, clusterMigrationRates, summary: q5Summary } = q5Data
+
+  const MigrationTooltip = ({ active, payload }) => {
+    if (!active || !payload?.length) return null
+    const d = payload[0].payload
+    return (
+      <div className="bg-gray-900 border border-gray-600 rounded-lg p-3 shadow-xl max-w-xs">
+        <p className="text-white font-medium text-sm">{getClusterName(d)}</p>
+        <p className="text-gray-500 text-xs mb-1">C{d.clusterId} · dominant: {getDomainName(d.dominantDomain)}</p>
+        <p className="text-rose-400 text-sm">{(d.migrationRate * 100).toFixed(1)}% cross-domain papers</p>
+        <p className="text-gray-400 text-xs mt-1">{d.migrantPapers?.toLocaleString()} papers from outside dominant domain</p>
+      </div>
+    )
+  }
+
+  // Top 10 for preview chart, sorted descending
+  const chartData = [...topMisalignments]
+    .sort((a, b) => b.migrationRate - a.migrationRate)
+    .map(d => ({ ...d, name: getShortName(d), migrationPct: parseFloat((d.migrationRate * 100).toFixed(1)) }))
+
+  // Full 50 for expanded modal, sorted descending
+  const fullChartData = [...clusterMigrationRates]
+    .sort((a, b) => b.migrationRate - a.migrationRate)
+    .map(d => ({ ...d, name: getShortName(d), migrationPct: parseFloat((d.migrationRate * 100).toFixed(1)) }))
+
+  const expandedContent = (
+    <div className="space-y-4">
+      <div className="h-[600px]">
+        <ResponsiveContainer width="100%" height="100%">
+          <BarChart data={fullChartData} layout="vertical" margin={{ top: 5, right: 80, bottom: 5, left: 90 }}>
+            <CartesianGrid strokeDasharray="3 3" stroke="#1f2937" horizontal={false} />
+            <XAxis type="number" domain={[0, 100]} tickFormatter={v => `${v}%`} stroke="#374151" tick={{ fill: '#9ca3af', fontSize: 11 }} />
+            <YAxis type="category" dataKey="name" width={85} stroke="#374151" tick={{ fontSize: 10, fill: '#9ca3af' }} />
+            <Tooltip content={<MigrationTooltip />} />
+            <Bar dataKey="migrationPct" radius={[0, 3, 3, 0]}>
+              {fullChartData.map((entry, i) => (
+                <Cell key={i} fill={entry.migrationPct > 40 ? '#ec4899' : entry.migrationPct > 20 ? '#a855f7' : '#6366f1'} opacity={0.8} />
+              ))}
+            </Bar>
+          </BarChart>
+        </ResponsiveContainer>
+      </div>
+      <p className="text-gray-500 text-xs text-center">Migration rate = fraction of papers whose primary ArXiv domain differs from the cluster's dominant domain · all 50 clusters</p>
+    </div>
+  )
+
+  return (
+    <div className="space-y-6 pt-2">
+      {/* Divider + header */}
+      <div className="flex items-center gap-4">
+        <div className="flex-1 h-px bg-gray-800" />
+        <span className="text-gray-500 text-xs uppercase tracking-widest">Deeper Analysis</span>
+        <div className="flex-1 h-px bg-gray-800" />
+      </div>
+
+      <div className="bg-gray-800/50 border border-gray-700 rounded-xl p-6">
+        <h3 className="text-xl font-semibold text-white mb-3">Where the Gaps Are Informative</h3>
+        <p className="text-gray-400 leading-relaxed mb-4">
+          The NMI score tells us <em>how much</em> content clusters disagree with ArXiv labels. These clusters
+          tell us <em>where</em> — and more importantly, why those specific disagreements are discoveries rather
+          than errors. We measure <strong className="text-gray-300">migration rate</strong>: the fraction of papers
+          in a cluster whose primary ArXiv category belongs to a different domain than the cluster's dominant one.
+        </p>
+        <div className="grid grid-cols-3 gap-4">
+          <div className="text-center">
+            <p className="text-2xl font-bold text-rose-400">{(q5Summary.avgMigrationRate * 100).toFixed(0)}%</p>
+            <p className="text-gray-500 text-sm">Avg migration rate</p>
+          </div>
+          <div className="text-center">
+            <p className="text-2xl font-bold text-purple-400">{q5Summary.highMigrationClusters}</p>
+            <p className="text-gray-500 text-sm">Cross-domain clusters (&gt;30%)</p>
+          </div>
+          <div className="text-center">
+            <p className="text-2xl font-bold text-indigo-400">{q5Summary.lowMigrationClusters}</p>
+            <p className="text-gray-500 text-sm">Domain-pure clusters (&lt;15%)</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Migration bar chart */}
+      <ExpandableChart
+        title="Most Cross-Domain Clusters — Top 10 by Migration Rate"
+        description="Clusters where the most papers come from outside the cluster's dominant domain. High migration = genuinely interdisciplinary or ambiguous."
+        methodology="Migration rate = papers from non-dominant domain / total cluster papers"
+        setExpandedChart={setExpandedChart}
+        expandedContent={expandedContent}
+      >
+        <div className="h-64">
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart data={chartData} layout="vertical" margin={{ top: 0, right: 50, bottom: 0, left: 80 }}>
+              <XAxis type="number" domain={[0, 100]} tickFormatter={v => `${v}%`} stroke="#374151" tick={{ fontSize: 10, fill: '#6b7280' }} />
+              <YAxis type="category" dataKey="name" width={75} stroke="#374151" tick={{ fontSize: 10, fill: '#9ca3af' }} />
+              <Tooltip content={<MigrationTooltip />} />
+              <Bar dataKey="migrationPct" radius={[0, 3, 3, 0]}>
+                {chartData.map((entry, i) => (
+                  <Cell key={i} fill={entry.migrationPct > 40 ? '#ec4899' : '#a855f7'} opacity={0.8} />
+                ))}
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+      </ExpandableChart>
+
+      {/* Math callout — the counterintuitive finding */}
+      <div className="bg-amber-500/8 border border-amber-500/30 rounded-xl p-6">
+        <h4 className="text-amber-400 font-medium mb-2">The Counterintuitive Finding: Mathematics as Substrate</h4>
+        <p className="text-gray-300 leading-relaxed">
+          Pure mathematics clusters (eigenvalues, sequences, graph theory, algorithms) consistently show
+          {' '}<strong className="text-amber-400">50–56% migration</strong> — among the highest in the dataset.
+          This seems wrong: pure math should be the most siloed discipline. But it reveals something real.
+          Mathematical notation and methods are used by CS, physics, and statistics researchers who submit
+          to <em>those</em> domains, not to math. Content-based clustering groups papers by the tools they use.{' '}
+          <strong className="text-gray-200">Mathematics is the substrate language of all quantitative science</strong> —
+          a structure invisible to category-based analysis and only visible once you cluster by vocabulary.
+        </p>
+      </div>
     </div>
   )
 }
@@ -1530,328 +1661,297 @@ function GrowingNichesTab({ setExpandedChart }) {
 }
 
 // ============================================================================
-// CLUSTER EXPLORATION TAB
+// Q6 — QUADRANT SCATTER CHART
+// X = IQR (temporal spread in years), Y = emergence score (fraction post-2020)
+// Color = quadrant. Background shading marks the four regions.
 // ============================================================================
 
-function ClusterExplorationTab() {
-  const { clusters, summary } = clusterData
-  const [sortBy, setSortBy] = useState('size')
-  const [filterDomain, setFilterDomain] = useState('all')
-  const [selectedCluster, setSelectedCluster] = useState(null)
-  const [showOnlyMeaningful, setShowOnlyMeaningful] = useState(false)
+const QUADRANT_COLORS = {
+  rocket:  '#ec4899',
+  classic: '#3b82f6',
+  niche:   '#f59e0b',
+  stable:  '#6b7280',
+}
 
-  const badgeColors = {
-    hot:     'bg-red-500/20 text-red-400 border-red-500/30',
-    rising:  'bg-amber-500/20 text-amber-400 border-amber-500/30',
-    stable:  'bg-gray-500/20 text-gray-400 border-gray-500/30',
-    new:     'bg-blue-500/20 text-blue-400 border-blue-500/30',
-    bridge:  'bg-emerald-500/20 text-emerald-400 border-emerald-500/30',
-    large:   'bg-purple-500/20 text-purple-400 border-purple-500/30',
-    niche:   'bg-cyan-500/20 text-cyan-400 border-cyan-500/30',
-    warning: 'bg-orange-500/20 text-orange-400 border-orange-500/30',
+const QUADRANT_META = {
+  rocket:  { label: 'Rocket',  color: '#ec4899', bg: 'bg-pink-500/10',   border: 'border-pink-500/25',   text: 'text-pink-400'   },
+  classic: { label: 'Classic', color: '#3b82f6', bg: 'bg-blue-500/10',   border: 'border-blue-500/25',   text: 'text-blue-400'   },
+  niche:   { label: 'Niche',   color: '#f59e0b', bg: 'bg-amber-500/10',  border: 'border-amber-500/25',  text: 'text-amber-400'  },
+  stable:  { label: 'Stable',  color: '#6b7280', bg: 'bg-gray-500/10',   border: 'border-gray-600/25',   text: 'text-gray-400'   },
+}
+
+// IQR threshold that separates tight (left) from wide (right) — matches notebook
+const IQR_THRESHOLD = 4
+// Emergence threshold that separates high (top) from low (bottom)
+const EMERGE_THRESHOLD = 0.5
+
+function QuadrantScatterChart({ points, setExpandedChart }) {
+  const QuadrantTooltip = ({ active, payload }) => {
+    if (!active || !payload?.length) return null
+    const d = payload[0].payload
+    const meta = QUADRANT_META[d.quadrant] || QUADRANT_META.stable
+    return (
+      <div className="bg-gray-900 border border-gray-600 rounded-lg p-3 shadow-xl max-w-xs">
+        <p className="text-white font-medium text-sm">{d.name}</p>
+        <p className="text-gray-500 text-xs mb-2">C{d.clusterId}</p>
+        <p className={`text-sm font-medium ${meta.text}`}>{meta.label}</p>
+        <p className="text-gray-400 text-xs">IQR: {(d.rawIqr ?? d.iqr).toFixed(1)} years</p>
+        <p className="text-gray-400 text-xs">Emergence: {((d.rawEmergence ?? d.emergenceScore) * 100).toFixed(0)}% post-2020</p>
+        <p className="text-gray-400 text-xs">Median year: {d.medianYear?.toFixed(0)}</p>
+      </div>
+    )
   }
 
-  const domains = [...new Set(clusters.flatMap(c => c.domainDistribution?.map(d => d.code) || []))]
+  const quadrantGroups = Object.keys(QUADRANT_COLORS)
 
-  const filteredClusters = clusters
-    .filter(c => filterDomain === 'all' || c.domainDistribution?.some(d => d.code === filterDomain))
-    .filter(c => !showOnlyMeaningful || c.hasMeaningfulTerms)
-    .sort((a, b) => {
-      switch (sortBy) {
-        case 'size':      return b.size - a.size
-        case 'growth':    return b.growthRate - a.growthRate
-        case 'recency':   return b.medianYear - a.medianYear
-        case 'diversity': return b.domainDiversity - a.domainDiversity
-        case 'purity':    return b.categoryPurity - a.categoryPurity
-        default:          return 0
-      }
-    })
+  const expandedContent = (
+    <div className="space-y-4">
+      <div className="h-[520px]">
+        <ResponsiveContainer width="100%" height="100%">
+          <ScatterChart margin={{ top: 20, right: 40, bottom: 60, left: 60 }}>
+            <CartesianGrid strokeDasharray="3 3" stroke="#1f2937" />
+            {/* Quadrant background shading */}
+            <ReferenceArea x1={0}             x2={IQR_THRESHOLD}  y1={EMERGE_THRESHOLD} y2={1.05} fill="#ec4899" fillOpacity={0.04} />
+            <ReferenceArea x1={IQR_THRESHOLD} x2={9}              y1={EMERGE_THRESHOLD} y2={1.05} fill="#3b82f6" fillOpacity={0.04} />
+            <ReferenceArea x1={0}             x2={IQR_THRESHOLD}  y1={0}                y2={EMERGE_THRESHOLD} fill="#f59e0b" fillOpacity={0.04} />
+            <ReferenceArea x1={IQR_THRESHOLD} x2={9}              y1={0}                y2={EMERGE_THRESHOLD} fill="#6b7280" fillOpacity={0.04} />
+            <XAxis type="number" dataKey="iqr" name="IQR" domain={[0, 9]} stroke="#374151"
+              tick={{ fill: '#9ca3af', fontSize: 11 }}
+              label={{ value: '← tight   Year spread (IQR)   wide →', position: 'bottom', fill: '#6b7280', offset: 40, fontSize: 12 }} />
+            <YAxis type="number" dataKey="emergenceScore" name="Emergence" domain={[0, 1.05]} stroke="#374151"
+              tick={{ fill: '#9ca3af', fontSize: 11 }}
+              tickFormatter={v => `${(v * 100).toFixed(0)}%`}
+              label={{ value: 'Emergence (% post-2020)', angle: -90, position: 'insideLeft', fill: '#6b7280', offset: -5, fontSize: 12 }} />
+            <ZAxis range={[45, 45]} />
+            <Tooltip content={<QuadrantTooltip />} />
+            <ReferenceLine
+              x={1.0} stroke="#ec4899" strokeDasharray="3 3" strokeOpacity={0.4}
+              label={{ value: 'LLM cluster', position: 'top', fill: '#ec4899', fontSize: 11 }}
+            />
+            {quadrantGroups.map(q => (
+              <Scatter
+                key={q}
+                name={QUADRANT_META[q].label}
+                data={points.filter(p => p.quadrant === q)}
+                fill={QUADRANT_COLORS[q]}
+                fillOpacity={0.8}
+              />
+            ))}
+          </ScatterChart>
+        </ResponsiveContainer>
+      </div>
+      <div className="flex flex-wrap gap-4 justify-center">
+        {quadrantGroups.map(q => {
+          const m = QUADRANT_META[q]
+          return (
+            <div key={q} className="flex items-center gap-2 text-sm">
+              <div className="w-3 h-3 rounded-full" style={{ backgroundColor: m.color }} />
+              <span className={m.text}>{m.label}</span>
+              <span className="text-gray-500">({points.filter(p => p.quadrant === q).length})</span>
+            </div>
+          )
+        })}
+      </div>
+    </div>
+  )
+
+  return (
+    <ExpandableChart
+      title="Field Lifecycle Map — IQR vs Emergence Score"
+      description="Each dot is one cluster. X-axis: year spread (IQR). Y-axis: fraction of papers published after 2020. Position reveals whether a field is newly erupted, a reinvigorated classic, stable, or a small emerging niche."
+      methodology={`Tight IQR < ${IQR_THRESHOLD} yrs · High emergence > ${(EMERGE_THRESHOLD * 100).toFixed(0)}% post-2020 · Quadrant = IQR × emergence combination`}
+      setExpandedChart={setExpandedChart}
+      expandedContent={expandedContent}
+    >
+      <div className="h-80">
+        <ResponsiveContainer width="100%" height="100%">
+          <ScatterChart margin={{ top: 5, right: 10, bottom: 20, left: 10 }}>
+            <CartesianGrid strokeDasharray="3 3" stroke="#1f2937" />
+            <ReferenceArea x1={0}             x2={IQR_THRESHOLD}  y1={EMERGE_THRESHOLD} y2={1.05} fill="#ec4899" fillOpacity={0.05}
+              label={{ value: 'Rocket', position: 'insideTopLeft', fill: '#ec4899', fontSize: 9, opacity: 0.7 }} />
+            <ReferenceArea x1={IQR_THRESHOLD} x2={9}              y1={EMERGE_THRESHOLD} y2={1.05} fill="#3b82f6" fillOpacity={0.05}
+              label={{ value: 'Classic', position: 'insideTopRight', fill: '#3b82f6', fontSize: 9, opacity: 0.7 }} />
+            <ReferenceArea x1={0}             x2={IQR_THRESHOLD}  y1={0}                y2={EMERGE_THRESHOLD} fill="#f59e0b" fillOpacity={0.05}
+              label={{ value: 'Niche', position: 'insideBottomLeft', fill: '#f59e0b', fontSize: 9, opacity: 0.7 }} />
+            <ReferenceArea x1={IQR_THRESHOLD} x2={9}              y1={0}                y2={EMERGE_THRESHOLD} fill="#6b7280" fillOpacity={0.05}
+              label={{ value: 'Stable', position: 'insideBottomRight', fill: '#9ca3af', fontSize: 9, opacity: 0.7 }} />
+            <XAxis type="number" dataKey="iqr" name="IQR" domain={[0, 9]} stroke="#374151"
+              tick={{ fill: '#6b7280', fontSize: 9 }}
+              label={{ value: 'Year spread (IQR)', position: 'bottom', fill: '#6b7280', offset: 15, fontSize: 10 }} />
+            <YAxis type="number" dataKey="emergenceScore" name="Emergence" domain={[0, 1.05]} stroke="#374151"
+              tick={{ fill: '#6b7280', fontSize: 9 }}
+              tickFormatter={v => `${(v * 100).toFixed(0)}%`} />
+            <ZAxis range={[28, 28]} />
+            <Tooltip content={<QuadrantTooltip />} />
+            <ReferenceLine
+              x={1.0} stroke="#ec4899" strokeDasharray="3 3" strokeOpacity={0.35}
+              label={{ value: 'LLM', position: 'top', fill: '#ec4899', fontSize: 9 }}
+            />
+            {quadrantGroups.map(q => (
+              <Scatter
+                key={q}
+                data={points.filter(p => p.quadrant === q)}
+                fill={QUADRANT_COLORS[q]}
+                fillOpacity={0.8}
+              />
+            ))}
+          </ScatterChart>
+        </ResponsiveContainer>
+      </div>
+      {/* Inline quadrant legend */}
+      <div className="flex flex-wrap gap-3 mt-2">
+        {quadrantGroups.map(q => {
+          const m = QUADRANT_META[q]
+          return (
+            <div key={q} className="flex items-center gap-1.5 text-xs">
+              <div className="w-2 h-2 rounded-full" style={{ backgroundColor: m.color }} />
+              <span className={m.text}>{m.label}</span>
+            </div>
+          )
+        })}
+      </div>
+    </ExpandableChart>
+  )
+}
+
+// ============================================================================
+// Q6: FIELD LIFECYCLES TAB
+// ============================================================================
+
+function FieldLifecyclesTab({ setExpandedChart }) {
+  const { clusters: tcClusters, summary: tcSummary } = tcData
+  const { quadrantCounts } = tcSummary
+
+  // Build scatter points — join topTerms from tcData for name derivation
+  // Deterministic micro-jitter for clusters sharing identical IQR/emergence values
+  // (7 rockets cluster at IQR=4) — keeps dots readable without distorting positions
+  const scatterPoints = tcClusters.map((c, i) => {
+    const jitterSeed = (c.clusterId * 9301 + 49297) % 233280
+    const jx = ((jitterSeed % 100) / 100 - 0.5) * 0.25  // ±0.125 on x
+    const jy = (((jitterSeed * 7) % 100) / 100 - 0.5) * 0.025 // ±0.0125 on y
+    const hasClones = tcClusters.filter(o => o.iqr === c.iqr && Math.abs(o.emergenceScore - c.emergenceScore) < 0.02).length > 2
+    return {
+      clusterId:     c.clusterId,
+      iqr:           hasClones ? parseFloat((c.iqr + jx).toFixed(3)) : c.iqr,
+      emergenceScore:hasClones ? parseFloat((c.emergenceScore + jy).toFixed(4)) : c.emergenceScore,
+      rawIqr:        c.iqr,
+      rawEmergence:  c.emergenceScore,
+      medianYear:    c.medianYear,
+      quadrant:      c.quadrant,
+      name:          getClusterName({ topTerms: c.topTerms }),
+    }
+  })
+
+  // Quadrant card details — hand-picked examples from analysis
+  const quadrantDetails = [
+    {
+      key: 'rocket',
+      title: 'Rocket',
+      definition: 'Tight temporal spread + high growth. Fields that essentially did not exist and then erupted.',
+      count: quadrantCounts.rocket,
+      examples: ['LLM & Language (C28)', 'Language & Model (C43)', 'Robot & Human (C21)', 'Video & Frame (C34)'],
+      insight: 'C28 is a category of one — IQR of 1 year means 50% of all LLM papers were published within a single calendar year.',
+    },
+    {
+      key: 'classic',
+      title: 'Classic',
+      definition: 'Wide temporal spread + high growth. Long-established fields experiencing a modern revival.',
+      count: quadrantCounts.classic,
+      examples: ['Quantum & State (C03)', 'Image & Method (C38)', 'User & Design (C14)', 'Model & Data (C17)'],
+      insight: 'C03 (quantum) is the only physics cluster in this quadrant — decades of quantum foundations being reinvigorated by quantum computing.',
+    },
+    {
+      key: 'niche',
+      title: 'Niche',
+      definition: 'Tight temporal spread + moderate growth. Recently active but not yet explosive.',
+      count: quadrantCounts.niche,
+      examples: ['Learn & Model (C07)'],
+      insight: 'C07 (general deep learning) sits just below the growth threshold — as transformers, RL, and CV spun into dedicated clusters, this became the residual catch-all.',
+    },
+    {
+      key: 'stable',
+      title: 'Stable',
+      definition: 'Wide temporal spread + lower growth. Mature, long-running disciplines with steady output.',
+      count: quadrantCounts.stable,
+      examples: ['Black Hole & Black (C12)', 'Quark & Decay (C29)', 'Neutrino & Mass (C04)', '34 more…'],
+      insight: 'Includes all physics and most math clusters. Steady growth, not stagnation — these are established disciplines with decades of literature.',
+    },
+  ]
 
   return (
     <div className="space-y-8">
+      {/* Intro block */}
       <div className="bg-gray-800/50 border border-gray-700 rounded-xl p-6">
-        <h3 className="text-xl font-semibold text-white mb-3">Explore All 50 Clusters</h3>
+        <h3 className="text-xl font-semibold text-white mb-3">Q6: What is the temporal character of each research field?</h3>
         <p className="text-gray-400 leading-relaxed mb-4">
-          Browse, filter, and explore the full landscape of research clusters. Each cluster represents
-          a coherent group of papers identified by shared vocabulary patterns.
+          Growth rate tells you <em>how fast</em> a field is growing. Temporal spread tells you <em>what kind</em> of
+          growth it is. A cluster with an IQR of 1 year is a field that barely existed before — every paper is recent.
+          A cluster with an IQR of 8 years has decades of accumulated literature and is still growing.
+          The combination produces four distinct lifecycle patterns.
+        </p>
+        <p className="text-gray-500 text-xs border-l-2 border-pink-500/40 pl-3 mb-4">
+          <span className="text-pink-400/80 font-medium">Method:</span> IQR = interquartile range of publication years across all papers in the cluster.
+          Emergence score = fraction of cluster papers published in 2020 or later. Quadrant assigned by IQR threshold (4 yrs) × emergence threshold (50%).
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="text-center">
-            <p className="text-2xl font-bold text-indigo-400">{summary.totalClusters}</p>
-            <p className="text-gray-500 text-sm">Clusters</p>
+            <p className="text-2xl font-bold text-pink-400">{quadrantCounts.rocket}</p>
+            <p className="text-gray-500 text-sm">Rockets</p>
           </div>
           <div className="text-center">
-            <p className="text-2xl font-bold text-blue-400">{(summary.totalPapers / 1_000_000).toFixed(1)}M</p>
-            <p className="text-gray-500 text-sm">Papers</p>
+            <p className="text-2xl font-bold text-blue-400">{quadrantCounts.classic}</p>
+            <p className="text-gray-500 text-sm">Classics</p>
           </div>
           <div className="text-center">
-            <p className="text-2xl font-bold text-emerald-400">{summary.highGrowthCount}</p>
-            <p className="text-gray-500 text-sm">High Growth</p>
+            <p className="text-2xl font-bold text-amber-400">{quadrantCounts.niche}</p>
+            <p className="text-gray-500 text-sm">Niche</p>
           </div>
           <div className="text-center">
-            <p className="text-2xl font-bold text-amber-400">{summary.latexHeavyCount || 0}</p>
-            <p className="text-gray-500 text-sm">LaTeX-Heavy</p>
+            <p className="text-2xl font-bold text-gray-400">{quadrantCounts.stable}</p>
+            <p className="text-gray-500 text-sm">Stable</p>
           </div>
         </div>
       </div>
 
-      {/* Filters */}
-      <div className="flex flex-wrap gap-4 items-center">
-        <div className="flex items-center gap-2">
-          <label className="text-gray-400 text-sm">Sort:</label>
-          <select value={sortBy} onChange={e => setSortBy(e.target.value)}
-            className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-1.5 text-sm text-white">
-            <option value="size">Size</option>
-            <option value="growth">Growth Rate</option>
-            <option value="recency">Recency</option>
-            <option value="diversity">Domain Diversity</option>
-            <option value="purity">Category Purity</option>
-          </select>
-        </div>
-        <div className="flex items-center gap-2">
-          <label className="text-gray-400 text-sm">Domain:</label>
-          <select value={filterDomain} onChange={e => setFilterDomain(e.target.value)}
-            className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-1.5 text-sm text-white">
-            <option value="all">All</option>
-            {domains.map(d => <option key={d} value={d}>{getDomainName(d)}</option>)}
-          </select>
-        </div>
-        <label className="flex items-center gap-2 text-sm text-gray-400 cursor-pointer">
-          <input type="checkbox" checked={showOnlyMeaningful} onChange={e => setShowOnlyMeaningful(e.target.checked)} className="rounded border-gray-600" />
-          Hide LaTeX-heavy
-        </label>
-        <span className="text-gray-500 text-sm ml-auto">
-          {filteredClusters.length} / {clusters.length} clusters
-        </span>
+      {/* Scatter chart */}
+      <QuadrantScatterChart points={scatterPoints} setExpandedChart={setExpandedChart} />
+
+      {/* Quadrant detail cards */}
+      <div className="grid md:grid-cols-2 gap-4">
+        {quadrantDetails.map(q => {
+          const m = QUADRANT_META[q.key]
+          return (
+            <div key={q.key} className={`${m.bg} border ${m.border} rounded-xl p-5`}>
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-3 h-3 rounded-full" style={{ backgroundColor: m.color }} />
+                <h4 className={`font-semibold text-base ${m.text}`}>{q.title}</h4>
+                <span className="text-gray-500 text-sm ml-auto">{q.count} cluster{q.count !== 1 ? 's' : ''}</span>
+              </div>
+              <p className="text-gray-400 text-sm leading-relaxed mb-3">{q.definition}</p>
+              <div className="flex flex-wrap gap-1.5 mb-3">
+                {q.examples.map(ex => (
+                  <span key={ex} className="text-xs bg-gray-800/60 border border-gray-700/50 text-gray-400 px-2 py-0.5 rounded-full">{ex}</span>
+                ))}
+              </div>
+              <p className={`text-xs italic ${m.text} opacity-80`}>{q.insight}</p>
+            </div>
+          )
+        })}
       </div>
 
-      {/* Grid */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {filteredClusters.map(cluster => (
-          <ClusterCard key={cluster.id} cluster={cluster} badgeColors={badgeColors} onClick={() => setSelectedCluster(cluster)} />
-        ))}
+      {/* Key finding */}
+      <div className="bg-pink-500/8 border border-pink-500/25 rounded-xl p-6">
+        <h4 className="text-pink-400 font-medium mb-2">Key Finding</h4>
+        <p className="text-gray-300 leading-relaxed">
+          Growth rate alone is an incomplete signal. The LLM cluster (C28) and the quantum cluster (C03) are both
+          fast-growing — but one is a field that did not exist three years ago (IQR = 1 year, emergence = 100%),
+          while the other is a half-century-old discipline being reinvigorated by quantum computing (IQR = 8 years).{' '}
+          <strong className="text-gray-200">Temporal character distinguishes eruption from renaissance.</strong>{' '}
+          For researchers and institutions evaluating where to invest, this distinction matters as much as the growth
+          number itself.
+        </p>
       </div>
-
-      {/* Detail modal — wrapped in AnimatePresence for proper exit animation */}
-      <AnimatePresence>
-        {selectedCluster && (
-          <ClusterDetailModal
-            key={selectedCluster.id}
-            cluster={selectedCluster}
-            badgeColors={badgeColors}
-            onClose={() => setSelectedCluster(null)}
-          />
-        )}
-      </AnimatePresence>
     </div>
   )
 }
 
-function ClusterCard({ cluster, badgeColors, onClick }) {
-  const displayName = cluster.displayTerms?.length >= 2
-    ? cluster.displayTerms.slice(0, 2).map(t => t.charAt(0).toUpperCase() + t.slice(1)).join(' & ')
-    : `Cluster ${cluster.id}`
-
-  return (
-    <motion.div
-      whileHover={{ scale: 1.015 }}
-      onClick={onClick}
-      className="bg-gray-800/30 border border-gray-700/50 rounded-xl p-4 cursor-pointer hover:border-indigo-500/40 transition-colors"
-    >
-      <div className="flex justify-between items-start mb-3">
-        <div>
-          <h4 className="text-white font-medium">{displayName}</h4>
-          <p className="text-gray-500 text-xs">C{cluster.id} · {cluster.size.toLocaleString()} papers</p>
-        </div>
-        <span className={`text-xs px-2 py-0.5 rounded ${cluster.growthRate > 50 ? 'bg-emerald-500/20 text-emerald-400' : 'bg-gray-700 text-gray-400'}`}>
-          {formatPctGrowth(cluster.growthRate)}
-        </span>
-      </div>
-
-      <div className="flex flex-wrap gap-1 mb-3">
-        {cluster.badges?.slice(0, 3).map((badge, i) => (
-          <span key={i} className={`text-xs px-2 py-0.5 rounded border ${badgeColors[badge.type]}`}>
-            {badge.label}
-          </span>
-        ))}
-      </div>
-
-      <div className="grid grid-cols-3 gap-2 text-xs">
-        <div>
-          <p className="text-gray-500">Domain</p>
-          <p className="text-gray-300">{cluster.primaryDomain?.name || '—'}</p>
-        </div>
-        <div>
-          <p className="text-gray-500">Median</p>
-          <p className="text-gray-300">{cluster.medianYear}</p>
-        </div>
-        <div>
-          <p className="text-gray-500">Purity</p>
-          <p className="text-gray-300">{cluster.categoryPurity}%</p>
-        </div>
-      </div>
-
-      {cluster.description ? (
-        <p className="text-gray-400 text-xs mt-3 line-clamp-2 leading-relaxed">{cluster.description}</p>
-      ) : (
-        <p className="text-gray-500 text-xs mt-3 truncate">
-          {cluster.displayTerms?.join(', ') || cluster.topTerms?.slice(0, 5).map(t => t.term).join(', ')}
-        </p>
-      )}
-    </motion.div>
-  )
-}
-
-function ClusterDetailModal({ cluster, badgeColors, onClose }) {
-  const displayName = cluster.displayTerms?.length >= 2
-    ? cluster.displayTerms.slice(0, 2).map(t => t.charAt(0).toUpperCase() + t.slice(1)).join(' & ')
-    : `Cluster ${cluster.id}`
-
-  return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4"
-      onClick={onClose}
-    >
-      <motion.div
-        initial={{ scale: 0.94, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        exit={{ scale: 0.94, opacity: 0 }}
-        transition={{ duration: 0.2 }}
-        className="bg-gray-900 border border-gray-700 rounded-xl p-6 max-w-2xl w-full max-h-[90vh] overflow-auto"
-        onClick={e => e.stopPropagation()}
-      >
-        {/* Header */}
-        <div className="flex justify-between items-start mb-6">
-          <div>
-            <h3 className="text-2xl font-bold text-white">{displayName}</h3>
-            <p className="text-gray-400">Cluster {cluster.id} · {cluster.size.toLocaleString()} papers ({cluster.sizePercentage}%)</p>
-            {cluster.description && (
-              <p className="text-gray-300 text-sm mt-2 leading-relaxed max-w-xl">
-                {cluster.description}
-                {cluster.review && <span className="ml-2 text-amber-400/70 text-xs">[interpretation uncertain — under review]</span>}
-              </p>
-            )}
-          </div>
-          <button onClick={onClose} className="text-gray-400 hover:text-white p-2">
-            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
-
-        {/* Badges */}
-        <div className="flex flex-wrap gap-2 mb-6">
-          {cluster.badges?.map((badge, i) => (
-            <div key={i} className={`px-3 py-1 rounded-lg border ${badgeColors[badge.type]}`}>
-              <span className="font-medium">{badge.label}</span>
-              <span className="text-xs ml-2 opacity-60">{badge.description}</span>
-            </div>
-          ))}
-        </div>
-
-        {/* Key Metrics */}
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-          <div className="bg-gray-800/50 rounded-lg p-3 text-center">
-            <p className="text-2xl font-bold text-emerald-400">{formatPctGrowth(cluster.growthRate)}</p>
-            <p className="text-gray-500 text-xs">Growth Rate</p>
-          </div>
-          <div className="bg-gray-800/50 rounded-lg p-3 text-center">
-            <p className="text-2xl font-bold text-blue-400">{cluster.medianYear}</p>
-            <p className="text-gray-500 text-xs">Median Year</p>
-          </div>
-          <div className="bg-gray-800/50 rounded-lg p-3 text-center">
-            <p className="text-2xl font-bold text-purple-400">{cluster.categoryPurity}%</p>
-            <p className="text-gray-500 text-xs">Purity</p>
-          </div>
-          <div className="bg-gray-800/50 rounded-lg p-3 text-center">
-            <p className="text-2xl font-bold text-amber-400">{cluster.domainDiversity.toFixed(2)}</p>
-            <p className="text-gray-500 text-xs">Domain Diversity</p>
-          </div>
-        </div>
-
-        {/* Top Terms */}
-        <div className="mb-6">
-          <h4 className="text-white font-medium mb-3">Top Terms (TF-IDF)</h4>
-          <div className="flex flex-wrap gap-2">
-            {cluster.topTerms?.slice(0, 15).map((term, i) => {
-              const meaningful = isMeaningfulTerm(term.term)
-              return (
-                <span
-                  key={i}
-                  className={`px-2 py-1 rounded text-sm ${
-                    meaningful
-                      ? 'bg-indigo-500/20 text-indigo-300 border border-indigo-500/30'
-                      : 'bg-gray-700/50 text-gray-500 border border-gray-600/30'
-                  }`}
-                >
-                  {term.term}
-                  <span className="text-xs ml-1 opacity-40">({(term.score * 100).toFixed(1)})</span>
-                </span>
-              )
-            })}
-          </div>
-          <p className="text-gray-600 text-xs mt-2">Dimmed terms are LaTeX notation or very short</p>
-        </div>
-
-        {/* Category Distribution */}
-        <div className="mb-6">
-          <h4 className="text-white font-medium mb-3">Category Distribution</h4>
-          <div className="space-y-2">
-            {cluster.topCategories?.slice(0, 5).map((cat, i) => (
-              <div key={i} className="flex items-center gap-3">
-                <div className="w-28 text-gray-400 text-sm truncate">{cat.name}</div>
-                <div className="flex-1 bg-gray-800 rounded-full h-1.5">
-                  <div className="bg-purple-500 h-1.5 rounded-full" style={{ width: `${cat.percentage}%` }} />
-                </div>
-                <div className="w-14 text-right text-gray-400 text-sm">{cat.percentage.toFixed(1)}%</div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Domain Distribution */}
-        <div>
-          <h4 className="text-white font-medium mb-3">Domain Distribution</h4>
-          <div className="space-y-2">
-            {cluster.domainDistribution?.map((domain, i) => (
-              <div key={i} className="flex items-center gap-3">
-                <div className="w-32 text-gray-400 text-sm">{domain.name}</div>
-                <div className="flex-1 bg-gray-800 rounded-full h-1.5">
-                  <div className="bg-emerald-500 h-1.5 rounded-full" style={{ width: `${domain.percentage}%` }} />
-                </div>
-                <div className="w-24 text-right text-gray-400 text-sm">
-                  {domain.count.toLocaleString()} ({domain.percentage.toFixed(1)}%)
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* ArXiv paper deep links — no paper IDs present in clusterexploration.json data;
-            fields checked: examplePapers, topPapers, paperIds, examples — none found.
-            Links would be rendered as: https://arxiv.org/abs/{id} if data were available. */}
-
-        {/* Temporal */}
-        <div className="mt-6 pt-6 border-t border-gray-700">
-          <div className="grid grid-cols-3 gap-4 text-sm">
-            <div>
-              <p className="text-gray-500">Year Range</p>
-              <p className="text-white">{cluster.yearRange?.[0]} — {cluster.yearRange?.[1]}</p>
-            </div>
-            <div>
-              <p className="text-gray-500">Recent (2020+)</p>
-              <p className="text-white">{cluster.recentRatio}%</p>
-            </div>
-            <div>
-              <p className="text-gray-500">Multi-Category Rate</p>
-              <p className="text-white">{cluster.multiCategoryRate}%</p>
-            </div>
-          </div>
-        </div>
-      </motion.div>
-    </motion.div>
-  )
-}
